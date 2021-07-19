@@ -19,7 +19,7 @@ class Controller(object):
 		self.apts = []
 		pass
 
-	def search_addr(self):
+	def search_apts(self):
 		# Note: need to iterate through all the pages
 		url = 'http://services.wakegov.com/realestate/AddressSearch.asp'
 		#params = {'c1': '1857', 'stype': 'addr', 'stnum': '317', 'stname': 'MORGAN', 'locidList': '1857'}
@@ -43,10 +43,11 @@ class Controller(object):
 				break
 			page_num += 1
 		print(f"Found {len(self.apts)}")
+		return self.apts
 
 def main():
 	ctlr = Controller()
-	ctlr.search_addr()
+	ctlr.search_apts()
 
 	print("Done")
 
