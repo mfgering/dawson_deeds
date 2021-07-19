@@ -131,9 +131,19 @@ class Apts(object):
 		print(f"Found {len(self._apts)}")
 		return self._apts
 
-	def by_unit_num(self, reverse = False):
+	def by_unit_num(self, reverse=False):
 		apts = self.apts
 		apts.sort(key=lambda x: x.unit, reverse=reverse)
+		return apts
+
+	def by_deed_date(self, reverse=False):
+		apts = self.apts
+		apts.sort(key=lambda x: x.deed_date, reverse=reverse)
+		return apts
+
+	def by_heated_area(self, reverse=False):
+		apts = self.apts
+		apts.sort(key=lambda x: x.heated_area, reverse=reverse)
 		return apts
 
 	def get_unit(self, unit_str):
@@ -142,8 +152,9 @@ class Apts(object):
 				return apt
 		return None
 
-def print_apts(apts, fn):
+def print_apts(apts, fn, title=''):
 	with open(fn, 'w') as fp:
+		print(f"\n{title}\n\n", file=fp)
 		for apt in apts:
 			print("-----------------------", file=fp)
 			print(f"Unit: {apt.unit}\tOwner: {apt.owner}", file=fp)
@@ -156,7 +167,9 @@ def print_apts(apts, fn):
 def main():
 	ctlr = Apts()
 	apts = ctlr.by_unit_num()
-	print_apts(apts, "./reports/by_unit.txt")
+	print_apts(apts, "./reports/by_unit.txt", "By Unit")
+	print_apts(ctlr.by_deed_date(reverse=True), "./reports/by_deed.txt", "By Deed Date")
+	print_apts(ctlr.by_heated_area(reverse=True), "./reports/by_heated_area.txt", "By Heated Area")
 	print("Done")
 
 
