@@ -152,7 +152,7 @@ class Apts(object):
 			for apt in self.apts:
 				writer.writerow({'unit_num': apt.unit, 
 					'owner': apt.owner, 'heated_area': apt.heated_area, 
-					'deed_date': apt.deed_date, 'pkg_sale_price': apt.pkg_sale_price, 
+					'deed_date': apt.deed_date.strftime('%m/%d/%Y'), 'pkg_sale_price': apt.pkg_sale_price, 
 					'assessed': apt.assessed})
 
 def print_apts(apts, fn, title=''):
