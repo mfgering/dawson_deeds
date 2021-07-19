@@ -1,3 +1,4 @@
+import csv
 import datetime
 from bs4 import BeautifulSoup
 import requests
@@ -74,15 +75,6 @@ class Apt(object):
 			self._deed_page = BeautifulSoup(page.content, 'html.parser')
 		return self._deed_page
 
-	def _get_value_old(self, name):
-		page = self._get_deed_page()
-		for row in page.find_all('tr'):
-			cols = row.find_all('td')
-			for col_num in range(0, len(cols)):
-				if cols[col_num].text == name:
-					value = cols[col_num+1].text
-					return value
-
 	def _get_value(self, name):
 		page = self._get_deed_page()
 		for row in page.find_all('tr'):
@@ -151,6 +143,17 @@ class Apts(object):
 			if apt.unit == unit_str:
 				return apt
 		return None
+	
+	def make_csv(self, fn):
+		with open(fn, "w", newline='') as fp:
+			field_names = ['unit_num', 'owner', 'heated_area', 'deed_date', 'pkg_sale_price', 'assessed']
+			writer = csv.DictWriter(fp, fieldnames=field_names)
+			writer.writeheader()
+			for apt in self.apts:
+				writer.writerow({'unit_num': apt.unit, 
+					'owner': apt.owner, 'heated_area': apt.heated_area, 
+					'deed_date': apt.deed_date, 'pkg_sale_price': apt.pkg_sale_price, 
+					'assessed': apt.assessed})
 
 def print_apts(apts, fn, title=''):
 	with open(fn, 'w') as fp:
@@ -166,6 +169,7 @@ def print_apts(apts, fn, title=''):
 
 def main():
 	ctlr = Apts()
+	ctlr.make_csv("./reports/dawson.csv")
 	apts = ctlr.by_unit_num()
 	print_apts(apts, "./reports/by_unit.txt", "By Unit")
 	print_apts(ctlr.by_deed_date(reverse=True), "./reports/by_deed.txt", "By Deed Date")
