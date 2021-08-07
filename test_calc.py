@@ -10,6 +10,7 @@ def do_sheet(model):
             idx = model.Sheets.getCount()
             model.Sheets.insertNewByName("dawson_deeds", idx)
         sheet = model.getSheets().getByName("dawson_deeds")
+        sheet.clearContents(0xffffff)
         #thiscomponent.currentController.setActiveSheet(oNewSheet)
         model.CurrentController.setActiveSheet(sheet)
         with open("reports/dawson.csv") as csv_file:
@@ -38,8 +39,10 @@ def do_sheet(model):
 
 def do_autofilter(smgr, sheet):
     svc = smgr.createInstance("com.sun.star.frame.DispatchHelper")
-    cell = sheet.getCellRangeByName("A1")
-    frame = model.getCurrentController().getFrame()
+    cell = sheet.getCellRangeByName("A1:F1")
+    ctlr = model.getCurrentController()
+    ctlr.select(cell)
+    frame = ctlr.getFrame()
     svc.executeDispatch(frame, ".uno:DataFilterAutoFilter", "", 0, [])
 
 def call_dispatch(doc, url, args=()):
