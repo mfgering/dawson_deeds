@@ -44,7 +44,6 @@ def do_date_fmt(cell):
 	ctlr.select(cell)
 	frame = ctlr.getFrame()
 	d = {"Name": "NumberFormatValue", "Value": 37}
-	prop = dict_to_property(d)
 	prop = PropertyValue(Name="NumberFormatValue", Value=37)
 	svc_dispatch.executeDispatch(frame, ".uno:NumberFormatValue", "", 0, [prop])
  
@@ -55,13 +54,9 @@ def do_autofilter(smgr, sheet):
 	ctlr = model.getCurrentController()
 	ctlr.select(cell)
 	frame = ctlr.getFrame()
+	svc.executeDispatch(frame, ".uno:DataFilterHideAutoFilter", "", 0, [])
 	svc.executeDispatch(frame, ".uno:DataFilterAutoFilter", "", 0, [])
 
-def dict_to_property(values, uno_any=False):
-	ps = tuple([PropertyValue(Name=n, Value=v) for n, v in values.items()])
-	if uno_any:
-		ps = uno.Any('[]com.sun.star.beans.PropertyValue', ps)
-	return ps
 
 # get the uno component context from the PyUNO runtime
 localContext = uno.getComponentContext()
