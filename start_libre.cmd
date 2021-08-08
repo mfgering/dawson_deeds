@@ -1,1 +1,1 @@
-"C:\\Program Files\LibreOffice\program\soffice.exe" --calc --accept="socket,host=localhost,port=2002;urp;" reports\dawson.ods
+start C:"\Program Files\LibreOffice\program\soffice.exe" --calc --accept="socket,host=localhost,port=2002;urp;" reports
