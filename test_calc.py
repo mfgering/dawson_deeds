@@ -2,6 +2,7 @@ import csv
 import socket  # only needed on win32-OOo3.0.0
 import uno
 import datetime
+from com.sun.star.beans import PropertyValue
 
 def do_sheet(model):
 	try:
@@ -42,7 +43,10 @@ def do_date_fmt(cell):
 	ctlr = model.getCurrentController()
 	ctlr.select(cell)
 	frame = ctlr.getFrame()
-	svc_dispatch.executeDispatch(frame, ".uno:NumberFormatValue", "", 0, ["NumberFormatValue", 37])
+	d = {"Name": "NumberFormatValue", "Value": 37}
+	prop = dict_to_property(d)
+	prop = PropertyValue(Name="NumberFormatValue", Value=37)
+	svc_dispatch.executeDispatch(frame, ".uno:NumberFormatValue", "", 0, [prop])
  
 
 def do_autofilter(smgr, sheet):
@@ -53,11 +57,11 @@ def do_autofilter(smgr, sheet):
 	frame = ctlr.getFrame()
 	svc.executeDispatch(frame, ".uno:DataFilterAutoFilter", "", 0, [])
 
-def call_dispatch(doc, url, args=()):
-	frame = doc.getCurrentController().getFrame()
-	dispatch = create_instance('com.sun.star.frame.DispatchHelper')
-	dispatch.executeDispatch(frame, url, '', 0, args)
-	return
+def dict_to_property(values, uno_any=False):
+	ps = tuple([PropertyValue(Name=n, Value=v) for n, v in values.items()])
+	if uno_any:
+		ps = uno.Any('[]com.sun.star.beans.PropertyValue', ps)
+	return ps
 
 # get the uno component context from the PyUNO runtime
 localContext = uno.getComponentContext()
