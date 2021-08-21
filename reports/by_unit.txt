@@ -171,10 +171,10 @@ Deed Date: 02/22/2011
 Pkg Sale Price: 164000
 Assessed: 260950
 -----------------------
-Unit: 303	Owner: MCCAULEY, DANIEL
+Unit: 303	Owner: MACFARLANE, MARY RUTH
 Heated Area: 1365
-Deed Date: 08/23/2017
-Pkg Sale Price: 355000
+Deed Date: 08/13/2021
+Pkg Sale Price: 391000
 Assessed: 416015
 -----------------------
 Unit: 304	Owner: LEONARD, BAILEY H

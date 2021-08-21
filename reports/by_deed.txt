@@ -3,6 +3,12 @@ By Deed Date
 
 
 -----------------------
+Unit: 303	Owner: MACFARLANE, MARY RUTH
+Heated Area: 1365
+Deed Date: 08/13/2021
+Pkg Sale Price: 391000
+Assessed: 416015
+-----------------------
 Unit: 315	Owner: CARTER, SARAH ELISE
 Heated Area: 1142
 Deed Date: 07/01/2021
@@ -158,12 +164,6 @@ Heated Area: 1139
 Deed Date: 11/09/2017
 Pkg Sale Price: 314000
 Assessed: 358086
------------------------
-Unit: 303	Owner: MCCAULEY, DANIEL
-Heated Area: 1365
-Deed Date: 08/23/2017
-Pkg Sale Price: 355000
-Assessed: 416015
 -----------------------
 Unit: 300	Owner: MORGAN, DONNA
 Heated Area: 1224
