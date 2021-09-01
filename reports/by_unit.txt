@@ -411,9 +411,9 @@ Deed Date: 04/08/2005
 Pkg Sale Price: 246000
 Assessed: 379528
 -----------------------
-Unit: 512	Owner: KOLKIN, JON & CECILIA
+Unit: 512	Owner: MACKIN, JAMES ANTHONY TRUSTEE
 Heated Area: 2995
-Deed Date: 05/31/2012
+Deed Date: 08/23/2021
 Pkg Sale Price: 750000
 Assessed: 899311
 -----------------------

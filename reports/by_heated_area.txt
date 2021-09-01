@@ -21,17 +21,17 @@ Deed Date: 11/27/2013
 Pkg Sale Price: 655000
 Assessed: 911148
 -----------------------
+Unit: 512	Owner: MACKIN, JAMES ANTHONY TRUSTEE
+Heated Area: 2995
+Deed Date: 08/23/2021
+Pkg Sale Price: 750000
+Assessed: 899311
+-----------------------
 Unit: 412	Owner: GERING, MICHAEL FREDERICK
 Heated Area: 2995
 Deed Date: 02/06/2019
 Pkg Sale Price: 830000
 Assessed: 853483
------------------------
-Unit: 512	Owner: KOLKIN, JON & CECILIA
-Heated Area: 2995
-Deed Date: 05/31/2012
-Pkg Sale Price: 750000
-Assessed: 899311
 -----------------------
 Unit: 515	Owner: LAWSON, ROBERT CHARLES
 Heated Area: 2888
