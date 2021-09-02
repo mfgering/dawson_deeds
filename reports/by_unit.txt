@@ -414,7 +414,7 @@ Assessed: 379528
 Unit: 512	Owner: MACKIN, JAMES ANTHONY TRUSTEE
 Heated Area: 2995
 Deed Date: 08/23/2021
-Pkg Sale Price: 750000
+Pkg Sale Price: 960000
 Assessed: 899311
 -----------------------
 Unit: 513	Owner: MANGUM, SHERRI P & KATIE O COTTLE
