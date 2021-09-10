@@ -55,8 +55,17 @@ def do_autofilter(smgr, sheet):
 	ctlr.select(cell)
 	frame = ctlr.getFrame()
 	svc.executeDispatch(frame, ".uno:DataFilterHideAutoFilter", "", 0, [])
+#TODO: Need to get rid of alert "The range does not contain column headers, do you..."
+#	fd = cell.createFilterDescriptor(True)
+#	cell.filter(fd)
 	svc.executeDispatch(frame, ".uno:DataFilterAutoFilter", "", 0, [])
 
+def save_document(calc):
+        p = PropertyValue()
+        p.Name = 'Overwrite'
+        p.Value = True
+        properties = (p,)
+        calc.storeAsURL(calc.getURL(),properties)
 
 # get the uno component context from the PyUNO runtime
 localContext = uno.getComponentContext()
@@ -77,6 +86,8 @@ model = desktop.getCurrentComponent()
 svc_dispatch = smgr.createInstance("com.sun.star.frame.DispatchHelper")
 
 do_sheet(model)
+save_document(model)
+model.close(1)
 
 def foo(self):
 	# access the active sheet
