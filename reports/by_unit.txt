@@ -417,9 +417,9 @@ Deed Date: 08/23/2021
 Pkg Sale Price: 960000
 Assessed: 899311
 -----------------------
-Unit: 513	Owner: MANGUM, SHERRI P & KATIE O COTTLE
+Unit: 513	Owner: KAUFMAN, MILES & ALLISON SELLERS
 Heated Area: 1139
-Deed Date: 06/10/2020
+Deed Date: 11/16/2021
 Pkg Sale Price: 368000
 Assessed: 358086
 -----------------------
