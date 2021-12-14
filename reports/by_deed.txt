@@ -3,6 +3,12 @@ By Deed Date
 
 
 -----------------------
+Unit: 211	Owner: W&S CAROLINA PROPERTIES LLC
+Heated Area: 1221
+Deed Date: 12/06/2021
+Pkg Sale Price: 280000
+Assessed: 379528
+-----------------------
 Unit: 513	Owner: KAUFMAN, MILES & ALLISON SELLERS
 Heated Area: 1139
 Deed Date: 11/16/2021
@@ -374,12 +380,6 @@ Heated Area: 1206
 Deed Date: 03/15/2006
 Pkg Sale Price: 378000
 Assessed: 412927
------------------------
-Unit: 211	Owner: ROLE, DEBORAH A
-Heated Area: 1221
-Deed Date: 11/10/2005
-Pkg Sale Price: 280000
-Assessed: 379528
 -----------------------
 Unit: 403	Owner: FOYE, DWON
 Heated Area: 1365

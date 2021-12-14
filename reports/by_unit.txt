@@ -105,9 +105,9 @@ Deed Date: 05/26/2006
 Pkg Sale Price: 480000
 Assessed: 625037
 -----------------------
-Unit: 211	Owner: ROLE, DEBORAH A
+Unit: 211	Owner: W&S CAROLINA PROPERTIES LLC
 Heated Area: 1221
-Deed Date: 11/10/2005
+Deed Date: 12/06/2021
 Pkg Sale Price: 280000
 Assessed: 379528
 -----------------------

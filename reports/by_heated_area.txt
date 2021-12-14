@@ -213,16 +213,16 @@ Deed Date: 05/25/2017
 Pkg Sale Price: 355000
 Assessed: 417520
 -----------------------
+Unit: 211	Owner: W&S CAROLINA PROPERTIES LLC
+Heated Area: 1221
+Deed Date: 12/06/2021
+Pkg Sale Price: 280000
+Assessed: 379528
+-----------------------
 Unit: 311	Owner: POWELL LINEAGE CHERRY COURT LLC
 Heated Area: 1221
 Deed Date: 11/09/2017
 Pkg Sale Price: 307000
-Assessed: 379528
------------------------
-Unit: 211	Owner: ROLE, DEBORAH A
-Heated Area: 1221
-Deed Date: 11/10/2005
-Pkg Sale Price: 280000
 Assessed: 379528
 -----------------------
 Unit: 411	Owner: GRAY, STEVEN J
