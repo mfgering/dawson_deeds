@@ -216,7 +216,7 @@ Assessed: 417520
 Unit: 211	Owner: W&S CAROLINA PROPERTIES LLC
 Heated Area: 1221
 Deed Date: 12/06/2021
-Pkg Sale Price: 280000
+Pkg Sale Price: 410000
 Assessed: 379528
 -----------------------
 Unit: 311	Owner: POWELL LINEAGE CHERRY COURT LLC
@@ -291,6 +291,12 @@ Deed Date: 11/28/2016
 Pkg Sale Price: 280000
 Assessed: 359032
 -----------------------
+Unit: 305	Owner: BROOKS, ERIC THOMAS
+Heated Area: 1139
+Deed Date: 12/15/2021
+Pkg Sale Price: 335000
+Assessed: 358086
+-----------------------
 Unit: 513	Owner: KAUFMAN, MILES & ALLISON SELLERS
 Heated Area: 1139
 Deed Date: 11/16/2021
@@ -313,12 +319,6 @@ Unit: 213	Owner: MOORE, CHRISTOPHER JAMES
 Heated Area: 1139
 Deed Date: 04/27/2017
 Pkg Sale Price: 320000
-Assessed: 358086
------------------------
-Unit: 305	Owner: BROWN, GREGORY W
-Heated Area: 1139
-Deed Date: 06/09/2016
-Pkg Sale Price: 335000
 Assessed: 358086
 -----------------------
 Unit: 405	Owner: OSLISLO, JANE

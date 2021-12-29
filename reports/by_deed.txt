@@ -3,10 +3,16 @@ By Deed Date
 
 
 -----------------------
+Unit: 305	Owner: BROOKS, ERIC THOMAS
+Heated Area: 1139
+Deed Date: 12/15/2021
+Pkg Sale Price: 335000
+Assessed: 358086
+-----------------------
 Unit: 211	Owner: W&S CAROLINA PROPERTIES LLC
 Heated Area: 1221
 Deed Date: 12/06/2021
-Pkg Sale Price: 280000
+Pkg Sale Price: 410000
 Assessed: 379528
 -----------------------
 Unit: 513	Owner: KAUFMAN, MILES & ALLISON SELLERS
@@ -218,12 +224,6 @@ Heated Area: 1409
 Deed Date: 06/10/2016
 Pkg Sale Price: 356000
 Assessed: 428189
------------------------
-Unit: 305	Owner: BROWN, GREGORY W
-Heated Area: 1139
-Deed Date: 06/09/2016
-Pkg Sale Price: 335000
-Assessed: 358086
 -----------------------
 Unit: 208	Owner: DOUGLASS, ELIZABETH ANN BINGHAM
 Heated Area: 1409

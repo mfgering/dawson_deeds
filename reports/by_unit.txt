@@ -108,7 +108,7 @@ Assessed: 625037
 Unit: 211	Owner: W&S CAROLINA PROPERTIES LLC
 Heated Area: 1221
 Deed Date: 12/06/2021
-Pkg Sale Price: 280000
+Pkg Sale Price: 410000
 Assessed: 379528
 -----------------------
 Unit: 213	Owner: MOORE, CHRISTOPHER JAMES
@@ -183,9 +183,9 @@ Deed Date: 12/18/2019
 Pkg Sale Price: 685000
 Assessed: 646331
 -----------------------
-Unit: 305	Owner: BROWN, GREGORY W
+Unit: 305	Owner: BROOKS, ERIC THOMAS
 Heated Area: 1139
-Deed Date: 06/09/2016
+Deed Date: 12/15/2021
 Pkg Sale Price: 335000
 Assessed: 358086
 -----------------------
