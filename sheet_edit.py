@@ -23,7 +23,7 @@ def do_sheet(model):
 					cell = sheet.getCellByPosition(col, row)
 					col_val = row_v[col]
 					try:
-						if row == 0 or col == 1:
+						if row == 0 or col == 1 or col == 0:
 							cell.String = col_val
 						else:
 							if col == 3:
