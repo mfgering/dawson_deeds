@@ -3,12 +3,6 @@ By Unit
 
 
 -----------------------
-Unit: 	Owner: DAWSON ON MORGAN CONDOS
-Heated Area: 0
-Deed Date: 03/30/2005
-Pkg Sale Price: 0
-Assessed: 0
------------------------
 Unit: 105	Owner: BAKER, JOHN M & NANCY
 Heated Area: 784
 Deed Date: 11/30/2007

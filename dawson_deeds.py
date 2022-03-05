@@ -115,7 +115,8 @@ class Apts(object):
 				account = cols[1].text
 				unit = cols[3].text
 				owner = cols[9].text
-				self._apts.append(Apt(account, unit, owner))
+				if unit != '':
+					self._apts.append(Apt(account, unit, owner))
 				apt_count += 1
 			if apt_count == 0:
 				break

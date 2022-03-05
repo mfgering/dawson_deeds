@@ -417,12 +417,6 @@ Deed Date: 04/08/2005
 Pkg Sale Price: 246000
 Assessed: 379528
 -----------------------
-Unit: 	Owner: DAWSON ON MORGAN CONDOS
-Heated Area: 0
-Deed Date: 03/30/2005
-Pkg Sale Price: 0
-Assessed: 0
------------------------
 Unit: 113	Owner: DAWSON DEVELOPERS INC
 Heated Area: 1487
 Deed Date: 12/23/2003
