@@ -81,9 +81,9 @@ Deed Date: 02/25/2021
 Pkg Sale Price: 370000
 Assessed: 370433
 -----------------------
-Unit: 208	Owner: DOUGLASS, ELIZABETH ANN BINGHAM
+Unit: 208	Owner: BOSCO, TANNER LEE
 Heated Area: 1409
-Deed Date: 03/17/2016
+Deed Date: 03/01/2022
 Pkg Sale Price: 347500
 Assessed: 428189
 -----------------------

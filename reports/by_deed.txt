@@ -3,6 +3,12 @@ By Deed Date
 
 
 -----------------------
+Unit: 208	Owner: BOSCO, TANNER LEE
+Heated Area: 1409
+Deed Date: 03/01/2022
+Pkg Sale Price: 347500
+Assessed: 428189
+-----------------------
 Unit: 305	Owner: BROOKS, ERIC THOMAS
 Heated Area: 1139
 Deed Date: 12/15/2021
@@ -223,12 +229,6 @@ Unit: 406	Owner: MOUTOS, CHRIS
 Heated Area: 1409
 Deed Date: 06/10/2016
 Pkg Sale Price: 356000
-Assessed: 428189
------------------------
-Unit: 208	Owner: DOUGLASS, ELIZABETH ANN BINGHAM
-Heated Area: 1409
-Deed Date: 03/17/2016
-Pkg Sale Price: 347500
 Assessed: 428189
 -----------------------
 Unit: 217	Owner: SAPIA, JENNIFER L
