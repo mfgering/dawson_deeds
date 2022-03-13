@@ -255,12 +255,6 @@ Deed Date: 05/31/2019
 Pkg Sale Price: 253000
 Assessed: 259113
 -----------------------
-Unit: 400	Owner: MACKIN, JAMES ANTHONY TRUSTEE
-Heated Area: 3037
-Deed Date: 03/08/2021
-Pkg Sale Price: 860000
-Assessed: 864738
------------------------
 Unit: 401	Owner: MUNRO, JOYCE LORAINE
 Heated Area: 1628
 Deed Date: 12/12/2012
@@ -278,6 +272,12 @@ Heated Area: 2254
 Deed Date: 03/14/2017
 Pkg Sale Price: 590000
 Assessed: 646331
+-----------------------
+Unit: 405	Owner: OSLISLO, JANE
+Heated Area: 1139
+Deed Date: 09/23/2013
+Pkg Sale Price: 284000
+Assessed: 358086
 -----------------------
 Unit: 405	Owner: OSLISLO, JANE
 Heated Area: 1139
