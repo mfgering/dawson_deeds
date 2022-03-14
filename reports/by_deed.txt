@@ -63,6 +63,12 @@ Deed Date: 04/05/2021
 Pkg Sale Price: 387000
 Assessed: 370433
 -----------------------
+Unit: 400	Owner: MACKIN, JAMES ANTHONY TRUSTEE
+Heated Area: 3037
+Deed Date: 03/08/2021
+Pkg Sale Price: 860000
+Assessed: 864738
+-----------------------
 Unit: 201	Owner: WELLER, DENNIS
 Heated Area: 1628
 Deed Date: 03/01/2021
@@ -278,12 +284,6 @@ Heated Area: 956
 Deed Date: 10/18/2013
 Pkg Sale Price: 235000
 Assessed: 305779
------------------------
-Unit: 405	Owner: OSLISLO, JANE
-Heated Area: 1139
-Deed Date: 09/23/2013
-Pkg Sale Price: 284000
-Assessed: 358086
 -----------------------
 Unit: 405	Owner: OSLISLO, JANE
 Heated Area: 1139
