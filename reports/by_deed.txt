@@ -6,7 +6,7 @@ By Deed Date
 Unit: 208	Owner: BOSCO, TANNER LEE
 Heated Area: 1409
 Deed Date: 03/01/2022
-Pkg Sale Price: 347500
+Pkg Sale Price: 460000
 Assessed: 428189
 -----------------------
 Unit: 305	Owner: BROOKS, ERIC THOMAS
