@@ -3,6 +3,12 @@ By Deed Date
 
 
 -----------------------
+Unit: 306	Owner: SOTO, MARCO ANTONIO
+Heated Area: 1409
+Deed Date: 05/13/2022
+Pkg Sale Price: 355000
+Assessed: 428189
+-----------------------
 Unit: 208	Owner: BOSCO, TANNER LEE
 Heated Area: 1409
 Deed Date: 03/01/2022
@@ -254,12 +260,6 @@ Heated Area: 3083
 Deed Date: 03/16/2015
 Pkg Sale Price: 825000
 Assessed: 923518
------------------------
-Unit: 306	Owner: BLACK, STEPHEN C JR
-Heated Area: 1409
-Deed Date: 11/24/2014
-Pkg Sale Price: 355000
-Assessed: 428189
 -----------------------
 Unit: 410	Owner: WATKE, FREDERIC W. & ANN M.
 Heated Area: 2171

@@ -135,6 +135,12 @@ Deed Date: 12/23/2003
 Pkg Sale Price: 0
 Assessed: 329340
 -----------------------
+Unit: 306	Owner: SOTO, MARCO ANTONIO
+Heated Area: 1409
+Deed Date: 05/13/2022
+Pkg Sale Price: 355000
+Assessed: 428189
+-----------------------
 Unit: 208	Owner: BOSCO, TANNER LEE
 Heated Area: 1409
 Deed Date: 03/01/2022
@@ -169,12 +175,6 @@ Unit: 406	Owner: MOUTOS, CHRIS
 Heated Area: 1409
 Deed Date: 06/10/2016
 Pkg Sale Price: 356000
-Assessed: 428189
------------------------
-Unit: 306	Owner: BLACK, STEPHEN C JR
-Heated Area: 1409
-Deed Date: 11/24/2014
-Pkg Sale Price: 355000
 Assessed: 428189
 -----------------------
 Unit: 308	Owner: DELGADO, JOSE A
