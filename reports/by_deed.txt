@@ -6,7 +6,7 @@ By Deed Date
 Unit: 306	Owner: SOTO, MARCO ANTONIO
 Heated Area: 1409
 Deed Date: 05/13/2022
-Pkg Sale Price: 355000
+Pkg Sale Price: 500000
 Assessed: 428189
 -----------------------
 Unit: 208	Owner: BOSCO, TANNER LEE
