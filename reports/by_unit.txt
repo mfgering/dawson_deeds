@@ -371,7 +371,7 @@ Assessed: 358086
 -----------------------
 Unit: 506	Owner: WOODALL, JOHN CHARLES
 Heated Area: 1409
-Deed Date: 08/28/2018
+Deed Date: 06/13/2022
 Pkg Sale Price: 370000
 Assessed: 428189
 -----------------------

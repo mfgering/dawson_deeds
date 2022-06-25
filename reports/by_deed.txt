@@ -3,6 +3,12 @@ By Deed Date
 
 
 -----------------------
+Unit: 506	Owner: WOODALL, JOHN CHARLES
+Heated Area: 1409
+Deed Date: 06/13/2022
+Pkg Sale Price: 370000
+Assessed: 428189
+-----------------------
 Unit: 306	Owner: SOTO, MARCO ANTONIO
 Heated Area: 1409
 Deed Date: 05/13/2022
@@ -170,12 +176,6 @@ Heated Area: 2888
 Deed Date: 09/27/2018
 Pkg Sale Price: 875000
 Assessed: 892302
------------------------
-Unit: 506	Owner: WOODALL, JOHN CHARLES
-Heated Area: 1409
-Deed Date: 08/28/2018
-Pkg Sale Price: 370000
-Assessed: 428189
 -----------------------
 Unit: 206	Owner: SMITH, MARK DAVID
 Heated Area: 1409
