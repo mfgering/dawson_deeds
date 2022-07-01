@@ -255,9 +255,9 @@ Deed Date: 05/31/2019
 Pkg Sale Price: 253000
 Assessed: 259113
 -----------------------
-Unit: 400	Owner: MACKIN, JAMES ANTHONY TRUSTEE
+Unit: 400	Owner: LAMBERT, TIMOTHY TRUSTEE
 Heated Area: 3037
-Deed Date: 03/08/2021
+Deed Date: 06/27/2022
 Pkg Sale Price: 860000
 Assessed: 864738
 -----------------------
