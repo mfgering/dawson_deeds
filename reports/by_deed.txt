@@ -6,7 +6,7 @@ By Deed Date
 Unit: 400	Owner: LAMBERT, TIMOTHY TRUSTEE
 Heated Area: 3037
 Deed Date: 06/27/2022
-Pkg Sale Price: 860000
+Pkg Sale Price: 1200000
 Assessed: 864738
 -----------------------
 Unit: 506	Owner: WOODALL, JOHN CHARLES
