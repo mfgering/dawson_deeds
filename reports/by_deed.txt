@@ -3,6 +3,18 @@ By Deed Date
 
 
 -----------------------
+Unit: 400	Owner: LAMBERT, TIMOTHY TRUSTEE
+Heated Area: 3037
+Deed Date: 06/27/2022
+Pkg Sale Price: 1200000
+Assessed: 864738
+-----------------------
+Unit: 506	Owner: WOODALL, JOHN CHARLES
+Heated Area: 1409
+Deed Date: 06/13/2022
+Pkg Sale Price: 370000
+Assessed: 428189
+-----------------------
 Unit: 306	Owner: SOTO, MARCO ANTONIO
 Heated Area: 1409
 Deed Date: 05/13/2022
@@ -68,12 +80,6 @@ Heated Area: 1183
 Deed Date: 04/05/2021
 Pkg Sale Price: 387000
 Assessed: 370433
------------------------
-Unit: 400	Owner: MACKIN, JAMES ANTHONY TRUSTEE
-Heated Area: 3037
-Deed Date: 03/08/2021
-Pkg Sale Price: 860000
-Assessed: 864738
 -----------------------
 Unit: 201	Owner: WELLER, DENNIS
 Heated Area: 1628
@@ -170,12 +176,6 @@ Heated Area: 2888
 Deed Date: 09/27/2018
 Pkg Sale Price: 875000
 Assessed: 892302
------------------------
-Unit: 506	Owner: WOODALL, JOHN CHARLES
-Heated Area: 1409
-Deed Date: 08/28/2018
-Pkg Sale Price: 370000
-Assessed: 428189
 -----------------------
 Unit: 206	Owner: SMITH, MARK DAVID
 Heated Area: 1409

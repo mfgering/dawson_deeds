@@ -255,10 +255,10 @@ Deed Date: 05/31/2019
 Pkg Sale Price: 253000
 Assessed: 259113
 -----------------------
-Unit: 400	Owner: MACKIN, JAMES ANTHONY TRUSTEE
+Unit: 400	Owner: LAMBERT, TIMOTHY TRUSTEE
 Heated Area: 3037
-Deed Date: 03/08/2021
-Pkg Sale Price: 860000
+Deed Date: 06/27/2022
+Pkg Sale Price: 1200000
 Assessed: 864738
 -----------------------
 Unit: 401	Owner: MUNRO, JOYCE LORAINE
@@ -371,7 +371,7 @@ Assessed: 358086
 -----------------------
 Unit: 506	Owner: WOODALL, JOHN CHARLES
 Heated Area: 1409
-Deed Date: 08/28/2018
+Deed Date: 06/13/2022
 Pkg Sale Price: 370000
 Assessed: 428189
 -----------------------
