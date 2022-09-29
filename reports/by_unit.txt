@@ -219,9 +219,9 @@ Deed Date: 11/09/2017
 Pkg Sale Price: 307000
 Assessed: 379528
 -----------------------
-Unit: 313	Owner: STECKER, SHAWN MARTY
+Unit: 313	Owner: OVERBEY, CHELSEA
 Heated Area: 1139
-Deed Date: 04/29/2005
+Deed Date: 09/28/2022
 Pkg Sale Price: 253000
 Assessed: 358086
 -----------------------

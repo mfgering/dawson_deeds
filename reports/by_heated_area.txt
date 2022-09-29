@@ -291,6 +291,12 @@ Deed Date: 11/28/2016
 Pkg Sale Price: 280000
 Assessed: 359032
 -----------------------
+Unit: 313	Owner: OVERBEY, CHELSEA
+Heated Area: 1139
+Deed Date: 09/28/2022
+Pkg Sale Price: 253000
+Assessed: 358086
+-----------------------
 Unit: 305	Owner: BROOKS, ERIC THOMAS
 Heated Area: 1139
 Deed Date: 12/15/2021
@@ -331,12 +337,6 @@ Unit: 413	Owner: STEWART, MELISSA BRINSON
 Heated Area: 1139
 Deed Date: 10/31/2012
 Pkg Sale Price: 272000
-Assessed: 358086
------------------------
-Unit: 313	Owner: STECKER, SHAWN MARTY
-Heated Area: 1139
-Deed Date: 04/29/2005
-Pkg Sale Price: 253000
 Assessed: 358086
 -----------------------
 Unit: 409	Owner: ZACHARIA, WINSTON

@@ -3,6 +3,12 @@ By Deed Date
 
 
 -----------------------
+Unit: 313	Owner: OVERBEY, CHELSEA
+Heated Area: 1139
+Deed Date: 09/28/2022
+Pkg Sale Price: 253000
+Assessed: 358086
+-----------------------
 Unit: 400	Owner: LAMBERT, TIMOTHY TRUSTEE
 Heated Area: 3037
 Deed Date: 06/27/2022
@@ -398,12 +404,6 @@ Heated Area: 956
 Deed Date: 05/06/2005
 Pkg Sale Price: 200000
 Assessed: 305779
------------------------
-Unit: 313	Owner: STECKER, SHAWN MARTY
-Heated Area: 1139
-Deed Date: 04/29/2005
-Pkg Sale Price: 253000
-Assessed: 358086
 -----------------------
 Unit: 411	Owner: GRAY, STEVEN J
 Heated Area: 1221
