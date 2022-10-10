@@ -135,12 +135,6 @@ Deed Date: 05/24/2006
 Pkg Sale Price: 370000
 Assessed: 412927
 -----------------------
-Unit: 224	Owner: SAUNDERS, JOSHUA N
-Heated Area: 1206
-Deed Date: 05/24/2006
-Pkg Sale Price: 370000
-Assessed: 412927
------------------------
 Unit: 226	Owner: SMITH, AYANA
 Heated Area: 849
 Deed Date: 04/19/2021
@@ -158,6 +152,12 @@ Heated Area: 793
 Deed Date: 06/15/2016
 Pkg Sale Price: 195000
 Assessed: 262611
+-----------------------
+Unit: 301	Owner: MCLAMB, GRAHAM KENT
+Heated Area: 1628
+Deed Date: 09/08/2005
+Pkg Sale Price: 400000
+Assessed: 529576
 -----------------------
 Unit: 302	Owner: SCIOLINO, CONSTANCE FLOYD
 Heated Area: 855
@@ -249,12 +249,6 @@ Deed Date: 03/15/2006
 Pkg Sale Price: 378000
 Assessed: 412927
 -----------------------
-Unit: 324	Owner: FRANKLIN, EUGENE THOMAS JR
-Heated Area: 1206
-Deed Date: 03/15/2006
-Pkg Sale Price: 378000
-Assessed: 412927
------------------------
 Unit: 326	Owner: VEMURI, SRIKAR
 Heated Area: 849
 Deed Date: 05/31/2019
@@ -314,6 +308,12 @@ Heated Area: 956
 Deed Date: 10/18/2013
 Pkg Sale Price: 235000
 Assessed: 305779
+-----------------------
+Unit: 410	Owner: WATKE, FREDERIC W. & ANN M.
+Heated Area: 2171
+Deed Date: 05/22/2014
+Pkg Sale Price: 525000
+Assessed: 625037
 -----------------------
 Unit: 411	Owner: GRAY, STEVEN J
 Heated Area: 1221

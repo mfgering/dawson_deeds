@@ -267,6 +267,12 @@ Deed Date: 03/16/2015
 Pkg Sale Price: 825000
 Assessed: 923518
 -----------------------
+Unit: 410	Owner: WATKE, FREDERIC W. & ANN M.
+Heated Area: 2171
+Deed Date: 05/22/2014
+Pkg Sale Price: 525000
+Assessed: 625037
+-----------------------
 Unit: 500	Owner: OPPENHEIMER, WENDY
 Heated Area: 3037
 Deed Date: 11/27/2013
@@ -375,18 +381,6 @@ Deed Date: 05/24/2006
 Pkg Sale Price: 370000
 Assessed: 412927
 -----------------------
-Unit: 224	Owner: SAUNDERS, JOSHUA N
-Heated Area: 1206
-Deed Date: 05/24/2006
-Pkg Sale Price: 370000
-Assessed: 412927
------------------------
-Unit: 324	Owner: FRANKLIN, EUGENE THOMAS JR
-Heated Area: 1206
-Deed Date: 03/15/2006
-Pkg Sale Price: 378000
-Assessed: 412927
------------------------
 Unit: 324	Owner: FRANKLIN, EUGENE THOMAS JR
 Heated Area: 1206
 Deed Date: 03/15/2006
@@ -398,6 +392,12 @@ Heated Area: 1365
 Deed Date: 10/03/2005
 Pkg Sale Price: 338000
 Assessed: 416015
+-----------------------
+Unit: 301	Owner: MCLAMB, GRAHAM KENT
+Heated Area: 1628
+Deed Date: 09/08/2005
+Pkg Sale Price: 400000
+Assessed: 529576
 -----------------------
 Unit: 309	Owner: JEFFREYS, HARRY & DANA
 Heated Area: 956
