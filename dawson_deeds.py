@@ -2,6 +2,7 @@ import csv
 import datetime
 from bs4 import BeautifulSoup
 import requests
+import re
 
 class Apt(object):
 	def __init__(self, account, unit, owner):
@@ -147,14 +148,14 @@ class Apts(object):
 	
 	def make_csv(self, fn):
 		with open(fn, "w", newline='') as fp:
-			field_names = ['unit_num', 'owner', 'heated_area', 'deed_date', 'pkg_sale_price', 'assessed']
+			field_names = ['unit_num', 'owner', 'heated_area', 'deed_date', 'pkg_sale_price', 'assessed', 'account']
 			writer = csv.DictWriter(fp, fieldnames=field_names)
 			writer.writeheader()
 			for apt in self.apts:
 				writer.writerow({'unit_num': apt.unit, 
 					'owner': apt.owner, 'heated_area': apt.heated_area, 
 					'deed_date': apt.deed_date.strftime('%m/%d/%Y'), 'pkg_sale_price': apt.pkg_sale_price, 
-					'assessed': apt.assessed})
+					'assessed': apt.assessed, 'account': apt.account})
 
 def print_apts(apts, fn, title=''):
 	with open(fn, 'w') as fp:
@@ -166,6 +167,7 @@ def print_apts(apts, fn, title=''):
 			print(f"Deed Date: {apt.deed_date.strftime('%m/%d/%Y')}", file=fp)
 			print(f"Pkg Sale Price: {apt.pkg_sale_price}", file=fp)
 			print(f"Assessed: {apt.assessed}", file=fp)
+			print(f"Account: {apt.account}", file=fp)
 		fp.close()
 
 def main():
