@@ -10,6 +10,7 @@ class Apt(object):
 		self._account = account
 		self._unit = unit
 		self._owner = owner
+		self._deed_url = f"http://services.wakegov.com/realestate/Account.asp?id={self._account}"
 
 	@property
 	def account(self):
@@ -68,6 +69,10 @@ class Apt(object):
 				pass
 			return val
 		return None
+
+	@property
+	def deed_url(self):
+		return self._deed_url
 
 	def _get_deed_page(self):
 		if self._deed_page is None:
@@ -174,14 +179,14 @@ class Apts(object):
 
 	def make_csv(self):
 		with open(self._csv_filename, "w", newline='') as fp:
-			field_names = ['unit_num', 'owner', 'heated_area', 'deed_date', 'pkg_sale_price', 'assessed', 'account']
+			field_names = ['unit_num', 'owner', 'heated_area', 'deed_date', 'pkg_sale_price', 'assessed', 'account', 'deed_url']
 			writer = csv.DictWriter(fp, fieldnames=field_names, quoting=csv.QUOTE_NONNUMERIC)
 			writer.writeheader()
 			for apt in sorted(self.apts, key=lambda x: x.unit):
 				writer.writerow({'unit_num': apt.unit, 
 					'owner': apt.owner, 'heated_area': apt.heated_area, 
 					'deed_date': apt.deed_date.strftime('%m/%d/%Y'), 'pkg_sale_price': apt.pkg_sale_price, 
-					'assessed': apt.assessed, 'account': apt.account})
+					'assessed': apt.assessed, 'account': apt.account, 'deed_url': apt.deed_url})
 			#Insert old values for deleted unit (on the theory that the search failed for some reason)
 			for unit_num in sorted(self._deleted_units):
 				prev_dict = self._prev_unit_map[unit_num]
