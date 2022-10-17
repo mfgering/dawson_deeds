@@ -88,8 +88,24 @@ class Apt(object):
 					return value
 
 class Apts(object):
-	def __init__(self):
+	def __init__(self, csv_filename):
 		self._apts = None
+		self._csv_filename = csv_filename
+		self._get_current_csv()
+
+	def _get_current_csv(self):
+		self._prev_unit_map = {}
+		try:
+			with open(self._csv_filename) as csv_file:
+				rdr = csv.DictReader(csv_file)
+				for row in rdr:
+					unit_num = row['unit_num']
+					if unit_num in self._prev_unit_map:
+						print(f"Duplicate units: {unit_num}")
+					else:
+						self._prev_unit_map[row['unit_num']] = dict(row)
+		except Exception as err:
+			print(f"ERROR: {err}")
 
 	@property
 	def apts(self):
@@ -146,16 +162,31 @@ class Apts(object):
 				return apt
 		return None
 	
-	def make_csv(self, fn):
-		with open(fn, "w", newline='') as fp:
+	def check_missing(self):
+		curr_unit_nums = set(map(lambda x: x.unit, list(self.apts)))
+		prev_unit_nums = set(self._prev_unit_map.keys())
+		self._deleted_units = prev_unit_nums - curr_unit_nums
+		if len(self._deleted_units):
+			print(f"Deleted: {', '.join(sorted(self._deleted_units))}")
+		added = curr_unit_nums - prev_unit_nums
+		if len(added):
+			print(f"Added: {', '.join(sorted(added))}")
+
+	def make_csv(self):
+		with open(self._csv_filename, "w", newline='') as fp:
 			field_names = ['unit_num', 'owner', 'heated_area', 'deed_date', 'pkg_sale_price', 'assessed', 'account']
-			writer = csv.DictWriter(fp, fieldnames=field_names)
+			writer = csv.DictWriter(fp, fieldnames=field_names, quoting=csv.QUOTE_NONNUMERIC)
 			writer.writeheader()
-			for apt in self.apts:
+			for apt in sorted(self.apts, key=lambda x: x.unit):
 				writer.writerow({'unit_num': apt.unit, 
 					'owner': apt.owner, 'heated_area': apt.heated_area, 
 					'deed_date': apt.deed_date.strftime('%m/%d/%Y'), 'pkg_sale_price': apt.pkg_sale_price, 
 					'assessed': apt.assessed, 'account': apt.account})
+			#Insert old values for deleted unit (on the theory that the search failed for some reason)
+			for unit_num in sorted(self._deleted_units):
+				prev_dict = self._prev_unit_map[unit_num]
+				writer.writerow(prev_dict)
+				print(f"Inserted previous info for {unit_num}")
 
 def print_apts(apts, fn, title=''):
 	with open(fn, 'w') as fp:
@@ -171,14 +202,14 @@ def print_apts(apts, fn, title=''):
 		fp.close()
 
 def main():
-	ctlr = Apts()
-	ctlr.make_csv("./reports/dawson.csv")
-	apts = ctlr.by_unit_num()
-	print_apts(apts, "./reports/by_unit.txt", "By Unit")
+	csv_filename = "./reports/dawson.csv"
+	ctlr = Apts(csv_filename)
+	ctlr.check_missing()
+	ctlr.make_csv()
+	print_apts(ctlr.by_unit_num(), "./reports/by_unit.txt", "By Unit")
 	print_apts(ctlr.by_deed_date(reverse=True), "./reports/by_deed.txt", "By Deed Date")
 	print_apts(ctlr.by_heated_area(reverse=True), "./reports/by_heated_area.txt", "By Heated Area")
 	print("Done")
-
 
 if __name__ == '__main__':
 	main()
