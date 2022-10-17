@@ -3,6 +3,7 @@ import datetime
 from bs4 import BeautifulSoup
 import requests
 import re
+import logging
 
 class Apt(object):
 	def __init__(self, account, unit, owner):
@@ -106,11 +107,11 @@ class Apts(object):
 				for row in rdr:
 					unit_num = row['unit_num']
 					if unit_num in self._prev_unit_map:
-						print(f"Duplicate units: {unit_num}")
+						logging.error(f"Duplicate units: {unit_num}")
 					else:
 						self._prev_unit_map[row['unit_num']] = dict(row)
 		except Exception as err:
-			print(f"ERROR: {err}")
+			logging.error(f"ERROR: {err}")
 
 	@property
 	def apts(self):
@@ -143,7 +144,7 @@ class Apts(object):
 			if apt_count == 0:
 				break
 			page_num += 1
-		print(f"Found {len(self._apts)}")
+		logging.info(f"Found {len(self._apts)} units online")
 		return self._apts
 
 	def by_unit_num(self, reverse=False):
@@ -172,10 +173,10 @@ class Apts(object):
 		prev_unit_nums = set(self._prev_unit_map.keys())
 		self._deleted_units = prev_unit_nums - curr_unit_nums
 		if len(self._deleted_units):
-			print(f"Deleted: {', '.join(sorted(self._deleted_units))}")
+			logging.warning(f"Deleted: {', '.join(sorted(self._deleted_units))}")
 		added = curr_unit_nums - prev_unit_nums
 		if len(added):
-			print(f"Added: {', '.join(sorted(added))}")
+			logging.warning(f"Added: {', '.join(sorted(added))}")
 
 	def make_csv(self):
 		with open(self._csv_filename, "w", newline='') as fp:
@@ -191,7 +192,7 @@ class Apts(object):
 			for unit_num in sorted(self._deleted_units):
 				prev_dict = self._prev_unit_map[unit_num]
 				writer.writerow(prev_dict)
-				print(f"Inserted previous info for {unit_num}")
+				logging.info(f"Inserted previous info for {unit_num}")
 
 def print_apts(apts, fn, title=''):
 	with open(fn, 'w') as fp:
@@ -207,6 +208,9 @@ def print_apts(apts, fn, title=''):
 		fp.close()
 
 def main():
+	logging.basicConfig(filename='./reports/dawson_deeds.log', encoding='utf-8', level=logging.INFO,
+	                    format='%(levelname)s\t%(message)s', filemode='w')
+	logging.info("Start")
 	csv_filename = "./reports/dawson.csv"
 	ctlr = Apts(csv_filename)
 	ctlr.check_missing()
@@ -214,7 +218,7 @@ def main():
 	print_apts(ctlr.by_unit_num(), "./reports/by_unit.txt", "By Unit")
 	print_apts(ctlr.by_deed_date(reverse=True), "./reports/by_deed.txt", "By Deed Date")
 	print_apts(ctlr.by_heated_area(reverse=True), "./reports/by_heated_area.txt", "By Heated Area")
-	print("Done")
+	logging.info("Done")
 
 if __name__ == '__main__':
 	main()
