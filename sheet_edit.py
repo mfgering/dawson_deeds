@@ -23,13 +23,19 @@ def do_sheet(model):
 					cell = sheet.getCellByPosition(col, row)
 					col_val = row_v[col]
 					try:
-						if row == 0 or col == 1 or col == 0:
+						if col == 3:
+#TODO: FIX THIS to handle the header -- it should not be formatted							
 							cell.String = col_val
-						else:
-							if col == 3:
-								col_val = calc_fns.callFunction("DATEVALUE", [col_val])
-								do_date_fmt(cell)
+							col_val = calc_fns.callFunction("DATEVALUE", [col_val])
+							do_date_fmt(cell)
 							cell.Value = col_val
+						#TODO: Make the URL col a link
+						elif col == 7:
+#TODO: FIX THIS to handle the header -- it should not be formatted							
+							do_hyperlink_fmt(cell)
+							cell.Value = col_val
+						else:
+							cell.String = col_val
 					except Exception as exc:
 						pass
 				row += 1
@@ -47,6 +53,12 @@ def do_date_fmt(cell):
 	prop = PropertyValue(Name="NumberFormatValue", Value=37)
 	svc_dispatch.executeDispatch(frame, ".uno:NumberFormatValue", "", 0, [prop])
  
+def do_hyperlink_fmt(cell, url):
+	ctlr = model.getCurrentController()
+	ctlr.select(cell)
+	frame = ctlr.getFrame()
+	prop = PropertyValue(Name="Hyperlink.URL", Value=url)
+	svc_dispatch.executeDispatch(frame, ".uno:", "SetHyperlink", 0, [prop])
 
 def do_autofilter(smgr, sheet):
 	svc = smgr.createInstance("com.sun.star.frame.DispatchHelper")
