@@ -208,7 +208,7 @@ def print_apts(apts, fn, title=''):
 		fp.close()
 
 def main():
-	logging.basicConfig(filename='./reports/dawson_deeds.log', encoding='utf-8', level=logging.INFO,
+	logging.basicConfig(filename='./reports/dawson_deeds.log', level=logging.INFO,
 	                    format='%(levelname)s\t%(message)s', filemode='w')
 	logging.info("Start")
 	csv_filename = "./reports/dawson.csv"
