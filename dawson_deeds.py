@@ -6,11 +6,11 @@ import re
 import logging
 
 class Apt(object):
-	def __init__(self, account, unit, owner):
+	def __init__(self, account, unit):
 		self._deed_page = None
+		self._owner = None
 		self._account = account
 		self._unit = unit
-		self._owner = owner
 		self._deed_url = f"http://services.wakegov.com/realestate/Account.asp?id={self._account}"
 
 	@property
@@ -23,7 +23,27 @@ class Apt(object):
 
 	@property
 	def owner(self):
+		if self._owner is None:
+			page = self._get_deed_page()
+			rows = page.find_all('tr')
+			for row in rows:
+				if 'Property Owner' in row.text:
+					defs = row.find_all('td')
+					assert('Property Owner' in defs[1].text)
+					# owner text is in subsequent <td> elements, until 'Use the Deeds link' <td>
+					owners = []
+					for idx in range(2, len(defs)):
+						cell_text = defs[idx].text
+						if 'Use the Deeds' in cell_text:
+							break
+						owner = cell_text.strip()
+						if len(owner):
+							owners.append(cell_text.strip())
+					self._owner = '; '.join(owners)
+					break
+		assert(self._owner is not None)
 		return self._owner
+
 	@property
 	def account(self):
 		return self._account
@@ -137,9 +157,8 @@ class Apts(object):
 					continue
 				account = cols[1].text
 				unit = cols[3].text
-				owner = cols[9].text
 				if unit != '':
-					self._apts.append(Apt(account, unit, owner))
+					self._apts.append(Apt(account, unit))
 				apt_count += 1
 			if apt_count == 0:
 				break
@@ -198,6 +217,7 @@ def print_apts(apts, fn, title=''):
 	with open(fn, 'w') as fp:
 		print(f"\n{title}\n\n", file=fp)
 		for apt in apts:
+			# Improve owner field by converting newlines into semi-colons
 			print("-----------------------", file=fp)
 			print(f"Unit: {apt.unit}\tOwner: {apt.owner}", file=fp)
 			print(f"Heated Area: {apt.heated_area}", file=fp)

@@ -10,42 +10,42 @@ Pkg Sale Price: 825000
 Assessed: 923518
 Account: 0329084
 -----------------------
-Unit: 400	Owner: LAMBERT, TIMOTHY TRUSTEE
+Unit: 400	Owner: LAMBERT, TIMOTHY TRUSTEE; THE TIMOTHY LAMBERT FAMILY TRUST
 Heated Area: 3037
 Deed Date: 06/27/2022
 Pkg Sale Price: 1200000
 Assessed: 864738
 Account: 0328684
 -----------------------
-Unit: 500	Owner: OPPENHEIMER, WENDY
+Unit: 500	Owner: OPPENHEIMER, WENDY; BRAGANZA, ASHISH
 Heated Area: 3037
 Deed Date: 11/27/2013
 Pkg Sale Price: 655000
 Assessed: 911148
 Account: 0329083
 -----------------------
-Unit: 512	Owner: MACKIN, JAMES ANTHONY TRUSTEE
+Unit: 512	Owner: MACKIN, JAMES ANTHONY TRUSTEE; MACKIN, SUSAN GOLDSTEIN TRUSTEE
 Heated Area: 2995
 Deed Date: 08/23/2021
 Pkg Sale Price: 960000
 Assessed: 899311
 Account: 0329093
 -----------------------
-Unit: 412	Owner: GERING, MICHAEL FREDERICK
+Unit: 412	Owner: GERING, MICHAEL FREDERICK; FERREE, MARSHA ELLEN
 Heated Area: 2995
 Deed Date: 02/06/2019
 Pkg Sale Price: 830000
 Assessed: 853483
 Account: 0329079
 -----------------------
-Unit: 515	Owner: LAWSON, ROBERT CHARLES
+Unit: 515	Owner: LAWSON, ROBERT CHARLES; POWELL, FRANKLIN MATTHEW
 Heated Area: 2888
 Deed Date: 09/27/2018
 Pkg Sale Price: 875000
 Assessed: 892302
 Account: 0329095
 -----------------------
-Unit: 304	Owner: LEONARD, BAILEY H
+Unit: 304	Owner: LEONARD, BAILEY H; LEONARD, SANDRA A
 Heated Area: 2254
 Deed Date: 12/18/2019
 Pkg Sale Price: 685000
@@ -80,7 +80,7 @@ Pkg Sale Price: 940000
 Assessed: 502614
 Account: 0400624
 -----------------------
-Unit: 310	Owner: GRZES, HENRY J
+Unit: 310	Owner: GRZES, HENRY J; MACDONALD, SANDI M A
 Heated Area: 2171
 Deed Date: 06/21/2019
 Pkg Sale Price: 606000
@@ -108,7 +108,7 @@ Pkg Sale Price: 480000
 Assessed: 625037
 Account: 0328663
 -----------------------
-Unit: 317	Owner: RANDOLPH, ROBERT CLETE
+Unit: 317	Owner: RANDOLPH, ROBERT CLETE; RANDOLPH, MARYANNE BILLER
 Heated Area: 1687
 Deed Date: 01/25/2019
 Pkg Sale Price: 532000
@@ -136,7 +136,7 @@ Pkg Sale Price: 535000
 Assessed: 529576
 Account: 0328655
 -----------------------
-Unit: 401	Owner: MUNRO, JOYCE LORAINE
+Unit: 401	Owner: MUNRO, JOYCE LORAINE; FARRELL, WILSON WRENSHALL JR
 Heated Area: 1628
 Deed Date: 12/12/2012
 Pkg Sale Price: 312000
@@ -157,14 +157,14 @@ Pkg Sale Price: 0
 Assessed: 329340
 Account: 0329098
 -----------------------
-Unit: 506	Owner: WOODALL, JOHN CHARLES
+Unit: 506	Owner: WOODALL, JOHN CHARLES; CREECH, MARY HELEN
 Heated Area: 1409
 Deed Date: 06/13/2022
 Pkg Sale Price: 370000
 Assessed: 428189
 Account: 0329087
 -----------------------
-Unit: 306	Owner: SOTO, MARCO ANTONIO
+Unit: 306	Owner: SOTO, MARCO ANTONIO; MONTOYA, TANYA ALEJANDRA
 Heated Area: 1409
 Deed Date: 05/13/2022
 Pkg Sale Price: 500000
@@ -192,7 +192,7 @@ Pkg Sale Price: 470000
 Assessed: 428189
 Account: 0329089
 -----------------------
-Unit: 206	Owner: SMITH, MARK DAVID
+Unit: 206	Owner: SMITH, MARK DAVID; SMITH, MARY RYAN DOUGLASS
 Heated Area: 1409
 Deed Date: 07/30/2018
 Pkg Sale Price: 437500
@@ -276,7 +276,7 @@ Pkg Sale Price: 246000
 Assessed: 379528
 Account: 0329092
 -----------------------
-Unit: 224	Owner: SAUNDERS, JOSHUA N
+Unit: 224	Owner: SAUNDERS, JOSHUA N; WELLONS, ANTHONY S
 Heated Area: 1206
 Deed Date: 05/24/2006
 Pkg Sale Price: 370000
@@ -374,7 +374,7 @@ Pkg Sale Price: 314000
 Assessed: 358086
 Account: 0329086
 -----------------------
-Unit: 213	Owner: MOORE, CHRISTOPHER JAMES
+Unit: 213	Owner: MOORE, CHRISTOPHER JAMES; BERRY, HEATHER ANN
 Heated Area: 1139
 Deed Date: 04/27/2017
 Pkg Sale Price: 320000
@@ -409,7 +409,7 @@ Pkg Sale Price: 229000
 Assessed: 305779
 Account: 0328662
 -----------------------
-Unit: 509	Owner: DELGADO, JOSE A
+Unit: 509	Owner: DELGADO, JOSE A; DELGADO, JOSE A
 Heated Area: 956
 Deed Date: 09/18/2009
 Pkg Sale Price: 190500
@@ -430,7 +430,7 @@ Pkg Sale Price: 195000
 Assessed: 260950
 Account: 0400617
 -----------------------
-Unit: 302	Owner: SCIOLINO, CONSTANCE FLOYD
+Unit: 302	Owner: SCIOLINO, CONSTANCE FLOYD; SCIOLINO, JOSEPH C
 Heated Area: 855
 Deed Date: 02/22/2011
 Pkg Sale Price: 164000
