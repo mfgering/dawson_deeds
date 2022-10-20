@@ -13,7 +13,7 @@ from com.sun.star.uno import Exception as UnoException
 
 
 def do_sheet():
-    global smgr, svc_dispatch, model
+    global smgr, svc_dispatch, model, curr_dir
     try:
         calc_fns = smgr.createInstance("com.sun.star.sheet.FunctionAccess")
         if not model.Sheets.hasByName("dawson_deeds"):
@@ -24,7 +24,7 @@ def do_sheet():
         #thiscomponent.currentController.setActiveSheet(oNewSheet)
         model.CurrentController.setActiveSheet(sheet)
         #TODO: FIX THIS to find the csv file from model.getLocation() url
-        with open("reports/dawson.csv") as csv_file:
+        with open(f"{curr_dir}/reports/dawson.csv") as csv_file:
             csv_reader = csv.reader(csv_file, delimiter=',')
             row = 0
             for row_v in csv_reader:
@@ -50,6 +50,10 @@ def do_sheet():
                         pass
                 row += 1
         do_autofilter(smgr, sheet)
+        ctlr = model.getCurrentController()
+        #TODO: CONTINUE 
+        frame = ctlr.getFrame()
+        svc_dispatch.executeDispatch(frame, ".uno:NumberFormatValue", "", 0, [prop])
         print("Have sheet")
     except Exception as exc:
         raise exc
@@ -138,7 +142,7 @@ def foo(self):
     do_sheet()
 
 def do_local():
-    global smgr, svc_dispatch, model
+    global smgr, svc_dispatch, model, curr_dir
     print("Doing local")
     ctx = uno.getComponentContext()
     smgr = ctx.ServiceManager
@@ -148,6 +152,7 @@ def do_local():
     do_sheet()
 
 def launch_LO():
+    global curr_dir
     try:
        # soffice script used on *ix, Mac; soffice.exe used on Win
         if "UNO_PATH" in os.environ:
@@ -163,13 +168,15 @@ def launch_LO():
         sPipeName = "uno" + str(random.random())[2:]
 
         #MFG Added
+        curr_dir = os.getcwd()
         #sOffice2 = 'C:\\\\"Program Files\\"\\LibreOffice\\program\\soffice.exe'
         sOffice2 = 'C:/Program Files/LibreOffice/program/soffice.exe'
-        os.chdir('/')
         # Start the office process, don't check for exit status since an exception is caught anyway if the office terminates unexpectedly.
         #cmdArray = (sOffice2, "--nologo", "--nodefault", "".join(["--accept=pipe,name=", sPipeName, ";urp;"]))
-        cmdArray = (sOffice2, "".join(["--accept=pipe,name=", sPipeName, ";urp;"]))
+        cmdArray = (sOffice2, "".join(["--accept=pipe,name=", sPipeName, ";urp;"]),
+                    curr_dir+'/reports/dawson.ods')
         #os.spawnv(os.P_NOWAIT, sOffice2, cmdArray)
+        os.chdir('/')
         p = subprocess.Popen(cmdArray)
         # ---------
 
