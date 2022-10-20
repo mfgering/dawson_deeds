@@ -5,6 +5,7 @@ import datetime
 from com.sun.star.beans import PropertyValue
 
 def do_sheet(model):
+	global smgr, svc_dispatch
 	try:
 		calc_fns = smgr.createInstance("com.sun.star.sheet.FunctionAccess")
 		if not model.Sheets.hasByName("dawson_deeds"):
@@ -24,16 +25,16 @@ def do_sheet(model):
 					col_val = row_v[col]
 					try:
 						if col == 3:
-#TODO: FIX THIS to handle the header -- it should not be formatted							
 							cell.String = col_val
-							col_val = calc_fns.callFunction("DATEVALUE", [col_val])
-							do_date_fmt(cell)
-							cell.Value = col_val
+							if row > 0:
+								col_val = calc_fns.callFunction("DATEVALUE", [col_val])
+								do_date_fmt(cell)
+								cell.Value = col_val
 						#TODO: Make the URL col a link
 						elif col == 7:
-#TODO: FIX THIS to handle the header -- it should not be formatted							
-							do_hyperlink_fmt(cell)
-							cell.Value = col_val
+							cell.String = col_val
+							if row > 0:
+								do_hyperlink_fmt(cell, col_val)
 						else:
 							cell.String = col_val
 					except Exception as exc:
@@ -46,6 +47,7 @@ def do_sheet(model):
 		pass
 
 def do_date_fmt(cell):
+	global model, svc_dispatch
 	ctlr = model.getCurrentController()
 	ctlr.select(cell)
 	frame = ctlr.getFrame()
@@ -54,41 +56,50 @@ def do_date_fmt(cell):
 	svc_dispatch.executeDispatch(frame, ".uno:NumberFormatValue", "", 0, [prop])
  
 def do_hyperlink_fmt(cell, url):
+	global model, svc_dispatch
 	ctlr = model.getCurrentController()
 	ctlr.select(cell)
 	frame = ctlr.getFrame()
-	prop = PropertyValue(Name="Hyperlink.URL", Value=url)
-	svc_dispatch.executeDispatch(frame, ".uno:", "SetHyperlink", 0, [prop])
+	props = [PropertyValue(Name="Hyperlink.Text", Value=url),
+				PropertyValue(Name="Hyperlink.URL", Value=url),
+				PropertyValue(Name="Hyperlink.Target", Value=""),
+				PropertyValue(Name="Hyperlink.Name", Value=""),
+				PropertyValue(Name="Hyperlink.Type", Value=1),
+			]
+	svc_dispatch.executeDispatch(frame, ".uno:SetHyperlink", "", 0, props)
 
 def do_autofilter(smgr, sheet):
+	global model
 	svc = smgr.createInstance("com.sun.star.frame.DispatchHelper")
-	cell = sheet.getCellRangeByName("A1:F1")
+	cell = sheet.getCellRangeByName("A1:H1")
 	ctlr = model.getCurrentController()
 	ctlr.select(cell)
 	frame = ctlr.getFrame()
 	svc.executeDispatch(frame, ".uno:DataFilterHideAutoFilter", "", 0, [])
 	svc.executeDispatch(frame, ".uno:DataFilterAutoFilter", "", 0, [])
 
+def do_remote():
+	global smgr, svc_dispatch
 
-# get the uno component context from the PyUNO runtime
-localContext = uno.getComponentContext()
+	# get the uno component context from the PyUNO runtime
+	localContext = uno.getComponentContext()
 
-# create the UnoUrlResolver
-resolver = localContext.ServiceManager.createInstanceWithContext("com.sun.star.bridge.UnoUrlResolver", localContext )
+	# create the UnoUrlResolver
+	resolver = localContext.ServiceManager.createInstanceWithContext("com.sun.star.bridge.UnoUrlResolver", localContext )
 
-# connect to the running office
-ctx = resolver.resolve( "uno:socket,host=localhost,port=2002;urp;StarOffice.ComponentContext" )
-smgr = ctx.ServiceManager
+	# connect to the running office
+	ctx = resolver.resolve( "uno:socket,host=localhost,port=2002;urp;StarOffice.ComponentContext" )
+	smgr = ctx.ServiceManager
 
-# get the central desktop object
-desktop = smgr.createInstanceWithContext( "com.sun.star.frame.Desktop",ctx)
+	# get the central desktop object
+	desktop = smgr.createInstanceWithContext( "com.sun.star.frame.Desktop",ctx)
 
-# access the current writer document
-model = desktop.getCurrentComponent()
+	# access the current writer document
+	model = desktop.getCurrentComponent()
 
-svc_dispatch = smgr.createInstance("com.sun.star.frame.DispatchHelper")
+	svc_dispatch = smgr.createInstance("com.sun.star.frame.DispatchHelper")
 
-do_sheet(model)
+	do_sheet(model)
 
 def foo(self):
 	# access the active sheet
@@ -104,4 +115,19 @@ def foo(self):
 	cell2 = active_sheet.getCellRangeByName("E6")
 	cell2.Value = cell2.Value + 1
 
-print("Done")
+def do_local():
+	global smgr, svc_dispatch, model
+	print("Doing local")
+	ctx = uno.getComponentContext()
+	smgr = ctx.ServiceManager
+	desktop = smgr.createInstanceWithContext("com.sun.star.frame.Desktop", ctx)
+	model = desktop.getCurrentComponent()
+	svc_dispatch = smgr.createInstance("com.sun.star.frame.DispatchHelper")
+	do_sheet(model)
+
+if __name__ == '__main__':
+	do_remote()
+	print("Done")
+else:
+	print(f"Local: {__name__}")
+	do_local()
