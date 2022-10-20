@@ -4,8 +4,8 @@ import uno
 import datetime
 from com.sun.star.beans import PropertyValue
 
-def do_sheet(model):
-	global smgr, svc_dispatch
+def do_sheet():
+	global smgr, svc_dispatch, model
 	try:
 		calc_fns = smgr.createInstance("com.sun.star.sheet.FunctionAccess")
 		if not model.Sheets.hasByName("dawson_deeds"):
@@ -15,6 +15,7 @@ def do_sheet(model):
 		sheet.clearContents(0xffffff)
 		#thiscomponent.currentController.setActiveSheet(oNewSheet)
 		model.CurrentController.setActiveSheet(sheet)
+		#TODO: FIX THIS to find the csv file from model.getLocation() url
 		with open("reports/dawson.csv") as csv_file:
 			csv_reader = csv.reader(csv_file, delimiter=',')
 			row = 0
@@ -79,7 +80,7 @@ def do_autofilter(smgr, sheet):
 	svc.executeDispatch(frame, ".uno:DataFilterAutoFilter", "", 0, [])
 
 def do_remote():
-	global smgr, svc_dispatch
+	global smgr, svc_dispatch, model
 
 	# get the uno component context from the PyUNO runtime
 	localContext = uno.getComponentContext()
@@ -99,7 +100,7 @@ def do_remote():
 
 	svc_dispatch = smgr.createInstance("com.sun.star.frame.DispatchHelper")
 
-	do_sheet(model)
+	do_sheet()
 
 def foo(self):
 	# access the active sheet
@@ -123,7 +124,7 @@ def do_local():
 	desktop = smgr.createInstanceWithContext("com.sun.star.frame.Desktop", ctx)
 	model = desktop.getCurrentComponent()
 	svc_dispatch = smgr.createInstance("com.sun.star.frame.DispatchHelper")
-	do_sheet(model)
+	do_sheet()
 
 if __name__ == '__main__':
 	do_remote()
