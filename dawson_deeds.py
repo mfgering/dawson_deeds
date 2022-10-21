@@ -4,6 +4,8 @@ from bs4 import BeautifulSoup
 import requests
 import re
 import logging
+import os
+import sys
 
 class Apt(object):
 	def __init__(self, account, unit):
@@ -231,6 +233,7 @@ def main():
 	logging.basicConfig(filename='./reports/dawson_deeds.log', level=logging.INFO,
 	                    format='%(levelname)s\t%(message)s', filemode='w')
 	logging.info("Start")
+	fix_python()
 	csv_filename = "./reports/dawson.csv"
 	ctlr = Apts(csv_filename)
 	ctlr.check_missing()
@@ -239,6 +242,38 @@ def main():
 	print_apts(ctlr.by_deed_date(reverse=True), "./reports/by_deed.txt", "By Deed Date")
 	print_apts(ctlr.by_heated_area(reverse=True), "./reports/by_heated_area.txt", "By Heated Area")
 	logging.info("Done")
+
+def fix_python():
+	if sys.platform == 'win32':
+		#This is required in order to make pyuno usable with the default python interpreter under windows
+		#Some environment variables must be modified
+
+		#get the install path from registry
+		import winreg
+		# try with OpenOffice, LibreOffice on W7
+		for _key in [# OpenOffice 3.3
+					"SOFTWARE\\LibreOffice\\UNO\\InstallPath",
+					# LibreOffice 3.4.5 on W7
+					"SOFTWARE\\Wow6432Node\\LibreOffice\\UNO\\InstallPath"]:
+			try:
+				value = winreg.QueryValue(winreg.HKEY_LOCAL_MACHINE, _key)
+			except Exception as detail:
+				_errMess = "%s" % detail
+			else:
+				break   # first existing key will do
+		install_folder = '\\'.join(value.split('\\')[:-1]) # 'C:\\Program Files\\OpenOffice.org 3'
+
+		#modify the environment variables
+		os.environ['URE_BOOTSTRAP'] = 'vnd.sun.star.pathname:{0}\\program\\fundamental.ini'.format(install_folder)
+		os.environ['UNO_PATH'] = install_folder+'\\program\\'
+
+		sys.path.append(install_folder+'\\Basis\\program')
+		sys.path.append(install_folder+'\\program')
+
+		paths = ''
+		for path in ("\\URE\\bin;", "\\Basis\\program;", "'\\program;"):
+			paths += install_folder + path
+		os.environ['PATH'] =  paths+ os.environ['PATH']
 
 if __name__ == '__main__':
 	main()
