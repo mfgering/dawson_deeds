@@ -16,10 +16,6 @@ class Apt(object):
         self._deed_url = f"http://services.wakegov.com/realestate/Account.asp?id={self._account}"
 
     @property
-    def account(self):
-        return self._account
-
-    @property
     def unit(self):
         return self._unit
 
@@ -76,7 +72,7 @@ class Apt(object):
         self._heated_area = self._get_value('Heated Area')
         result = 0
         try:
-            result = int(''.join([c for c in self._heated_area if c != ',']))
+            result = int(''.join([c for c in str(self._heated_area) if c != ',']))
         except:
             pass
         return result
