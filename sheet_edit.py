@@ -51,9 +51,8 @@ def do_sheet():
                 row += 1
         do_autofilter(smgr, sheet)
         ctlr = model.getCurrentController()
-        #TODO: CONTINUE 
         frame = ctlr.getFrame()
-        svc_dispatch.executeDispatch(frame, ".uno:NumberFormatValue", "", 0, [prop])
+        svc_dispatch.executeDispatch(frame, ".uno:Save", "", 0, [])
         print("Have sheet")
     except Exception as exc:
         raise exc
@@ -108,15 +107,20 @@ def do_remote(context = None):
         ctx = context
     smgr = ctx.ServiceManager
 
+    model = None
+    while model is None:
+        desktop = smgr.createInstanceWithContext( "com.sun.star.frame.Desktop",ctx)
+        if desktop is None:
+            continue
+        model = desktop.getCurrentComponent()
+
     # get the central desktop object
     desktop = smgr.createInstanceWithContext( "com.sun.star.frame.Desktop",ctx)
-
     # access the current writer document
     model = desktop.getCurrentComponent()
-
     svc_dispatch = smgr.createInstance("com.sun.star.frame.DispatchHelper")
-
     do_sheet()
+    desktop.terminate()
 
 def foo(self):
     global smgr, svc_dispatch, model
@@ -174,7 +178,7 @@ def launch_LO():
         # Start the office process, don't check for exit status since an exception is caught anyway if the office terminates unexpectedly.
         #cmdArray = (sOffice2, "--nologo", "--nodefault", "".join(["--accept=pipe,name=", sPipeName, ";urp;"]))
         cmdArray = (sOffice2, "".join(["--accept=pipe,name=", sPipeName, ";urp;"]),
-                    curr_dir+'/reports/dawson.ods')
+                    '--norestore', curr_dir+'/reports/dawson.ods')
         #os.spawnv(os.P_NOWAIT, sOffice2, cmdArray)
         os.chdir('/')
         p = subprocess.Popen(cmdArray)
@@ -199,7 +203,6 @@ def launch_LO():
 
     except Exception as e:  # Any other exception
         raise 
-
     return xContext
 
 if __name__ == '__main__':
