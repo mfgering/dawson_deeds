@@ -1,3 +1,10 @@
+The dawson_deeds module will make the csv file and the spreadsheet (on Windows only)
+
+The python version for the spreadsheet must match LibreOffice (currently 3.8).
+
+The dawson_deeds.fix_python() function updates the python execution environment to 
+allow it to communicate with LO to update the spreadsheet. The uno module is specific
+to LO.
 
 To create an openoffice spreadsheet from the csv file:
 
