@@ -5,12 +5,97 @@ import subprocess
 import time
 import csv
 import socket  # only needed on win32-OOo3.0.0
-import uno
 import datetime
+#NOTE: This module only works with the python version used by LibreOffice
+#      The uno module is specific to LibreOffice, not the one from pypy
+import uno
 from com.sun.star.beans import PropertyValue
 from com.sun.star.connection import NoConnectException
 from com.sun.star.uno import Exception as UnoException
 
+class Sheet_Editor(object):
+    def __init__(self) -> None:
+        self.model = None
+        self.smgr = None
+        self.svc_dispatch = None
+        self.curr_dir = os.getcwd()
+        self.context = None
+
+    def do_remote(self):
+        global smgr, svc_dispatch, model
+
+        # get the uno component context from the PyUNO runtime
+        localContext = uno.getComponentContext()
+        if localContext is None:
+            pass
+
+        ctx = self.context
+        #smgr = ctx.ServiceManager
+        smgr = self.smgr
+
+        model = None
+        while model is None:
+            desktop = smgr.createInstanceWithContext( "com.sun.star.frame.Desktop",ctx)
+            if desktop is None:
+                continue
+            model = desktop.getCurrentComponent()
+
+        # get the central desktop object
+        desktop = smgr.createInstanceWithContext( "com.sun.star.frame.Desktop",ctx)
+        # access the current writer document
+        model = desktop.getCurrentComponent()
+        svc_dispatch = smgr.createInstance("com.sun.star.frame.DispatchHelper")
+        self.do_sheet()
+        desktop.terminate()
+
+    def do_sheet(self):
+        pass
+
+    def launch_LO(self):
+        try:
+        # soffice script used on *ix, Mac; soffice.exe used on Win
+            if "UNO_PATH" in os.environ:
+                sOffice = os.environ["UNO_PATH"]
+            else:
+                sOffice = "" # lets hope for the best
+            sOffice = os.path.join(sOffice, "soffice")
+            if platform.startswith("win"):
+                sOffice += ".exe"
+
+            # Generate a random pipe name.
+            random.seed()
+            sPipeName = "uno" + str(random.random())[2:]
+
+            #sOffice2 = 'C:/Program Files/LibreOffice/program/soffice.exe'
+            # Start the office process, don't check for exit status since an exception is caught anyway if the office terminates unexpectedly.
+            #cmdArray = (sOffice2, "--nologo", "--nodefault", "".join(["--accept=pipe,name=", sPipeName, ";urp;"]))
+            cmdArray = (sOffice, "".join(["--accept=pipe,name=", sPipeName, ";urp;"]),
+                        '--norestore', self.curr_dir+'/reports/dawson.ods')
+            os.chdir('/')
+            p = subprocess.Popen(cmdArray)
+            os.chdir(self.curr_dir) # change back to original
+            #TODO: Is xLocalContext.ServiceManager the same as 
+            xLocalContext = uno.getComponentContext()
+            resolver = xLocalContext.ServiceManager.createInstanceWithContext(
+                "com.sun.star.bridge.UnoUrlResolver", xLocalContext)
+            sConnect = "".join(["uno:pipe,name=", sPipeName, ";urp;StarOffice.ComponentContext"])
+
+            # Wait until an office is started, but loop only nLoop times (can we do this better???)
+            nLoop = 20
+            while True:
+                try:
+                    xContext = resolver.resolve(sConnect)
+                    break
+                except NoConnectException:
+                    nLoop -= 1
+                    if nLoop <= 0:
+                        raise Exception("Cannot connect to soffice server.", None)
+                    time.sleep(0.5)  # Sleep 1/2 second.
+
+        except Exception as e:  # Any other exception
+            raise 
+        self.context = xContext
+        self.smgr = self.context.ServiceManager
 
 def do_sheet():
     global smgr, svc_dispatch, model, curr_dir
@@ -122,39 +207,6 @@ def do_remote(context = None):
     do_sheet()
     desktop.terminate()
 
-def foo(self):
-    global smgr, svc_dispatch, model
-
-    # get the uno component context from the PyUNO runtime
-    localContext = uno.getComponentContext()
-
-    # create the UnoUrlResolver
-    resolver = localContext.ServiceManager.createInstanceWithContext("com.sun.star.bridge.UnoUrlResolver", localContext )
-
-    # connect to the running office
-    ctx = resolver.resolve( "uno:socket,host=localhost,port=2002;urp;StarOffice.ComponentContext" )
-    smgr = ctx.ServiceManager
-
-    # get the central desktop object
-    desktop = smgr.createInstanceWithContext( "com.sun.star.frame.Desktop",ctx)
-
-    # access the current writer document
-    model = desktop.getCurrentComponent()
-
-    svc_dispatch = smgr.createInstance("com.sun.star.frame.DispatchHelper")
-
-    do_sheet()
-
-def do_local():
-    global smgr, svc_dispatch, model, curr_dir
-    print("Doing local")
-    ctx = uno.getComponentContext()
-    smgr = ctx.ServiceManager
-    desktop = smgr.createInstanceWithContext("com.sun.star.frame.Desktop", ctx)
-    model = desktop.getCurrentComponent()
-    svc_dispatch = smgr.createInstance("com.sun.star.frame.DispatchHelper")
-    do_sheet()
-
 def launch_LO():
     global curr_dir
     try:
@@ -206,9 +258,9 @@ def launch_LO():
     return xContext
 
 if __name__ == '__main__':
-    ctx2 = launch_LO()
-    do_remote(ctx2)
+    ctlr = Sheet_Editor()
+    ctlr.launch_LO()
+    ctlr.do_remote()
     print("Done")
 else:
     print(f"Local: {__name__}")
-    #do_local()
