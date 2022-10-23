@@ -2,7 +2,6 @@ import csv
 import datetime
 from bs4 import BeautifulSoup
 import requests
-import re
 import logging
 import os
 import sys

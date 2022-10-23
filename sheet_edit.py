@@ -4,11 +4,13 @@ import random
 import subprocess
 import time
 import csv
+import urllib
 import socket  # only needed on win32-OOo3.0.0
 import datetime
 #NOTE: This module only works with the python version used by LibreOffice
 #      The uno module is specific to LibreOffice, not the one from pypy
 import uno
+import pyuno
 from com.sun.star.beans import PropertyValue
 from com.sun.star.connection import NoConnectException
 from com.sun.star.uno import Exception as UnoException
@@ -31,14 +33,17 @@ class Sheet_Editor(object):
 
         self.context = self.context
         smgr = self.smgr
+        assert(smgr is not None)
 
         model = None
+        desktop = None
         while model is None:
             desktop = smgr.createInstanceWithContext( "com.sun.star.frame.Desktop",self.context)
             if desktop is None:
                 continue
             model = desktop.getCurrentComponent()
         self.model = model
+        assert(desktop is not None)
         self.ctlr = model.getCurrentController()
         self.frame = self.ctlr.getFrame()
         # get the central desktop object
@@ -46,9 +51,9 @@ class Sheet_Editor(object):
         desktop.terminate()
 
     def do_sheet(self, desktop):
-        #desktop = self.smgr.createInstanceWithContext( "com.sun.star.frame.Desktop", self.context)
-        # access the current writer document
         model = self.model
+        assert(self.smgr is not None)
+        assert(self.model is not None)
         self.svc_dispatch = self.smgr.createInstance("com.sun.star.frame.DispatchHelper")
         svc_dispatch = self.svc_dispatch
         try:
@@ -59,8 +64,10 @@ class Sheet_Editor(object):
             sheet = model.getSheets().getByName("dawson_deeds")
             sheet.clearContents(0xffffff)
             model.CurrentController.setActiveSheet(sheet)
-            #TODO: FIX THIS to find the csv file from model.getLocation() url
-            with open(f"{self.curr_dir}/reports/dawson.csv") as csv_file:
+            csv_parts = model.getLocation().split('/')[3:-1]
+            csv_parts2 = csv_parts+['dawson.csv']
+            csv_loc = '/'.join(csv_parts2)
+            with open(csv_loc) as csv_file:
                 csv_reader = csv.reader(csv_file, delimiter=',')
                 row = 0
                 for row_v in csv_reader:
