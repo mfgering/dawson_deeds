@@ -101,6 +101,20 @@ Pkg Sale Price: 387000
 Assessed: 370433
 Account: 0328675
 -----------------------
+Unit: 201	Owner: WELLER, DENNIS
+Heated Area: 1628
+Deed Date: 03/01/2021
+Pkg Sale Price: 535000
+Assessed: 529576
+Account: 0328655
+-----------------------
+Unit: 207	Owner: CABA PROPERTIES II LLC
+Heated Area: 1183
+Deed Date: 02/25/2021
+Pkg Sale Price: 370000
+Assessed: 370433
+Account: 0328660
+-----------------------
 Unit: 408	Owner: MORRIS, THOMAS HUNTER
 Heated Area: 1409
 Deed Date: 09/25/2020
@@ -114,13 +128,6 @@ Deed Date: 05/27/2020
 Pkg Sale Price: 377000
 Assessed: 358086
 Account: 0328658
------------------------
-Unit: 415	Owner: VILLEGAS, IBIS
-Heated Area: 1142
-Deed Date: 03/25/2020
-Pkg Sale Price: 393000
-Assessed: 359032
-Account: 0329081
 -----------------------
 Unit: 415	Owner: VILLEGAS, IBIS
 Heated Area: 1142
@@ -156,13 +163,6 @@ Deed Date: 06/21/2019
 Pkg Sale Price: 606000
 Assessed: 625037
 Account: 0328678
------------------------
-Unit: 508	Owner: HINKLE, CATHERINE
-Heated Area: 1409
-Deed Date: 06/17/2019
-Pkg Sale Price: 470000
-Assessed: 428189
-Account: 0329089
 -----------------------
 Unit: 508	Owner: HINKLE, CATHERINE
 Heated Area: 1409
@@ -311,6 +311,13 @@ Pkg Sale Price: 825000
 Assessed: 923518
 Account: 0329084
 -----------------------
+Unit: 410	Owner: WATKE, FREDERIC W. & ANN M.
+Heated Area: 2171
+Deed Date: 05/22/2014
+Pkg Sale Price: 525000
+Assessed: 625037
+Account: 0329077
+-----------------------
 Unit: 500	Owner: OPPENHEIMER, WENDY; BRAGANZA, ASHISH
 Heated Area: 3037
 Deed Date: 11/27/2013
@@ -437,20 +444,6 @@ Pkg Sale Price: 370000
 Assessed: 412927
 Account: 0400618
 -----------------------
-Unit: 224	Owner: SAUNDERS, JOSHUA N; WELLONS, ANTHONY S
-Heated Area: 1206
-Deed Date: 05/24/2006
-Pkg Sale Price: 370000
-Assessed: 412927
-Account: 0400618
------------------------
-Unit: 324	Owner: FRANKLIN, EUGENE THOMAS JR
-Heated Area: 1206
-Deed Date: 03/15/2006
-Pkg Sale Price: 378000
-Assessed: 412927
-Account: 0400622
------------------------
 Unit: 324	Owner: FRANKLIN, EUGENE THOMAS JR
 Heated Area: 1206
 Deed Date: 03/15/2006
@@ -464,6 +457,13 @@ Deed Date: 10/03/2005
 Pkg Sale Price: 338000
 Assessed: 416015
 Account: 0328686
+-----------------------
+Unit: 301	Owner: MCLAMB, GRAHAM KENT
+Heated Area: 1628
+Deed Date: 09/08/2005
+Pkg Sale Price: 400000
+Assessed: 529576
+Account: 0328670
 -----------------------
 Unit: 309	Owner: JEFFREYS, HARRY & DANA
 Heated Area: 956

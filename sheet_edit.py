@@ -20,6 +20,7 @@ class Sheet_Editor(object):
         self.svc_dispatch = None
         self.curr_dir = os.getcwd()
         self.context = None
+        self.ctlr = None
 
     def do_remote(self):
 
@@ -29,7 +30,6 @@ class Sheet_Editor(object):
             pass
 
         self.context = self.context
-        #smgr = ctx.ServiceManager
         smgr = self.smgr
 
         model = None
@@ -39,6 +39,8 @@ class Sheet_Editor(object):
                 continue
             model = desktop.getCurrentComponent()
         self.model = model
+        self.ctlr = model.getCurrentController()
+        self.frame = self.ctlr.getFrame()
         # get the central desktop object
         self.do_sheet(desktop)
         desktop.terminate()
@@ -47,7 +49,6 @@ class Sheet_Editor(object):
         #desktop = self.smgr.createInstanceWithContext( "com.sun.star.frame.Desktop", self.context)
         # access the current writer document
         model = self.model
-        #model = desktop.getCurrentComponent()
         self.svc_dispatch = self.smgr.createInstance("com.sun.star.frame.DispatchHelper")
         svc_dispatch = self.svc_dispatch
         try:
@@ -57,7 +58,6 @@ class Sheet_Editor(object):
                 model.Sheets.insertNewByName("dawson_deeds", idx)
             sheet = model.getSheets().getByName("dawson_deeds")
             sheet.clearContents(0xffffff)
-            #thiscomponent.currentController.setActiveSheet(oNewSheet)
             model.CurrentController.setActiveSheet(sheet)
             #TODO: FIX THIS to find the csv file from model.getLocation() url
             with open(f"{self.curr_dir}/reports/dawson.csv") as csv_file:
@@ -86,41 +86,32 @@ class Sheet_Editor(object):
                             pass
                     row += 1
             self.do_autofilter(sheet)
-            ctlr = model.getCurrentController()
-            frame = ctlr.getFrame()
-            svc_dispatch.executeDispatch(frame, ".uno:Save", "", 0, [])
+            svc_dispatch.executeDispatch(self.frame, ".uno:Save", "", 0, [])
             print("Have sheet")
         except Exception as exc:
             raise exc
-            pass
 
     def do_autofilter(self, sheet):
         cell = sheet.getCellRangeByName("A1:H1")
-        ctlr = self.model.getCurrentController()
-        ctlr.select(cell)
-        frame = ctlr.getFrame()
-        self.svc_dispatch.executeDispatch(frame, ".uno:DataFilterHideAutoFilter", "", 0, [])
-        self.svc_dispatch.executeDispatch(frame, ".uno:DataFilterAutoFilter", "", 0, [])
+        self.ctlr.select(cell)
+        self.svc_dispatch.executeDispatch(self.frame, ".uno:DataFilterHideAutoFilter", "", 0, [])
+        self.svc_dispatch.executeDispatch(self.frame, ".uno:DataFilterAutoFilter", "", 0, [])
 
     def do_date_fmt(self, cell):
-        ctlr = self.model.getCurrentController()
-        ctlr.select(cell)
-        frame = ctlr.getFrame()
+        self.ctlr.select(cell)
         d = {"Name": "NumberFormatValue", "Value": 37}
         prop = PropertyValue(Name="NumberFormatValue", Value=37)
-        self.svc_dispatch.executeDispatch(frame, ".uno:NumberFormatValue", "", 0, [prop])
+        self.svc_dispatch.executeDispatch(self.frame, ".uno:NumberFormatValue", "", 0, [prop])
     
     def do_hyperlink_fmt(self, cell, url):
-        ctlr = self.model.getCurrentController()
-        ctlr.select(cell)
-        frame = ctlr.getFrame()
+        self.ctlr.select(cell)
         props = [PropertyValue(Name="Hyperlink.Text", Value=url),
                     PropertyValue(Name="Hyperlink.URL", Value=url),
                     PropertyValue(Name="Hyperlink.Target", Value=""),
                     PropertyValue(Name="Hyperlink.Name", Value=""),
                     PropertyValue(Name="Hyperlink.Type", Value=1),
                 ]
-        self.svc_dispatch.executeDispatch(frame, ".uno:SetHyperlink", "", 0, props)
+        self.svc_dispatch.executeDispatch(self.frame, ".uno:SetHyperlink", "", 0, props)
 
     def launch_LO(self):
         try:
@@ -137,15 +128,12 @@ class Sheet_Editor(object):
             random.seed()
             sPipeName = "uno" + str(random.random())[2:]
 
-            #sOffice2 = 'C:/Program Files/LibreOffice/program/soffice.exe'
             # Start the office process, don't check for exit status since an exception is caught anyway if the office terminates unexpectedly.
-            #cmdArray = (sOffice2, "--nologo", "--nodefault", "".join(["--accept=pipe,name=", sPipeName, ";urp;"]))
             cmdArray = (sOffice, "".join(["--accept=pipe,name=", sPipeName, ";urp;"]),
                         '--norestore', self.curr_dir+'/reports/dawson.ods')
             os.chdir('/')
             p = subprocess.Popen(cmdArray)
             os.chdir(self.curr_dir) # change back to original
-            #TODO: Is xLocalContext.ServiceManager the same as 
             xLocalContext = uno.getComponentContext()
             resolver = xLocalContext.ServiceManager.createInstanceWithContext(
                 "com.sun.star.bridge.UnoUrlResolver", xLocalContext)
@@ -167,10 +155,6 @@ class Sheet_Editor(object):
             raise 
         self.context = xContext
         self.smgr = self.context.ServiceManager
-
-
-
-
 
 if __name__ == '__main__':
     ctlr = Sheet_Editor()

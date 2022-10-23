@@ -244,8 +244,9 @@ def main():
 def make_sheet():
     import sheet_edit
 
-    ctx2 = sheet_edit.launch_LO()
-    sheet_edit.do_remote(ctx2)
+    ctlr = sheet_edit.Sheet_Editor()
+    ctlr.launch_LO()
+    ctlr.do_remote()
 
 def fix_python():
     if sys.platform == 'win32':
