@@ -4,13 +4,9 @@ import random
 import subprocess
 import time
 import csv
-import urllib
-import socket  # only needed on win32-OOo3.0.0
-import datetime
 #NOTE: This module only works with the python version used by LibreOffice
 #      The uno module is specific to LibreOffice, not the one from pypy
 import uno
-import pyuno
 from com.sun.star.beans import PropertyValue
 from com.sun.star.connection import NoConnectException
 from com.sun.star.uno import Exception as UnoException
