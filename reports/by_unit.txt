@@ -178,13 +178,6 @@ Pkg Sale Price: 195000
 Assessed: 262611
 Account: 0400620
 -----------------------
-Unit: 301	Owner: MCLAMB, GRAHAM KENT
-Heated Area: 1628
-Deed Date: 09/08/2005
-Pkg Sale Price: 400000
-Assessed: 529576
-Account: 0328670
------------------------
 Unit: 302	Owner: SCIOLINO, CONSTANCE FLOYD; SCIOLINO, JOSEPH C
 Heated Area: 855
 Deed Date: 02/22/2011
@@ -198,6 +191,13 @@ Deed Date: 08/13/2021
 Pkg Sale Price: 391000
 Assessed: 416015
 Account: 0328671
+-----------------------
+Unit: 304	Owner: LEONARD, BAILEY H; LEONARD, SANDRA A
+Heated Area: 2254
+Deed Date: 12/18/2019
+Pkg Sale Price: 685000
+Assessed: 646331
+Account: 0328672
 -----------------------
 Unit: 304	Owner: LEONARD, BAILEY H; LEONARD, SANDRA A
 Heated Area: 2254
@@ -388,13 +388,6 @@ Pkg Sale Price: 393000
 Assessed: 359032
 Account: 0329081
 -----------------------
-Unit: 415	Owner: VILLEGAS, IBIS
-Heated Area: 1142
-Deed Date: 03/25/2020
-Pkg Sale Price: 393000
-Assessed: 359032
-Account: 0329081
------------------------
 Unit: 417	Owner: ATKINSON, KATHERINE
 Heated Area: 1687
 Deed Date: 06/20/2006
@@ -443,6 +436,13 @@ Deed Date: 06/29/2010
 Pkg Sale Price: 275000
 Assessed: 370433
 Account: 0329088
+-----------------------
+Unit: 508	Owner: HINKLE, CATHERINE
+Heated Area: 1409
+Deed Date: 06/17/2019
+Pkg Sale Price: 470000
+Assessed: 428189
+Account: 0329089
 -----------------------
 Unit: 508	Owner: HINKLE, CATHERINE
 Heated Area: 1409
