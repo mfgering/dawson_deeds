@@ -52,7 +52,8 @@ def bootstrap():
  
         # Generate a random pipe name.
         random.seed()
-        sPipeName = "uno" + str(random.random())[2:]
+        #sPipeName = "uno" + str(random.random())[2:]
+        sPipeName = "uno-server-mfg"
  
         # Start the office process, don't check for exit status since an exception is caught anyway if the office terminates unexpectedly.
         cmdArray = (sOffice, "--nologo", "--nodefault", "".join(["--accept=pipe,name=", sPipeName, ";urp;"]))
