@@ -8,7 +8,7 @@ import csv
 import urllib
 import pathlib
 
-#NOTE: This module only works with the python version used by LibreOffice
+#NOTE: ON WINDOWS, This module only works with the python version used by LibreOffice
 #      The uno module is specific to LibreOffice, not the one from pypy
 import uno
 from com.sun.star.beans import PropertyValue
