@@ -1,9 +1,13 @@
 import os
+import sys
 from sys import platform
 import random
 import subprocess
 import time
 import csv
+import urllib
+import pathlib
+
 #NOTE: This module only works with the python version used by LibreOffice
 #      The uno module is specific to LibreOffice, not the one from pypy
 import uno
@@ -12,13 +16,15 @@ from com.sun.star.connection import NoConnectException
 from com.sun.star.uno import Exception as UnoException
 
 class Sheet_Editor(object):
-    def __init__(self) -> None:
+    def __init__(self, csv_filename, ods_filename) -> None:
         self.model = None
         self.smgr = None
         self.svc_dispatch = None
         self.curr_dir = os.getcwd()
         self.context = None
         self.ctlr = None
+        self.csv_filename = csv_filename
+        self.ods_filename = ods_filename
 
     def do_remote(self):
 
@@ -60,10 +66,7 @@ class Sheet_Editor(object):
             sheet = model.getSheets().getByName("dawson_deeds")
             sheet.clearContents(0xffffff)
             model.CurrentController.setActiveSheet(sheet)
-            csv_parts = model.getLocation().split('/')[3:-1]
-            csv_parts2 = csv_parts+['dawson.csv']
-            csv_loc = '/'.join(csv_parts2)
-            with open(csv_loc) as csv_file:
+            with open(self.csv_filename) as csv_file:
                 csv_reader = csv.reader(csv_file, delimiter=',')
                 row = 0
                 for row_v in csv_reader:
@@ -133,7 +136,7 @@ class Sheet_Editor(object):
 
             # Start the office process, don't check for exit status since an exception is caught anyway if the office terminates unexpectedly.
             cmdArray = (sOffice, "".join(["--accept=pipe,name=", sPipeName, ";urp;"]),
-                        '--norestore', self.curr_dir+'/reports/dawson.ods')
+                        '--norestore', self.ods_filename)
             os.chdir('/')
             p = subprocess.Popen(cmdArray)
             os.chdir(self.curr_dir) # change back to original
@@ -160,7 +163,9 @@ class Sheet_Editor(object):
         self.smgr = self.context.ServiceManager
 
 if __name__ == '__main__':
-    ctlr = Sheet_Editor()
+    csv_filename = (len(sys.argv) > 1 and sys.argv[1]) or pathlib.Path(os.getcwd())/'reports'/'dawson.csv'
+    ods_filename = (len(sys.argv) > 2 and sys.argv[2]) or pathlib.Path(os.getcwd())/'reports'/'dawson.ods'
+    ctlr = Sheet_Editor(csv_filename, ods_filename)
     ctlr.launch_LO()
     ctlr.do_remote()
     print("Done")

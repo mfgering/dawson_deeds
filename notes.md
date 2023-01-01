@@ -18,3 +18,7 @@ Calc Date cells:
 note that you also may use Calc functions to calculate required values, using com.sun.star.sheet.FunctionAccess service
 that way, you create an instance of the service, and then use its callFunction to call e.g. DATEVALUE on the ISO date string
 
+
+Launching server on Linux:
+
+/usr/bin/soffice --calc --accept="socket,host=localhost,port=2002;urp;" reports/dawson.ods
