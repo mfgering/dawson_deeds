@@ -25,6 +25,8 @@ class Sheet_Editor(object):
         self.ctlr = None
         self.csv_filename = csv_filename
         self.ods_filename = ods_filename
+        self.header_row_num = 4
+        self.timestamp_row = 2
 
     def do_remote(self):
 
@@ -66,9 +68,14 @@ class Sheet_Editor(object):
             sheet = model.getSheets().getByName("dawson_deeds")
             sheet.clearContents(0xffffff)
             model.CurrentController.setActiveSheet(sheet)
+            # Set the timestamp in the sheet
+            mtime = os.path.getmtime(self.csv_filename)
+            m_str = time.ctime(mtime)
+            cell = sheet.getCellByPosition(1, self.timestamp_row)
+            cell.String = f"Last modified: {m_str}"
             with open(self.csv_filename) as csv_file:
                 csv_reader = csv.reader(csv_file, delimiter=',')
-                row = 0
+                row = self.header_row_num
                 for row_v in csv_reader:
                     print(row)
                     for col in range(0, len(row_v)):
@@ -98,10 +105,11 @@ class Sheet_Editor(object):
             raise exc
 
     def do_autofilter(self, sheet):
-        cell = sheet.getCellRangeByName("A1:H1")
+        hdr_row_num = self.header_row_num + 1
+        cell = sheet.getCellRangeByName(f"A{hdr_row_num}:H{hdr_row_num}")
         self.ctlr.select(cell)
-        self.svc_dispatch.executeDispatch(self.frame, ".uno:DataFilterHideAutoFilter", "", 0, [])
-        self.svc_dispatch.executeDispatch(self.frame, ".uno:DataFilterAutoFilter", "", 0, [])
+        #self.svc_dispatch.executeDispatch(self.frame, ".uno:DataFilterHideAutoFilter", "", 0, [])
+        #self.svc_dispatch.executeDispatch(self.frame, ".uno:DataFilterAutoFilter", "", 0, [])
 
     def do_date_fmt(self, cell):
         self.ctlr.select(cell)
