@@ -28,14 +28,28 @@ class Sheet_Editor(object):
         self.header_row_num = 4
         self.timestamp_row = 2
 
+    def do_local(self):
+        localContext = uno.getComponentContext()
+        self.context = localContext
+        self.smgr = localContext.ServiceManager
+        model = None
+        desktop = None
+        while model is None:
+            desktop = self.smgr.createInstanceWithContext( "com.sun.star.frame.Desktop",self.context)
+            if desktop is None:
+                continue
+            model = desktop.getCurrentComponent()
+        self.model = model
+        assert(desktop is not None)
+        self.ctlr = model.getCurrentController()
+        self.frame = self.ctlr.getFrame()
+        self.do_sheet(desktop)
+        desktop.terminate()
+    
     def do_remote(self):
 
         # get the uno component context from the PyUNO runtime
         localContext = uno.getComponentContext()
-        if localContext is None:
-            pass
-
-        self.context = self.context
         smgr = self.smgr
         assert(smgr is not None)
 
@@ -169,6 +183,13 @@ class Sheet_Editor(object):
             raise 
         self.context = xContext
         self.smgr = self.context.ServiceManager
+
+def mfg_macro(arg1=None):
+    #Note: when launched from push button, arg1 is com.sun.star.awt.ActionEvent
+    csv_filename = (len(sys.argv) > 1 and sys.argv[1]) or pathlib.Path(os.getcwd())/'reports'/'dawson.csv'
+    ods_filename = (len(sys.argv) > 2 and sys.argv[2]) or pathlib.Path(os.getcwd())/'reports'/'dawson.ods'
+    ctlr = Sheet_Editor(csv_filename, ods_filename)
+    ctlr.do_local()
 
 if __name__ == '__main__':
     csv_filename = (len(sys.argv) > 1 and sys.argv[1]) or pathlib.Path(os.getcwd())/'reports'/'dawson.csv'
