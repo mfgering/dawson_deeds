@@ -44,7 +44,7 @@ class Sheet_Editor(object):
         self.ctlr = model.getCurrentController()
         self.frame = self.ctlr.getFrame()
         self.do_sheet(desktop)
-        desktop.terminate()
+        #desktop.terminate()
     
     def do_remote(self):
 
