@@ -22,3 +22,10 @@ that way, you create an instance of the service, and then use its callFunction t
 Launching server on Linux:
 
 /usr/bin/soffice --calc --accept="socket,host=localhost,port=2002;urp;" reports/dawson.ods
+
+##Info##
+
+https://wiki.openoffice.org/wiki/Python
+
+https://wiki.documentfoundation.org/Macros/Python_Design_Guide#From_an_IDE_via_LibreOffice_Python_interpreter
+
