@@ -3,6 +3,13 @@ By Deed Date
 
 
 -----------------------
+Unit: 213	Owner: 9TH STREET INVESTMENT LLC
+Heated Area: 1139
+Deed Date: 03/23/2023
+Pkg Sale Price: 320000
+Assessed: 358086
+Account: 0328666
+-----------------------
 Unit: 313	Owner: OVERBEY, CHELSEA
 Heated Area: 1139
 Deed Date: 09/28/2022
@@ -240,13 +247,6 @@ Deed Date: 05/25/2017
 Pkg Sale Price: 355000
 Assessed: 417520
 Account: 0328669
------------------------
-Unit: 213	Owner: MOORE, CHRISTOPHER JAMES; BERRY, HEATHER ANN
-Heated Area: 1139
-Deed Date: 04/27/2017
-Pkg Sale Price: 320000
-Assessed: 358086
-Account: 0328666
 -----------------------
 Unit: 404	Owner: POWELL LINEAGE WAKE COUNTY LLC
 Heated Area: 2254
