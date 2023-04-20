@@ -342,7 +342,7 @@ Account: 0328667
 Unit: 213	Owner: 9TH STREET INVESTMENT LLC
 Heated Area: 1139
 Deed Date: 03/23/2023
-Pkg Sale Price: 320000
+Pkg Sale Price: 449500
 Assessed: 358086
 Account: 0328666
 -----------------------
