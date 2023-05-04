@@ -1,4 +1,22 @@
-The dawson_deeds module will make the csv file and the spreadsheet (on Windows only)
+The dawson_deeds module will make the csv file. Creating/updating the spreadsheet is done 
+via a libreoffice macro.
+
+# Debugging Macros
+
+On Linux, libreoffice uses the system python. The vscode IDE uses the ptvsd python module (use pip).
+
+Inject ptvsd into the python macro:
+```python
+def my_macro():
+    import ptvsd
+    ptvsd.enable_attach()
+    ptvsd.break_into_debugger()
+    print("Should be attachable")
+
+```
+In vscode, create a python debug config for remote attach. Launching this config will fail unless the above ptvsd.enable_attach() snippet has been executed first.
+
+----
 
 The python version for the spreadsheet must match LibreOffice (currently 3.8).
 

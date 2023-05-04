@@ -27,14 +27,6 @@
       "program": "${file}",
       "console": "integratedTerminal",
       "justMyCode": false
-    },
-    {
-      "name": "Python: bootstrap",
-      "type": "python",
-      "request": "launch",
-      "program": "officehelper.py",
-      "console": "integratedTerminal",
-      "justMyCode": false
     }
   ]
 }
