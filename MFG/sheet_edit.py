@@ -184,30 +184,20 @@ class Sheet_Editor(object):
         self.context = xContext
         self.smgr = self.context.ServiceManager
 
-def mfg_macro(arg1=None):
+def update_deeds_sheet(arg1=None):
     #Note: when launched from push button, arg1 is com.sun.star.awt.ActionEvent
     import ptvsd
     ptvsd.enable_attach()
     ptvsd.break_into_debugger()
     print("Should be attachable")
-    csv_filename = (len(sys.argv) > 1 and sys.argv[1]) or pathlib.Path(os.getcwd())/'projects/'/'dawson_deeds'/'reports'/'dawson.csv'
-    ods_filename = (len(sys.argv) > 2 and sys.argv[2]) or pathlib.Path(os.getcwd())/'projects/'/'dawson_deeds'/'reports'/'dawson.ods'
+    #sys.args are used only with standalone version, not the macro version
+    # Use relative file if exists, else check absolute
+    rel_file = 'projects/dawson_deeds/reports/dawson.csv'
+    csv_filename = rel_file if os.path.isfile(rel_file) else f"/home/mgering/{rel_file}"
+    #csv_filename = (len(sys.argv) > 1 and sys.argv[1]) or pathlib.Path(os.getcwd())/'projects/'/'dawson_deeds'/'reports'/'dawson.csv'
+    #ods_filename = (len(sys.argv) > 2 and sys.argv[2]) or pathlib.Path(os.getcwd())/'projects/'/'dawson_deeds'/'reports'/'dawson.ods'
+    ods_filename = None #TODO: FIX THIS
     ctlr = Sheet_Editor(csv_filename, ods_filename)
     ctlr.do_local()
 
-def mfg_test():
-    #Note: when launched from push button, arg1 is com.sun.star.awt.ActionEvent
-    csv_filename = (len(sys.argv) > 1 and sys.argv[1]) or pathlib.Path(os.getcwd())/'projects/'/'dawson_deeds'/'reports'/'dawson.csv'
-    ods_filename = (len(sys.argv) > 2 and sys.argv[2]) or pathlib.Path(os.getcwd())/'projects/'/'dawson_deeds'/'reports'/'dawson.ods'
-    ctlr = Sheet_Editor(csv_filename, ods_filename)
-    ctlr.do_local()
-
-if __name__ == '__main__':
-    csv_filename = (len(sys.argv) > 1 and sys.argv[1]) or pathlib.Path(os.getcwd())/'reports'/'dawson.csv'
-    ods_filename = (len(sys.argv) > 2 and sys.argv[2]) or pathlib.Path(os.getcwd())/'reports'/'dawson.ods'
-    ctlr = Sheet_Editor(csv_filename, ods_filename)
-    ctlr.launch_LO()
-    ctlr.do_remote()
-    print("Done")
-else:
-    print(f"Local: {__name__}")
+g_exportedScripts = (update_deeds_sheet,)
