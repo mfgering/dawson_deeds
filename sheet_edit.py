@@ -191,6 +191,13 @@ def mfg_macro(arg1=None):
     ctlr = Sheet_Editor(csv_filename, ods_filename)
     ctlr.do_local()
 
+def mfg_test():
+    print("Hi")
+    import ptvsd
+    ptvsd.enable_attach()
+    ptvsd.break_into_debugger()
+    print("Should be attachable")
+
 if __name__ == '__main__':
     csv_filename = (len(sys.argv) > 1 and sys.argv[1]) or pathlib.Path(os.getcwd())/'reports'/'dawson.csv'
     ods_filename = (len(sys.argv) > 2 and sys.argv[2]) or pathlib.Path(os.getcwd())/'reports'/'dawson.ods'
