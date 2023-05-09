@@ -7,12 +7,14 @@ import os
 import sys
 
 class Apt(object):
-    def __init__(self, account, unit):
+    def __init__(self, account, unit, st_num=None, st_name=None):
         self._deed_page = None
         self._owner = None
         self._account = account
         self._unit = unit
         self._deed_url = f"http://services.wakegov.com/realestate/Account.asp?id={self._account}"
+        self.st_num = st_num
+        self.st_name = st_name
 
     @property
     def unit(self):
@@ -122,6 +124,8 @@ class Apts(object):
             with open(self._csv_filename) as csv_file:
                 rdr = csv.DictReader(csv_file)
                 for row in rdr:
+                    #TODO: Use acct # to identify units and homes
+                    acct = row['account']
                     unit_num = row['unit_num']
                     if unit_num in self._prev_unit_map:
                         logging.error(f"Duplicate units: {unit_num}")
@@ -131,31 +135,37 @@ class Apts(object):
             logging.error(f"ERROR: {err}")
 
     @property
-    def apts(self):
+    def apts(self) -> list:
         if self._apts is None:
-            self._apts = self.search_apts()
-        return self._apts
+            self._apts = []
+            self._apts = self.wake_search()
+        result = self._apts
+        return result
 
-    def search_apts(self):
-        self._apts = []
-        # Note: need to iterate through all the pages
-        url = 'http://services.wakegov.com/realestate/AddressSearch.asp'
-        #params = {'c1': '1857', 'stype': 'addr', 'stnum': '317', 'stname': 'MORGAN', 'locidList': '1857'}
+    def wake_search(self):
+        for base_url in [f'http://services.wakegov.com/realestate/AddressSearch.asp?stnum=&stype=addr&stname=cypress+club&locidList=',
+                         f'http://services.wakegov.com/realestate/AddressSearch.asp?stnum=&stype=addr&stname=cypress+lakes&locidList=',
+                         ]:
+            self.search_apts(base_url)
+
+    def search_apts(self, base_url):
+        # Note: need to iterate through all the pages; use page_num for url parm
         page_num = 1
         while True:
             apt_count = 0
-            url = f'http://services.wakegov.com/realestate/AddressSearch.asp?stnum=317&stype=addr&stname=morgan&locidList=1857&spg={page_num}'
-            page = requests.get(url)
+            page = requests.get(f"{base_url}&spg={page_num}")
             soup = BeautifulSoup(page.content, 'html.parser')
             # search thru all tr looking for good results
             for row in soup.find_all('tr'):
                 cols = row.find_all('td')
-                if len(cols) < 9 or cols[2].text != '317':
+                if len(cols) < 9 or not(represents_int(cols[2].text)):
                     continue
                 account = cols[1].text
                 unit = cols[3].text
-                if unit != '':
-                    self._apts.append(Apt(account, unit))
+                st_num = cols[2].text
+                st_name = cols[5].text
+                if unit != '' or st_num != '':
+                    self._apts.append(Apt(account, unit, st_num, st_name))
                 apt_count += 1
             if apt_count == 0:
                 break
@@ -169,23 +179,28 @@ class Apts(object):
         return apts
 
     def by_deed_date(self, reverse=False):
-        apts = self.apts
+        apts = self.apts()
         apts.sort(key=lambda x: x.deed_date, reverse=reverse)
         return apts
 
     def by_heated_area(self, reverse=False):
-        apts = self.apts
+        apts = self.apts()
         apts.sort(key=lambda x: x.heated_area, reverse=reverse)
         return apts
 
+    def get_account(self, acct_str):
+        for apt in self.apts():
+            if apt.account == acct_str:
+                return apt
+        return None
     def get_unit(self, unit_str):
-        for apt in self.apts:
+        for apt in self.apts():
             if apt.unit == unit_str:
                 return apt
         return None
     
     def check_missing(self):
-        curr_unit_nums = set(map(lambda x: x.unit, list(self.apts)))
+        curr_unit_nums = set(map(lambda x: x.account, list(self.apts())))
         prev_unit_nums = set(self._prev_unit_map.keys())
         self._deleted_units = prev_unit_nums - curr_unit_nums
         if len(self._deleted_units):
@@ -196,14 +211,14 @@ class Apts(object):
 
     def make_csv(self):
         with open(self._csv_filename, "w", newline='') as fp:
-            field_names = ['unit_num', 'owner', 'heated_area', 'deed_date', 'pkg_sale_price', 'assessed', 'account', 'deed_url']
+            field_names = ['st_num', 'unit_num', 'owner', 'heated_area', 'deed_date', 'pkg_sale_price', 'assessed', 'account', 'st_name', 'deed_url']
             writer = csv.DictWriter(fp, fieldnames=field_names, quoting=csv.QUOTE_NONNUMERIC)
             writer.writeheader()
-            for apt in sorted(self.apts, key=lambda x: x.unit):
-                writer.writerow({'unit_num': apt.unit, 
+            for apt in sorted(self.apts(), key=lambda x: x.unit):
+                writer.writerow({'st_num': apt.st_num, 'unit_num': apt.unit, 
                     'owner': apt.owner, 'heated_area': apt.heated_area, 
                     'deed_date': apt.deed_date.strftime('%m/%d/%Y'), 'pkg_sale_price': apt.pkg_sale_price, 
-                    'assessed': apt.assessed, 'account': apt.account, 'deed_url': apt.deed_url})
+                    'assessed': apt.assessed, 'account': apt.account, 'deed_url': apt.deed_url, 'st_name': apt.st_name})
             #Insert old values for deleted unit (on the theory that the search failed for some reason)
             for unit_num in sorted(self._deleted_units):
                 prev_dict = self._prev_unit_map[unit_num]
@@ -216,6 +231,7 @@ def print_apts(apts, fn, title=''):
         for apt in apts:
             # Improve owner field by converting newlines into semi-colons
             print("-----------------------", file=fp)
+            print(f"Street Number: {apt.st_num}", file=fp)
             print(f"Unit: {apt.unit}\tOwner: {apt.owner}", file=fp)
             print(f"Heated Area: {apt.heated_area}", file=fp)
             print(f"Deed Date: {apt.deed_date.strftime('%m/%d/%Y')}", file=fp)
@@ -224,17 +240,25 @@ def print_apts(apts, fn, title=''):
             print(f"Account: {apt.account}", file=fp)
         fp.close()
 
+def represents_int(s):
+    try: 
+        int(s)
+    except ValueError:
+        return False
+    else:
+        return True
+
 def main():
-    logging.basicConfig(filename='./reports/dawson_deeds.log', level=logging.INFO,
+    logging.basicConfig(filename='./reports/cypress/cypress_deeds.log', level=logging.INFO,
                         format='%(levelname)s\t%(message)s', filemode='w')
     logging.info("Start")
-    csv_filename = "./reports/dawson.csv"
+    csv_filename = "./reports/cypress/cypress.csv"
     ctlr = Apts(csv_filename)
     ctlr.check_missing()
     ctlr.make_csv()
-    print_apts(ctlr.by_unit_num(), "./reports/by_unit.txt", "By Unit")
-    print_apts(ctlr.by_deed_date(reverse=True), "./reports/by_deed.txt", "By Deed Date")
-    print_apts(ctlr.by_heated_area(reverse=True), "./reports/by_heated_area.txt", "By Heated Area")
+    print_apts(ctlr.by_unit_num(), "./reports/cypress/by_unit.txt", "By Unit")
+    print_apts(ctlr.by_deed_date(reverse=True), "./reports/cypress/by_deed.txt", "By Deed Date")
+    print_apts(ctlr.by_heated_area(reverse=True), "./reports/cypress/by_heated_area.txt", "By Heated Area")
     if sys.platform == 'win32':
         fix_python()
         make_sheet()
