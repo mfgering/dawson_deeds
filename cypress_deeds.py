@@ -138,9 +138,8 @@ class Apts(object):
     def apts(self) -> list:
         if self._apts is None:
             self._apts = []
-            self._apts = self.wake_search()
-        result = self._apts
-        return result
+            self.wake_search()
+        return self._apts
 
     def wake_search(self):
         for base_url in [f'http://services.wakegov.com/realestate/AddressSearch.asp?stnum=&stype=addr&stname=cypress+club&locidList=',
@@ -166,7 +165,7 @@ class Apts(object):
                 st_name = cols[5].text
                 if unit != '' or st_num != '':
                     self._apts.append(Apt(account, unit, st_num, st_name))
-                apt_count += 1
+                    apt_count += 1
             if apt_count == 0:
                 break
             page_num += 1
@@ -179,28 +178,28 @@ class Apts(object):
         return apts
 
     def by_deed_date(self, reverse=False):
-        apts = self.apts()
+        apts = self.apts
         apts.sort(key=lambda x: x.deed_date, reverse=reverse)
         return apts
 
     def by_heated_area(self, reverse=False):
-        apts = self.apts()
+        apts = self.apts
         apts.sort(key=lambda x: x.heated_area, reverse=reverse)
         return apts
 
     def get_account(self, acct_str):
-        for apt in self.apts():
+        for apt in self.apts:
             if apt.account == acct_str:
                 return apt
         return None
     def get_unit(self, unit_str):
-        for apt in self.apts():
+        for apt in self.apts:
             if apt.unit == unit_str:
                 return apt
         return None
     
     def check_missing(self):
-        curr_unit_nums = set(map(lambda x: x.account, list(self.apts())))
+        curr_unit_nums = set(map(lambda x: x.account, list(self.apts)))
         prev_unit_nums = set(self._prev_unit_map.keys())
         self._deleted_units = prev_unit_nums - curr_unit_nums
         if len(self._deleted_units):
@@ -214,16 +213,12 @@ class Apts(object):
             field_names = ['st_num', 'unit_num', 'owner', 'heated_area', 'deed_date', 'pkg_sale_price', 'assessed', 'account', 'st_name', 'deed_url']
             writer = csv.DictWriter(fp, fieldnames=field_names, quoting=csv.QUOTE_NONNUMERIC)
             writer.writeheader()
-            for apt in sorted(self.apts(), key=lambda x: x.unit):
+#            for apt in sorted(self.apts, key=lambda x: x.unit):
+            for apt in self.apts:
                 writer.writerow({'st_num': apt.st_num, 'unit_num': apt.unit, 
                     'owner': apt.owner, 'heated_area': apt.heated_area, 
                     'deed_date': apt.deed_date.strftime('%m/%d/%Y'), 'pkg_sale_price': apt.pkg_sale_price, 
                     'assessed': apt.assessed, 'account': apt.account, 'deed_url': apt.deed_url, 'st_name': apt.st_name})
-            #Insert old values for deleted unit (on the theory that the search failed for some reason)
-            for unit_num in sorted(self._deleted_units):
-                prev_dict = self._prev_unit_map[unit_num]
-                writer.writerow(prev_dict)
-                logging.info(f"Inserted previous info for {unit_num}")
 
 def print_apts(apts, fn, title=''):
     with open(fn, 'w') as fp:
@@ -254,14 +249,12 @@ def main():
     logging.info("Start")
     csv_filename = "./reports/cypress/cypress.csv"
     ctlr = Apts(csv_filename)
-    ctlr.check_missing()
+    ctlr.apts
+    #ctlr.check_missing()
     ctlr.make_csv()
-    print_apts(ctlr.by_unit_num(), "./reports/cypress/by_unit.txt", "By Unit")
-    print_apts(ctlr.by_deed_date(reverse=True), "./reports/cypress/by_deed.txt", "By Deed Date")
-    print_apts(ctlr.by_heated_area(reverse=True), "./reports/cypress/by_heated_area.txt", "By Heated Area")
-    if sys.platform == 'win32':
-        fix_python()
-        make_sheet()
+    #print_apts(ctlr.by_unit_num(), "./reports/cypress/by_unit.txt", "By Unit")
+    #print_apts(ctlr.by_deed_date(reverse=True), "./reports/cypress/by_deed.txt", "By Deed Date")
+    #print_apts(ctlr.by_heated_area(reverse=True), "./reports/cypress/by_heated_area.txt", "By Heated Area")
     logging.info("Done")
 
 def make_sheet():
