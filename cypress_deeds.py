@@ -5,6 +5,7 @@ import requests
 import logging
 import os
 import sys
+import operator
 
 class Apt(object):
     def __init__(self, account, unit, st_num=None, st_name=None):
@@ -118,19 +119,23 @@ class Apts(object):
         self._csv_filename = csv_filename
         self._get_current_csv()
 
+    def get_canonical_apts(self):
+        x = sorted(self.apts, key=operator.attrgetter('st_num'))
+        return sorted(x, key=operator.attrgetter('account'))
+
     def _get_current_csv(self):
-        self._prev_unit_map = {}
+        self._prev_acct_map = {}
+        ignore_dups = ['0076203']
         try:
             with open(self._csv_filename) as csv_file:
                 rdr = csv.DictReader(csv_file)
                 for row in rdr:
                     #TODO: Use acct # to identify units and homes
                     acct = row['account']
-                    unit_num = row['unit_num']
-                    if unit_num in self._prev_unit_map:
-                        logging.error(f"Duplicate units: {unit_num}")
+                    if acct in self._prev_acct_map and acct in ignore_dups:
+                        logging.error(f"Duplicate accounts: {acct}")
                     else:
-                        self._prev_unit_map[row['unit_num']] = dict(row)
+                        self._prev_acct_map[acct] = dict(row)
         except Exception as err:
             logging.error(f"ERROR: {err}")
 
@@ -199,12 +204,12 @@ class Apts(object):
         return None
     
     def check_missing(self):
-        curr_unit_nums = set(map(lambda x: x.account, list(self.apts)))
-        prev_unit_nums = set(self._prev_unit_map.keys())
-        self._deleted_units = prev_unit_nums - curr_unit_nums
-        if len(self._deleted_units):
-            logging.warning(f"Deleted: {', '.join(sorted(self._deleted_units))}")
-        added = curr_unit_nums - prev_unit_nums
+        curr_accts = set(map(lambda x: x.account, list(self.apts)))
+        prev_accts = set(self._prev_acct_map.keys())
+        self._deleted_accts = prev_accts - curr_accts
+        if len(self._deleted_accts):
+            logging.warning(f"Deleted: {', '.join(sorted(self._deleted_accts))}")
+        added = curr_accts - prev_accts
         if len(added):
             logging.warning(f"Added: {', '.join(sorted(added))}")
 
@@ -214,7 +219,7 @@ class Apts(object):
             writer = csv.DictWriter(fp, fieldnames=field_names, quoting=csv.QUOTE_NONNUMERIC)
             writer.writeheader()
 #            for apt in sorted(self.apts, key=lambda x: x.unit):
-            for apt in self.apts:
+            for apt in self.get_canonical_apts():
                 writer.writerow({'st_num': apt.st_num, 'unit_num': apt.unit, 
                     'owner': apt.owner, 'heated_area': apt.heated_area, 
                     'deed_date': apt.deed_date.strftime('%m/%d/%Y'), 'pkg_sale_price': apt.pkg_sale_price, 
@@ -250,7 +255,7 @@ def main():
     csv_filename = "./reports/cypress/cypress.csv"
     ctlr = Apts(csv_filename)
     ctlr.apts
-    #ctlr.check_missing()
+    ctlr.check_missing()
     ctlr.make_csv()
     #print_apts(ctlr.by_unit_num(), "./reports/cypress/by_unit.txt", "By Unit")
     #print_apts(ctlr.by_deed_date(reverse=True), "./reports/cypress/by_deed.txt", "By Deed Date")
