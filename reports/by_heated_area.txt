@@ -45,9 +45,9 @@ Pkg Sale Price: 875000
 Assessed: 892302
 Account: 0329095
 -----------------------
-Unit: 304	Owner: LEONARD, BAILEY H; LEONARD, SANDRA A
+Unit: 304	Owner: LEWIS, WILBERT
 Heated Area: 2254
-Deed Date: 12/18/2019
+Deed Date: 05/01/2023
 Pkg Sale Price: 685000
 Assessed: 646331
 Account: 0328672

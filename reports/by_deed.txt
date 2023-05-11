@@ -3,6 +3,13 @@ By Deed Date
 
 
 -----------------------
+Unit: 304	Owner: LEWIS, WILBERT
+Heated Area: 2254
+Deed Date: 05/01/2023
+Pkg Sale Price: 685000
+Assessed: 646331
+Account: 0328672
+-----------------------
 Unit: 213	Owner: 9TH STREET INVESTMENT LLC
 Heated Area: 1139
 Deed Date: 03/23/2023
@@ -142,13 +149,6 @@ Deed Date: 03/25/2020
 Pkg Sale Price: 393000
 Assessed: 359032
 Account: 0329081
------------------------
-Unit: 304	Owner: LEONARD, BAILEY H; LEONARD, SANDRA A
-Heated Area: 2254
-Deed Date: 12/18/2019
-Pkg Sale Price: 685000
-Assessed: 646331
-Account: 0328672
 -----------------------
 Unit: 407	Owner: KENNEY, STEPHEN A
 Heated Area: 1183
