@@ -3,9 +3,9 @@ By Deed Date
 
 
 -----------------------
-Unit: 304	Owner: LEWIS, WILBERT
+Unit: 304	Owner: LEWIS, WILBERT B TRUSTEE; WILBERT B LEWIS TRUST
 Heated Area: 2254
-Deed Date: 05/01/2023
+Deed Date: 05/09/2023
 Pkg Sale Price: 835000
 Assessed: 646331
 Account: 0328672
