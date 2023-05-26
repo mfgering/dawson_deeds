@@ -3,6 +3,13 @@ By Deed Date
 
 
 -----------------------
+Unit: 200	Owner: COOPER, JAMES WESLEY
+Heated Area: 1224
+Deed Date: 05/19/2023
+Pkg Sale Price: 410000
+Assessed: 417520
+Account: 0328654
+-----------------------
 Unit: 304	Owner: LEWIS, WILBERT B TRUSTEE; WILBERT B LEWIS TRUST
 Heated Area: 2254
 Deed Date: 05/09/2023
@@ -205,13 +212,6 @@ Deed Date: 01/25/2019
 Pkg Sale Price: 532000
 Assessed: 546257
 Account: 0328683
------------------------
-Unit: 200	Owner: SLATER, WHITNEY R
-Heated Area: 1224
-Deed Date: 01/24/2019
-Pkg Sale Price: 410000
-Assessed: 417520
-Account: 0328654
 -----------------------
 Unit: 515	Owner: LAWSON, ROBERT CHARLES; POWELL, FRANKLIN MATTHEW
 Heated Area: 2888
