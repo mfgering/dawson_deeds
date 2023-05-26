@@ -31,9 +31,9 @@ Pkg Sale Price: 940000
 Assessed: 502614
 Account: 0400624
 -----------------------
-Unit: 200	Owner: SLATER, WHITNEY R
+Unit: 200	Owner: COOPER, JAMES WESLEY
 Heated Area: 1224
-Deed Date: 01/24/2019
+Deed Date: 05/19/2023
 Pkg Sale Price: 410000
 Assessed: 417520
 Account: 0328654
@@ -199,10 +199,10 @@ Pkg Sale Price: 391000
 Assessed: 416015
 Account: 0328671
 -----------------------
-Unit: 304	Owner: LEONARD, BAILEY H; LEONARD, SANDRA A
+Unit: 304	Owner: LEWIS, WILBERT B TRUSTEE; WILBERT B LEWIS TRUST
 Heated Area: 2254
-Deed Date: 12/18/2019
-Pkg Sale Price: 685000
+Deed Date: 05/09/2023
+Pkg Sale Price: 835000
 Assessed: 646331
 Account: 0328672
 -----------------------
