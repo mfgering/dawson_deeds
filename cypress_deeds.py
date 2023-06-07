@@ -215,7 +215,7 @@ class Apts(object):
 
     def make_csv(self):
         with open(self._csv_filename, "w", newline='') as fp:
-            field_names = ['st_num', 'unit_num', 'owner', 'heated_area', 'deed_date', 'pkg_sale_price', 'assessed', 'account', 'st_name', 'deed_url']
+            field_names = ['st_num', 'unit_num', 'owner', 'heated_area', 'deed_date', 'pkg_sale_price', 'assessed', 'account', 'photo', 'st_name']
             writer = csv.DictWriter(fp, fieldnames=field_names, quoting=csv.QUOTE_NONNUMERIC)
             writer.writeheader()
 #            for apt in sorted(self.apts, key=lambda x: x.unit):
@@ -223,7 +223,7 @@ class Apts(object):
                 writer.writerow({'st_num': apt.st_num, 'unit_num': apt.unit, 
                     'owner': apt.owner, 'heated_area': apt.heated_area, 
                     'deed_date': apt.deed_date.strftime('%m/%d/%Y'), 'pkg_sale_price': apt.pkg_sale_price, 
-                    'assessed': apt.assessed, 'account': apt.account, 'deed_url': apt.deed_url, 'st_name': apt.st_name})
+                    'assessed': apt.assessed, 'account': apt.account, 'photo': 'photo', 'st_name': apt.st_name})
 
 def print_apts(apts, fn, title=''):
     with open(fn, 'w') as fp:
@@ -261,13 +261,6 @@ def main():
     #print_apts(ctlr.by_deed_date(reverse=True), "./reports/cypress/by_deed.txt", "By Deed Date")
     #print_apts(ctlr.by_heated_area(reverse=True), "./reports/cypress/by_heated_area.txt", "By Heated Area")
     logging.info("Done")
-
-def make_sheet():
-    import sheet_edit
-
-    ctlr = sheet_edit.Sheet_Editor()
-    ctlr.launch_LO()
-    ctlr.do_remote()
 
 def fix_python():
     if sys.platform == 'win32':
