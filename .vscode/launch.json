@@ -28,8 +28,6 @@
       "program": "${file}",
       "console": "integratedTerminal",
       "justMyCode": false
-<<<<<<<<< Temporary merge branch 1
-=========
     },
     {
       "name": "Python: Attach using Process Id",
@@ -45,7 +43,6 @@
       "program": "officehelper.py",
       "console": "integratedTerminal",
       "justMyCode": false
->>>>>>>>> Temporary merge branch 2
     }
   ]
 }
