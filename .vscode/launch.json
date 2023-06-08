@@ -10,7 +10,8 @@
       "request": "attach",
       "connect": {
         "host": "localhost",
-        "port": 5678
+        "port": 5678, 
+        "timeout": 30
       },
       "pathMappings": [
         {
@@ -25,6 +26,21 @@
       "type": "python",
       "request": "launch",
       "program": "${file}",
+      "console": "integratedTerminal",
+      "justMyCode": false
+    },
+    {
+      "name": "Python: Attach using Process Id",
+      "type": "python",
+      "request": "attach",
+      "processId": "${command:pickProcess}",
+      "justMyCode": true
+    },
+    {
+      "name": "Python: bootstrap",
+      "type": "python",
+      "request": "launch",
+      "program": "officehelper.py",
       "console": "integratedTerminal",
       "justMyCode": false
     }

@@ -5,14 +5,17 @@ import requests
 import logging
 import os
 import sys
+import operator
 
 class Apt(object):
-    def __init__(self, account, unit):
+    def __init__(self, account, unit, st_num=None, st_name=None):
         self._deed_page = None
         self._owner = None
         self._account = account
         self._unit = unit
         self._deed_url = f"http://services.wakegov.com/realestate/Account.asp?id={self._account}"
+        self.st_num = st_num
+        self.st_name = st_name
 
     @property
     def unit(self):
@@ -116,47 +119,58 @@ class Apts(object):
         self._csv_filename = csv_filename
         self._get_current_csv()
 
+    def get_canonical_apts(self):
+        x = sorted(self.apts, key=operator.attrgetter('st_num'))
+        return sorted(x, key=operator.attrgetter('account'))
+
     def _get_current_csv(self):
-        self._prev_unit_map = {}
+        self._prev_acct_map = {}
+        ignore_dups = ['0076203']
         try:
             with open(self._csv_filename) as csv_file:
                 rdr = csv.DictReader(csv_file)
                 for row in rdr:
-                    unit_num = row['unit_num']
-                    if unit_num in self._prev_unit_map:
-                        logging.error(f"Duplicate units: {unit_num}")
+                    #TODO: Use acct # to identify units and homes
+                    acct = row['account']
+                    if acct in self._prev_acct_map and acct in ignore_dups:
+                        logging.error(f"Duplicate accounts: {acct}")
                     else:
-                        self._prev_unit_map[row['unit_num']] = dict(row)
+                        self._prev_acct_map[acct] = dict(row)
         except Exception as err:
             logging.error(f"ERROR: {err}")
 
     @property
-    def apts(self):
+    def apts(self) -> list:
         if self._apts is None:
-            self._apts = self.search_apts()
+            self._apts = []
+            self.wake_search()
         return self._apts
 
-    def search_apts(self):
-        self._apts = []
-        # Note: need to iterate through all the pages
-        url = 'http://services.wakegov.com/realestate/AddressSearch.asp'
-        #params = {'c1': '1857', 'stype': 'addr', 'stnum': '317', 'stname': 'MORGAN', 'locidList': '1857'}
+    def wake_search(self):
+        for base_url in [f'http://services.wakegov.com/realestate/AddressSearch.asp?stnum=&stype=addr&stname=cypress+club&locidList=',
+                         f'http://services.wakegov.com/realestate/AddressSearch.asp?stnum=&stype=addr&stname=cypress+lakes&locidList=',
+                         ]:
+            self.search_apts(base_url)
+
+    def search_apts(self, base_url):
+        # Note: need to iterate through all the pages; use page_num for url parm
         page_num = 1
         while True:
             apt_count = 0
-            url = f'http://services.wakegov.com/realestate/AddressSearch.asp?stnum=317&stype=addr&stname=morgan&locidList=1857&spg={page_num}'
-            page = requests.get(url)
+            page = requests.get(f"{base_url}&spg={page_num}")
             soup = BeautifulSoup(page.content, 'html.parser')
             # search thru all tr looking for good results
             for row in soup.find_all('tr'):
                 cols = row.find_all('td')
-                if len(cols) < 9 or cols[2].text != '317':
+                if len(cols) < 9 or not(represents_int(cols[2].text)):
                     continue
                 account = cols[1].text
                 unit = cols[3].text
-                if unit != '':
-                    self._apts.append(Apt(account, unit))
-                apt_count += 1
+                st_num = cols[2].text
+                st_name = cols[5].text
+                if unit != '' or st_num != '':
+                    self._apts.append(Apt(account, unit, st_num, st_name))
+                    apt_count += 1
             if apt_count == 0:
                 break
             page_num += 1
@@ -178,6 +192,11 @@ class Apts(object):
         apts.sort(key=lambda x: x.heated_area, reverse=reverse)
         return apts
 
+    def get_account(self, acct_str):
+        for apt in self.apts:
+            if apt.account == acct_str:
+                return apt
+        return None
     def get_unit(self, unit_str):
         for apt in self.apts:
             if apt.unit == unit_str:
@@ -185,30 +204,26 @@ class Apts(object):
         return None
     
     def check_missing(self):
-        curr_unit_nums = set(map(lambda x: x.unit, list(self.apts)))
-        prev_unit_nums = set(self._prev_unit_map.keys())
-        self._deleted_units = prev_unit_nums - curr_unit_nums
-        if len(self._deleted_units):
-            logging.warning(f"Deleted: {', '.join(sorted(self._deleted_units))}")
-        added = curr_unit_nums - prev_unit_nums
+        curr_accts = set(map(lambda x: x.account, list(self.apts)))
+        prev_accts = set(self._prev_acct_map.keys())
+        self._deleted_accts = prev_accts - curr_accts
+        if len(self._deleted_accts):
+            logging.warning(f"Deleted: {', '.join(sorted(self._deleted_accts))}")
+        added = curr_accts - prev_accts
         if len(added):
             logging.warning(f"Added: {', '.join(sorted(added))}")
 
     def make_csv(self):
         with open(self._csv_filename, "w", newline='') as fp:
-            field_names = ['unit_num', 'owner', 'heated_area', 'deed_date', 'pkg_sale_price', 'assessed', 'account', 'deed_url']
+            field_names = ['st_num', 'unit_num', 'owner', 'heated_area', 'deed_date', 'pkg_sale_price', 'assessed', 'account', 'photo', 'st_name']
             writer = csv.DictWriter(fp, fieldnames=field_names, quoting=csv.QUOTE_NONNUMERIC)
             writer.writeheader()
-            for apt in sorted(self.apts, key=lambda x: x.unit):
-                writer.writerow({'unit_num': apt.unit, 
+#            for apt in sorted(self.apts, key=lambda x: x.unit):
+            for apt in self.get_canonical_apts():
+                writer.writerow({'st_num': apt.st_num, 'unit_num': apt.unit, 
                     'owner': apt.owner, 'heated_area': apt.heated_area, 
                     'deed_date': apt.deed_date.strftime('%m/%d/%Y'), 'pkg_sale_price': apt.pkg_sale_price, 
-                    'assessed': apt.assessed, 'account': apt.account, 'deed_url': apt.deed_url})
-            #Insert old values for deleted unit (on the theory that the search failed for some reason)
-            for unit_num in sorted(self._deleted_units):
-                prev_dict = self._prev_unit_map[unit_num]
-                writer.writerow(prev_dict)
-                logging.info(f"Inserted previous info for {unit_num}")
+                    'assessed': apt.assessed, 'account': apt.account, 'photo': 'photo', 'st_name': apt.st_name})
 
 def print_apts(apts, fn, title=''):
     with open(fn, 'w') as fp:
@@ -216,6 +231,7 @@ def print_apts(apts, fn, title=''):
         for apt in apts:
             # Improve owner field by converting newlines into semi-colons
             print("-----------------------", file=fp)
+            print(f"Street Number: {apt.st_num}", file=fp)
             print(f"Unit: {apt.unit}\tOwner: {apt.owner}", file=fp)
             print(f"Heated Area: {apt.heated_area}", file=fp)
             print(f"Deed Date: {apt.deed_date.strftime('%m/%d/%Y')}", file=fp)
@@ -224,18 +240,59 @@ def print_apts(apts, fn, title=''):
             print(f"Account: {apt.account}", file=fp)
         fp.close()
 
+def represents_int(s):
+    try: 
+        int(s)
+    except ValueError:
+        return False
+    else:
+        return True
+
 def main():
-    logging.basicConfig(filename='./reports/dawson_deeds.log', level=logging.INFO,
+    logging.basicConfig(filename='./reports/cypress/cypress_deeds.log', level=logging.INFO,
                         format='%(levelname)s\t%(message)s', filemode='w')
     logging.info("Start")
-    csv_filename = "./reports/dawson.csv"
+    csv_filename = "./reports/cypress/cypress.csv"
     ctlr = Apts(csv_filename)
+    ctlr.apts
     ctlr.check_missing()
     ctlr.make_csv()
-    print_apts(ctlr.by_unit_num(), "./reports/by_unit.txt", "By Unit")
-    print_apts(ctlr.by_deed_date(reverse=True), "./reports/by_deed.txt", "By Deed Date")
-    print_apts(ctlr.by_heated_area(reverse=True), "./reports/by_heated_area.txt", "By Heated Area")
+    #print_apts(ctlr.by_unit_num(), "./reports/cypress/by_unit.txt", "By Unit")
+    #print_apts(ctlr.by_deed_date(reverse=True), "./reports/cypress/by_deed.txt", "By Deed Date")
+    #print_apts(ctlr.by_heated_area(reverse=True), "./reports/cypress/by_heated_area.txt", "By Heated Area")
     logging.info("Done")
+
+def fix_python():
+    if sys.platform == 'win32':
+        #This is required in order to make pyuno usable with the default python interpreter under windows
+        #Some environment variables must be modified
+
+        #get the install path from registry
+        import winreg
+        install_folder = None
+        # try with OpenOffice, LibreOffice on W7
+        for _key in [# OpenOffice 3.3
+                    "SOFTWARE\\LibreOffice\\UNO\\InstallPath",
+                    # LibreOffice 3.4.5 on W7
+                    "SOFTWARE\\Wow6432Node\\LibreOffice\\UNO\\InstallPath"]:
+            try:
+                value = winreg.QueryValue(winreg.HKEY_LOCAL_MACHINE, _key)
+                install_folder = '\\'.join(value.split('\\')[:-1]) # 'C:\\Program Files\\OpenOffice.org 3'
+                #modify the environment variables
+                os.environ['URE_BOOTSTRAP'] = 'vnd.sun.star.pathname:{0}\\program\\fundamental.ini'.format(install_folder)
+                os.environ['UNO_PATH'] = install_folder+'\\program\\'
+
+                sys.path.append(install_folder+'\\Basis\\program')
+                sys.path.append(install_folder+'\\program')
+
+                paths = ''
+                for path in ("\\URE\\bin;", "\\Basis\\program;", "'\\program;"):
+                    paths += install_folder + path
+                os.environ['PATH'] =  paths+ os.environ['PATH']
+            except Exception as detail:
+                _errMess = "%s" % detail
+            else:
+                break   # first existing key will do
 
 if __name__ == '__main__':
     main()
