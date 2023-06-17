@@ -6,7 +6,7 @@ By Deed Date
 Unit: 200	Owner: COOPER, JAMES WESLEY
 Heated Area: 1224
 Deed Date: 05/19/2023
-Pkg Sale Price: 410000
+Pkg Sale Price: 478000
 Assessed: 417520
 Account: 0328654
 -----------------------
