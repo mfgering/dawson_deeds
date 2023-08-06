@@ -129,13 +129,6 @@ Pkg Sale Price: 414000
 Assessed: 546257
 Account: 0329082
 -----------------------
-Unit: 201	Owner: WELLER, DENNIS
-Heated Area: 1628
-Deed Date: 03/01/2021
-Pkg Sale Price: 535000
-Assessed: 529576
-Account: 0328655
------------------------
 Unit: 401	Owner: MUNRO, JOYCE LORAINE; FARRELL, WILSON WRENSHALL JR
 Heated Area: 1628
 Deed Date: 12/12/2012
@@ -184,6 +177,13 @@ Deed Date: 09/25/2020
 Pkg Sale Price: 395000
 Assessed: 428189
 Account: 0329075
+-----------------------
+Unit: 508	Owner: HINKLE, CATHERINE
+Heated Area: 1409
+Deed Date: 06/17/2019
+Pkg Sale Price: 470000
+Assessed: 428189
+Account: 0329089
 -----------------------
 Unit: 508	Owner: HINKLE, CATHERINE
 Heated Area: 1409
@@ -297,13 +297,6 @@ Pkg Sale Price: 387000
 Assessed: 370433
 Account: 0328675
 -----------------------
-Unit: 207	Owner: CABA PROPERTIES II LLC
-Heated Area: 1183
-Deed Date: 02/25/2021
-Pkg Sale Price: 370000
-Assessed: 370433
-Account: 0328660
------------------------
 Unit: 407	Owner: KENNEY, STEPHEN A
 Heated Area: 1183
 Deed Date: 12/10/2019
@@ -324,6 +317,13 @@ Deed Date: 07/01/2021
 Pkg Sale Price: 345000
 Assessed: 359032
 Account: 0328682
+-----------------------
+Unit: 415	Owner: VILLEGAS, IBIS
+Heated Area: 1142
+Deed Date: 03/25/2020
+Pkg Sale Price: 393000
+Assessed: 359032
+Account: 0329081
 -----------------------
 Unit: 415	Owner: VILLEGAS, IBIS
 Heated Area: 1142
