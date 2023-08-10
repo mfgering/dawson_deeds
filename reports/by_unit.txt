@@ -45,6 +45,13 @@ Pkg Sale Price: 265000
 Assessed: 262611
 Account: 0400616
 -----------------------
+Unit: 201	Owner: WELLER, DENNIS
+Heated Area: 1628
+Deed Date: 03/01/2021
+Pkg Sale Price: 535000
+Assessed: 529576
+Account: 0328655
+-----------------------
 Unit: 202	Owner: COOPER, JAMES WESLEY
 Heated Area: 855
 Deed Date: 12/29/2015
@@ -79,6 +86,13 @@ Deed Date: 07/30/2018
 Pkg Sale Price: 437500
 Assessed: 428189
 Account: 0328659
+-----------------------
+Unit: 207	Owner: CABA PROPERTIES II LLC
+Heated Area: 1183
+Deed Date: 02/25/2021
+Pkg Sale Price: 370000
+Assessed: 370433
+Account: 0328660
 -----------------------
 Unit: 208	Owner: BOSCO, TANNER LEE
 Heated Area: 1409
@@ -381,13 +395,6 @@ Pkg Sale Price: 393000
 Assessed: 359032
 Account: 0329081
 -----------------------
-Unit: 415	Owner: VILLEGAS, IBIS
-Heated Area: 1142
-Deed Date: 03/25/2020
-Pkg Sale Price: 393000
-Assessed: 359032
-Account: 0329081
------------------------
 Unit: 417	Owner: ATKINSON, KATHERINE
 Heated Area: 1687
 Deed Date: 06/20/2006
@@ -436,13 +443,6 @@ Deed Date: 06/29/2010
 Pkg Sale Price: 275000
 Assessed: 370433
 Account: 0329088
------------------------
-Unit: 508	Owner: HINKLE, CATHERINE
-Heated Area: 1409
-Deed Date: 06/17/2019
-Pkg Sale Price: 470000
-Assessed: 428189
-Account: 0329089
 -----------------------
 Unit: 508	Owner: HINKLE, CATHERINE
 Heated Area: 1409
