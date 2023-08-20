@@ -22,6 +22,19 @@ class Apt(object):
         return self._unit
 
     @property
+    def style(self):
+        if self._pkg_sale_price == '':
+            return 'admin'
+        if (self._unit is None or len(self._unit) == 0):
+            return 'cottage'
+        else:
+            try:
+                int(self._unit)
+            except:
+                return 'admin'
+            return 'villa'
+        
+    @property
     def owner(self):
         if self._owner is None:
             page = self._get_deed_page()
@@ -215,7 +228,7 @@ class Apts(object):
 
     def make_csv(self):
         with open(self._csv_filename, "w", newline='') as fp:
-            field_names = ['st_num', 'unit_num', 'owner', 'heated_area', 'deed_date', 'pkg_sale_price', 'assessed', 'account', 'photo', 'st_name']
+            field_names = ['st_num', 'unit_num', 'owner', 'heated_area', 'deed_date', 'pkg_sale_price', 'assessed', 'account', 'photo', 'st_name', 'style']
             writer = csv.DictWriter(fp, fieldnames=field_names, quoting=csv.QUOTE_NONNUMERIC)
             writer.writeheader()
 #            for apt in sorted(self.apts, key=lambda x: x.unit):
@@ -223,7 +236,7 @@ class Apts(object):
                 writer.writerow({'st_num': apt.st_num, 'unit_num': apt.unit, 
                     'owner': apt.owner, 'heated_area': apt.heated_area, 
                     'deed_date': apt.deed_date.strftime('%m/%d/%Y'), 'pkg_sale_price': apt.pkg_sale_price, 
-                    'assessed': apt.assessed, 'account': apt.account, 'photo': 'photo', 'st_name': apt.st_name})
+                    'assessed': apt.assessed, 'account': apt.account, 'photo': 'photo', 'st_name': apt.st_name, 'style': apt.style})
 
 def print_apts(apts, fn, title=''):
     with open(fn, 'w') as fp:
