@@ -7,6 +7,13 @@ import os
 import sys
 import operator
 
+addr_cottage_map = {
+    '8709': 'laurel',
+    '8731': 'laurel?',
+    '8728': 'laurel?',
+    '8739': 'laurel?',
+    '8722': 'laurel?'}
+
 class Apt(object):
     def __init__(self, account, unit, st_num=None, st_name=None):
         self._deed_page = None
@@ -21,6 +28,13 @@ class Apt(object):
     def unit(self):
         return self._unit
 
+    @property
+    def model(self):
+        if self.style == 'cottage':
+            if self.st_num in addr_cottage_map:
+                return addr_cottage_map[self.st_num]
+        return ''
+    
     @property
     def style(self):
         if self._pkg_sale_price == '':
@@ -228,7 +242,7 @@ class Apts(object):
 
     def make_csv(self):
         with open(self._csv_filename, "w", newline='') as fp:
-            field_names = ['st_num', 'unit_num', 'owner', 'heated_area', 'deed_date', 'pkg_sale_price', 'assessed', 'account', 'photo', 'st_name', 'style']
+            field_names = ['st_num', 'unit_num', 'owner', 'heated_area', 'deed_date', 'pkg_sale_price', 'assessed', 'account', 'photo', 'st_name', 'style', 'model']
             writer = csv.DictWriter(fp, fieldnames=field_names, quoting=csv.QUOTE_NONNUMERIC)
             writer.writeheader()
 #            for apt in sorted(self.apts, key=lambda x: x.unit):
@@ -236,7 +250,7 @@ class Apts(object):
                 writer.writerow({'st_num': apt.st_num, 'unit_num': apt.unit, 
                     'owner': apt.owner, 'heated_area': apt.heated_area, 
                     'deed_date': apt.deed_date.strftime('%m/%d/%Y'), 'pkg_sale_price': apt.pkg_sale_price, 
-                    'assessed': apt.assessed, 'account': apt.account, 'photo': 'photo', 'st_name': apt.st_name, 'style': apt.style})
+                    'assessed': apt.assessed, 'account': apt.account, 'photo': 'photo', 'st_name': apt.st_name, 'style': apt.style, 'model': apt.model})
 
 def print_apts(apts, fn, title=''):
     with open(fn, 'w') as fp:
