@@ -4,6 +4,7 @@
   // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
   "version": "0.2.0",
   "configurations": [
+
     {
       "name": "Python: Remote Attach",
       "type": "python",
@@ -11,12 +12,12 @@
       "connect": {
         "host": "localhost",
         "port": 5678, 
-        "timeout": 30
+        "timeout": 130
       },
       "pathMappings": [
         {
-          "localRoot": "${workspaceFolder}",
-          "remoteRoot": "${workspaceFolder}"
+          "localRoot": "${workspaceFolder}/MFG/sheet_edit.py",
+          "remoteRoot": "/home/mgering/vnd.sun.star.tdoc:/2/Scripts/python/MFG/sheet_edit.py"
         }
       ],
       "justMyCode": true
