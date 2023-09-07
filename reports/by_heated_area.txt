@@ -24,9 +24,9 @@ Pkg Sale Price: 655000
 Assessed: 911148
 Account: 0329083
 -----------------------
-Unit: 512	Owner: MACKIN, JAMES ANTHONY TRUSTEE; MACKIN, SUSAN GOLDSTEIN TRUSTEE
+Unit: 512	Owner: ROLLING WINGS LLC
 Heated Area: 2995
-Deed Date: 08/23/2021
+Deed Date: 08/23/2023
 Pkg Sale Price: 960000
 Assessed: 899311
 Account: 0329093
