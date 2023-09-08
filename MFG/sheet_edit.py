@@ -184,6 +184,11 @@ class Sheet_Editor(object):
         self.context = xContext
         self.smgr = self.context.ServiceManager
 
+def setup_debug(arg1=None):
+    import ptvsd
+    ptvsd.enable_attach()
+    ptvsd.wait_for_attach()
+    
 def update_deeds_sheet(arg1=None):
     #Note: when launched from push button, arg1 is com.sun.star.awt.ActionEvent
     import ptvsd
@@ -200,4 +205,4 @@ def update_deeds_sheet(arg1=None):
     ctlr = Sheet_Editor(csv_filename, ods_filename)
     ctlr.do_local()
 
-g_exportedScripts = (update_deeds_sheet,)
+g_exportedScripts = (setup_debug, update_deeds_sheet)
