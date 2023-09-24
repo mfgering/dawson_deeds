@@ -10,13 +10,6 @@ Pkg Sale Price: 1590000
 Assessed: 899311
 Account: 0329093
 -----------------------
-Unit: 512	Owner: ROLLING WINGS LLC
-Heated Area: 2995
-Deed Date: 08/23/2023
-Pkg Sale Price: 1590000
-Assessed: 899311
-Account: 0329093
------------------------
 Unit: 200	Owner: COOPER, JAMES WESLEY
 Heated Area: 1224
 Deed Date: 05/19/2023
@@ -157,6 +150,13 @@ Pkg Sale Price: 377000
 Assessed: 358086
 Account: 0328658
 -----------------------
+Unit: 415	Owner: VILLEGAS, IBIS
+Heated Area: 1142
+Deed Date: 03/25/2020
+Pkg Sale Price: 393000
+Assessed: 359032
+Account: 0329081
+-----------------------
 Unit: 407	Owner: KENNEY, STEPHEN A
 Heated Area: 1183
 Deed Date: 12/10/2019
@@ -177,13 +177,6 @@ Deed Date: 06/21/2019
 Pkg Sale Price: 606000
 Assessed: 625037
 Account: 0328678
------------------------
-Unit: 508	Owner: HINKLE, CATHERINE
-Heated Area: 1409
-Deed Date: 06/17/2019
-Pkg Sale Price: 470000
-Assessed: 428189
-Account: 0329089
 -----------------------
 Unit: 508	Owner: HINKLE, CATHERINE
 Heated Area: 1409
@@ -240,6 +233,13 @@ Deed Date: 11/09/2017
 Pkg Sale Price: 307000
 Assessed: 379528
 Account: 0328679
+-----------------------
+Unit: 505	Owner: POWELL LINEAGE CHERRY COURT LLC
+Heated Area: 1139
+Deed Date: 11/09/2017
+Pkg Sale Price: 314000
+Assessed: 358086
+Account: 0329086
 -----------------------
 Unit: 300	Owner: MORGAN, DONNA
 Heated Area: 1224
@@ -451,19 +451,19 @@ Pkg Sale Price: 378000
 Assessed: 412927
 Account: 0400622
 -----------------------
-Unit: 324	Owner: FRANKLIN, EUGENE THOMAS JR
-Heated Area: 1206
-Deed Date: 03/15/2006
-Pkg Sale Price: 378000
-Assessed: 412927
-Account: 0400622
------------------------
 Unit: 403	Owner: FOYE, DWON
 Heated Area: 1365
 Deed Date: 10/03/2005
 Pkg Sale Price: 338000
 Assessed: 416015
 Account: 0328686
+-----------------------
+Unit: 301	Owner: MCLAMB, GRAHAM KENT
+Heated Area: 1628
+Deed Date: 09/08/2005
+Pkg Sale Price: 400000
+Assessed: 529576
+Account: 0328670
 -----------------------
 Unit: 309	Owner: JEFFREYS, HARRY & DANA
 Heated Area: 956
