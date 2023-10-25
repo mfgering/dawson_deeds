@@ -234,7 +234,10 @@ class Apts(object):
         curr_accts = set(map(lambda x: x.account, list(self.apts)))
         prev_accts = set(self._prev_acct_map.keys())
         self._deleted_accts = prev_accts - curr_accts
-        if len(self._deleted_accts):
+        deleted = list(self._deleted_accts)
+        if len(deleted) == 0 or deleted[0] is None:
+            logging.info(f"Nothing deleted")
+        else:
             logging.warning(f"Deleted: {', '.join(sorted(self._deleted_accts))}")
         added = curr_accts - prev_accts
         if len(added):
