@@ -9,6 +9,7 @@ import sys
 class Apt(object):
     def __init__(self, account, unit):
         self._deed_page = None
+        self._buildings_page = None
         self._owner = None
         self._account = account
         self._unit = unit
@@ -68,7 +69,7 @@ class Apt(object):
 
     @property
     def heated_area(self):
-        self._heated_area = self._get_value('Heated Area')
+        self._heated_area = self._get_value('Heated Area', Apt._get_buildings_page)
         result = 0
         try:
             result = int(''.join([c for c in str(self._heated_area) if c != ',']))
@@ -99,8 +100,17 @@ class Apt(object):
             self._deed_page = BeautifulSoup(page.content, 'html.parser')
         return self._deed_page
 
-    def _get_value(self, name):
-        page = self._get_deed_page()
+    def _get_buildings_page(self):
+        if self._buildings_page is None:
+            url = f"http://services.wakegov.com/realestate/Building.asp?id={self._account}&cd=01"
+            page = requests.get(url)
+            self._buildings_page = BeautifulSoup(page.content, 'html.parser')
+        return self._buildings_page
+
+    def _get_value(self, name, get_page_fn=None):
+        if get_page_fn is None:
+            get_page_fn = Apt._get_deed_page
+        page = get_page_fn(self)
         for row in page.find_all('tr'):
             cols = row.find_all('td')
             for col_num in range(0, len(cols)):
@@ -109,6 +119,7 @@ class Apt(object):
                     cols2 = p.find_all('td')
                     value = cols2[1].text
                     return value
+        return None
 
 class Apts(object):
     def __init__(self, csv_filename):
