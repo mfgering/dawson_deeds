@@ -94,6 +94,13 @@ Pkg Sale Price: 600000
 Assessed: 625037
 Account: 0329091
 -----------------------
+Unit: 410	Owner: WATKE, FREDERIC W. & ANN M.
+Heated Area: 2171
+Deed Date: 05/22/2014
+Pkg Sale Price: 525000
+Assessed: 625037
+Account: 0329077
+-----------------------
 Unit: 210	Owner: ODONOVAN, GERALD & SEOSAIMHIN
 Heated Area: 2171
 Deed Date: 05/26/2006
@@ -317,13 +324,6 @@ Deed Date: 07/01/2021
 Pkg Sale Price: 345000
 Assessed: 359032
 Account: 0328682
------------------------
-Unit: 415	Owner: VILLEGAS, IBIS
-Heated Area: 1142
-Deed Date: 03/25/2020
-Pkg Sale Price: 393000
-Assessed: 359032
-Account: 0329081
 -----------------------
 Unit: 415	Owner: VILLEGAS, IBIS
 Heated Area: 1142
