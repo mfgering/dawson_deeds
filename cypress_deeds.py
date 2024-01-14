@@ -6,6 +6,7 @@ import logging
 import os
 import sys
 import operator
+from typing import List, Dict, Tuple, Union, Optional
 
 addr_cottage_map = {
     '8709': 'laurel',
@@ -32,7 +33,7 @@ class Apt(object):
     def model(self):
         if self.style == 'cottage':
             if self.st_num in addr_cottage_map:
-                return addr_cottage_map[self.st_num]
+                return addr_cottage_map[str(self.st_num)]
         return ''
     
     @property
@@ -142,7 +143,7 @@ class Apt(object):
 
 class Apts(object):
     def __init__(self, csv_filename):
-        self._apts = None
+        self._apts: Optional[List[Apt]] = None
         self._csv_filename = csv_filename
         self._get_current_csv()
 
@@ -196,11 +197,13 @@ class Apts(object):
                 st_num = cols[2].text
                 st_name = cols[5].text
                 if unit != '' or st_num != '':
+                    assert self._apts is not None
                     self._apts.append(Apt(account, unit, st_num, st_name))
                     apt_count += 1
             if apt_count == 0:
                 break
             page_num += 1
+        assert self._apts is not None, "apts cannot be None"
         logging.info(f"Found {len(self._apts)} units online")
         return self._apts
 
@@ -262,7 +265,7 @@ def print_apts(apts, fn, title=''):
             # Improve owner field by converting newlines into semi-colons
             print("-----------------------", file=fp)
             print(f"Street Number: {apt.st_num}", file=fp)
-            print(f"Unit: {apt.unit}\tOwner: {apt.owner}", file=fp)
+            print(f"Unit: {apt.unit}\tStyle: {apt.style}\tOwner: {apt.owner}", file=fp)
             print(f"Heated Area: {apt.heated_area}", file=fp)
             print(f"Deed Date: {apt.deed_date.strftime('%m/%d/%Y')}", file=fp)
             print(f"Pkg Sale Price: {apt.pkg_sale_price}", file=fp)
@@ -287,9 +290,9 @@ def main():
     ctlr.apts
     ctlr.check_missing()
     ctlr.make_csv()
-    #print_apts(ctlr.by_unit_num(), "./reports/cypress/by_unit.txt", "By Unit")
-    #print_apts(ctlr.by_deed_date(reverse=True), "./reports/cypress/by_deed.txt", "By Deed Date")
-    #print_apts(ctlr.by_heated_area(reverse=True), "./reports/cypress/by_heated_area.txt", "By Heated Area")
+    print_apts(ctlr.by_unit_num(), "./reports/cypress/by_unit.txt", "By Unit")
+    print_apts(ctlr.by_deed_date(reverse=True), "./reports/cypress/by_deed.txt", "By Deed Date")
+    print_apts(ctlr.by_heated_area(reverse=True), "./reports/cypress/by_heated_area.txt", "By Heated Area")
     logging.info("Done")
 
 def fix_python():
