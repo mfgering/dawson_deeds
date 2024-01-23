@@ -14,6 +14,7 @@ class Apt(object):
         self._account = account
         self._unit = unit
         self._deed_url = f"http://services.wakegov.com/realestate/Account.asp?id={self._account}"
+        self._real_estate_id = None
 
     @property
     def unit(self):
@@ -107,6 +108,19 @@ class Apt(object):
             self._buildings_page = BeautifulSoup(page.content, 'html.parser')
         return self._buildings_page
 
+    @property
+    def real_estate_id(self):
+        page = self._get_deed_page()
+        import re
+        for x in page.find_all('td'):
+            y = x.text
+            m = re.match(r'Real Estate ID\s+([0-9]+).*', y)
+            if m:
+                self._real_estate_id = m.group(1)
+                break
+        assert self._real_estate_id is not None
+        return self._real_estate_id
+
     def _get_value(self, name, get_page_fn=None):
         if get_page_fn is None:
             get_page_fn = Apt._get_deed_page
@@ -114,7 +128,7 @@ class Apt(object):
         for row in page.find_all('tr'):
             cols = row.find_all('td')
             for col_num in range(0, len(cols)):
-                if cols[col_num].text == name:
+                if cols[col_num].text.strip() == name:
                     p = cols[col_num].parent
                     cols2 = p.find_all('td')
                     value = cols2[1].text
@@ -207,14 +221,14 @@ class Apts(object):
 
     def make_csv(self):
         with open(self._csv_filename, "w", newline='') as fp:
-            field_names = ['unit_num', 'owner', 'heated_area', 'deed_date', 'pkg_sale_price', 'assessed', 'account', 'deed_url']
+            field_names = ['unit_num', 'owner', 'heated_area', 'deed_date', 'pkg_sale_price', 'assessed', 'real_estate_id', 'account', 'deed_url']
             writer = csv.DictWriter(fp, fieldnames=field_names, quoting=csv.QUOTE_NONNUMERIC)
             writer.writeheader()
             for apt in sorted(self.apts, key=lambda x: x.unit):
                 writer.writerow({'unit_num': apt.unit, 
                     'owner': apt.owner, 'heated_area': apt.heated_area, 
                     'deed_date': apt.deed_date.strftime('%m/%d/%Y'), 'pkg_sale_price': apt.pkg_sale_price, 
-                    'assessed': apt.assessed, 'account': apt.account, 'deed_url': apt.deed_url})
+                    'assessed': apt.assessed, 'real_estate_id': apt.real_estate_id, 'account': apt.account, 'deed_url': apt.deed_url})
             #Insert old values for deleted unit (on the theory that the search failed for some reason)
             for unit_num in sorted(self._deleted_units):
                 prev_dict = self._prev_unit_map[unit_num]
@@ -234,6 +248,9 @@ def print_apts(apts, fn, title=''):
             print(f"Assessed: {apt.assessed}", file=fp)
             print(f"Account: {apt.account}", file=fp)
         fp.close()
+
+def print_real_estate_ids(apts):
+    pass
 
 def main():
     logging.basicConfig(filename='./reports/dawson_deeds.log', level=logging.INFO,
