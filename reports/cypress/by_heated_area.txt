@@ -1712,7 +1712,7 @@ Unit: 401	Style: villa	Owner: MAREADY, LUCY
 Heated Area: 1500
 Deed Date: 11/03/2020
 Pkg Sale Price: 554000
-Assessed: 673922
+Assessed: 677599
 Account: 0479631
 -----------------------
 Street Number: 8581
