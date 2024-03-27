@@ -371,6 +371,14 @@ Pkg Sale Price: 810000
 Assessed: 1359832
 Account: 0403326
 -----------------------
+Street Number: 8601
+Unit: 307	Style: villa	Owner: GAMBILL, RICHARD LEE TRUSTEE; RICHARD LEE GAMBILL REVOCABLE TRUST
+Heated Area: 2526
+Deed Date: 03/15/2024
+Pkg Sale Price: 1445000
+Assessed: 1138976
+Account: 0403288
+-----------------------
 Street Number: 8821
 Unit: 407	Style: villa	Owner: STRUIK, HENDRIK & EDITH L
 Heated Area: 2526
@@ -378,14 +386,6 @@ Deed Date: 10/16/2023
 Pkg Sale Price: 1305000
 Assessed: 1272574
 Account: 0403714
------------------------
-Street Number: 8601
-Unit: 307	Style: villa	Owner: BURGESS, WILLIAM T & BARBARA P
-Heated Area: 2526
-Deed Date: 03/13/2020
-Pkg Sale Price: 909000
-Assessed: 1138976
-Account: 0403288
 -----------------------
 Street Number: 8601
 Unit: 507	Style: villa	Owner: ROBERG, THOMAS H TRUSTEE; ROBERG, JUNE K TRUSTEE

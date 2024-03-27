@@ -1380,10 +1380,10 @@ Assessed: 654238
 Account: 0461525
 -----------------------
 Street Number: 8601
-Unit: 307	Style: villa	Owner: BURGESS, WILLIAM T & BARBARA P
+Unit: 307	Style: villa	Owner: GAMBILL, RICHARD LEE TRUSTEE; RICHARD LEE GAMBILL REVOCABLE TRUST
 Heated Area: 2526
-Deed Date: 03/13/2020
-Pkg Sale Price: 909000
+Deed Date: 03/15/2024
+Pkg Sale Price: 1445000
 Assessed: 1138976
 Account: 0403288
 -----------------------
