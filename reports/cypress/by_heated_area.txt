@@ -3,142 +3,6 @@ By Heated Area
 
 
 -----------------------
-Street Number: 8710
-Unit: 	Style: admin	Owner: CYPRESS OF RALEIGH CONDO HOMEOWNERS
-Heated Area: 66866
-Deed Date: 09/10/2008
-Pkg Sale Price: 0
-Assessed: 0
-Account: 0076203
------------------------
-Street Number: 8601
-Unit: 	Style: admin	Owner: CYPRESS OF RALEIGH CONDO HOMEOWNERS
-Heated Area: 66866
-Deed Date: 09/10/2008
-Pkg Sale Price: 0
-Assessed: 0
-Account: 0076203
------------------------
-Street Number: 8800
-Unit: 	Style: admin	Owner: CYPRESS OF RALEIGH CONDO HOMEOWNERS
-Heated Area: 66866
-Deed Date: 09/10/2008
-Pkg Sale Price: 0
-Assessed: 0
-Account: 0076203
------------------------
-Street Number: 8801
-Unit: 	Style: admin	Owner: CYPRESS OF RALEIGH CONDO HOMEOWNERS
-Heated Area: 66866
-Deed Date: 09/10/2008
-Pkg Sale Price: 0
-Assessed: 0
-Account: 0076203
------------------------
-Street Number: 8821
-Unit: 	Style: admin	Owner: CYPRESS OF RALEIGH CONDO HOMEOWNERS
-Heated Area: 66866
-Deed Date: 09/10/2008
-Pkg Sale Price: 0
-Assessed: 0
-Account: 0076203
------------------------
-Street Number: 8601
-Unit: BLD A	Style: admin	Owner: CYPRESS OF RALEIGH CONDO HOMEOWNERS
-Heated Area: 66866
-Deed Date: 09/10/2008
-Pkg Sale Price: 0
-Assessed: 0
-Account: 0076203
------------------------
-Street Number: 8811
-Unit: BLD B	Style: admin	Owner: CYPRESS OF RALEIGH CONDO HOMEOWNERS
-Heated Area: 66866
-Deed Date: 09/10/2008
-Pkg Sale Price: 0
-Assessed: 0
-Account: 0076203
------------------------
-Street Number: 8821
-Unit: BLD C	Style: admin	Owner: CYPRESS OF RALEIGH CONDO HOMEOWNERS
-Heated Area: 66866
-Deed Date: 09/10/2008
-Pkg Sale Price: 0
-Assessed: 0
-Account: 0076203
------------------------
-Street Number: 8710
-Unit: CLUB	Style: admin	Owner: CYPRESS OF RALEIGH CONDO HOMEOWNERS
-Heated Area: 66866
-Deed Date: 09/10/2008
-Pkg Sale Price: 0
-Assessed: 0
-Account: 0076203
------------------------
-Street Number: 8801
-Unit: CLUB	Style: admin	Owner: CYPRESS OF RALEIGH CONDO HOMEOWNERS
-Heated Area: 66866
-Deed Date: 09/10/2008
-Pkg Sale Price: 0
-Assessed: 0
-Account: 0076203
------------------------
-Street Number: 8800
-Unit: GATE	Style: admin	Owner: CYPRESS OF RALEIGH CONDO HOMEOWNERS
-Heated Area: 66866
-Deed Date: 09/10/2008
-Pkg Sale Price: 0
-Assessed: 0
-Account: 0076203
------------------------
-Street Number: 8602
-Unit: M	Style: admin	Owner: CYPRESS OF RALEIGH CONDO HOMEOWNERS
-Heated Area: 66866
-Deed Date: 09/10/2008
-Pkg Sale Price: 0
-Assessed: 0
-Account: 0076203
------------------------
-Street Number: 8604
-Unit: M	Style: admin	Owner: CYPRESS OF RALEIGH CONDO HOMEOWNERS
-Heated Area: 66866
-Deed Date: 09/10/2008
-Pkg Sale Price: 0
-Assessed: 0
-Account: 0076203
------------------------
-Street Number: 8606
-Unit: M	Style: admin	Owner: CYPRESS OF RALEIGH CONDO HOMEOWNERS
-Heated Area: 66866
-Deed Date: 09/10/2008
-Pkg Sale Price: 0
-Assessed: 0
-Account: 0076203
------------------------
-Street Number: 8806
-Unit: M	Style: admin	Owner: CYPRESS OF RALEIGH CONDO HOMEOWNERS
-Heated Area: 66866
-Deed Date: 09/10/2008
-Pkg Sale Price: 0
-Assessed: 0
-Account: 0076203
------------------------
-Street Number: 8808
-Unit: M	Style: admin	Owner: CYPRESS OF RALEIGH CONDO HOMEOWNERS
-Heated Area: 66866
-Deed Date: 09/10/2008
-Pkg Sale Price: 0
-Assessed: 0
-Account: 0076203
------------------------
-Street Number: 8810
-Unit: M	Style: admin	Owner: CYPRESS OF RALEIGH CONDO HOMEOWNERS
-Heated Area: 66866
-Deed Date: 09/10/2008
-Pkg Sale Price: 0
-Assessed: 0
-Account: 0076203
------------------------
 Street Number: 8733
 Unit: 	Style: cottage	Owner: SANDMAN, MICHAEL G; SANDMAN, ANDREW K
 Heated Area: 4074
@@ -2690,3 +2554,139 @@ Deed Date: 06/10/2020
 Pkg Sale Price: 200000
 Assessed: 365444
 Account: 0403361
+-----------------------
+Street Number: 8710
+Unit: 	Style: admin	Owner: CYPRESS OF RALEIGH CONDO HOMEOWNERS
+Heated Area: 0
+Deed Date: 09/10/2008
+Pkg Sale Price: 0
+Assessed: 0
+Account: 0076203
+-----------------------
+Street Number: 8601
+Unit: 	Style: admin	Owner: CYPRESS OF RALEIGH CONDO HOMEOWNERS
+Heated Area: 0
+Deed Date: 09/10/2008
+Pkg Sale Price: 0
+Assessed: 0
+Account: 0076203
+-----------------------
+Street Number: 8800
+Unit: 	Style: admin	Owner: CYPRESS OF RALEIGH CONDO HOMEOWNERS
+Heated Area: 0
+Deed Date: 09/10/2008
+Pkg Sale Price: 0
+Assessed: 0
+Account: 0076203
+-----------------------
+Street Number: 8801
+Unit: 	Style: admin	Owner: CYPRESS OF RALEIGH CONDO HOMEOWNERS
+Heated Area: 0
+Deed Date: 09/10/2008
+Pkg Sale Price: 0
+Assessed: 0
+Account: 0076203
+-----------------------
+Street Number: 8821
+Unit: 	Style: admin	Owner: CYPRESS OF RALEIGH CONDO HOMEOWNERS
+Heated Area: 0
+Deed Date: 09/10/2008
+Pkg Sale Price: 0
+Assessed: 0
+Account: 0076203
+-----------------------
+Street Number: 8601
+Unit: BLD A	Style: admin	Owner: CYPRESS OF RALEIGH CONDO HOMEOWNERS
+Heated Area: 0
+Deed Date: 09/10/2008
+Pkg Sale Price: 0
+Assessed: 0
+Account: 0076203
+-----------------------
+Street Number: 8811
+Unit: BLD B	Style: admin	Owner: CYPRESS OF RALEIGH CONDO HOMEOWNERS
+Heated Area: 0
+Deed Date: 09/10/2008
+Pkg Sale Price: 0
+Assessed: 0
+Account: 0076203
+-----------------------
+Street Number: 8821
+Unit: BLD C	Style: admin	Owner: CYPRESS OF RALEIGH CONDO HOMEOWNERS
+Heated Area: 0
+Deed Date: 09/10/2008
+Pkg Sale Price: 0
+Assessed: 0
+Account: 0076203
+-----------------------
+Street Number: 8710
+Unit: CLUB	Style: admin	Owner: CYPRESS OF RALEIGH CONDO HOMEOWNERS
+Heated Area: 0
+Deed Date: 09/10/2008
+Pkg Sale Price: 0
+Assessed: 0
+Account: 0076203
+-----------------------
+Street Number: 8801
+Unit: CLUB	Style: admin	Owner: CYPRESS OF RALEIGH CONDO HOMEOWNERS
+Heated Area: 0
+Deed Date: 09/10/2008
+Pkg Sale Price: 0
+Assessed: 0
+Account: 0076203
+-----------------------
+Street Number: 8800
+Unit: GATE	Style: admin	Owner: CYPRESS OF RALEIGH CONDO HOMEOWNERS
+Heated Area: 0
+Deed Date: 09/10/2008
+Pkg Sale Price: 0
+Assessed: 0
+Account: 0076203
+-----------------------
+Street Number: 8602
+Unit: M	Style: admin	Owner: CYPRESS OF RALEIGH CONDO HOMEOWNERS
+Heated Area: 0
+Deed Date: 09/10/2008
+Pkg Sale Price: 0
+Assessed: 0
+Account: 0076203
+-----------------------
+Street Number: 8604
+Unit: M	Style: admin	Owner: CYPRESS OF RALEIGH CONDO HOMEOWNERS
+Heated Area: 0
+Deed Date: 09/10/2008
+Pkg Sale Price: 0
+Assessed: 0
+Account: 0076203
+-----------------------
+Street Number: 8606
+Unit: M	Style: admin	Owner: CYPRESS OF RALEIGH CONDO HOMEOWNERS
+Heated Area: 0
+Deed Date: 09/10/2008
+Pkg Sale Price: 0
+Assessed: 0
+Account: 0076203
+-----------------------
+Street Number: 8806
+Unit: M	Style: admin	Owner: CYPRESS OF RALEIGH CONDO HOMEOWNERS
+Heated Area: 0
+Deed Date: 09/10/2008
+Pkg Sale Price: 0
+Assessed: 0
+Account: 0076203
+-----------------------
+Street Number: 8808
+Unit: M	Style: admin	Owner: CYPRESS OF RALEIGH CONDO HOMEOWNERS
+Heated Area: 0
+Deed Date: 09/10/2008
+Pkg Sale Price: 0
+Assessed: 0
+Account: 0076203
+-----------------------
+Street Number: 8810
+Unit: M	Style: admin	Owner: CYPRESS OF RALEIGH CONDO HOMEOWNERS
+Heated Area: 0
+Deed Date: 09/10/2008
+Pkg Sale Price: 0
+Assessed: 0
+Account: 0076203
