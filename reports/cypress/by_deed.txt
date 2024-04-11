@@ -299,6 +299,14 @@ Pkg Sale Price: 581000
 Assessed: 617197
 Account: 0403362
 -----------------------
+Street Number: 8811
+Unit: 510	Style: villa	Owner: BURGESS, PETER H HEIRS
+Heated Area: 1240
+Deed Date: 12/31/2022
+Pkg Sale Price: 351000
+Assessed: 541658
+Account: 0403405
+-----------------------
 Street Number: 8601
 Unit: 311	Style: villa	Owner: SILVER, JO ANNA P TRUSTEE; THE LIVING TRUST OF JO ANNA P SILVE
 Heated Area: 1754
@@ -2450,14 +2458,6 @@ Deed Date: 10/14/2008
 Pkg Sale Price: 410000
 Assessed: 741280
 Account: 0403390
------------------------
-Street Number: 8811
-Unit: 510	Style: villa	Owner: BURGESS, PETER H
-Heated Area: 1240
-Deed Date: 10/14/2008
-Pkg Sale Price: 351000
-Assessed: 541658
-Account: 0403405
 -----------------------
 Street Number: 8601
 Unit: 407	Style: villa	Owner: DWORSKY CYPRESS LLC

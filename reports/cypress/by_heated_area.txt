@@ -2188,6 +2188,14 @@ Assessed: 541658
 Account: 0403356
 -----------------------
 Street Number: 8811
+Unit: 510	Style: villa	Owner: BURGESS, PETER H HEIRS
+Heated Area: 1240
+Deed Date: 12/31/2022
+Pkg Sale Price: 351000
+Assessed: 541658
+Account: 0403405
+-----------------------
+Street Number: 8811
 Unit: 404	Style: villa	Owner: PACE, THOMPSON G & LAURA C
 Heated Area: 1240
 Deed Date: 09/26/2022
@@ -2226,14 +2234,6 @@ Deed Date: 03/01/2013
 Pkg Sale Price: 409000
 Assessed: 541658
 Account: 0403379
------------------------
-Street Number: 8811
-Unit: 510	Style: villa	Owner: BURGESS, PETER H
-Heated Area: 1240
-Deed Date: 10/14/2008
-Pkg Sale Price: 351000
-Assessed: 541658
-Account: 0403405
 -----------------------
 Street Number: 8581
 Unit: 511	Style: villa	Owner: SHAFFER, WILLIAM A & ELLEN D
