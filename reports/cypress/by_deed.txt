@@ -3,6 +3,14 @@ By Deed Date
 
 
 -----------------------
+Street Number: 8581
+Unit: 304	Style: villa	Owner: STEVENS, REBECCA L TRUSTEE; HEDGEPETH, ANNA JANE TRUSTEE
+Heated Area: 1242
+Deed Date: 04/17/2024
+Pkg Sale Price: 387000
+Assessed: 568101
+Account: 0461522
+-----------------------
 Street Number: 8601
 Unit: 307	Style: villa	Owner: GAMBILL, RICHARD LEE TRUSTEE; RICHARD LEE GAMBILL REVOCABLE TRUST
 Heated Area: 2526
@@ -1698,14 +1706,6 @@ Deed Date: 09/18/2018
 Pkg Sale Price: 520000
 Assessed: 733792
 Account: 0461508
------------------------
-Street Number: 8581
-Unit: 304	Style: villa	Owner: BROWN, NANCY H TRUSTEE; NANCY H BROWN RVCBLE TRUST
-Heated Area: 1242
-Deed Date: 09/18/2018
-Pkg Sale Price: 387000
-Assessed: 568101
-Account: 0461522
 -----------------------
 Street Number: 8581
 Unit: 412	Style: villa	Owner: WARD, JAMES; WARD, ALICE FAIE
