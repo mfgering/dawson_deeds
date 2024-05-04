@@ -2111,7 +2111,7 @@ Street Number: 8581
 Unit: 304	Style: villa	Owner: STEVENS, REBECCA L TRUSTEE; HEDGEPETH, ANNA JANE TRUSTEE
 Heated Area: 1242
 Deed Date: 04/17/2024
-Pkg Sale Price: 387000
+Pkg Sale Price: 513000
 Assessed: 568101
 Account: 0461522
 -----------------------
