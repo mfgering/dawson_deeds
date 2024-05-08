@@ -2172,6 +2172,14 @@ Assessed: 568101
 Account: 0461548
 -----------------------
 Street Number: 8811
+Unit: 510	Style: villa	Owner: HECK, SUSAN J
+Heated Area: 1240
+Deed Date: 04/29/2024
+Pkg Sale Price: 351000
+Assessed: 541658
+Account: 0403405
+-----------------------
+Street Number: 8811
 Unit: 411	Style: villa	Owner: MCCREEDY, SHIRLEY
 Heated Area: 1240
 Deed Date: 11/01/2023
@@ -2186,14 +2194,6 @@ Deed Date: 03/06/2023
 Pkg Sale Price: 449000
 Assessed: 541658
 Account: 0403356
------------------------
-Street Number: 8811
-Unit: 510	Style: villa	Owner: BURGESS, PETER H HEIRS
-Heated Area: 1240
-Deed Date: 12/31/2022
-Pkg Sale Price: 351000
-Assessed: 541658
-Account: 0403405
 -----------------------
 Street Number: 8811
 Unit: 404	Style: villa	Owner: PACE, THOMPSON G & LAURA C

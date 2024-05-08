@@ -3,6 +3,14 @@ By Deed Date
 
 
 -----------------------
+Street Number: 8811
+Unit: 510	Style: villa	Owner: HECK, SUSAN J
+Heated Area: 1240
+Deed Date: 04/29/2024
+Pkg Sale Price: 351000
+Assessed: 541658
+Account: 0403405
+-----------------------
 Street Number: 8581
 Unit: 304	Style: villa	Owner: STEVENS, REBECCA L TRUSTEE; HEDGEPETH, ANNA JANE TRUSTEE
 Heated Area: 1242
@@ -306,14 +314,6 @@ Deed Date: 01/17/2023
 Pkg Sale Price: 581000
 Assessed: 617197
 Account: 0403362
------------------------
-Street Number: 8811
-Unit: 510	Style: villa	Owner: BURGESS, PETER H HEIRS
-Heated Area: 1240
-Deed Date: 12/31/2022
-Pkg Sale Price: 351000
-Assessed: 541658
-Account: 0403405
 -----------------------
 Street Number: 8601
 Unit: 311	Style: villa	Owner: SILVER, JO ANNA P TRUSTEE; THE LIVING TRUST OF JO ANNA P SILVE

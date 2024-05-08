@@ -451,9 +451,9 @@ Pkg Sale Price: 253000
 Assessed: 308059
 Account: 0400623
 -----------------------
-Unit: 200-1	Owner: JOHNSON, RANDALL LEE
+Unit: 200-1	Owner: FOWLER, LILLY MARIE
 Heated Area: 793
-Deed Date: 05/02/2019
+Deed Date: 04/29/2024
 Pkg Sale Price: 265000
 Assessed: 315329
 Account: 0400616

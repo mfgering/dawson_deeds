@@ -3,6 +3,13 @@ By Deed Date
 
 
 -----------------------
+Unit: 200-1	Owner: FOWLER, LILLY MARIE
+Heated Area: 793
+Deed Date: 04/29/2024
+Pkg Sale Price: 265000
+Assessed: 315329
+Account: 0400616
+-----------------------
 Unit: 512	Owner: ROLLING WINGS LLC
 Heated Area: 2995
 Deed Date: 08/23/2023
@@ -191,13 +198,6 @@ Deed Date: 05/31/2019
 Pkg Sale Price: 253000
 Assessed: 308059
 Account: 0400623
------------------------
-Unit: 200-1	Owner: JOHNSON, RANDALL LEE
-Heated Area: 793
-Deed Date: 05/02/2019
-Pkg Sale Price: 265000
-Assessed: 315329
-Account: 0400616
 -----------------------
 Unit: 412	Owner: GERING, MICHAEL FREDERICK; FERREE, MARSHA ELLEN
 Heated Area: 2995

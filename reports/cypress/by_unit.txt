@@ -2484,9 +2484,9 @@ Assessed: 824191
 Account: 0403311
 -----------------------
 Street Number: 8811
-Unit: 510	Style: villa	Owner: BURGESS, PETER H HEIRS
+Unit: 510	Style: villa	Owner: HECK, SUSAN J
 Heated Area: 1240
-Deed Date: 12/31/2022
+Deed Date: 04/29/2024
 Pkg Sale Price: 351000
 Assessed: 541658
 Account: 0403405
