@@ -2467,6 +2467,14 @@ Pkg Sale Price: 378000
 Assessed: 509119
 Account: 0403276
 -----------------------
+Street Number: 8821
+Unit: 512	Style: villa	Owner: CROWE, JEAN M
+Heated Area: 1066
+Deed Date: 04/29/2024
+Pkg Sale Price: 369000
+Assessed: 467458
+Account: 0403729
+-----------------------
 Street Number: 8601
 Unit: 312	Style: villa	Owner: BARDUA, DONNA JEAN TRUSTEE; TRUSTEE OF THE BARDUA LIVING TRUST
 Heated Area: 1066
@@ -2482,14 +2490,6 @@ Deed Date: 06/09/2022
 Pkg Sale Price: 365000
 Assessed: 467458
 Account: 0403690
------------------------
-Street Number: 8821
-Unit: 512	Style: villa	Owner: HOGGARD, JOANNE
-Heated Area: 1066
-Deed Date: 04/26/2022
-Pkg Sale Price: 369000
-Assessed: 467458
-Account: 0403729
 -----------------------
 Street Number: 8601
 Unit: 412	Style: villa	Owner: O'KEEFE, JOHN F

@@ -11,6 +11,14 @@ Pkg Sale Price: 351000
 Assessed: 541658
 Account: 0403405
 -----------------------
+Street Number: 8821
+Unit: 512	Style: villa	Owner: CROWE, JEAN M
+Heated Area: 1066
+Deed Date: 04/29/2024
+Pkg Sale Price: 369000
+Assessed: 467458
+Account: 0403729
+-----------------------
 Street Number: 8581
 Unit: 304	Style: villa	Owner: STEVENS, REBECCA L TRUSTEE; HEDGEPETH, ANNA JANE TRUSTEE
 Heated Area: 1242
@@ -490,14 +498,6 @@ Deed Date: 05/02/2022
 Pkg Sale Price: 572000
 Assessed: 601231
 Account: 0403294
------------------------
-Street Number: 8821
-Unit: 512	Style: villa	Owner: HOGGARD, JOANNE
-Heated Area: 1066
-Deed Date: 04/26/2022
-Pkg Sale Price: 369000
-Assessed: 467458
-Account: 0403729
 -----------------------
 Street Number: 8581
 Unit: 212	Style: villa	Owner: GARVIN-HULL, ELIZABETH G TRUSTEE; MAHAN, JEAN MARIE TRUSTEE
