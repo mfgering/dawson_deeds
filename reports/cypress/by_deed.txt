@@ -7,7 +7,7 @@ Street Number: 8811
 Unit: 510	Style: villa	Owner: HECK, SUSAN J
 Heated Area: 1240
 Deed Date: 04/29/2024
-Pkg Sale Price: 351000
+Pkg Sale Price: 490500
 Assessed: 541658
 Account: 0403405
 -----------------------
@@ -15,7 +15,7 @@ Street Number: 8821
 Unit: 512	Style: villa	Owner: CROWE, JEAN M
 Heated Area: 1066
 Deed Date: 04/29/2024
-Pkg Sale Price: 369000
+Pkg Sale Price: 374000
 Assessed: 467458
 Account: 0403729
 -----------------------
