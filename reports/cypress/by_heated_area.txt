@@ -1532,7 +1532,7 @@ Assessed: 751023
 Account: 0403394
 -----------------------
 Street Number: 8811
-Unit: 524A	Style: admin	Owner: HEFFRING, PETER A & DONNA T
+Unit: 524B	Style: admin	Owner: HEFFRING, PETER A & DONNA T
 Heated Area: 1518
 Deed Date: 11/12/2008
 Pkg Sale Price: 468000
