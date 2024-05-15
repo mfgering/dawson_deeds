@@ -723,6 +723,14 @@ Pkg Sale Price: 716000
 Assessed: 811986
 Account: 0403264
 -----------------------
+Street Number: 8831
+Unit: 110	Style: villa	Owner: PATCH, CHARLES E II & LINDA O
+Heated Area: 1895
+Deed Date: 05/01/2024
+Pkg Sale Price: 707000
+Assessed: 906599
+Account: 0479604
+-----------------------
 Street Number: 8581
 Unit: 110	Style: villa	Owner: GREEN, ROBERT L
 Heated Area: 1895
@@ -778,14 +786,6 @@ Deed Date: 11/10/2020
 Pkg Sale Price: 689000
 Assessed: 906599
 Account: 0479653
------------------------
-Street Number: 8831
-Unit: 110	Style: villa	Owner: KATZIN, GERALD H & JUDITH R
-Heated Area: 1895
-Deed Date: 11/05/2020
-Pkg Sale Price: 707000
-Assessed: 906599
-Account: 0479604
 -----------------------
 Street Number: 8831
 Unit: 410	Style: villa	Owner: CREEKMAN, JAMES E & VIRGINIA P
@@ -1155,6 +1155,14 @@ Pkg Sale Price: 531000
 Assessed: 753879
 Account: 0403266
 -----------------------
+Street Number: 8581
+Unit: 403	Style: villa	Owner: HENDRIXSON, MARSHA N TRUSTEE; TRUSTEE OF MARSHA N HENDRIXSON REVO
+Heated Area: 1692
+Deed Date: 05/01/2024
+Pkg Sale Price: 506000
+Assessed: 733792
+Account: 0461534
+-----------------------
 Street Number: 8831
 Unit: 312	Style: villa	Owner: BESTIMT, WILLIAM JOSEPH TRUSTEE; BESTIMT, LINDA HANEBERG TRUSTEE
 Heated Area: 1692
@@ -1274,14 +1282,6 @@ Deed Date: 09/18/2018
 Pkg Sale Price: 538000
 Assessed: 733792
 Account: 0461547
------------------------
-Street Number: 8581
-Unit: 403	Style: villa	Owner: HENDRIXSON, MARSHA N
-Heated Area: 1692
-Deed Date: 09/17/2018
-Pkg Sale Price: 506000
-Assessed: 733792
-Account: 0461534
 -----------------------
 Street Number: 8811
 Unit: 501	Style: villa	Owner: GOOD, ANNETTA

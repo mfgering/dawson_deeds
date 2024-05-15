@@ -620,9 +620,9 @@ Assessed: 824191
 Account: 0403682
 -----------------------
 Street Number: 8831
-Unit: 110	Style: villa	Owner: KATZIN, GERALD H & JUDITH R
+Unit: 110	Style: villa	Owner: PATCH, CHARLES E II & LINDA O
 Heated Area: 1895
-Deed Date: 11/05/2020
+Deed Date: 05/01/2024
 Pkg Sale Price: 707000
 Assessed: 906599
 Account: 0479604
@@ -1716,9 +1716,9 @@ Assessed: 586455
 Account: 0479632
 -----------------------
 Street Number: 8581
-Unit: 403	Style: villa	Owner: HENDRIXSON, MARSHA N
+Unit: 403	Style: villa	Owner: HENDRIXSON, MARSHA N TRUSTEE; TRUSTEE OF MARSHA N HENDRIXSON REVO
 Heated Area: 1692
-Deed Date: 09/17/2018
+Deed Date: 05/01/2024
 Pkg Sale Price: 506000
 Assessed: 733792
 Account: 0461534
