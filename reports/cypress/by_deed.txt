@@ -7,7 +7,7 @@ Street Number: 8831
 Unit: 110	Style: villa	Owner: PATCH, CHARLES E II & LINDA O
 Heated Area: 1895
 Deed Date: 05/01/2024
-Pkg Sale Price: 707000
+Pkg Sale Price: 882000
 Assessed: 906599
 Account: 0479604
 -----------------------
