@@ -948,6 +948,14 @@ Assessed: 742487
 Account: 0403357
 -----------------------
 Street Number: 8601
+Unit: 205	Style: villa	Owner: COTESWORTH, YOLANTA LATKOWSKI TRUST; TRUSTEE OF YOLANTA LATKOWSKI COTEWO
+Heated Area: 1754
+Deed Date: 05/10/2024
+Pkg Sale Price: 664000
+Assessed: 801685
+Account: 0403274
+-----------------------
+Street Number: 8601
 Unit: 401	Style: villa	Owner: ELMORE, WILLIAM G & PATRICIA B
 Heated Area: 1754
 Deed Date: 03/28/2023
@@ -1002,14 +1010,6 @@ Deed Date: 05/20/2021
 Pkg Sale Price: 562500
 Assessed: 706074
 Account: 0403680
------------------------
-Street Number: 8601
-Unit: 205	Style: villa	Owner: COTESWORTH, HARRY ARMOUR; COTESWORTH, YOLANTA LATKOWSKI
-Heated Area: 1754
-Deed Date: 04/06/2021
-Pkg Sale Price: 664000
-Assessed: 801685
-Account: 0403274
 -----------------------
 Street Number: 8601
 Unit: 211	Style: villa	Owner: ENGLEHARDT, KATHLEEN D TRUSTEE; ENGLEHARDT REVOCABLE TRUST

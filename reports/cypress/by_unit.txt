@@ -812,9 +812,9 @@ Assessed: 892699
 Account: 0461510
 -----------------------
 Street Number: 8601
-Unit: 205	Style: villa	Owner: COTESWORTH, HARRY ARMOUR; COTESWORTH, YOLANTA LATKOWSKI
+Unit: 205	Style: villa	Owner: COTESWORTH, YOLANTA LATKOWSKI TRUST; TRUSTEE OF YOLANTA LATKOWSKI COTEWO
 Heated Area: 1754
-Deed Date: 04/06/2021
+Deed Date: 05/10/2024
 Pkg Sale Price: 664000
 Assessed: 801685
 Account: 0403274

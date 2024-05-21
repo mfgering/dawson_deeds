@@ -3,6 +3,14 @@ By Deed Date
 
 
 -----------------------
+Street Number: 8601
+Unit: 205	Style: villa	Owner: COTESWORTH, YOLANTA LATKOWSKI TRUST; TRUSTEE OF YOLANTA LATKOWSKI COTEWO
+Heated Area: 1754
+Deed Date: 05/10/2024
+Pkg Sale Price: 664000
+Assessed: 801685
+Account: 0403274
+-----------------------
 Street Number: 8831
 Unit: 110	Style: villa	Owner: PATCH, CHARLES E II & LINDA O
 Heated Area: 1895
@@ -818,14 +826,6 @@ Deed Date: 04/13/2021
 Pkg Sale Price: 662000
 Assessed: 776932
 Account: 0479610
------------------------
-Street Number: 8601
-Unit: 205	Style: villa	Owner: COTESWORTH, HARRY ARMOUR; COTESWORTH, YOLANTA LATKOWSKI
-Heated Area: 1754
-Deed Date: 04/06/2021
-Pkg Sale Price: 664000
-Assessed: 801685
-Account: 0403274
 -----------------------
 Street Number: 8811
 Unit: 405	Style: villa	Owner: NAMM, DONALD HERMAN TRUSTEE; TRUSTEE OF DONALD H NAMM REVOCABLE
