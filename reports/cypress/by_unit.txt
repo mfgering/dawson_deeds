@@ -1548,10 +1548,10 @@ Assessed: 706074
 Account: 0403289
 -----------------------
 Street Number: 8811
-Unit: 311	Style: villa	Owner: DONALD M MURRAY REVOCABLE TRUST
+Unit: 311	Style: villa	Owner: GOEHLER, JAMES
 Heated Area: 1240
-Deed Date: 03/01/2013
-Pkg Sale Price: 409000
+Deed Date: 05/10/2024
+Pkg Sale Price: 468000
 Assessed: 541658
 Account: 0403379
 -----------------------

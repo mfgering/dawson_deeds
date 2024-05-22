@@ -11,6 +11,14 @@ Pkg Sale Price: 664000
 Assessed: 801685
 Account: 0403274
 -----------------------
+Street Number: 8811
+Unit: 311	Style: villa	Owner: GOEHLER, JAMES
+Heated Area: 1240
+Deed Date: 05/10/2024
+Pkg Sale Price: 468000
+Assessed: 541658
+Account: 0403379
+-----------------------
 Street Number: 8831
 Unit: 110	Style: villa	Owner: PATCH, CHARLES E II & LINDA O
 Heated Area: 1895
@@ -2194,14 +2202,6 @@ Deed Date: 04/01/2013
 Pkg Sale Price: 454500
 Assessed: 603800
 Account: 0403363
------------------------
-Street Number: 8811
-Unit: 311	Style: villa	Owner: DONALD M MURRAY REVOCABLE TRUST
-Heated Area: 1240
-Deed Date: 03/01/2013
-Pkg Sale Price: 409000
-Assessed: 541658
-Account: 0403379
 -----------------------
 Street Number: 8821
 Unit: 211	Style: villa	Owner: SANKEY, DOROTHY J
