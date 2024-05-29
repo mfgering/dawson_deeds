@@ -400,7 +400,7 @@ Unit: 204	Style: villa	Owner: EDWARDS, WILLIAM & GAYLE
 Heated Area: 2259
 Deed Date: 03/27/2023
 Pkg Sale Price: 1283000
-Assessed: 1084450
+Assessed: 1122106
 Account: 0403272
 -----------------------
 Street Number: 8601
