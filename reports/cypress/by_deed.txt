@@ -3,6 +3,14 @@ By Deed Date
 
 
 -----------------------
+Street Number: 8731
+Unit: 	Style: cottage	Owner: MILLER, LOUISE ANNE TRUSTEE; THE 2024 LOUISE ANNE MILLER LIVING
+Heated Area: 2742
+Deed Date: 05/23/2024
+Pkg Sale Price: 968000
+Assessed: 1446684
+Account: 0403338
+-----------------------
 Street Number: 8601
 Unit: 205	Style: villa	Owner: COTESWORTH, YOLANTA LATKOWSKI TRUST; TRUSTEE OF YOLANTA LATKOWSKI COTEWO
 Heated Area: 1754
@@ -858,14 +866,6 @@ Deed Date: 03/08/2021
 Pkg Sale Price: 527000
 Assessed: 706074
 Account: 0403277
------------------------
-Street Number: 8731
-Unit: 	Style: cottage	Owner: MILLER, RAYMOND ANDREW III; MILLER, LOUISE ANNE
-Heated Area: 2742
-Deed Date: 01/15/2021
-Pkg Sale Price: 968000
-Assessed: 1446684
-Account: 0403338
 -----------------------
 Street Number: 8581
 Unit: 406	Style: villa	Owner: MATUSIAK, JOHN J TRUSTEE; THE JOHN J MATUSIAK REVOCABLE TRUST
