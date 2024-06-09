@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 activate() {
   . .venv/bin/activate
-  python -V
+  python3 -V
 }
 
 git pull
