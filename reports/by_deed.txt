@@ -3,6 +3,13 @@ By Deed Date
 
 
 -----------------------
+Unit: 513	Owner: PATEL, PARU ATUL
+Heated Area: 1139
+Deed Date: 06/05/2024
+Pkg Sale Price: 370000
+Assessed: 427277
+Account: 0329094
+-----------------------
 Unit: 200-1	Owner: FOWLER, LILLY MARIE
 Heated Area: 793
 Deed Date: 04/29/2024
@@ -86,13 +93,6 @@ Deed Date: 12/06/2021
 Pkg Sale Price: 410000
 Assessed: 452212
 Account: 0328664
------------------------
-Unit: 513	Owner: KAUFMAN, MILES & ALLISON SELLERS
-Heated Area: 1139
-Deed Date: 11/16/2021
-Pkg Sale Price: 370000
-Assessed: 427277
-Account: 0329094
 -----------------------
 Unit: 303	Owner: MACFARLANE, MARY RUTH
 Heated Area: 1365

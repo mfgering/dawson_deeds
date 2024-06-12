@@ -479,9 +479,9 @@ Pkg Sale Price: 1590000
 Assessed: 1456786
 Account: 0329093
 -----------------------
-Unit: 513	Owner: KAUFMAN, MILES & ALLISON SELLERS
+Unit: 513	Owner: PATEL, PARU ATUL
 Heated Area: 1139
-Deed Date: 11/16/2021
+Deed Date: 06/05/2024
 Pkg Sale Price: 370000
 Assessed: 427277
 Account: 0329094

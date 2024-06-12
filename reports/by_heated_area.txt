@@ -339,6 +339,13 @@ Pkg Sale Price: 280000
 Assessed: 428402
 Account: 0328667
 -----------------------
+Unit: 513	Owner: PATEL, PARU ATUL
+Heated Area: 1139
+Deed Date: 06/05/2024
+Pkg Sale Price: 370000
+Assessed: 427277
+Account: 0329094
+-----------------------
 Unit: 213	Owner: 9TH STREET INVESTMENT LLC
 Heated Area: 1139
 Deed Date: 03/23/2023
@@ -359,13 +366,6 @@ Deed Date: 12/15/2021
 Pkg Sale Price: 410000
 Assessed: 453391
 Account: 0328673
------------------------
-Unit: 513	Owner: KAUFMAN, MILES & ALLISON SELLERS
-Heated Area: 1139
-Deed Date: 11/16/2021
-Pkg Sale Price: 370000
-Assessed: 427277
-Account: 0329094
 -----------------------
 Unit: 205	Owner: MEHTA, RIDHDHI
 Heated Area: 1139
