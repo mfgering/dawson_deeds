@@ -3,6 +3,22 @@ By Deed Date
 
 
 -----------------------
+Street Number: 8811
+Unit: 207	Style: villa	Owner: MICHAEL, GLORIA TRUSTEE; THE GLORIA MICHAEL TRUST REVOCABLE
+Heated Area: 1288
+Deed Date: 06/14/2024
+Pkg Sale Price: 562500
+Assessed: 644998
+Account: 0403360
+-----------------------
+Street Number: 8811
+Unit: 310	Style: villa	Owner: RAMSEUR, ROBERT J & MARGARET W
+Heated Area: 1518
+Deed Date: 06/14/2024
+Pkg Sale Price: 468000
+Assessed: 751023
+Account: 0403380
+-----------------------
 Street Number: 8731
 Unit: 	Style: cottage	Owner: MILLER, LOUISE ANNE TRUSTEE; THE 2024 LOUISE ANNE MILLER LIVING
 Heated Area: 2742
@@ -810,14 +826,6 @@ Deed Date: 05/10/2021
 Pkg Sale Price: 536000
 Assessed: 586455
 Account: 0479643
------------------------
-Street Number: 8811
-Unit: 207	Style: villa	Owner: MICHAEL, CHRIS J & GLORIA J
-Heated Area: 1288
-Deed Date: 05/06/2021
-Pkg Sale Price: 562500
-Assessed: 644998
-Account: 0403360
 -----------------------
 Street Number: 8601
 Unit: 109	Style: villa	Owner: WILD, FRANCINE S
@@ -2106,14 +2114,6 @@ Deed Date: 06/27/2014
 Pkg Sale Price: 765000
 Assessed: 938009
 Account: 0403699
------------------------
-Street Number: 8811
-Unit: 310	Style: villa	Owner: DODD, JEAN R
-Heated Area: 1518
-Deed Date: 06/09/2014
-Pkg Sale Price: 468000
-Assessed: 751023
-Account: 0403380
 -----------------------
 Street Number: 8601
 Unit: 110	Style: villa	Owner: MCCARTHY, MARY ELLEN TRUSTEE; MARY ELLEN MCCARTHY RVCBLE TRUST

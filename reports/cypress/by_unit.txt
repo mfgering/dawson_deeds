@@ -900,9 +900,9 @@ Assessed: 801685
 Account: 0403278
 -----------------------
 Street Number: 8811
-Unit: 207	Style: villa	Owner: MICHAEL, CHRIS J & GLORIA J
+Unit: 207	Style: villa	Owner: MICHAEL, GLORIA TRUSTEE; THE GLORIA MICHAEL TRUST REVOCABLE
 Heated Area: 1288
-Deed Date: 05/06/2021
+Deed Date: 06/14/2024
 Pkg Sale Price: 562500
 Assessed: 644998
 Account: 0403360
@@ -1508,9 +1508,9 @@ Assessed: 824191
 Account: 0403290
 -----------------------
 Street Number: 8811
-Unit: 310	Style: villa	Owner: DODD, JEAN R
+Unit: 310	Style: villa	Owner: RAMSEUR, ROBERT J & MARGARET W
 Heated Area: 1518
-Deed Date: 06/09/2014
+Deed Date: 06/14/2024
 Pkg Sale Price: 468000
 Assessed: 751023
 Account: 0403380

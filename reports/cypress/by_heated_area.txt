@@ -1468,6 +1468,14 @@ Assessed: 764889
 Account: 0461540
 -----------------------
 Street Number: 8811
+Unit: 310	Style: villa	Owner: RAMSEUR, ROBERT J & MARGARET W
+Heated Area: 1518
+Deed Date: 06/14/2024
+Pkg Sale Price: 468000
+Assessed: 751023
+Account: 0403380
+-----------------------
+Street Number: 8811
 Unit: 110	Style: villa	Owner: GROSS, PETER DAVID TRUSTEE; THE PETER DAVID GROSS REVOCABLE TRU
 Heated Area: 1518
 Deed Date: 10/07/2022
@@ -1506,14 +1514,6 @@ Deed Date: 09/21/2016
 Pkg Sale Price: 594000
 Assessed: 751023
 Account: 0403367
------------------------
-Street Number: 8811
-Unit: 310	Style: villa	Owner: DODD, JEAN R
-Heated Area: 1518
-Deed Date: 06/09/2014
-Pkg Sale Price: 468000
-Assessed: 751023
-Account: 0403380
 -----------------------
 Street Number: 8811
 Unit: 305	Style: villa	Owner: ANDERSON, JEAN N
@@ -1900,6 +1900,14 @@ Assessed: 603800
 Account: 0403385
 -----------------------
 Street Number: 8811
+Unit: 207	Style: villa	Owner: MICHAEL, GLORIA TRUSTEE; THE GLORIA MICHAEL TRUST REVOCABLE
+Heated Area: 1288
+Deed Date: 06/14/2024
+Pkg Sale Price: 562500
+Assessed: 644998
+Account: 0403360
+-----------------------
+Street Number: 8811
 Unit: 108	Style: villa	Owner: HUDON, LOIS
 Heated Area: 1288
 Deed Date: 10/10/2023
@@ -1938,14 +1946,6 @@ Deed Date: 07/20/2021
 Pkg Sale Price: 563000
 Assessed: 656306
 Account: 0403388
------------------------
-Street Number: 8811
-Unit: 207	Style: villa	Owner: MICHAEL, CHRIS J & GLORIA J
-Heated Area: 1288
-Deed Date: 05/06/2021
-Pkg Sale Price: 562500
-Assessed: 644998
-Account: 0403360
 -----------------------
 Street Number: 8811
 Unit: 307	Style: villa	Owner: WILLIAMS, MELISSA FETTY
