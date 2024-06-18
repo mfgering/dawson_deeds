@@ -948,6 +948,14 @@ Assessed: 742487
 Account: 0403357
 -----------------------
 Street Number: 8601
+Unit: 101	Style: villa	Owner: LITTLE, MARTHA PARKS TRUSTEE; TRUSTEE OF MARTHA PARKS LITTLE REVO
+Heated Area: 1754
+Deed Date: 06/14/2024
+Pkg Sale Price: 612000
+Assessed: 706074
+Account: 0403263
+-----------------------
+Street Number: 8601
 Unit: 205	Style: villa	Owner: COTESWORTH, YOLANTA LATKOWSKI TRUST; TRUSTEE OF YOLANTA LATKOWSKI COTEWO
 Heated Area: 1754
 Deed Date: 05/10/2024
@@ -1074,14 +1082,6 @@ Deed Date: 12/21/2015
 Pkg Sale Price: 583500
 Assessed: 706074
 Account: 0403724
------------------------
-Street Number: 8601
-Unit: 101	Style: villa	Owner: LITTLE, HUGH & MARTHA
-Heated Area: 1754
-Deed Date: 10/16/2015
-Pkg Sale Price: 612000
-Assessed: 706074
-Account: 0403263
 -----------------------
 Street Number: 8821
 Unit: 501	Style: villa	Owner: KLEIN, NANCY
@@ -1471,7 +1471,7 @@ Street Number: 8811
 Unit: 310	Style: villa	Owner: RAMSEUR, ROBERT J & MARGARET W
 Heated Area: 1518
 Deed Date: 06/14/2024
-Pkg Sale Price: 468000
+Pkg Sale Price: 733500
 Assessed: 751023
 Account: 0403380
 -----------------------

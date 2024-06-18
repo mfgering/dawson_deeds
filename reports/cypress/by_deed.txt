@@ -3,6 +3,14 @@ By Deed Date
 
 
 -----------------------
+Street Number: 8601
+Unit: 101	Style: villa	Owner: LITTLE, MARTHA PARKS TRUSTEE; TRUSTEE OF MARTHA PARKS LITTLE REVO
+Heated Area: 1754
+Deed Date: 06/14/2024
+Pkg Sale Price: 612000
+Assessed: 706074
+Account: 0403263
+-----------------------
 Street Number: 8811
 Unit: 207	Style: villa	Owner: MICHAEL, GLORIA TRUSTEE; THE GLORIA MICHAEL TRUST REVOCABLE
 Heated Area: 1288
@@ -15,7 +23,7 @@ Street Number: 8811
 Unit: 310	Style: villa	Owner: RAMSEUR, ROBERT J & MARGARET W
 Heated Area: 1518
 Deed Date: 06/14/2024
-Pkg Sale Price: 468000
+Pkg Sale Price: 733500
 Assessed: 751023
 Account: 0403380
 -----------------------
@@ -2050,14 +2058,6 @@ Deed Date: 10/19/2015
 Pkg Sale Price: 666000
 Assessed: 1044665
 Account: 0403310
------------------------
-Street Number: 8601
-Unit: 101	Style: villa	Owner: LITTLE, HUGH & MARTHA
-Heated Area: 1754
-Deed Date: 10/16/2015
-Pkg Sale Price: 612000
-Assessed: 706074
-Account: 0403263
 -----------------------
 Street Number: 8601
 Unit: 409	Style: villa	Owner: GUNTER, BETTY E
