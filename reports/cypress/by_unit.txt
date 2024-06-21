@@ -340,9 +340,9 @@ Assessed: 0
 Account: 0076203
 -----------------------
 Street Number: 8601
-Unit: 101	Style: villa	Owner: LITTLE, HUGH & MARTHA
+Unit: 101	Style: villa	Owner: LITTLE, MARTHA PARKS TRUSTEE; TRUSTEE OF MARTHA PARKS LITTLE REVO
 Heated Area: 1754
-Deed Date: 10/16/2015
+Deed Date: 06/14/2024
 Pkg Sale Price: 612000
 Assessed: 706074
 Account: 0403263
@@ -1511,7 +1511,7 @@ Street Number: 8811
 Unit: 310	Style: villa	Owner: RAMSEUR, ROBERT J & MARGARET W
 Heated Area: 1518
 Deed Date: 06/14/2024
-Pkg Sale Price: 468000
+Pkg Sale Price: 733500
 Assessed: 751023
 Account: 0403380
 -----------------------
