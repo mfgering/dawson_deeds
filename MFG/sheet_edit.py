@@ -185,16 +185,16 @@ class Sheet_Editor(object):
         self.smgr = self.context.ServiceManager
 
 def setup_debug(arg1=None):
-    import ptvsd
-    ptvsd.enable_attach()
-    ptvsd.wait_for_attach()
+    import debugpy
+    debugpy.listen(('0.0.0.0', 5678))
+    print("Waiting for debugger attach...")
+    debugpy.wait_for_client()
+    print("Debugger attached")
     
 def update_deeds_sheet(arg1=None):
     #Note: when launched from push button, arg1 is com.sun.star.awt.ActionEvent
-    import ptvsd
-    ptvsd.enable_attach()
-    ptvsd.break_into_debugger()
-    print("Should be attachable")
+    import debugpy
+    debugpy.breakpoint()
     #sys.args are used only with standalone version, not the macro version
     # Use relative file if exists, else check absolute
     rel_file = 'projects/dawson_deeds/reports/dawson.csv'
