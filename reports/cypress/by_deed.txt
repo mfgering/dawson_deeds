@@ -3,6 +3,14 @@ By Deed Date
 
 
 -----------------------
+Street Number: 8831
+Unit: 202	Style: villa	Owner: BETTS, PHILLIP W & ANN P
+Heated Area: 1287
+Deed Date: 06/20/2024
+Pkg Sale Price: 563000
+Assessed: 586455
+Account: 0479606
+-----------------------
 Street Number: 8601
 Unit: 101	Style: villa	Owner: LITTLE, MARTHA PARKS TRUSTEE; TRUSTEE OF MARTHA PARKS LITTLE REVO
 Heated Area: 1754
@@ -1258,14 +1266,6 @@ Deed Date: 10/20/2020
 Pkg Sale Price: 527000
 Assessed: 664944
 Account: 0479602
------------------------
-Street Number: 8831
-Unit: 202	Style: villa	Owner: DAVIS, JUDITH R
-Heated Area: 1287
-Deed Date: 10/20/2020
-Pkg Sale Price: 500000
-Assessed: 586455
-Account: 0479606
 -----------------------
 Street Number: 8831
 Unit: 204	Style: villa	Owner: NORDMEYER HOPE, SHARON A TRUSTEE; TRUSTEE OF SHARON ANN HOPE TRUST
