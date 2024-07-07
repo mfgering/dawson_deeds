@@ -193,8 +193,9 @@ def setup_debug(arg1=None):
     
 def update_deeds_sheet(arg1=None):
     #Note: when launched from push button, arg1 is com.sun.star.awt.ActionEvent
-    import debugpy
-    debugpy.breakpoint()
+    #import debugpy
+    #debugpy.breakpoint()
+    #breakpoint()
     #sys.args are used only with standalone version, not the macro version
     # Use relative file if exists, else check absolute
     rel_file = 'projects/dawson_deeds/reports/dawson.csv'
