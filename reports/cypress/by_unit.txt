@@ -1324,9 +1324,9 @@ Assessed: 1070453
 Account: 0403286
 -----------------------
 Street Number: 8811
-Unit: 305	Style: villa	Owner: ANDERSON, JEAN N
+Unit: 305	Style: villa	Owner: TILLEY, RICHARD DAVID TRUSTEE; TILLEY, FAYESON C. TRUSTEE
 Heated Area: 1518
-Deed Date: 07/12/2010
+Deed Date: 07/09/2024
 Pkg Sale Price: 517500
 Assessed: 751023
 Account: 0403368

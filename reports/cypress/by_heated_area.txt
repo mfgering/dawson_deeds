@@ -1468,6 +1468,14 @@ Assessed: 764889
 Account: 0461540
 -----------------------
 Street Number: 8811
+Unit: 305	Style: villa	Owner: TILLEY, RICHARD DAVID TRUSTEE; TILLEY, FAYESON C. TRUSTEE
+Heated Area: 1518
+Deed Date: 07/09/2024
+Pkg Sale Price: 517500
+Assessed: 751023
+Account: 0403368
+-----------------------
+Street Number: 8811
 Unit: 310	Style: villa	Owner: RAMSEUR, ROBERT J & MARGARET W
 Heated Area: 1518
 Deed Date: 06/14/2024
@@ -1514,14 +1522,6 @@ Deed Date: 09/21/2016
 Pkg Sale Price: 594000
 Assessed: 751023
 Account: 0403367
------------------------
-Street Number: 8811
-Unit: 305	Style: villa	Owner: ANDERSON, JEAN N
-Heated Area: 1518
-Deed Date: 07/12/2010
-Pkg Sale Price: 517500
-Assessed: 751023
-Account: 0403368
 -----------------------
 Street Number: 8811
 Unit: 505	Style: villa	Owner: HARTZOG, JOY L
