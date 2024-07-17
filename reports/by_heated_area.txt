@@ -451,19 +451,19 @@ Pkg Sale Price: 253000
 Assessed: 308059
 Account: 0400623
 -----------------------
+Unit: 300-1	Owner: MCCOY, BEL GOVINDA
+Heated Area: 793
+Deed Date: 07/16/2024
+Pkg Sale Price: 275000
+Assessed: 315329
+Account: 0400620
+-----------------------
 Unit: 200-1	Owner: FOWLER, LILLY MARIE
 Heated Area: 793
 Deed Date: 04/29/2024
 Pkg Sale Price: 297000
 Assessed: 315329
 Account: 0400616
------------------------
-Unit: 300-1	Owner: FREEMAN, ALAN E
-Heated Area: 793
-Deed Date: 06/15/2016
-Pkg Sale Price: 195000
-Assessed: 315329
-Account: 0400620
 -----------------------
 Unit: 320	Owner: BELO, ROBERT O & CAROLIN D BAKEWELL
 Heated Area: 787

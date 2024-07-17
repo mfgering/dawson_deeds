@@ -3,6 +3,13 @@ By Deed Date
 
 
 -----------------------
+Unit: 300-1	Owner: MCCOY, BEL GOVINDA
+Heated Area: 793
+Deed Date: 07/16/2024
+Pkg Sale Price: 275000
+Assessed: 315329
+Account: 0400620
+-----------------------
 Unit: 513	Owner: PATEL, PARU ATUL
 Heated Area: 1139
 Deed Date: 06/05/2024
@@ -268,13 +275,6 @@ Deed Date: 11/28/2016
 Pkg Sale Price: 280000
 Assessed: 428402
 Account: 0328667
------------------------
-Unit: 300-1	Owner: FREEMAN, ALAN E
-Heated Area: 793
-Deed Date: 06/15/2016
-Pkg Sale Price: 195000
-Assessed: 315329
-Account: 0400620
 -----------------------
 Unit: 406	Owner: MOUTOS, CHRIS
 Heated Area: 1409

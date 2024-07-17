@@ -171,10 +171,10 @@ Pkg Sale Price: 355000
 Assessed: 502961
 Account: 0328669
 -----------------------
-Unit: 300-1	Owner: FREEMAN, ALAN E
+Unit: 300-1	Owner: MCCOY, BEL GOVINDA
 Heated Area: 793
-Deed Date: 06/15/2016
-Pkg Sale Price: 195000
+Deed Date: 07/16/2024
+Pkg Sale Price: 275000
 Assessed: 315329
 Account: 0400620
 -----------------------
