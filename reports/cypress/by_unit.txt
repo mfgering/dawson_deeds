@@ -1692,9 +1692,9 @@ Assessed: 824191
 Account: 0403293
 -----------------------
 Street Number: 8811
-Unit: 402	Style: villa	Owner: DYER, ELISE T & WILLIAM F JR
+Unit: 402	Style: villa	Owner: DYER, WILLIAM F JR TRUSTEE; DYER, ELISE T TRUSTEE
 Heated Area: 1411
-Deed Date: 10/16/2008
+Deed Date: 08/02/2024
 Pkg Sale Price: 356000
 Assessed: 603800
 Account: 0403385

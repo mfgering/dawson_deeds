@@ -4,6 +4,14 @@ By Deed Date
 
 -----------------------
 Street Number: 8811
+Unit: 402	Style: villa	Owner: DYER, WILLIAM F JR TRUSTEE; DYER, ELISE T TRUSTEE
+Heated Area: 1411
+Deed Date: 08/02/2024
+Pkg Sale Price: 356000
+Assessed: 603800
+Account: 0403385
+-----------------------
+Street Number: 8811
 Unit: 305	Style: villa	Owner: TILLEY, RICHARD DAVID TRUSTEE; TILLEY, FAYESON C. TRUSTEE
 Heated Area: 1518
 Deed Date: 07/09/2024
@@ -2442,14 +2450,6 @@ Deed Date: 10/17/2008
 Pkg Sale Price: 338000
 Assessed: 603800
 Account: 0403389
------------------------
-Street Number: 8811
-Unit: 402	Style: villa	Owner: DYER, ELISE T & WILLIAM F JR
-Heated Area: 1411
-Deed Date: 10/16/2008
-Pkg Sale Price: 356000
-Assessed: 603800
-Account: 0403385
 -----------------------
 Street Number: 8811
 Unit: 409	Style: villa	Owner: FLETCHER, OSCAR J & SYBIL M

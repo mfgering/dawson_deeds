@@ -1844,6 +1844,14 @@ Assessed: 601231
 Account: 0403305
 -----------------------
 Street Number: 8811
+Unit: 402	Style: villa	Owner: DYER, WILLIAM F JR TRUSTEE; DYER, ELISE T TRUSTEE
+Heated Area: 1411
+Deed Date: 08/02/2024
+Pkg Sale Price: 356000
+Assessed: 603800
+Account: 0403385
+-----------------------
+Street Number: 8811
 Unit: 313	Style: villa	Owner: BRANTLEY, WILLIAM C & CAROL E
 Heated Area: 1411
 Deed Date: 01/18/2023
@@ -1890,14 +1898,6 @@ Deed Date: 10/17/2008
 Pkg Sale Price: 338000
 Assessed: 603800
 Account: 0403389
------------------------
-Street Number: 8811
-Unit: 402	Style: villa	Owner: DYER, ELISE T & WILLIAM F JR
-Heated Area: 1411
-Deed Date: 10/16/2008
-Pkg Sale Price: 356000
-Assessed: 603800
-Account: 0403385
 -----------------------
 Street Number: 8811
 Unit: 207	Style: villa	Owner: MICHAEL, GLORIA TRUSTEE; THE GLORIA MICHAEL TRUST REVOCABLE
