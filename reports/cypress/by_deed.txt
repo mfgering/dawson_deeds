@@ -4,6 +4,14 @@ By Deed Date
 
 -----------------------
 Street Number: 8811
+Unit: 304	Style: villa	Owner: BROWER, SARA K TRUSTEE; THE SARA K BROWER REVOCABLE TRUST
+Heated Area: 1240
+Deed Date: 08/02/2024
+Pkg Sale Price: 410000
+Assessed: 541658
+Account: 0403369
+-----------------------
+Street Number: 8811
 Unit: 402	Style: villa	Owner: DYER, WILLIAM F JR TRUSTEE; DYER, ELISE T TRUSTEE
 Heated Area: 1411
 Deed Date: 08/02/2024
@@ -1402,14 +1410,6 @@ Deed Date: 04/28/2020
 Pkg Sale Price: 517000
 Assessed: 656306
 Account: 0403373
------------------------
-Street Number: 8811
-Unit: 304	Style: villa	Owner: BROWER, THOMAS S & SARA K
-Heated Area: 1240
-Deed Date: 03/04/2020
-Pkg Sale Price: 410000
-Assessed: 541658
-Account: 0403369
 -----------------------
 Street Number: 8601
 Unit: 210	Style: villa	Owner: WOODRY, CAROL C

@@ -1284,9 +1284,9 @@ Assessed: 1084450
 Account: 0403284
 -----------------------
 Street Number: 8811
-Unit: 304	Style: villa	Owner: BROWER, THOMAS S & SARA K
+Unit: 304	Style: villa	Owner: BROWER, SARA K TRUSTEE; THE SARA K BROWER REVOCABLE TRUST
 Heated Area: 1240
-Deed Date: 03/04/2020
+Deed Date: 08/02/2024
 Pkg Sale Price: 410000
 Assessed: 541658
 Account: 0403369
