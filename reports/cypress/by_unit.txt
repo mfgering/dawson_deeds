@@ -2484,12 +2484,12 @@ Assessed: 824191
 Account: 0403311
 -----------------------
 Street Number: 8811
-Unit: 510	Style: villa	Owner: HECK, SUSAN J
-Heated Area: 1240
-Deed Date: 04/29/2024
-Pkg Sale Price: 490500
-Assessed: 541658
-Account: 0403405
+Unit: 510	Style: villa	Owner: HEFFRING, PETER A & DONNA T
+Heated Area: 1518
+Deed Date: 11/12/2008
+Pkg Sale Price: 468000
+Assessed: 751023
+Account: 0403406
 -----------------------
 Street Number: 8821
 Unit: 510	Style: villa	Owner: CLARK, THOMAS SNELL TRUSTEE; CLARK, LILY ROSE TRUSTEE
@@ -2522,6 +2522,14 @@ Deed Date: 09/18/2020
 Pkg Sale Price: 617000
 Assessed: 706074
 Account: 0403309
+-----------------------
+Street Number: 8811
+Unit: 511	Style: villa	Owner: HECK, SUSAN J
+Heated Area: 1240
+Deed Date: 04/29/2024
+Pkg Sale Price: 490500
+Assessed: 541658
+Account: 0403405
 -----------------------
 Street Number: 8821
 Unit: 511	Style: villa	Owner: SCHEELER, C RONALD & NANCY T
@@ -2586,14 +2594,6 @@ Deed Date: 06/02/2022
 Pkg Sale Price: 473000
 Assessed: 603800
 Account: 0403402
------------------------
-Street Number: 8811
-Unit: 524B	Style: admin	Owner: HEFFRING, PETER A & DONNA T
-Heated Area: 1518
-Deed Date: 11/12/2008
-Pkg Sale Price: 468000
-Assessed: 751023
-Account: 0403406
 -----------------------
 Street Number: 8601
 Unit: BLD A	Style: admin	Owner: CYPRESS OF RALEIGH CONDO HOMEOWNERS

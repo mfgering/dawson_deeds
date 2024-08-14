@@ -100,7 +100,7 @@ Assessed: 733792
 Account: 0461534
 -----------------------
 Street Number: 8811
-Unit: 510	Style: villa	Owner: HECK, SUSAN J
+Unit: 511	Style: villa	Owner: HECK, SUSAN J
 Heated Area: 1240
 Deed Date: 04/29/2024
 Pkg Sale Price: 490500
@@ -2388,7 +2388,7 @@ Assessed: 467458
 Account: 0403713
 -----------------------
 Street Number: 8811
-Unit: 524B	Style: admin	Owner: HEFFRING, PETER A & DONNA T
+Unit: 510	Style: villa	Owner: HEFFRING, PETER A & DONNA T
 Heated Area: 1518
 Deed Date: 11/12/2008
 Pkg Sale Price: 468000
