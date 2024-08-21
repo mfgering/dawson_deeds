@@ -379,6 +379,14 @@ Pkg Sale Price: 963000
 Assessed: 1261563
 Account: 0403331
 -----------------------
+Street Number: 8601
+Unit: 504	Style: villa	Owner: SKELTON, DARLA R
+Heated Area: 2259
+Deed Date: 08/12/2024
+Pkg Sale Price: 657000
+Assessed: 938009
+Account: 0403306
+-----------------------
 Street Number: 8821
 Unit: 508	Style: villa	Owner: GUNNESS, ROBERT & BARBARA
 Heated Area: 2259
@@ -522,14 +530,6 @@ Deed Date: 05/05/2010
 Pkg Sale Price: 666000
 Assessed: 938009
 Account: 0403678
------------------------
-Street Number: 8601
-Unit: 504	Style: villa	Owner: CROWE, JOHN R & JEAN M
-Heated Area: 2259
-Deed Date: 09/29/2008
-Pkg Sale Price: 657000
-Assessed: 938009
-Account: 0403306
 -----------------------
 Street Number: 8736
 Unit: 	Style: cottage	Owner: LAIRD, CLINTON S & MARY LEE

@@ -2252,9 +2252,9 @@ Assessed: 568101
 Account: 0461548
 -----------------------
 Street Number: 8601
-Unit: 504	Style: villa	Owner: CROWE, JOHN R & JEAN M
+Unit: 504	Style: villa	Owner: SKELTON, DARLA R
 Heated Area: 2259
-Deed Date: 09/29/2008
+Deed Date: 08/12/2024
 Pkg Sale Price: 657000
 Assessed: 938009
 Account: 0403306
