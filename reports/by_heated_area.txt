@@ -154,7 +154,7 @@ Unit: 113	Owner: DAWSON DEVELOPERS INC
 Heated Area: 1487
 Deed Date: 12/23/2003
 Pkg Sale Price: 0
-Assessed: 550142
+Assessed: 436408
 Account: 0329098
 -----------------------
 Unit: 506	Owner: WOODALL, JOHN CHARLES; CREECH, MARY HELEN
