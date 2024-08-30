@@ -980,9 +980,9 @@ Assessed: 601231
 Account: 0403280
 -----------------------
 Street Number: 8811
-Unit: 209	Style: villa	Owner: BAKER, MARY ESTHER & STANLEY B
+Unit: 209	Style: villa	Owner: BAKER, STANLEY BECKWITH TRUSTEE; STANLEY BECKWITH BAKER REVOCABLE TR
 Heated Area: 1494
-Deed Date: 07/31/2020
+Deed Date: 08/21/2024
 Pkg Sale Price: 585000
 Assessed: 741280
 Account: 0403364

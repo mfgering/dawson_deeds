@@ -1596,6 +1596,14 @@ Assessed: 663839
 Account: 0461545
 -----------------------
 Street Number: 8811
+Unit: 209	Style: villa	Owner: BAKER, STANLEY BECKWITH TRUSTEE; STANLEY BECKWITH BAKER REVOCABLE TR
+Heated Area: 1494
+Deed Date: 08/21/2024
+Pkg Sale Price: 585000
+Assessed: 741280
+Account: 0403364
+-----------------------
+Street Number: 8811
 Unit: 206	Style: villa	Owner: BLEDSOE, RUBY JO
 Heated Area: 1494
 Deed Date: 09/07/2023
@@ -1634,14 +1642,6 @@ Deed Date: 11/12/2020
 Pkg Sale Price: 423000
 Assessed: 675632
 Account: 0403350
------------------------
-Street Number: 8811
-Unit: 209	Style: villa	Owner: BAKER, MARY ESTHER & STANLEY B
-Heated Area: 1494
-Deed Date: 07/31/2020
-Pkg Sale Price: 585000
-Assessed: 741280
-Account: 0403364
 -----------------------
 Street Number: 8811
 Unit: 306	Style: villa	Owner: COLEY, JOAN K TRUSTEE; JOAN K COLEY REVOCABLE TRUST

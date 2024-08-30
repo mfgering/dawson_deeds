@@ -3,6 +3,14 @@ By Deed Date
 
 
 -----------------------
+Street Number: 8811
+Unit: 209	Style: villa	Owner: BAKER, STANLEY BECKWITH TRUSTEE; STANLEY BECKWITH BAKER REVOCABLE TR
+Heated Area: 1494
+Deed Date: 08/21/2024
+Pkg Sale Price: 585000
+Assessed: 741280
+Account: 0403364
+-----------------------
 Street Number: 8601
 Unit: 504	Style: villa	Owner: SKELTON, DARLA R
 Heated Area: 2259
@@ -1362,14 +1370,6 @@ Deed Date: 08/16/2020
 Pkg Sale Price: 518000
 Assessed: 706074
 Account: 0403715
------------------------
-Street Number: 8811
-Unit: 209	Style: villa	Owner: BAKER, MARY ESTHER & STANLEY B
-Heated Area: 1494
-Deed Date: 07/31/2020
-Pkg Sale Price: 585000
-Assessed: 741280
-Account: 0403364
 -----------------------
 Street Number: 8821
 Unit: 505	Style: villa	Owner: POOLE, CAROL J TRUSTEE; CAROL J. POOLE REVOCABLE TRUST
