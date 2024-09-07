@@ -1724,10 +1724,10 @@ Assessed: 733792
 Account: 0461534
 -----------------------
 Street Number: 8601
-Unit: 403	Style: villa	Owner: JONES HANCOCK, LINDA GEORGE
+Unit: 403	Style: villa	Owner: MILLS, HAROLD EDWIN CO-TRUSTEES; MILLS, JEAN THOMPSON CO-TRUSTEES
 Heated Area: 1450
-Deed Date: 05/02/2022
-Pkg Sale Price: 572000
+Deed Date: 08/26/2024
+Pkg Sale Price: 599000
 Assessed: 601231
 Account: 0403294
 -----------------------

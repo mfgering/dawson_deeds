@@ -3,6 +3,14 @@ By Deed Date
 
 
 -----------------------
+Street Number: 8601
+Unit: 403	Style: villa	Owner: MILLS, HAROLD EDWIN CO-TRUSTEES; MILLS, JEAN THOMPSON CO-TRUSTEES
+Heated Area: 1450
+Deed Date: 08/26/2024
+Pkg Sale Price: 599000
+Assessed: 601231
+Account: 0403294
+-----------------------
 Street Number: 8811
 Unit: 209	Style: villa	Owner: BAKER, STANLEY BECKWITH TRUSTEE; STANLEY BECKWITH BAKER REVOCABLE TR
 Heated Area: 1494
@@ -602,14 +610,6 @@ Deed Date: 05/13/2022
 Pkg Sale Price: 572000
 Assessed: 601231
 Account: 0403709
------------------------
-Street Number: 8601
-Unit: 403	Style: villa	Owner: JONES HANCOCK, LINDA GEORGE
-Heated Area: 1450
-Deed Date: 05/02/2022
-Pkg Sale Price: 572000
-Assessed: 601231
-Account: 0403294
 -----------------------
 Street Number: 8581
 Unit: 212	Style: villa	Owner: GARVIN-HULL, ELIZABETH G TRUSTEE; MAHAN, JEAN MARIE TRUSTEE
