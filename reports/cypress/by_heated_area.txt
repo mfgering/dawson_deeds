@@ -1468,6 +1468,14 @@ Assessed: 764889
 Account: 0461540
 -----------------------
 Street Number: 8811
+Unit: 410	Style: villa	Owner: CLEMMER, THOMAS A & ELLEN BETTS
+Heated Area: 1518
+Deed Date: 08/26/2024
+Pkg Sale Price: 747000
+Assessed: 751023
+Account: 0403393
+-----------------------
+Street Number: 8811
 Unit: 305	Style: villa	Owner: TILLEY, RICHARD DAVID TRUSTEE; TILLEY, FAYESON C. TRUSTEE
 Heated Area: 1518
 Deed Date: 07/09/2024
@@ -1506,14 +1514,6 @@ Deed Date: 03/23/2021
 Pkg Sale Price: 603000
 Assessed: 751023
 Account: 0403381
------------------------
-Street Number: 8811
-Unit: 410	Style: villa	Owner: MHRD LIVING TRUST
-Heated Area: 1518
-Deed Date: 04/18/2018
-Pkg Sale Price: 626000
-Assessed: 751023
-Account: 0403393
 -----------------------
 Street Number: 8811
 Unit: 210	Style: villa	Owner: FORD, SUSAN C TRUSTEE; THE SUSAN C FORD RVCBLE TRUST

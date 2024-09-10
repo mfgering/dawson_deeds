@@ -12,6 +12,14 @@ Assessed: 601231
 Account: 0403294
 -----------------------
 Street Number: 8811
+Unit: 410	Style: villa	Owner: CLEMMER, THOMAS A & ELLEN BETTS
+Heated Area: 1518
+Deed Date: 08/26/2024
+Pkg Sale Price: 747000
+Assessed: 751023
+Account: 0403393
+-----------------------
+Street Number: 8811
 Unit: 209	Style: villa	Owner: BAKER, STANLEY BECKWITH TRUSTEE; STANLEY BECKWITH BAKER REVOCABLE TR
 Heated Area: 1494
 Deed Date: 08/21/2024
@@ -1858,14 +1866,6 @@ Deed Date: 08/15/2018
 Pkg Sale Price: 796000
 Assessed: 938009
 Account: 0403295
------------------------
-Street Number: 8811
-Unit: 410	Style: villa	Owner: MHRD LIVING TRUST
-Heated Area: 1518
-Deed Date: 04/18/2018
-Pkg Sale Price: 626000
-Assessed: 751023
-Account: 0403393
 -----------------------
 Street Number: 8705
 Unit: 	Style: cottage	Owner: WADDELL, EVANS & LINDA L BAKER
