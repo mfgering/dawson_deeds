@@ -3,6 +3,22 @@ By Deed Date
 
 
 -----------------------
+Street Number: 8602
+Unit: 	Style: cottage	Owner: HART, JAMES C & ANNE H
+Heated Area: 2563
+Deed Date: 08/29/2024
+Pkg Sale Price: 1625000
+Assessed: 1377166
+Account: 0409706
+-----------------------
+Street Number: 8811
+Unit: 505	Style: villa	Owner: ROBINSON, JAMES C & DANA GAINES
+Heated Area: 1518
+Deed Date: 08/29/2024
+Pkg Sale Price: 765000
+Assessed: 751023
+Account: 0403394
+-----------------------
 Street Number: 8601
 Unit: 403	Style: villa	Owner: MILLS, HAROLD EDWIN CO-TRUSTEES; MILLS, JEAN THOMPSON CO-TRUSTEES
 Heated Area: 1450
@@ -2259,14 +2275,6 @@ Pkg Sale Price: 765000
 Assessed: 1473104
 Account: 0403332
 -----------------------
-Street Number: 8602
-Unit: 	Style: cottage	Owner: ROBINSON, JAMES C & DANA GAINES
-Heated Area: 2563
-Deed Date: 01/31/2012
-Pkg Sale Price: 774000
-Assessed: 1377166
-Account: 0409706
------------------------
 Street Number: 8811
 Unit: 203	Style: villa	Owner: RANSDELL, SARA ANNE SHEA TRUSTEE; SARA ANNE SHEA RANSDELL RVCBLE TRUS
 Heated Area: 1806
@@ -2338,14 +2346,6 @@ Deed Date: 05/05/2010
 Pkg Sale Price: 666000
 Assessed: 938009
 Account: 0403678
------------------------
-Street Number: 8811
-Unit: 505	Style: villa	Owner: HARTZOG, JOY L
-Heated Area: 1518
-Deed Date: 01/07/2010
-Pkg Sale Price: 537500
-Assessed: 751023
-Account: 0403394
 -----------------------
 Street Number: 8601
 Unit: 201	Style: villa	Owner: LIU, HELENA LOO YEE

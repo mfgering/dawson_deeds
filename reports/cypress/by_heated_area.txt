@@ -220,10 +220,10 @@ Assessed: 1371590
 Account: 0403319
 -----------------------
 Street Number: 8602
-Unit: 	Style: cottage	Owner: ROBINSON, JAMES C & DANA GAINES
+Unit: 	Style: cottage	Owner: HART, JAMES C & ANNE H
 Heated Area: 2563
-Deed Date: 01/31/2012
-Pkg Sale Price: 774000
+Deed Date: 08/29/2024
+Pkg Sale Price: 1625000
 Assessed: 1377166
 Account: 0409706
 -----------------------
@@ -1468,6 +1468,14 @@ Assessed: 764889
 Account: 0461540
 -----------------------
 Street Number: 8811
+Unit: 505	Style: villa	Owner: ROBINSON, JAMES C & DANA GAINES
+Heated Area: 1518
+Deed Date: 08/29/2024
+Pkg Sale Price: 765000
+Assessed: 751023
+Account: 0403394
+-----------------------
+Street Number: 8811
 Unit: 410	Style: villa	Owner: CLEMMER, THOMAS A & ELLEN BETTS
 Heated Area: 1518
 Deed Date: 08/26/2024
@@ -1522,14 +1530,6 @@ Deed Date: 09/21/2016
 Pkg Sale Price: 594000
 Assessed: 751023
 Account: 0403367
------------------------
-Street Number: 8811
-Unit: 505	Style: villa	Owner: HARTZOG, JOY L
-Heated Area: 1518
-Deed Date: 01/07/2010
-Pkg Sale Price: 537500
-Assessed: 751023
-Account: 0403394
 -----------------------
 Street Number: 8811
 Unit: 510	Style: villa	Owner: HEFFRING, PETER A & DONNA T
