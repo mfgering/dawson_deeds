@@ -548,6 +548,14 @@ Assessed: 1227784
 Account: 0403341
 -----------------------
 Street Number: 8601
+Unit: 110	Style: villa	Owner: THOMAS, SCOTT & ANN
+Heated Area: 2099
+Deed Date: 08/30/2024
+Pkg Sale Price: 648000
+Assessed: 824191
+Account: 0403267
+-----------------------
+Street Number: 8601
 Unit: 102	Style: villa	Owner: GRANT, CORNELIA L TRUSTEE; REVOCABLE DECLARATION OF TRUST BY C
 Heated Area: 2099
 Deed Date: 11/01/2023
@@ -658,14 +666,6 @@ Deed Date: 08/04/2014
 Pkg Sale Price: 536000
 Assessed: 824191
 Account: 0403290
------------------------
-Street Number: 8601
-Unit: 110	Style: villa	Owner: MCCARTHY, MARY ELLEN TRUSTEE; MARY ELLEN MCCARTHY RVCBLE TRUST
-Heated Area: 2099
-Deed Date: 05/22/2014
-Pkg Sale Price: 648000
-Assessed: 824191
-Account: 0403267
 -----------------------
 Street Number: 8821
 Unit: 302	Style: villa	Owner: PARTRICK, CORNELIUS T & MARY LIB
