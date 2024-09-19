@@ -599,7 +599,7 @@ Street Number: 8601
 Unit: 110	Style: villa	Owner: THOMAS, SCOTT & ANN
 Heated Area: 2099
 Deed Date: 08/30/2024
-Pkg Sale Price: 648000
+Pkg Sale Price: 1080000
 Assessed: 824191
 Account: 0403267
 -----------------------
