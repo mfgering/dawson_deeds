@@ -1844,6 +1844,14 @@ Assessed: 601231
 Account: 0403305
 -----------------------
 Street Number: 8811
+Unit: 213	Style: villa	Owner: WILLIAMS, CRYSTAL L TRUSTEE; THE CRYSTAL L WILLIAMS TRUST
+Heated Area: 1411
+Deed Date: 09/16/2024
+Pkg Sale Price: 454500
+Assessed: 603800
+Account: 0403363
+-----------------------
+Street Number: 8811
 Unit: 402	Style: villa	Owner: DYER, WILLIAM F JR TRUSTEE; DYER, ELISE T TRUSTEE
 Heated Area: 1411
 Deed Date: 08/02/2024
@@ -1882,14 +1890,6 @@ Deed Date: 10/30/2015
 Pkg Sale Price: 475000
 Assessed: 603800
 Account: 0403398
------------------------
-Street Number: 8811
-Unit: 213	Style: villa	Owner: BALDWIN, MAX & DORIS
-Heated Area: 1411
-Deed Date: 04/01/2013
-Pkg Sale Price: 454500
-Assessed: 603800
-Account: 0403363
 -----------------------
 Street Number: 8811
 Unit: 413	Style: villa	Owner: PARHAM, JOHN E & MARGARET W

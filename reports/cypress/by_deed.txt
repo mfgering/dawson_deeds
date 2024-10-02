@@ -3,6 +3,14 @@ By Deed Date
 
 
 -----------------------
+Street Number: 8811
+Unit: 213	Style: villa	Owner: WILLIAMS, CRYSTAL L TRUSTEE; THE CRYSTAL L WILLIAMS TRUST
+Heated Area: 1411
+Deed Date: 09/16/2024
+Pkg Sale Price: 454500
+Assessed: 603800
+Account: 0403363
+-----------------------
 Street Number: 8601
 Unit: 110	Style: villa	Owner: THOMAS, SCOTT & ANN
 Heated Area: 2099
@@ -2234,14 +2242,6 @@ Deed Date: 05/21/2013
 Pkg Sale Price: 535000
 Assessed: 601231
 Account: 0403261
------------------------
-Street Number: 8811
-Unit: 213	Style: villa	Owner: BALDWIN, MAX & DORIS
-Heated Area: 1411
-Deed Date: 04/01/2013
-Pkg Sale Price: 454500
-Assessed: 603800
-Account: 0403363
 -----------------------
 Street Number: 8821
 Unit: 211	Style: villa	Owner: SANKEY, DOROTHY J
