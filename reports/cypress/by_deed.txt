@@ -7,7 +7,7 @@ Street Number: 8811
 Unit: 213	Style: villa	Owner: WILLIAMS, CRYSTAL L TRUSTEE; THE CRYSTAL L WILLIAMS TRUST
 Heated Area: 1411
 Deed Date: 09/16/2024
-Pkg Sale Price: 454500
+Pkg Sale Price: 601000
 Assessed: 603800
 Account: 0403363
 -----------------------
