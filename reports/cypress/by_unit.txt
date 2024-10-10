@@ -324,9 +324,9 @@ Assessed: 1479487
 Account: 0403316
 -----------------------
 Street Number: 8810
-Unit: 	Style: cottage	Owner: BRINLEY, THOMAS E SR & MARIAN H
+Unit: 	Style: cottage	Owner: BRINLEY, THOMAS E SR TRUSTEE; BRINLEY, MARIAN H TRUSTEE
 Heated Area: 3165
-Deed Date: 07/31/2017
+Deed Date: 09/26/2024
 Pkg Sale Price: 896000
 Assessed: 1634737
 Account: 0403315
@@ -948,9 +948,9 @@ Assessed: 617197
 Account: 0403362
 -----------------------
 Street Number: 8821
-Unit: 208	Style: villa	Owner: BOWDEN, SUSAN A & KAREN A FOX
+Unit: 208	Style: villa	Owner: OPPENHEIM, KENNETH R. & SHIRLEY G.
 Heated Area: 2259
-Deed Date: 12/12/2012
+Deed Date: 09/26/2024
 Pkg Sale Price: 634500
 Assessed: 938009
 Account: 0403696

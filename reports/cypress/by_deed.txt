@@ -3,6 +3,22 @@ By Deed Date
 
 
 -----------------------
+Street Number: 8810
+Unit: 	Style: cottage	Owner: BRINLEY, THOMAS E SR TRUSTEE; BRINLEY, MARIAN H TRUSTEE
+Heated Area: 3165
+Deed Date: 09/26/2024
+Pkg Sale Price: 896000
+Assessed: 1634737
+Account: 0403315
+-----------------------
+Street Number: 8821
+Unit: 208	Style: villa	Owner: OPPENHEIM, KENNETH R. & SHIRLEY G.
+Heated Area: 2259
+Deed Date: 09/26/2024
+Pkg Sale Price: 634500
+Assessed: 938009
+Account: 0403696
+-----------------------
 Street Number: 8811
 Unit: 213	Style: villa	Owner: WILLIAMS, CRYSTAL L TRUSTEE; THE CRYSTAL L WILLIAMS TRUST
 Heated Area: 1411
@@ -1915,14 +1931,6 @@ Pkg Sale Price: 684000
 Assessed: 824191
 Account: 0403301
 -----------------------
-Street Number: 8810
-Unit: 	Style: cottage	Owner: BRINLEY, THOMAS E SR & MARIAN H
-Heated Area: 3165
-Deed Date: 07/31/2017
-Pkg Sale Price: 896000
-Assessed: 1634737
-Account: 0403315
------------------------
 Street Number: 8601
 Unit: 207	Style: villa	Owner: SALISBURY, STEPHEN R & ANN R
 Heated Area: 1754
@@ -2258,14 +2266,6 @@ Deed Date: 12/20/2012
 Pkg Sale Price: 707000
 Assessed: 2036445
 Account: 0403337
------------------------
-Street Number: 8821
-Unit: 208	Style: villa	Owner: BOWDEN, SUSAN A & KAREN A FOX
-Heated Area: 2259
-Deed Date: 12/12/2012
-Pkg Sale Price: 634500
-Assessed: 938009
-Account: 0403696
 -----------------------
 Street Number: 8716
 Unit: 	Style: cottage	Owner: STANKARD, PETER A /TR; STANKARD, JOHN A /TR
