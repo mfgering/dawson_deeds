@@ -383,7 +383,7 @@ Street Number: 8821
 Unit: 208	Style: villa	Owner: OPPENHEIM, KENNETH R. & SHIRLEY G.
 Heated Area: 2259
 Deed Date: 09/26/2024
-Pkg Sale Price: 634500
+Pkg Sale Price: 1260000
 Assessed: 938009
 Account: 0403696
 -----------------------
