@@ -707,6 +707,14 @@ Pkg Sale Price: 549000
 Assessed: 824191
 Account: 0403304
 -----------------------
+Street Number: 8601
+Unit: 105	Style: villa	Owner: BIRD, JANIE
+Heated Area: 1912
+Deed Date: 10/01/2024
+Pkg Sale Price: 500000
+Assessed: 811986
+Account: 0403264
+-----------------------
 Street Number: 8821
 Unit: 105	Style: villa	Owner: CHILMAN, JOHN H TRUSTEE; JOHN H CHILMAN REVOCABLE TRUST
 Heated Area: 1912
@@ -714,14 +722,6 @@ Deed Date: 10/13/2023
 Pkg Sale Price: 653000
 Assessed: 956154
 Account: 0403679
------------------------
-Street Number: 8601
-Unit: 105	Style: villa	Owner: BIRD, RICHARD & JANIE
-Heated Area: 1912
-Deed Date: 08/30/2018
-Pkg Sale Price: 716000
-Assessed: 811986
-Account: 0403264
 -----------------------
 Street Number: 8831
 Unit: 110	Style: villa	Owner: PATCH, CHARLES E II & LINDA O
@@ -948,6 +948,14 @@ Assessed: 742487
 Account: 0403357
 -----------------------
 Street Number: 8601
+Unit: 201	Style: villa	Owner: BARRY, ROBERT D & FRANCES E
+Heated Area: 1754
+Deed Date: 09/30/2024
+Pkg Sale Price: 748500
+Assessed: 706074
+Account: 0403273
+-----------------------
+Street Number: 8601
 Unit: 101	Style: villa	Owner: LITTLE, MARTHA PARKS TRUSTEE; TRUSTEE OF MARTHA PARKS LITTLE REVO
 Heated Area: 1754
 Deed Date: 06/14/2024
@@ -1114,14 +1122,6 @@ Deed Date: 07/09/2010
 Pkg Sale Price: 509000
 Assessed: 706074
 Account: 0403711
------------------------
-Street Number: 8601
-Unit: 201	Style: villa	Owner: LIU, HELENA LOO YEE
-Heated Area: 1754
-Deed Date: 11/23/2009
-Pkg Sale Price: 518000
-Assessed: 706074
-Account: 0403273
 -----------------------
 Street Number: 8821
 Unit: 301	Style: villa	Owner: GALLAGHER, JANET M & JOHN J
@@ -1900,6 +1900,14 @@ Assessed: 603800
 Account: 0403389
 -----------------------
 Street Number: 8811
+Unit: 107	Style: villa	Owner: PIPER, LANNY L & LINDA H
+Heated Area: 1288
+Deed Date: 10/01/2024
+Pkg Sale Price: 653000
+Assessed: 656306
+Account: 0403351
+-----------------------
+Street Number: 8811
 Unit: 207	Style: villa	Owner: MICHAEL, GLORIA TRUSTEE; THE GLORIA MICHAEL TRUST REVOCABLE
 Heated Area: 1288
 Deed Date: 06/14/2024
@@ -1954,14 +1962,6 @@ Deed Date: 04/28/2020
 Pkg Sale Price: 517000
 Assessed: 656306
 Account: 0403373
------------------------
-Street Number: 8811
-Unit: 107	Style: villa	Owner: BERNHARD, RICHARD H
-Heated Area: 1288
-Deed Date: 02/26/2019
-Pkg Sale Price: 468000
-Assessed: 656306
-Account: 0403351
 -----------------------
 Street Number: 8811
 Unit: 308	Style: villa	Owner: BAILEY, BARBARA
