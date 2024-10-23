@@ -3,9 +3,9 @@ By Unit
 
 
 -----------------------
-Unit: 105	Owner: BAKER, JOHN M & NANCY
+Unit: 105	Owner: BAKER, JOHN M
 Heated Area: 784
-Deed Date: 11/30/2007
+Deed Date: 10/09/2024
 Pkg Sale Price: 172000
 Assessed: 298748
 Account: 0329096

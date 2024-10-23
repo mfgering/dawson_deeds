@@ -3,6 +3,13 @@ By Deed Date
 
 
 -----------------------
+Unit: 105	Owner: BAKER, JOHN M
+Heated Area: 784
+Deed Date: 10/09/2024
+Pkg Sale Price: 172000
+Assessed: 298748
+Account: 0329096
+-----------------------
 Unit: 300-1	Owner: MCCOY, BEL GOVINDA
 Heated Area: 793
 Deed Date: 07/16/2024
@@ -415,13 +422,6 @@ Deed Date: 02/28/2008
 Pkg Sale Price: 246000
 Assessed: 315323
 Account: 0328665
------------------------
-Unit: 105	Owner: BAKER, JOHN M & NANCY
-Heated Area: 784
-Deed Date: 11/30/2007
-Pkg Sale Price: 172000
-Assessed: 298748
-Account: 0329096
 -----------------------
 Unit: 417	Owner: ATKINSON, KATHERINE
 Heated Area: 1687
