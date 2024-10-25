@@ -3,6 +3,14 @@ By Deed Date
 
 
 -----------------------
+Street Number: 8821
+Unit: 111	Style: villa	Owner: NICHOLS, T EVERETT JR TRUSTEE; NICHOLS, JEAN A TRUSTEE
+Heated Area: 1754
+Deed Date: 10/15/2024
+Pkg Sale Price: 562500
+Assessed: 706074
+Account: 0403680
+-----------------------
 Street Number: 8601
 Unit: 105	Style: villa	Owner: BIRD, JANIE
 Heated Area: 1912
@@ -938,14 +946,6 @@ Deed Date: 06/14/2021
 Pkg Sale Price: 562500
 Assessed: 663839
 Account: 0461519
------------------------
-Street Number: 8821
-Unit: 111	Style: villa	Owner: NICHOLS, THOMAS EVERETT JR; NICHOLS, JEAN ADAMS
-Heated Area: 1754
-Deed Date: 05/20/2021
-Pkg Sale Price: 562500
-Assessed: 706074
-Account: 0403680
 -----------------------
 Street Number: 8811
 Unit: 205	Style: villa	Owner: PONDER, REGINALD W & CARRIE D

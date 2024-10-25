@@ -636,9 +636,9 @@ Assessed: 706074
 Account: 0403265
 -----------------------
 Street Number: 8821
-Unit: 111	Style: villa	Owner: NICHOLS, THOMAS EVERETT JR; NICHOLS, JEAN ADAMS
+Unit: 111	Style: villa	Owner: NICHOLS, T EVERETT JR TRUSTEE; NICHOLS, JEAN A TRUSTEE
 Heated Area: 1754
-Deed Date: 05/20/2021
+Deed Date: 10/15/2024
 Pkg Sale Price: 562500
 Assessed: 706074
 Account: 0403680
