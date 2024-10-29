@@ -2172,6 +2172,14 @@ Assessed: 568101
 Account: 0461548
 -----------------------
 Street Number: 8811
+Unit: 411	Style: villa	Owner: COZZIE, JULIE & JODY CHERNIAK
+Heated Area: 1240
+Deed Date: 09/10/2024
+Pkg Sale Price: 473000
+Assessed: 541658
+Account: 0403392
+-----------------------
+Street Number: 8811
 Unit: 304	Style: villa	Owner: BROWER, SARA K TRUSTEE; THE SARA K BROWER REVOCABLE TRUST
 Heated Area: 1240
 Deed Date: 08/02/2024
@@ -2194,14 +2202,6 @@ Deed Date: 04/29/2024
 Pkg Sale Price: 490500
 Assessed: 541658
 Account: 0403405
------------------------
-Street Number: 8811
-Unit: 411	Style: villa	Owner: MCCREEDY, SHIRLEY
-Heated Area: 1240
-Deed Date: 11/01/2023
-Pkg Sale Price: 459000
-Assessed: 541658
-Account: 0403392
 -----------------------
 Street Number: 8811
 Unit: 204	Style: villa	Owner: ROGERS, SARA WEBB TRUSTEE; TRUSTEE OF THE SARA WEBB ROGERS REV
