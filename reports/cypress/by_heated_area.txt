@@ -1676,6 +1676,14 @@ Assessed: 741280
 Account: 0403390
 -----------------------
 Street Number: 8601
+Unit: 409	Style: villa	Owner: BIRD, RICHARD
+Heated Area: 1450
+Deed Date: 10/29/2024
+Pkg Sale Price: 392000
+Assessed: 601231
+Account: 0403302
+-----------------------
+Street Number: 8601
 Unit: 403	Style: villa	Owner: MILLS, HAROLD EDWIN CO-TRUSTEES; MILLS, JEAN THOMPSON CO-TRUSTEES
 Heated Area: 1450
 Deed Date: 08/26/2024
@@ -1802,14 +1810,6 @@ Deed Date: 12/21/2015
 Pkg Sale Price: 535000
 Assessed: 601231
 Account: 0403706
------------------------
-Street Number: 8601
-Unit: 409	Style: villa	Owner: GUNTER, BETTY E
-Heated Area: 1450
-Deed Date: 07/08/2015
-Pkg Sale Price: 392000
-Assessed: 601231
-Account: 0403302
 -----------------------
 Street Number: 8601
 Unit: 209	Style: villa	Owner: THE JOSIAH R WHITEHEAD & INA M WHIT

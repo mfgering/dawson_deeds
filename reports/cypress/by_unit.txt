@@ -1948,9 +1948,9 @@ Assessed: 764889
 Account: 0461540
 -----------------------
 Street Number: 8601
-Unit: 409	Style: villa	Owner: GUNTER, BETTY E
+Unit: 409	Style: villa	Owner: BIRD, RICHARD
 Heated Area: 1450
-Deed Date: 07/08/2015
+Deed Date: 10/29/2024
 Pkg Sale Price: 392000
 Assessed: 601231
 Account: 0403302

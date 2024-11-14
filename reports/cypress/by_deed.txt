@@ -3,6 +3,14 @@ By Deed Date
 
 
 -----------------------
+Street Number: 8601
+Unit: 409	Style: villa	Owner: BIRD, RICHARD
+Heated Area: 1450
+Deed Date: 10/29/2024
+Pkg Sale Price: 392000
+Assessed: 601231
+Account: 0403302
+-----------------------
 Street Number: 8821
 Unit: 111	Style: villa	Owner: NICHOLS, T EVERETT JR TRUSTEE; NICHOLS, JEAN A TRUSTEE
 Heated Area: 1754
@@ -2130,14 +2138,6 @@ Deed Date: 10/19/2015
 Pkg Sale Price: 666000
 Assessed: 1044665
 Account: 0403310
------------------------
-Street Number: 8601
-Unit: 409	Style: villa	Owner: GUNTER, BETTY E
-Heated Area: 1450
-Deed Date: 07/08/2015
-Pkg Sale Price: 392000
-Assessed: 601231
-Account: 0403302
 -----------------------
 Street Number: 8821
 Unit: 204	Style: villa	Owner: HARVIE, EDWIN & KATHERINE
