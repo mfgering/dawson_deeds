@@ -32,7 +32,7 @@ Unit: 107	Style: villa	Owner: PIPER, LANNY L & LINDA H
 Heated Area: 1288
 Deed Date: 10/01/2024
 Pkg Sale Price: 653000
-Assessed: 656306
+Assessed: 638622
 Account: 0403351
 -----------------------
 Street Number: 8601
@@ -320,7 +320,7 @@ Unit: 108	Style: villa	Owner: HUDON, LOIS
 Heated Area: 1288
 Deed Date: 10/10/2023
 Pkg Sale Price: 648000
-Assessed: 636751
+Assessed: 619775
 Account: 0403352
 -----------------------
 Street Number: 8811
@@ -352,7 +352,7 @@ Unit: 206	Style: villa	Owner: BLEDSOE, RUBY JO
 Heated Area: 1494
 Deed Date: 09/07/2023
 Pkg Sale Price: 743000
-Assessed: 741280
+Assessed: 0
 Account: 0403358
 -----------------------
 Street Number: 8811
@@ -416,7 +416,7 @@ Unit: 109	Style: villa	Owner: RODGER, DIANE S
 Heated Area: 1494
 Deed Date: 07/11/2023
 Pkg Sale Price: 698000
-Assessed: 675632
+Assessed: 658171
 Account: 0403353
 -----------------------
 Street Number: 8581
@@ -960,7 +960,7 @@ Unit: 205	Style: villa	Owner: PONDER, REGINALD W & CARRIE D
 Heated Area: 1518
 Deed Date: 05/19/2021
 Pkg Sale Price: 562500
-Assessed: 751023
+Assessed: 730924
 Account: 0403355
 -----------------------
 Street Number: 8831
@@ -1088,7 +1088,7 @@ Unit: 106	Style: villa	Owner: ASHE, CAROLYN A
 Heated Area: 1494
 Deed Date: 11/12/2020
 Pkg Sale Price: 423000
-Assessed: 675632
+Assessed: 658171
 Account: 0403350
 -----------------------
 Street Number: 8831
@@ -2288,7 +2288,7 @@ Unit: 203	Style: villa	Owner: RANSDELL, SARA ANNE SHEA TRUSTEE; SARA ANNE SHEA R
 Heated Area: 1806
 Deed Date: 01/31/2012
 Pkg Sale Price: 509000
-Assessed: 742487
+Assessed: 724034
 Account: 0403357
 -----------------------
 Street Number: 8821
@@ -2416,7 +2416,7 @@ Unit: 105	Style: villa	Owner: HUGGINS, MAJOR B JR TRUSTEE; HUGGINS, LOUISE C TRU
 Heated Area: 1518
 Deed Date: 11/04/2008
 Pkg Sale Price: 459000
-Assessed: 684581
+Assessed: 666894
 Account: 0403349
 -----------------------
 Street Number: 8601
