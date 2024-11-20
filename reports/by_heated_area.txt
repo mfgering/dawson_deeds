@@ -465,10 +465,10 @@ Pkg Sale Price: 297000
 Assessed: 315329
 Account: 0400616
 -----------------------
-Unit: 320	Owner: BELO, ROBERT O & CAROLIN D BAKEWELL
+Unit: 320	Owner: SAID, ISMAIL & ELIZABETH BELO
 Heated Area: 787
-Deed Date: 12/30/2009
-Pkg Sale Price: 230000
+Deed Date: 11/01/2024
+Pkg Sale Price: 267000
 Assessed: 315323
 Account: 0328680
 -----------------------

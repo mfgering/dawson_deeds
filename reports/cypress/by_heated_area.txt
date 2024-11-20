@@ -1679,7 +1679,7 @@ Street Number: 8601
 Unit: 409	Style: villa	Owner: BIRD, RICHARD
 Heated Area: 1450
 Deed Date: 10/29/2024
-Pkg Sale Price: 392000
+Pkg Sale Price: 630000
 Assessed: 601231
 Account: 0403302
 -----------------------

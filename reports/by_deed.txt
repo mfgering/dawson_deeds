@@ -3,6 +3,13 @@ By Deed Date
 
 
 -----------------------
+Unit: 320	Owner: SAID, ISMAIL & ELIZABETH BELO
+Heated Area: 787
+Deed Date: 11/01/2024
+Pkg Sale Price: 267000
+Assessed: 315323
+Account: 0328680
+-----------------------
 Unit: 105	Owner: BAKER, JOHN M
 Heated Area: 784
 Deed Date: 10/09/2024
@@ -394,13 +401,6 @@ Deed Date: 06/29/2010
 Pkg Sale Price: 275000
 Assessed: 441854
 Account: 0329088
------------------------
-Unit: 320	Owner: BELO, ROBERT O & CAROLIN D BAKEWELL
-Heated Area: 787
-Deed Date: 12/30/2009
-Pkg Sale Price: 230000
-Assessed: 315323
-Account: 0328680
 -----------------------
 Unit: 308	Owner: DELGADO, JOSE A
 Heated Area: 1409
