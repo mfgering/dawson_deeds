@@ -3,6 +3,22 @@ By Deed Date
 
 
 -----------------------
+Street Number: 8604
+Unit: 	Style: cottage	Owner: HORN, SUSAN A
+Heated Area: 2626
+Deed Date: 11/12/2024
+Pkg Sale Price: 968000
+Assessed: 1417234
+Account: 0409705
+-----------------------
+Street Number: 8821
+Unit: 503	Style: villa	Owner: CARNEY, MICHAEL R & KAREN F
+Heated Area: 1450
+Deed Date: 11/08/2024
+Pkg Sale Price: 621000
+Assessed: 601231
+Account: 0403720
+-----------------------
 Street Number: 8601
 Unit: 409	Style: villa	Owner: BIRD, RICHARD
 Heated Area: 1450
@@ -602,14 +618,6 @@ Deed Date: 08/31/2022
 Pkg Sale Price: 855000
 Assessed: 824191
 Account: 0403705
------------------------
-Street Number: 8821
-Unit: 503	Style: villa	Owner: HART, JAMES C & ANNE H
-Heated Area: 1450
-Deed Date: 08/17/2022
-Pkg Sale Price: 585000
-Assessed: 601231
-Account: 0403720
 -----------------------
 Street Number: 8811
 Unit: 212	Style: villa	Owner: BAILEY, FRANCES A
@@ -1418,14 +1426,6 @@ Deed Date: 10/20/2020
 Pkg Sale Price: 504000
 Assessed: 664944
 Account: 0479624
------------------------
-Street Number: 8604
-Unit: 	Style: cottage	Owner: POTTER, LARRY D & BARBARA L
-Heated Area: 2626
-Deed Date: 10/09/2020
-Pkg Sale Price: 968000
-Assessed: 1417234
-Account: 0409705
 -----------------------
 Street Number: 8726
 Unit: 	Style: cottage	Owner: HAILE, DONALD A & MARY M

@@ -276,9 +276,9 @@ Assessed: 1377166
 Account: 0409706
 -----------------------
 Street Number: 8604
-Unit: 	Style: cottage	Owner: POTTER, LARRY D & BARBARA L
+Unit: 	Style: cottage	Owner: HORN, SUSAN A
 Heated Area: 2626
-Deed Date: 10/09/2020
+Deed Date: 11/12/2024
 Pkg Sale Price: 968000
 Assessed: 1417234
 Account: 0409705
@@ -2228,10 +2228,10 @@ Assessed: 724034
 Account: 0403396
 -----------------------
 Street Number: 8821
-Unit: 503	Style: villa	Owner: HART, JAMES C & ANNE H
+Unit: 503	Style: villa	Owner: CARNEY, MICHAEL R & KAREN F
 Heated Area: 1450
-Deed Date: 08/17/2022
-Pkg Sale Price: 585000
+Deed Date: 11/08/2024
+Pkg Sale Price: 621000
 Assessed: 601231
 Account: 0403720
 -----------------------
