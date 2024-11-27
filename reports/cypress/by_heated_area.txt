@@ -199,7 +199,7 @@ Street Number: 8604
 Unit: 	Style: cottage	Owner: HORN, SUSAN A
 Heated Area: 2626
 Deed Date: 11/12/2024
-Pkg Sale Price: 968000
+Pkg Sale Price: 1818000
 Assessed: 1417234
 Account: 0409705
 -----------------------
