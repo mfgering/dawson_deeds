@@ -160,7 +160,7 @@ class Apts(object):
                 for row in rdr:
                     #TODO: Use acct # to identify units and homes
                     acct = row['account']
-                    if acct in self._prev_acct_map and acct in ignore_dups:
+                    if acct in self._prev_acct_map and acct not in ignore_dups:
                         logging.error(f"Duplicate accounts: {acct}")
                     else:
                         self._prev_acct_map[acct] = dict(row)
