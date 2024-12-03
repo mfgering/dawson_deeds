@@ -1,4 +1,6 @@
 {
     "python.analysis.typeCheckingMode": "basic",
-    "python.linting.enabled": true
+    "python.linting.enabled": true,
+    "python.terminal.activateEnvironment": true,
+    "python.defaultInterpreterPath": ".venv/bin/python" // Update the path as per your OS
 }
