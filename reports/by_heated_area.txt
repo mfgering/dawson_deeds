@@ -290,6 +290,13 @@ Pkg Sale Price: 378000
 Assessed: 497702
 Account: 0400622
 -----------------------
+Unit: 507	Owner: KING MORGAN LLC
+Heated Area: 1183
+Deed Date: 12/09/2024
+Pkg Sale Price: 275000
+Assessed: 441854
+Account: 0329088
+-----------------------
 Unit: 307	Owner: TIRADO-MONTERO, JAVIER
 Heated Area: 1183
 Deed Date: 04/05/2021
@@ -310,13 +317,6 @@ Deed Date: 12/10/2019
 Pkg Sale Price: 375000
 Assessed: 441854
 Account: 0329074
------------------------
-Unit: 507	Owner: KING, ALAN S
-Heated Area: 1183
-Deed Date: 06/29/2010
-Pkg Sale Price: 275000
-Assessed: 441854
-Account: 0329088
 -----------------------
 Unit: 315	Owner: CARTER, SARAH ELISE
 Heated Area: 1142
