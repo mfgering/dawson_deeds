@@ -2388,9 +2388,9 @@ Assessed: 664944
 Account: 0479650
 -----------------------
 Street Number: 8581
-Unit: 508	Style: villa	Owner: MCCULLOUGH, JEANETTE G TRUSTEE; TRUSTEE OF JEANETTE G MCCULLOUGH RE
+Unit: 508	Style: villa	Owner: USRY, SHIRLEY H
 Heated Area: 1205
-Deed Date: 09/19/2018
+Deed Date: 12/16/2024
 Pkg Sale Price: 477000
 Assessed: 655325
 Account: 0461552

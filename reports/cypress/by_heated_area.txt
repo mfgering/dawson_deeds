@@ -2300,6 +2300,14 @@ Assessed: 558840
 Account: 0461542
 -----------------------
 Street Number: 8581
+Unit: 508	Style: villa	Owner: USRY, SHIRLEY H
+Heated Area: 1205
+Deed Date: 12/16/2024
+Pkg Sale Price: 477000
+Assessed: 655325
+Account: 0461552
+-----------------------
+Street Number: 8581
 Unit: 108	Style: villa	Owner: AMAISMEIER, JOSEPH W TRUSTEE; JOSEPH W AMAISMEIER TRUST
 Heated Area: 1205
 Deed Date: 07/24/2023
@@ -2330,14 +2338,6 @@ Deed Date: 09/20/2018
 Pkg Sale Price: 446000
 Assessed: 655325
 Account: 0461539
------------------------
-Street Number: 8581
-Unit: 508	Style: villa	Owner: MCCULLOUGH, JEANETTE G TRUSTEE; TRUSTEE OF JEANETTE G MCCULLOUGH RE
-Heated Area: 1205
-Deed Date: 09/19/2018
-Pkg Sale Price: 477000
-Assessed: 655325
-Account: 0461552
 -----------------------
 Street Number: 8581
 Unit: 407	Style: villa	Owner: ROGERS, ANNETTE HERR TRUSTEE; ANNETTE HERR ROGERS REVOCABLE TRUST
