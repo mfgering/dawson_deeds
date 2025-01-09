@@ -2303,7 +2303,7 @@ Street Number: 8581
 Unit: 508	Style: villa	Owner: USRY, SHIRLEY H
 Heated Area: 1205
 Deed Date: 12/16/2024
-Pkg Sale Price: 477000
+Pkg Sale Price: 623000
 Assessed: 655325
 Account: 0461552
 -----------------------
