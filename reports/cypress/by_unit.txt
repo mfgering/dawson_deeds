@@ -1468,9 +1468,9 @@ Assessed: 601231
 Account: 0403291
 -----------------------
 Street Number: 8811
-Unit: 309	Style: villa	Owner: GREENBERG, BLUMA K
+Unit: 309	Style: villa	Owner: GREENBERG, BLUMA KAFKA TRUSTEE; BLUMA K GREENBERG TRUST
 Heated Area: 1494
-Deed Date: 10/20/2008
+Deed Date: 01/13/2025
 Pkg Sale Price: 410000
 Assessed: 721437
 Account: 0403377

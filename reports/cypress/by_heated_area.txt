@@ -1596,6 +1596,14 @@ Assessed: 663839
 Account: 0461545
 -----------------------
 Street Number: 8811
+Unit: 309	Style: villa	Owner: GREENBERG, BLUMA KAFKA TRUSTEE; BLUMA K GREENBERG TRUST
+Heated Area: 1494
+Deed Date: 01/13/2025
+Pkg Sale Price: 410000
+Assessed: 721437
+Account: 0403377
+-----------------------
+Street Number: 8811
 Unit: 209	Style: villa	Owner: BAKER, STANLEY BECKWITH TRUSTEE; STANLEY BECKWITH BAKER REVOCABLE TR
 Heated Area: 1494
 Deed Date: 08/21/2024
@@ -1658,14 +1666,6 @@ Deed Date: 12/11/2008
 Pkg Sale Price: 414000
 Assessed: 721437
 Account: 0403403
------------------------
-Street Number: 8811
-Unit: 309	Style: villa	Owner: GREENBERG, BLUMA K
-Heated Area: 1494
-Deed Date: 10/20/2008
-Pkg Sale Price: 410000
-Assessed: 721437
-Account: 0403377
 -----------------------
 Street Number: 8811
 Unit: 409	Style: villa	Owner: FLETCHER, OSCAR J & SYBIL M
