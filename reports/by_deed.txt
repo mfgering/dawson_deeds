@@ -3,6 +3,13 @@ By Deed Date
 
 
 -----------------------
+Unit: 506	Owner: 929 HOLDINGS LLC
+Heated Area: 1409
+Deed Date: 01/15/2025
+Pkg Sale Price: 370000
+Assessed: 508770
+Account: 0329087
+-----------------------
 Unit: 507	Owner: KING MORGAN LLC
 Heated Area: 1183
 Deed Date: 12/09/2024
@@ -86,13 +93,6 @@ Deed Date: 06/27/2022
 Pkg Sale Price: 1200000
 Assessed: 1164392
 Account: 0328684
------------------------
-Unit: 506	Owner: WOODALL, JOHN CHARLES; CREECH, MARY HELEN
-Heated Area: 1409
-Deed Date: 06/13/2022
-Pkg Sale Price: 370000
-Assessed: 508770
-Account: 0329087
 -----------------------
 Unit: 306	Owner: SOTO, MARCO ANTONIO; MONTOYA, TANYA ALEJANDRA
 Heated Area: 1409

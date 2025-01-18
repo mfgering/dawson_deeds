@@ -157,9 +157,9 @@ Pkg Sale Price: 0
 Assessed: 436408
 Account: 0329098
 -----------------------
-Unit: 506	Owner: WOODALL, JOHN CHARLES; CREECH, MARY HELEN
+Unit: 506	Owner: 929 HOLDINGS LLC
 Heated Area: 1409
-Deed Date: 06/13/2022
+Deed Date: 01/15/2025
 Pkg Sale Price: 370000
 Assessed: 508770
 Account: 0329087
