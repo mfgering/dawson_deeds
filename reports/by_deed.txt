@@ -6,7 +6,7 @@ By Deed Date
 Unit: 506	Owner: 929 HOLDINGS LLC
 Heated Area: 1409
 Deed Date: 01/15/2025
-Pkg Sale Price: 370000
+Pkg Sale Price: 415000
 Assessed: 508770
 Account: 0329087
 -----------------------
