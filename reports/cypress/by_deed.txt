@@ -3,6 +3,14 @@ By Deed Date
 
 
 -----------------------
+Street Number: 8581
+Unit: 400	Style: villa	Owner: COE, MILLARD H TRUSTEE; TRUSTEE OF MILLARD H COE REVOCABLE
+Heated Area: 1287
+Deed Date: 01/30/2025
+Pkg Sale Price: 432000
+Assessed: 502626
+Account: 0461531
+-----------------------
 Street Number: 8811
 Unit: 309	Style: villa	Owner: GREENBERG, BLUMA KAFKA TRUSTEE; BLUMA K GREENBERG TRUST
 Heated Area: 1494
@@ -1666,14 +1674,6 @@ Deed Date: 10/16/2018
 Pkg Sale Price: 796000
 Assessed: 938009
 Account: 0403718
------------------------
-Street Number: 8581
-Unit: 400	Style: villa	Owner: COE, MILLARD H TRUSTEE; COE, GLORIA O TRUSTEE
-Heated Area: 1287
-Deed Date: 10/15/2018
-Pkg Sale Price: 432000
-Assessed: 502626
-Account: 0461531
 -----------------------
 Street Number: 8581
 Unit: 401	Style: villa	Owner: HUTCHISON, REBECCA P

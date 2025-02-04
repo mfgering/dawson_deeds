@@ -1979,6 +1979,14 @@ Pkg Sale Price: 455000
 Assessed: 638622
 Account: 0403399
 -----------------------
+Street Number: 8581
+Unit: 400	Style: villa	Owner: COE, MILLARD H TRUSTEE; TRUSTEE OF MILLARD H COE REVOCABLE
+Heated Area: 1287
+Deed Date: 01/30/2025
+Pkg Sale Price: 432000
+Assessed: 502626
+Account: 0461531
+-----------------------
 Street Number: 8831
 Unit: 202	Style: villa	Owner: BETTS, PHILLIP W & ANN P
 Heated Area: 1287
@@ -2082,14 +2090,6 @@ Deed Date: 06/14/2019
 Pkg Sale Price: 464000
 Assessed: 502626
 Account: 0461546
------------------------
-Street Number: 8581
-Unit: 400	Style: villa	Owner: COE, MILLARD H TRUSTEE; COE, GLORIA O TRUSTEE
-Heated Area: 1287
-Deed Date: 10/15/2018
-Pkg Sale Price: 432000
-Assessed: 502626
-Account: 0461531
 -----------------------
 Street Number: 8581
 Unit: 202	Style: villa	Owner: DREYFUS, LEE TRUSTEE; THE LEE DREYFUS REVOCABLE TRUST

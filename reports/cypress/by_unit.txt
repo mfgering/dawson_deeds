@@ -1620,9 +1620,9 @@ Assessed: 507549
 Account: 0403376
 -----------------------
 Street Number: 8581
-Unit: 400	Style: villa	Owner: COE, MILLARD H TRUSTEE; COE, GLORIA O TRUSTEE
+Unit: 400	Style: villa	Owner: COE, MILLARD H TRUSTEE; TRUSTEE OF MILLARD H COE REVOCABLE
 Heated Area: 1287
-Deed Date: 10/15/2018
+Deed Date: 01/30/2025
 Pkg Sale Price: 432000
 Assessed: 502626
 Account: 0461531
