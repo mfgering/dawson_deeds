@@ -2020,9 +2020,9 @@ Assessed: 906599
 Account: 0479640
 -----------------------
 Street Number: 8581
-Unit: 411	Style: villa	Owner: DEENER, RAMONA
+Unit: 411	Style: villa	Owner: DEENER, RAMONA ANTHONY TRUSTEE; ALSPAUGH, CARRIE D TRUSTEE
 Heated Area: 1217
-Deed Date: 09/17/2018
+Deed Date: 02/12/2025
 Pkg Sale Price: 392000
 Assessed: 558840
 Account: 0461542

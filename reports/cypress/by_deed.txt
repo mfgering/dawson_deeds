@@ -4,6 +4,14 @@ By Deed Date
 
 -----------------------
 Street Number: 8581
+Unit: 411	Style: villa	Owner: DEENER, RAMONA ANTHONY TRUSTEE; ALSPAUGH, CARRIE D TRUSTEE
+Heated Area: 1217
+Deed Date: 02/12/2025
+Pkg Sale Price: 392000
+Assessed: 558840
+Account: 0461542
+-----------------------
+Street Number: 8581
 Unit: 400	Style: villa	Owner: COE, MILLARD H TRUSTEE; TRUSTEE OF MILLARD H COE REVOCABLE
 Heated Area: 1287
 Deed Date: 01/30/2025
@@ -1906,14 +1914,6 @@ Deed Date: 09/17/2018
 Pkg Sale Price: 520000
 Assessed: 764889
 Account: 0461540
------------------------
-Street Number: 8581
-Unit: 411	Style: villa	Owner: DEENER, RAMONA
-Heated Area: 1217
-Deed Date: 09/17/2018
-Pkg Sale Price: 392000
-Assessed: 558840
-Account: 0461542
 -----------------------
 Street Number: 8581
 Unit: 500	Style: villa	Owner: KAMETCHES, SOPHIE L
