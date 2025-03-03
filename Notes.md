@@ -1,7 +1,6 @@
 The dawson_deeds module will make the csv file. Creating/updating the spreadsheet is done 
 via a libreoffice macro.
 
-
 # Debugging Macros
 
 On Linux, libreoffice uses the system python. The vscode IDE uses the ptvsd python module (use pip).
