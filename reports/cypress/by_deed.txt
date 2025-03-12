@@ -3,6 +3,14 @@ By Deed Date
 
 
 -----------------------
+Street Number: 8821
+Unit: 412	Style: villa	Owner: OLSON, JAMES L
+Heated Area: 1066
+Deed Date: 02/28/2025
+Pkg Sale Price: 333000
+Assessed: 376194
+Account: 0403713
+-----------------------
 Street Number: 8581
 Unit: 411	Style: villa	Owner: DEENER, RAMONA ANTHONY TRUSTEE; ALSPAUGH, CARRIE D TRUSTEE
 Heated Area: 1217
@@ -2394,14 +2402,6 @@ Deed Date: 12/10/2008
 Pkg Sale Price: 639000
 Assessed: 1044665
 Account: 0403725
------------------------
-Street Number: 8821
-Unit: 412	Style: villa	Owner: BELANUS, BEATRICE TRUSTEE; BELANUS, CORNELIUS JR TRUSTEE
-Heated Area: 1066
-Deed Date: 11/21/2008
-Pkg Sale Price: 333000
-Assessed: 376194
-Account: 0403713
 -----------------------
 Street Number: 8811
 Unit: 510	Style: villa	Owner: HEFFRING, PETER A & DONNA T

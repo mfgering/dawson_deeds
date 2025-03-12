@@ -2084,9 +2084,9 @@ Assessed: 724034
 Account: 0403391
 -----------------------
 Street Number: 8821
-Unit: 412	Style: villa	Owner: BELANUS, BEATRICE TRUSTEE; BELANUS, CORNELIUS JR TRUSTEE
+Unit: 412	Style: villa	Owner: OLSON, JAMES L
 Heated Area: 1066
-Deed Date: 11/21/2008
+Deed Date: 02/28/2025
 Pkg Sale Price: 333000
 Assessed: 376194
 Account: 0403713
