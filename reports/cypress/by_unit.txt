@@ -2092,9 +2092,9 @@ Assessed: 376194
 Account: 0403713
 -----------------------
 Street Number: 8831
-Unit: 412	Style: villa	Owner: MARTINELLI, ALBERT D & ELIZABETH A
+Unit: 412	Style: villa	Owner: MARTINELLI, ALBERT DAVID TRUSTEE; MARTINELLI, ELIZABETH ANN TRUSTEE
 Heated Area: 1692
-Deed Date: 11/10/2020
+Deed Date: 03/17/2025
 Pkg Sale Price: 558000
 Assessed: 744842
 Account: 0479642
