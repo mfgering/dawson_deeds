@@ -2,3 +2,4 @@ reports/.~lock.dawson.csv#
 __pycache__/**
 .venv
 **/.~lock*
+.env
