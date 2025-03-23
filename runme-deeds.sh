@@ -46,8 +46,7 @@ body = """$message"""
 message.attach(MIMEText(body, "plain"))
 
 try:
-    with smtplib.SMTP(smtp_server, smtp_port) as server:
-        server.starttls()
+    with smtplib.SMTP_SSL(smtp_server, smtp_port) as server:
         server.login(sender, password)
         server.send_message(message)
         print("Email sent successfully")
@@ -55,6 +54,13 @@ except Exception as e:
     print(f"Failed to send email: {str(e)}")
     exit(1)
 END
+}
+
+test() {
+    echo "Starting test..."
+    send_email "Test email"
+    echo "End test"
+    exit 0
 }
 
 # Store initial modification times
@@ -91,7 +97,7 @@ if [ "$CHANGES_DETECTED" = true ]; then
     echo "Changes detected, sending email..."
     send_email "$EMAIL_MESSAGE"
     
-    echo "Commiting changes..."
+    echo "Committing changes..."
     git add reports
     git commit -m 'cron: updated deed reports' 
     git push
