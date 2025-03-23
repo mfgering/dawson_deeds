@@ -24,15 +24,37 @@ activate() {
 
 send_email() {
     local message="$1"
-    echo "$message" | mail \
-        -s "$EMAIL_SUBJECT" \
-        -r "$EMAIL_FROM" \
-        -S smtp="smtp://$SMTP_SERVER:$SMTP_PORT" \
-        -S smtp-use-starttls \
-        -S smtp-auth=login \
-        -S smtp-auth-user="$EMAIL_FROM" \
-        -S smtp-auth-password="$EMAIL_PASSWORD" \
-        "$EMAIL_TO"
+    python3 - <<END
+import smtplib
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
+import os
+
+sender = os.environ['EMAIL_FROM']
+receiver = os.environ['EMAIL_TO']
+password = os.environ['EMAIL_PASSWORD']
+smtp_server = os.environ['SMTP_SERVER']
+smtp_port = int(os.environ['SMTP_PORT'])
+subject = os.environ['EMAIL_SUBJECT']
+
+message = MIMEMultipart()
+message["From"] = sender
+message["To"] = receiver
+message["Subject"] = subject
+
+body = """$message"""
+message.attach(MIMEText(body, "plain"))
+
+try:
+    with smtplib.SMTP(smtp_server, smtp_port) as server:
+        server.starttls()
+        server.login(sender, password)
+        server.send_message(message)
+        print("Email sent successfully")
+except Exception as e:
+    print(f"Failed to send email: {str(e)}")
+    exit(1)
+END
 }
 
 # Store initial modification times
