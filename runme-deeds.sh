@@ -85,11 +85,15 @@ EMAIL_MESSAGE=""
 
 if [ "$DAWSON_INITIAL" != "$DAWSON_AFTER" ]; then
     EMAIL_MESSAGE+="Dawson deeds report has been updated.\n"
+    DAWSON_DIFF=$(git diff reports/dawson_deeds.csv)
+    EMAIL_MESSAGE+="$DAWSON_DIFF\n"
     CHANGES_DETECTED=true
 fi
 
 if [ "$CYPRESS_INITIAL" != "$CYPRESS_AFTER" ]; then
     EMAIL_MESSAGE+="Cypress deeds report has been updated.\n"
+    CYPRESS_DIFF=$(git diff reports/cypress/cypress.csv)
+    EMAIL_MESSAGE+="$CYPRESS_DIFF\n"
     CHANGES_DETECTED=true
 fi
 
