@@ -85,7 +85,7 @@ EMAIL_MESSAGE=""
 
 if [ "$DAWSON_INITIAL" != "$DAWSON_AFTER" ]; then
     EMAIL_MESSAGE+="Dawson deeds report has been updated.\n"
-    DAWSON_DIFF=$(git diff reports/dawson_deeds.csv)
+    DAWSON_DIFF=$(git diff reports/dawson.csv)
     EMAIL_MESSAGE+="$DAWSON_DIFF\n"
     CHANGES_DETECTED=true
 fi
