@@ -64,7 +64,7 @@ test() {
 }
 
 # Store initial modification times
-DAWSON_INITIAL=$(stat -c %Y reports/dawson_deeds.csv 2>/dev/null || echo 0)
+DAWSON_INITIAL=$(stat -c %Y reports/dawson.csv 2>/dev/null || echo 0)
 CYPRESS_INITIAL=$(stat -c %Y reports/cypress/cypress.csv 2>/dev/null || echo 0)
 
 git pull
@@ -77,7 +77,7 @@ echo "Running cypress_deeds.py"
 python3 cypress_deeds.py
 
 # Check for modifications
-DAWSON_AFTER=$(stat -c %Y reports/dawson_deeds.csv 2>/dev/null || echo 0)
+DAWSON_AFTER=$(stat -c %Y reports/dawson.csv 2>/dev/null || echo 0)
 CYPRESS_AFTER=$(stat -c %Y reports/cypress/cypress.csv 2>/dev/null || echo 0)
 
 CHANGES_DETECTED=false
