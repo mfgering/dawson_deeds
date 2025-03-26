@@ -70,10 +70,10 @@ git pull
 activate
 
 echo "Running dawson_deeds.py"
-#python3 dawson_deeds.py
+python3 dawson_deeds.py
 
 echo "Running cypress_deeds.py"
-#python3 cypress_deeds.py
+python3 cypress_deeds.py
 
 CHANGES_DETECTED=false
 EMAIL_MESSAGE=""
