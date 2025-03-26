@@ -17,6 +17,9 @@ for var in "${required_vars[@]}"; do
     fi
 done
 
+# Use the first command-line argument as the commit and email subject, if provided
+CUSTOM_SUBJECT=${1:-"updated deed reports"}
+
 activate() {
   . .venv/bin/activate
   python3 -V
@@ -35,7 +38,7 @@ receiver = os.environ['EMAIL_TO']
 password = os.environ['EMAIL_PASSWORD']
 smtp_server = os.environ['SMTP_SERVER']
 smtp_port = int(os.environ['SMTP_PORT'])
-subject = os.environ['EMAIL_SUBJECT']
+subject = "${CUSTOM_SUBJECT}"
 
 message = MIMEMultipart()
 message["From"] = sender
@@ -95,7 +98,7 @@ if [ "$CHANGES_DETECTED" = true ]; then
     
     echo "Committing changes..."
     git add reports
-    git commit -m 'cron: updated deed reports' 
+    git commit -m "$CUSTOM_SUBJECT" 
     git push
 else
     echo "No changes detected"
