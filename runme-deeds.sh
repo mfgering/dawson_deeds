@@ -63,37 +63,29 @@ test() {
     exit 0
 }
 
-# Store initial modification times
-DAWSON_INITIAL=$(stat -c %Y reports/dawson.csv 2>/dev/null || echo 0)
-CYPRESS_INITIAL=$(stat -c %Y reports/cypress/cypress.csv 2>/dev/null || echo 0)
-
 git pull
 activate
 
 echo "Running dawson_deeds.py"
-python3 dawson_deeds.py
+#python3 dawson_deeds.py
 
 echo "Running cypress_deeds.py"
-python3 cypress_deeds.py
-
-# Check for modifications
-DAWSON_AFTER=$(stat -c %Y reports/dawson.csv 2>/dev/null || echo 0)
-CYPRESS_AFTER=$(stat -c %Y reports/cypress/cypress.csv 2>/dev/null || echo 0)
+#python3 cypress_deeds.py
 
 CHANGES_DETECTED=false
 EMAIL_MESSAGE=""
+DAWSON_DIFF=$(git diff -U0 reports/dawson.csv)
 
-if [ "$DAWSON_INITIAL" != "$DAWSON_AFTER" ]; then
+if [ -n "$DAWSON_DIFF" ]; then
     EMAIL_MESSAGE+="Dawson deeds report has been updated.\n"
-    DAWSON_DIFF=$(git diff reports/dawson.csv)
-    EMAIL_MESSAGE+="$DAWSON_DIFF\n"
+    EMAIL_MESSAGE+="------------\n$DAWSON_DIFF\n------------\n"
     CHANGES_DETECTED=true
 fi
 
-if [ "$CYPRESS_INITIAL" != "$CYPRESS_AFTER" ]; then
+CYPRESS_DIFF=$(git diff -U0 reports/cypress/cypress.csv)
+if [ -n "$CYPRESS_DIFF" ]; then
     EMAIL_MESSAGE+="Cypress deeds report has been updated.\n"
-    CYPRESS_DIFF=$(git diff reports/cypress/cypress.csv)
-    EMAIL_MESSAGE+="$CYPRESS_DIFF\n"
+    EMAIL_MESSAGE+="------------\n$CYPRESS_DIFF\n------------\n"
     CHANGES_DETECTED=true
 fi
 
