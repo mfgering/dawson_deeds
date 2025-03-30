@@ -316,6 +316,14 @@ Assessed: 1285431
 Account: 0403328
 -----------------------
 Street Number: 8821
+Unit: 405	Style: villa	Owner: POTTER, LARRY D & BARBARA L
+Heated Area: 2352
+Deed Date: 11/12/2024
+Pkg Sale Price: 680000
+Assessed: 1006729
+Account: 0403712
+-----------------------
+Street Number: 8821
 Unit: 505	Style: villa	Owner: POOLE, CAROL J TRUSTEE; CAROL J. POOLE REVOCABLE TRUST
 Heated Area: 2352
 Deed Date: 07/28/2020
@@ -354,14 +362,6 @@ Deed Date: 06/15/2011
 Pkg Sale Price: 662000
 Assessed: 981517
 Account: 0403297
------------------------
-Street Number: 8821
-Unit: 405	Style: villa	Owner: HOLDING, CAROLYN S
-Heated Area: 2352
-Deed Date: 12/22/2010
-Pkg Sale Price: 680000
-Assessed: 1006729
-Account: 0403712
 -----------------------
 Street Number: 8703
 Unit: 	Style: cottage	Owner: RHODES, JOHN F & RUTH Y
@@ -2471,7 +2471,7 @@ Street Number: 8821
 Unit: 412	Style: villa	Owner: OLSON, JAMES L
 Heated Area: 1066
 Deed Date: 02/28/2025
-Pkg Sale Price: 333000
+Pkg Sale Price: 392000
 Assessed: 376194
 Account: 0403713
 -----------------------
@@ -2540,10 +2540,10 @@ Assessed: 395058
 Account: 0403691
 -----------------------
 Street Number: 8811
-Unit: 202	Style: villa	Owner: SCOTT, ARTHUR
+Unit: 202	Style: villa	Owner: WEADOCK, EDWARD E
 Heated Area: 994
-Deed Date: 07/29/2016
-Pkg Sale Price: 315500
+Deed Date: 03/19/2025
+Pkg Sale Price: 365000
 Assessed: 433520
 Account: 0403359
 -----------------------

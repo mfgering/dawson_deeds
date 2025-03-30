@@ -1,10 +1,17 @@
+runme-deeds.sh
 #!/usr/bin/bash
 
-# Load environment variables from .env file
-if [ -f .env ]; then
-    export $(cat .env | sed 's/#.*//g' | xargs)
+# Determine the directory of the script
+SCRIPT_DIR=$(dirname "$(readlink -f "$0")")
+
+# Change the current directory to the script directory
+cd "$SCRIPT_DIR" || { echo "Error: Cannot change directory to $SCRIPT_DIR"; exit 1; }
+
+# Load environment variables from .env file located in the script's directory
+if [ -f ".env" ]; then
+    export $(cat ".env" | sed 's/#.*//g' | xargs)
 else
-    echo "Error: .env file not found"
+    echo "Error: .env file not found in $SCRIPT_DIR"
     exit 1
 fi
 

@@ -700,10 +700,10 @@ Assessed: 824191
 Account: 0403270
 -----------------------
 Street Number: 8811
-Unit: 202	Style: villa	Owner: SCOTT, ARTHUR
+Unit: 202	Style: villa	Owner: WEADOCK, EDWARD E
 Heated Area: 994
-Deed Date: 07/29/2016
-Pkg Sale Price: 315500
+Deed Date: 03/19/2025
+Pkg Sale Price: 365000
 Assessed: 433520
 Account: 0403359
 -----------------------
@@ -1820,9 +1820,9 @@ Assessed: 730924
 Account: 0403381
 -----------------------
 Street Number: 8821
-Unit: 405	Style: villa	Owner: HOLDING, CAROLYN S
+Unit: 405	Style: villa	Owner: POTTER, LARRY D & BARBARA L
 Heated Area: 2352
-Deed Date: 12/22/2010
+Deed Date: 11/12/2024
 Pkg Sale Price: 680000
 Assessed: 1006729
 Account: 0403712
@@ -2087,7 +2087,7 @@ Street Number: 8821
 Unit: 412	Style: villa	Owner: OLSON, JAMES L
 Heated Area: 1066
 Deed Date: 02/28/2025
-Pkg Sale Price: 333000
+Pkg Sale Price: 392000
 Assessed: 376194
 Account: 0403713
 -----------------------
