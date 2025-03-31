@@ -1,4 +1,3 @@
-runme-deeds.sh
 #!/usr/bin/bash
 
 # Determine the directory of the script
