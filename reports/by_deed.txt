@@ -318,7 +318,7 @@ Pkg Sale Price: 195000
 Assessed: 310236
 Account: 0400617
 -----------------------
-Unit: 111	Owner: R MICHELLE SPARROW
+Unit: 111	Owner: R MICHELLE SPARROW; R MICHELLE SPARROW
 Heated Area: 530
 Deed Date: 05/05/2015
 Pkg Sale Price: 119500
