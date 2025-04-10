@@ -3,6 +3,14 @@ By Deed Date
 
 
 -----------------------
+Street Number: 8601
+Unit: 503	Style: villa	Owner: PHILLIPS, SARAH K & DENNIS B
+Heated Area: 1450
+Deed Date: 03/31/2025
+Pkg Sale Price: 464000
+Assessed: 601231
+Account: 0403305
+-----------------------
 Street Number: 8811
 Unit: 202	Style: villa	Owner: WEADOCK, EDWARD E
 Heated Area: 994
@@ -2530,14 +2538,6 @@ Deed Date: 09/23/2008
 Pkg Sale Price: 486000
 Assessed: 706074
 Account: 0403307
------------------------
-Street Number: 8601
-Unit: 503	Style: villa	Owner: ADAMS, FRED H SR & BOBBIE T
-Heated Area: 1450
-Deed Date: 09/22/2008
-Pkg Sale Price: 464000
-Assessed: 601231
-Account: 0403305
 -----------------------
 Street Number: 8601
 Unit: 107	Style: villa	Owner: COLLINS, ANN T & WILLIAM K

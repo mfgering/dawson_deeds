@@ -2212,9 +2212,9 @@ Assessed: 733792
 Account: 0461547
 -----------------------
 Street Number: 8601
-Unit: 503	Style: villa	Owner: ADAMS, FRED H SR & BOBBIE T
+Unit: 503	Style: villa	Owner: PHILLIPS, SARAH K & DENNIS B
 Heated Area: 1450
-Deed Date: 09/22/2008
+Deed Date: 03/31/2025
 Pkg Sale Price: 464000
 Assessed: 601231
 Account: 0403305
