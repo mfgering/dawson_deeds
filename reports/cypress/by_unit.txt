@@ -564,9 +564,9 @@ Assessed: 601231
 Account: 0403268
 -----------------------
 Street Number: 8811
-Unit: 109	Style: villa	Owner: RODGER, DIANE S
+Unit: 109	Style: villa	Owner: PEARCE, ANN C & IRVIN A
 Heated Area: 1494
-Deed Date: 07/11/2023
+Deed Date: 04/17/2025
 Pkg Sale Price: 698000
 Assessed: 658171
 Account: 0403353

@@ -3,6 +3,14 @@ By Deed Date
 
 
 -----------------------
+Street Number: 8811
+Unit: 109	Style: villa	Owner: PEARCE, ANN C & IRVIN A
+Heated Area: 1494
+Deed Date: 04/17/2025
+Pkg Sale Price: 698000
+Assessed: 658171
+Account: 0403353
+-----------------------
 Street Number: 8601
 Unit: 503	Style: villa	Owner: PHILLIPS, SARAH K & DENNIS B
 Heated Area: 1450
@@ -498,14 +506,6 @@ Deed Date: 07/24/2023
 Pkg Sale Price: 558000
 Assessed: 744842
 Account: 0479629
------------------------
-Street Number: 8811
-Unit: 109	Style: villa	Owner: RODGER, DIANE S
-Heated Area: 1494
-Deed Date: 07/11/2023
-Pkg Sale Price: 698000
-Assessed: 658171
-Account: 0403353
 -----------------------
 Street Number: 8581
 Unit: 106	Style: villa	Owner: DUREN, JOHN & CAROL
