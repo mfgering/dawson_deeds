@@ -567,7 +567,7 @@ Street Number: 8811
 Unit: 109	Style: villa	Owner: PEARCE, ANN C & IRVIN A
 Heated Area: 1494
 Deed Date: 04/17/2025
-Pkg Sale Price: 698000
+Pkg Sale Price: 810000
 Assessed: 658171
 Account: 0403353
 -----------------------
@@ -748,9 +748,9 @@ Assessed: 724034
 Account: 0403357
 -----------------------
 Street Number: 8821
-Unit: 203	Style: villa	Owner: BOWLING, ROSALIND B; BOWLING, JONATHAN EARL & BEVERLY
+Unit: 203	Style: villa	Owner: AMBROSE, JUDITH W
 Heated Area: 1450
-Deed Date: 03/13/2017
+Deed Date: 06/17/2024
 Pkg Sale Price: 446000
 Assessed: 601231
 Account: 0403686
@@ -1823,7 +1823,7 @@ Street Number: 8821
 Unit: 405	Style: villa	Owner: POTTER, LARRY D & BARBARA L
 Heated Area: 2352
 Deed Date: 11/12/2024
-Pkg Sale Price: 680000
+Pkg Sale Price: 1350000
 Assessed: 1006729
 Account: 0403712
 -----------------------
@@ -2215,7 +2215,7 @@ Street Number: 8601
 Unit: 503	Style: villa	Owner: PHILLIPS, SARAH K & DENNIS B
 Heated Area: 1450
 Deed Date: 03/31/2025
-Pkg Sale Price: 464000
+Pkg Sale Price: 666000
 Assessed: 601231
 Account: 0403305
 -----------------------
@@ -2412,9 +2412,9 @@ Assessed: 638622
 Account: 0403401
 -----------------------
 Street Number: 8821
-Unit: 508	Style: villa	Owner: GUNNESS, ROBERT & BARBARA
+Unit: 508	Style: villa	Owner: GUNNESS, ROBERT C TRUSTEE; GUNNESS, BARBARA W TRUSTEE
 Heated Area: 2259
-Deed Date: 10/31/2023
+Deed Date: 04/22/2025
 Pkg Sale Price: 1328000
 Assessed: 1143027
 Account: 0403728
@@ -2524,9 +2524,9 @@ Assessed: 706074
 Account: 0403309
 -----------------------
 Street Number: 8811
-Unit: 511	Style: villa	Owner: HECK, SUSAN J
+Unit: 511	Style: villa	Owner: HECK, SUSAN J TRUSTEE; TRUSTEE OF SUSAN J HECK REVOCABLE T
 Heated Area: 1240
-Deed Date: 04/29/2024
+Deed Date: 04/22/2025
 Pkg Sale Price: 490500
 Assessed: 527897
 Account: 0403405
