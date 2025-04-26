@@ -72,6 +72,9 @@ test() {
     exit 0
 }
 
+#test #TODO: DELETE THIS
+#exit
+
 git pull
 activate
 
