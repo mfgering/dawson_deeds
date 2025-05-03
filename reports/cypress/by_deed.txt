@@ -279,7 +279,7 @@ Street Number: 8821
 Unit: 203	Style: villa	Owner: AMBROSE, JUDITH W
 Heated Area: 1450
 Deed Date: 06/17/2024
-Pkg Sale Price: 446000
+Pkg Sale Price: 612000
 Assessed: 601231
 Account: 0403686
 -----------------------
