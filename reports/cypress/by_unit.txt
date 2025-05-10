@@ -1822,7 +1822,7 @@ Account: 0403381
 Street Number: 8821
 Unit: 405	Style: villa	Owner: POTTER, LARRY D & BARBARA L
 Heated Area: 2352
-Deed Date: 11/12/2024
+Deed Date: 12/22/2010
 Pkg Sale Price: 1350000
 Assessed: 1006729
 Account: 0403712
@@ -2294,7 +2294,7 @@ Account: 0461549
 Street Number: 8601
 Unit: 505	Style: villa	Owner: BEASLEY, JULIA W
 Heated Area: 2352
-Deed Date: 07/20/2020
+Deed Date: 02/08/2013
 Pkg Sale Price: 639000
 Assessed: 981517
 Account: 0403308

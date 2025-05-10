@@ -316,28 +316,12 @@ Assessed: 1285431
 Account: 0403328
 -----------------------
 Street Number: 8821
-Unit: 405	Style: villa	Owner: POTTER, LARRY D & BARBARA L
-Heated Area: 2352
-Deed Date: 11/12/2024
-Pkg Sale Price: 1350000
-Assessed: 1006729
-Account: 0403712
------------------------
-Street Number: 8821
 Unit: 505	Style: villa	Owner: POOLE, CAROL J TRUSTEE; CAROL J. POOLE REVOCABLE TRUST
 Heated Area: 2352
 Deed Date: 07/28/2020
 Pkg Sale Price: 639000
 Assessed: 1006729
 Account: 0403723
------------------------
-Street Number: 8601
-Unit: 505	Style: villa	Owner: BEASLEY, JULIA W
-Heated Area: 2352
-Deed Date: 07/20/2020
-Pkg Sale Price: 639000
-Assessed: 981517
-Account: 0403308
 -----------------------
 Street Number: 8821
 Unit: 305	Style: villa	Owner: STROUD, JOYCE W TRUSTEE; JOYCE W STROUD RVCBLE TRUST
@@ -346,6 +330,14 @@ Deed Date: 09/04/2018
 Pkg Sale Price: 671000
 Assessed: 981517
 Account: 0403701
+-----------------------
+Street Number: 8601
+Unit: 505	Style: villa	Owner: BEASLEY, JULIA W
+Heated Area: 2352
+Deed Date: 02/08/2013
+Pkg Sale Price: 639000
+Assessed: 981517
+Account: 0403308
 -----------------------
 Street Number: 8601
 Unit: 305	Style: villa	Owner: AUSTIN, DAN C SR & JOANNE L
@@ -362,6 +354,14 @@ Deed Date: 06/15/2011
 Pkg Sale Price: 662000
 Assessed: 981517
 Account: 0403297
+-----------------------
+Street Number: 8821
+Unit: 405	Style: villa	Owner: POTTER, LARRY D & BARBARA L
+Heated Area: 2352
+Deed Date: 12/22/2010
+Pkg Sale Price: 1350000
+Assessed: 1006729
+Account: 0403712
 -----------------------
 Street Number: 8703
 Unit: 	Style: cottage	Owner: RHODES, JOHN F & RUTH Y
