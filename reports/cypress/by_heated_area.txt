@@ -68,9 +68,9 @@ Assessed: 1739431
 Account: 0403324
 -----------------------
 Street Number: 8713
-Unit: 	Style: cottage	Owner: WILSNACK, JULIE S
+Unit: 	Style: cottage	Owner: JOHNSON, WALTER D & PATRICIA A
 Heated Area: 3373
-Deed Date: 01/08/2014
+Deed Date: 04/28/2025
 Pkg Sale Price: 986000
 Assessed: 1700623
 Account: 0403342

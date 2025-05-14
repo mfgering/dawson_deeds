@@ -3,6 +3,14 @@ By Deed Date
 
 
 -----------------------
+Street Number: 8713
+Unit: 	Style: cottage	Owner: JOHNSON, WALTER D & PATRICIA A
+Heated Area: 3373
+Deed Date: 04/28/2025
+Pkg Sale Price: 986000
+Assessed: 1700623
+Account: 0403342
+-----------------------
 Street Number: 8821
 Unit: 508	Style: villa	Owner: GUNNESS, ROBERT C TRUSTEE; GUNNESS, BARBARA W TRUSTEE
 Heated Area: 2259
@@ -2242,14 +2250,6 @@ Deed Date: 04/09/2014
 Pkg Sale Price: 392000
 Assessed: 601231
 Account: 0403280
------------------------
-Street Number: 8713
-Unit: 	Style: cottage	Owner: WILSNACK, JULIE S
-Heated Area: 3373
-Deed Date: 01/08/2014
-Pkg Sale Price: 986000
-Assessed: 1700623
-Account: 0403342
 -----------------------
 Street Number: 8742
 Unit: 	Style: cottage	Owner: DAY, RICHARD C & JEAN F
