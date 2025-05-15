@@ -444,9 +444,9 @@ Assessed: 906599
 Account: 0479599
 -----------------------
 Street Number: 8581
-Unit: 106	Style: villa	Owner: DUREN, JOHN & CAROL
+Unit: 106	Style: villa	Owner: DUREN, JOHN W TRUSTEE; THE JOHN W DUREN REVOCABLE TRUST
 Heated Area: 1576
-Deed Date: 07/06/2023
+Deed Date: 04/28/2025
 Pkg Sale Price: 779000
 Assessed: 764889
 Account: 0461501

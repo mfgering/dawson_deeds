@@ -11,6 +11,14 @@ Pkg Sale Price: 986000
 Assessed: 1700623
 Account: 0403342
 -----------------------
+Street Number: 8581
+Unit: 106	Style: villa	Owner: DUREN, JOHN W TRUSTEE; THE JOHN W DUREN REVOCABLE TRUST
+Heated Area: 1576
+Deed Date: 04/28/2025
+Pkg Sale Price: 779000
+Assessed: 764889
+Account: 0461501
+-----------------------
 Street Number: 8821
 Unit: 508	Style: villa	Owner: GUNNESS, ROBERT C TRUSTEE; GUNNESS, BARBARA W TRUSTEE
 Heated Area: 2259
@@ -522,14 +530,6 @@ Deed Date: 07/24/2023
 Pkg Sale Price: 558000
 Assessed: 744842
 Account: 0479629
------------------------
-Street Number: 8581
-Unit: 106	Style: villa	Owner: DUREN, JOHN & CAROL
-Heated Area: 1576
-Deed Date: 07/06/2023
-Pkg Sale Price: 779000
-Assessed: 764889
-Account: 0461501
 -----------------------
 Street Number: 8601
 Unit: 108	Style: villa	Owner: DUDLEY, JOHN GARY & NORMA COOPER
