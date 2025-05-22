@@ -143,9 +143,9 @@ Pkg Sale Price: 405000
 Assessed: 654149
 Account: 0328668
 -----------------------
-Unit: 220	Owner: JTT PROPERTIES LLC
+Unit: 220	Owner: PURYEAR, TOMMIE MARGURETTE
 Heated Area: 787
-Deed Date: 02/28/2008
+Deed Date: 05/05/2025
 Pkg Sale Price: 246000
 Assessed: 315323
 Account: 0328665
