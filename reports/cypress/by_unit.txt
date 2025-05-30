@@ -63,7 +63,7 @@ Street Number: 8713
 Unit: 	Style: cottage	Owner: JOHNSON, WALTER D & PATRICIA A
 Heated Area: 3373
 Deed Date: 04/28/2025
-Pkg Sale Price: 986000
+Pkg Sale Price: 2187000
 Assessed: 1700623
 Account: 0403342
 -----------------------
