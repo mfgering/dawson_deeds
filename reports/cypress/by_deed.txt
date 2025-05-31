@@ -3,6 +3,14 @@ By Deed Date
 
 
 -----------------------
+Street Number: 8738
+Unit: 	Style: cottage	Owner: MARTIN, CHARLOTTE M; CHARLOTTE M MARTIN REVOCABLE TRUST
+Heated Area: 3662
+Deed Date: 05/12/2025
+Pkg Sale Price: 707000
+Assessed: 1811369
+Account: 0403321
+-----------------------
 Street Number: 8713
 Unit: 	Style: cottage	Owner: JOHNSON, WALTER D & PATRICIA A
 Heated Area: 3373
@@ -2386,14 +2394,6 @@ Deed Date: 08/31/2009
 Pkg Sale Price: 259000
 Assessed: 706074
 Account: 0403700
------------------------
-Street Number: 8738
-Unit: 	Style: cottage	Owner: MARTIN, CHARLOTTE M
-Heated Area: 3662
-Deed Date: 02/12/2009
-Pkg Sale Price: 707000
-Assessed: 1811369
-Account: 0403321
 -----------------------
 Street Number: 8811
 Unit: 509	Style: villa	Owner: MCGEE, LINDA C

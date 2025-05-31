@@ -212,9 +212,9 @@ Assessed: 1219311
 Account: 0403322
 -----------------------
 Street Number: 8738
-Unit: 	Style: cottage	Owner: MARTIN, CHARLOTTE M
+Unit: 	Style: cottage	Owner: MARTIN, CHARLOTTE M; CHARLOTTE M MARTIN REVOCABLE TRUST
 Heated Area: 3662
-Deed Date: 02/12/2009
+Deed Date: 05/12/2025
 Pkg Sale Price: 707000
 Assessed: 1811369
 Account: 0403321
