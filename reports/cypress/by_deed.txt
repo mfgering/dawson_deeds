@@ -3,6 +3,14 @@ By Deed Date
 
 
 -----------------------
+Street Number: 8821
+Unit: 511	Style: villa	Owner: ATKINS, FREDERICK C JR & LYNDA H
+Heated Area: 1754
+Deed Date: 05/15/2025
+Pkg Sale Price: 583500
+Assessed: 706074
+Account: 0403724
+-----------------------
 Street Number: 8738
 Unit: 	Style: cottage	Owner: MARTIN, CHARLOTTE M; CHARLOTTE M MARTIN REVOCABLE TRUST
 Heated Area: 3662
@@ -2106,14 +2114,6 @@ Deed Date: 12/21/2015
 Pkg Sale Price: 535000
 Assessed: 601231
 Account: 0403706
------------------------
-Street Number: 8821
-Unit: 511	Style: villa	Owner: SCHEELER, C RONALD & NANCY T
-Heated Area: 1754
-Deed Date: 12/21/2015
-Pkg Sale Price: 583500
-Assessed: 706074
-Account: 0403724
 -----------------------
 Street Number: 8732
 Unit: 	Style: cottage	Owner: FAXON, KURT & ANNE

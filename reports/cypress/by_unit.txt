@@ -2532,9 +2532,9 @@ Assessed: 527897
 Account: 0403405
 -----------------------
 Street Number: 8821
-Unit: 511	Style: villa	Owner: SCHEELER, C RONALD & NANCY T
+Unit: 511	Style: villa	Owner: ATKINS, FREDERICK C JR & LYNDA H
 Heated Area: 1754
-Deed Date: 12/21/2015
+Deed Date: 05/15/2025
 Pkg Sale Price: 583500
 Assessed: 706074
 Account: 0403724

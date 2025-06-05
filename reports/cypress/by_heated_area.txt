@@ -948,6 +948,14 @@ Assessed: 724034
 Account: 0403357
 -----------------------
 Street Number: 8821
+Unit: 511	Style: villa	Owner: ATKINS, FREDERICK C JR & LYNDA H
+Heated Area: 1754
+Deed Date: 05/15/2025
+Pkg Sale Price: 583500
+Assessed: 706074
+Account: 0403724
+-----------------------
+Street Number: 8821
 Unit: 111	Style: villa	Owner: NICHOLS, T EVERETT JR TRUSTEE; NICHOLS, JEAN A TRUSTEE
 Heated Area: 1754
 Deed Date: 10/15/2024
@@ -1082,14 +1090,6 @@ Deed Date: 05/15/2017
 Pkg Sale Price: 725000
 Assessed: 801685
 Account: 0403278
------------------------
-Street Number: 8821
-Unit: 511	Style: villa	Owner: SCHEELER, C RONALD & NANCY T
-Heated Area: 1754
-Deed Date: 12/21/2015
-Pkg Sale Price: 583500
-Assessed: 706074
-Account: 0403724
 -----------------------
 Street Number: 8821
 Unit: 501	Style: villa	Owner: KLEIN, NANCY
