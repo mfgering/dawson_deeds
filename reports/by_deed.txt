@@ -10,26 +10,12 @@ Pkg Sale Price: 246000
 Assessed: 315323
 Account: 0328665
 -----------------------
-Unit: 220	Owner: PURYEAR, TOMMIE MARGURETTE
-Heated Area: 787
-Deed Date: 05/05/2025
-Pkg Sale Price: 246000
-Assessed: 315323
-Account: 0328665
------------------------
 Unit: 506	Owner: 929 HOLDINGS LLC
 Heated Area: 1409
 Deed Date: 01/15/2025
 Pkg Sale Price: 415000
 Assessed: 508770
 Account: 0329087
------------------------
-Unit: 507	Owner: KING MORGAN LLC
-Heated Area: 1183
-Deed Date: 12/09/2024
-Pkg Sale Price: 275000
-Assessed: 441854
-Account: 0329088
 -----------------------
 Unit: 507	Owner: KING MORGAN LLC
 Heated Area: 1183
@@ -72,13 +58,6 @@ Deed Date: 04/29/2024
 Pkg Sale Price: 297000
 Assessed: 315329
 Account: 0400616
------------------------
-Unit: 512	Owner: ROLLING WINGS LLC
-Heated Area: 2995
-Deed Date: 08/23/2023
-Pkg Sale Price: 1590000
-Assessed: 1456786
-Account: 0329093
 -----------------------
 Unit: 512	Owner: ROLLING WINGS LLC
 Heated Area: 2995
@@ -213,13 +192,6 @@ Pkg Sale Price: 377000
 Assessed: 427277
 Account: 0328658
 -----------------------
-Unit: 415	Owner: VILLEGAS, IBIS
-Heated Area: 1142
-Deed Date: 03/25/2020
-Pkg Sale Price: 393000
-Assessed: 443364
-Account: 0329081
------------------------
 Unit: 407	Owner: KENNEY, STEPHEN A
 Heated Area: 1183
 Deed Date: 12/10/2019
@@ -318,6 +290,13 @@ Pkg Sale Price: 280000
 Assessed: 428402
 Account: 0328667
 -----------------------
+Unit: 215	Owner: SOMAI, TULSI & DROPATTIE
+Heated Area: 1142
+Deed Date: 11/28/2016
+Pkg Sale Price: 280000
+Assessed: 428402
+Account: 0328667
+-----------------------
 Unit: 406	Owner: MOUTOS, CHRIS
 Heated Area: 1409
 Deed Date: 06/10/2016
@@ -352,6 +331,13 @@ Deed Date: 03/16/2015
 Pkg Sale Price: 825000
 Assessed: 1255654
 Account: 0329084
+-----------------------
+Unit: 410	Owner: WATKE, FREDERIC W. & ANN M.
+Heated Area: 2171
+Deed Date: 05/22/2014
+Pkg Sale Price: 525000
+Assessed: 737498
+Account: 0329077
 -----------------------
 Unit: 500	Owner: OPPENHEIMER, WENDY; BRAGANZA, ASHISH
 Heated Area: 3037
@@ -451,6 +437,13 @@ Pkg Sale Price: 370000
 Assessed: 497702
 Account: 0400618
 -----------------------
+Unit: 224	Owner: SAUNDERS, JOSHUA N; WELLONS, ANTHONY S
+Heated Area: 1206
+Deed Date: 05/24/2006
+Pkg Sale Price: 370000
+Assessed: 497702
+Account: 0400618
+-----------------------
 Unit: 324	Owner: FRANKLIN, EUGENE THOMAS JR
 Heated Area: 1206
 Deed Date: 03/15/2006
@@ -478,6 +471,13 @@ Deed Date: 05/06/2005
 Pkg Sale Price: 200000
 Assessed: 365668
 Account: 0328677
+-----------------------
+Unit: 411	Owner: GRAY, STEVEN J
+Heated Area: 1221
+Deed Date: 04/14/2005
+Pkg Sale Price: 241500
+Assessed: 452212
+Account: 0329078
 -----------------------
 Unit: 511	Owner: SHERK, WILLIAM G & ROSA W
 Heated Area: 1221

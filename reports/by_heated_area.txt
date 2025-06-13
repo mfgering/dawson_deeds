@@ -31,13 +31,6 @@ Pkg Sale Price: 1590000
 Assessed: 1456786
 Account: 0329093
 -----------------------
-Unit: 512	Owner: ROLLING WINGS LLC
-Heated Area: 2995
-Deed Date: 08/23/2023
-Pkg Sale Price: 1590000
-Assessed: 1456786
-Account: 0329093
------------------------
 Unit: 412	Owner: GERING, MICHAEL FREDERICK; FERREE, MARSHA ELLEN
 Heated Area: 2995
 Deed Date: 02/06/2019
@@ -100,6 +93,13 @@ Deed Date: 03/14/2017
 Pkg Sale Price: 600000
 Assessed: 737498
 Account: 0329091
+-----------------------
+Unit: 410	Owner: WATKE, FREDERIC W. & ANN M.
+Heated Area: 2171
+Deed Date: 05/22/2014
+Pkg Sale Price: 525000
+Assessed: 737498
+Account: 0329077
 -----------------------
 Unit: 210	Owner: ODONOVAN, GERALD & SEOSAIMHIN
 Heated Area: 2171
@@ -262,6 +262,13 @@ Pkg Sale Price: 307000
 Assessed: 452212
 Account: 0328679
 -----------------------
+Unit: 411	Owner: GRAY, STEVEN J
+Heated Area: 1221
+Deed Date: 04/14/2005
+Pkg Sale Price: 241500
+Assessed: 452212
+Account: 0329078
+-----------------------
 Unit: 511	Owner: SHERK, WILLIAM G & ROSA W
 Heated Area: 1221
 Deed Date: 04/08/2005
@@ -276,19 +283,19 @@ Pkg Sale Price: 370000
 Assessed: 497702
 Account: 0400618
 -----------------------
+Unit: 224	Owner: SAUNDERS, JOSHUA N; WELLONS, ANTHONY S
+Heated Area: 1206
+Deed Date: 05/24/2006
+Pkg Sale Price: 370000
+Assessed: 497702
+Account: 0400618
+-----------------------
 Unit: 324	Owner: FRANKLIN, EUGENE THOMAS JR
 Heated Area: 1206
 Deed Date: 03/15/2006
 Pkg Sale Price: 378000
 Assessed: 497702
 Account: 0400622
------------------------
-Unit: 507	Owner: KING MORGAN LLC
-Heated Area: 1183
-Deed Date: 12/09/2024
-Pkg Sale Price: 275000
-Assessed: 441854
-Account: 0329088
 -----------------------
 Unit: 507	Owner: KING MORGAN LLC
 Heated Area: 1183
@@ -325,12 +332,12 @@ Pkg Sale Price: 345000
 Assessed: 428402
 Account: 0328682
 -----------------------
-Unit: 415	Owner: VILLEGAS, IBIS
+Unit: 215	Owner: SOMAI, TULSI & DROPATTIE
 Heated Area: 1142
-Deed Date: 03/25/2020
-Pkg Sale Price: 393000
-Assessed: 443364
-Account: 0329081
+Deed Date: 11/28/2016
+Pkg Sale Price: 280000
+Assessed: 428402
+Account: 0328667
 -----------------------
 Unit: 215	Owner: SOMAI, TULSI & DROPATTIE
 Heated Area: 1142
@@ -457,13 +464,6 @@ Deed Date: 04/29/2024
 Pkg Sale Price: 297000
 Assessed: 315329
 Account: 0400616
------------------------
-Unit: 220	Owner: PURYEAR, TOMMIE MARGURETTE
-Heated Area: 787
-Deed Date: 05/05/2025
-Pkg Sale Price: 246000
-Assessed: 315323
-Account: 0328665
 -----------------------
 Unit: 220	Owner: PURYEAR, TOMMIE MARGURETTE
 Heated Area: 787
