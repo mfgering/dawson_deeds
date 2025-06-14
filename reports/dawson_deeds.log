@@ -1,9 +1,5 @@
 INFO	Start
-ERROR	Duplicate units: 220
-ERROR	Duplicate units: 507
-ERROR	Duplicate units: 512
+ERROR	Duplicate units: 215
+ERROR	Duplicate units: 224
 INFO	Found 70 units online
-WARNING	Deleted: 415, 505
-INFO	Inserted previous info for 415
-INFO	Inserted previous info for 505
 INFO	Done
