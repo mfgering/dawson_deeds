@@ -764,9 +764,9 @@ Assessed: 744842
 Account: 0479607
 -----------------------
 Street Number: 8581
-Unit: 204	Style: villa	Owner: OBERDORFER, MARCELLA MARIE
+Unit: 204	Style: villa	Owner: PUNTE, MARY ELIZABETH
 Heated Area: 1242
-Deed Date: 09/26/2018
+Deed Date: 05/29/2025
 Pkg Sale Price: 401000
 Assessed: 568101
 Account: 0461509
