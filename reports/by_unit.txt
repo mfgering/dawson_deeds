@@ -269,9 +269,9 @@ Pkg Sale Price: 345000
 Assessed: 428402
 Account: 0328682
 -----------------------
-Unit: 317	Owner: RANDOLPH, ROBERT CLETE; RANDOLPH, MARYANNE BILLER
+Unit: 317	Owner: BLONDIN, JOHN M & PAMELA H
 Heated Area: 1687
-Deed Date: 01/25/2019
+Deed Date: 06/13/2025
 Pkg Sale Price: 532000
 Assessed: 654149
 Account: 0328683

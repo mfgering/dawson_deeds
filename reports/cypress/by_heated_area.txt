@@ -235,6 +235,14 @@ Pkg Sale Price: 810000
 Assessed: 1359832
 Account: 0403326
 -----------------------
+Street Number: 8821
+Unit: 507	Style: villa	Owner: HAIGLER, PEGGY JELKS HEIRS
+Heated Area: 2526
+Deed Date: 05/09/2024
+Pkg Sale Price: 639000
+Assessed: 1044665
+Account: 0403725
+-----------------------
 Street Number: 8601
 Unit: 307	Style: villa	Owner: GAMBILL, RICHARD LEE TRUSTEE; RICHARD LEE GAMBILL REVOCABLE TRUST
 Heated Area: 2526
@@ -266,14 +274,6 @@ Deed Date: 04/10/2014
 Pkg Sale Price: 662000
 Assessed: 1044665
 Account: 0403703
------------------------
-Street Number: 8821
-Unit: 507	Style: villa	Owner: HAIGLER, PEGGY JELKS
-Heated Area: 2526
-Deed Date: 12/10/2008
-Pkg Sale Price: 639000
-Assessed: 1044665
-Account: 0403725
 -----------------------
 Street Number: 8601
 Unit: 407	Style: villa	Owner: DWORSKY CYPRESS LLC

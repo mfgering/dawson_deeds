@@ -2372,9 +2372,9 @@ Assessed: 638622
 Account: 0403399
 -----------------------
 Street Number: 8821
-Unit: 507	Style: villa	Owner: HAIGLER, PEGGY JELKS
+Unit: 507	Style: villa	Owner: HAIGLER, PEGGY JELKS HEIRS
 Heated Area: 2526
-Deed Date: 12/10/2008
+Deed Date: 05/09/2024
 Pkg Sale Price: 639000
 Assessed: 1044665
 Account: 0403725

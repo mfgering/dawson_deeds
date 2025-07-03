@@ -3,6 +3,13 @@ By Deed Date
 
 
 -----------------------
+Unit: 317	Owner: BLONDIN, JOHN M & PAMELA H
+Heated Area: 1687
+Deed Date: 06/13/2025
+Pkg Sale Price: 532000
+Assessed: 654149
+Account: 0328683
+-----------------------
 Unit: 220	Owner: PURYEAR, TOMMIE MARGURETTE
 Heated Area: 787
 Deed Date: 05/05/2025
@@ -240,13 +247,6 @@ Deed Date: 02/06/2019
 Pkg Sale Price: 830000
 Assessed: 1121376
 Account: 0329079
------------------------
-Unit: 317	Owner: RANDOLPH, ROBERT CLETE; RANDOLPH, MARYANNE BILLER
-Heated Area: 1687
-Deed Date: 01/25/2019
-Pkg Sale Price: 532000
-Assessed: 654149
-Account: 0328683
 -----------------------
 Unit: 515	Owner: LAWSON, ROBERT CHARLES; POWELL, FRANKLIN MATTHEW
 Heated Area: 2888
