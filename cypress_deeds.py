@@ -249,7 +249,7 @@ class Apts(object):
     def make_csv(self):
         with open(self._csv_filename, "w", newline='') as fp:
             field_names = ['st_num', 'unit_num', 'owner', 'heated_area', 'deed_date', 'pkg_sale_price', 'assessed', 'account', 'photo', 'st_name', 'style', 'model']
-            writer = csv.DictWriter(fp, fieldnames=field_names, quoting=csv.QUOTE_NONNUMERIC)
+            writer = csv.DictWriter(fp, fieldnames=field_names, quoting=csv.QUOTE_ALL)                     NONNUMERIC)
             writer.writeheader()
 #            for apt in sorted(self.apts, key=lambda x: x.unit):
             for apt in self.get_canonical_apts():

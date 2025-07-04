@@ -208,7 +208,7 @@ class Apts(object):
     def make_csv(self):
         with open(self._csv_filename, "w", newline='') as fp:
             field_names = ['unit_num', 'owner', 'heated_area', 'deed_date', 'pkg_sale_price', 'assessed', 'account', 'deed_url']
-            writer = csv.DictWriter(fp, fieldnames=field_names, quoting=csv.QUOTE_NONNUMERIC)
+            writer = csv.DictWriter(fp, fieldnames=field_names, quoting=csv.QUOTE_ALL)
             writer.writeheader()
             for apt in sorted(self.apts, key=lambda x: x.unit):
                 writer.writerow({'unit_num': apt.unit, 
