@@ -3,6 +3,14 @@ By Deed Date
 
 
 -----------------------
+Street Number: 8811
+Unit: 411	Style: villa	Owner: COZZIE, JULIE & DAVID A; COZZIE, JULIE C TR
+Heated Area: 1240
+Deed Date: 06/16/2025
+Pkg Sale Price: 473000
+Assessed: 527897
+Account: 0403392
+-----------------------
 Street Number: 8581
 Unit: 204	Style: villa	Owner: PUNTE, MARY ELIZABETH
 Heated Area: 1242
@@ -218,14 +226,6 @@ Deed Date: 09/16/2024
 Pkg Sale Price: 601000
 Assessed: 507549
 Account: 0403363
------------------------
-Street Number: 8811
-Unit: 411	Style: villa	Owner: COZZIE, JULIE & JODY CHERNIAK
-Heated Area: 1240
-Deed Date: 09/10/2024
-Pkg Sale Price: 473000
-Assessed: 527897
-Account: 0403392
 -----------------------
 Street Number: 8601
 Unit: 110	Style: villa	Owner: THOMAS, SCOTT & ANN

@@ -2172,20 +2172,20 @@ Assessed: 486773
 Account: 0461548
 -----------------------
 Street Number: 8811
+Unit: 411	Style: villa	Owner: COZZIE, JULIE & DAVID A; COZZIE, JULIE C TR
+Heated Area: 1240
+Deed Date: 06/16/2025
+Pkg Sale Price: 473000
+Assessed: 527897
+Account: 0403392
+-----------------------
+Street Number: 8811
 Unit: 511	Style: villa	Owner: HECK, SUSAN J TRUSTEE; TRUSTEE OF SUSAN J HECK REVOCABLE T
 Heated Area: 1240
 Deed Date: 04/22/2025
 Pkg Sale Price: 490500
 Assessed: 527897
 Account: 0403405
------------------------
-Street Number: 8811
-Unit: 411	Style: villa	Owner: COZZIE, JULIE & JODY CHERNIAK
-Heated Area: 1240
-Deed Date: 09/10/2024
-Pkg Sale Price: 473000
-Assessed: 527897
-Account: 0403392
 -----------------------
 Street Number: 8811
 Unit: 304	Style: villa	Owner: BROWER, SARA K TRUSTEE; THE SARA K BROWER REVOCABLE TRUST
