@@ -136,13 +136,6 @@ Pkg Sale Price: 280000
 Assessed: 428402
 Account: 0328667
 -----------------------
-Unit: 215	Owner: SOMAI, TULSI & DROPATTIE
-Heated Area: 1142
-Deed Date: 11/28/2016
-Pkg Sale Price: 280000
-Assessed: 428402
-Account: 0328667
------------------------
 Unit: 217	Owner: SAPIA, JENNIFER L
 Heated Area: 1687
 Deed Date: 01/20/2016
@@ -279,7 +272,7 @@ Account: 0328682
 Unit: 317	Owner: BLONDIN, JOHN M & PAMELA H
 Heated Area: 1687
 Deed Date: 06/13/2025
-Pkg Sale Price: 532000
+Pkg Sale Price: 671000
 Assessed: 654149
 Account: 0328683
 -----------------------
@@ -289,6 +282,13 @@ Deed Date: 11/01/2024
 Pkg Sale Price: 267000
 Assessed: 315323
 Account: 0328680
+-----------------------
+Unit: 324	Owner: FRANKLIN, EUGENE THOMAS JR
+Heated Area: 1206
+Deed Date: 03/15/2006
+Pkg Sale Price: 378000
+Assessed: 497702
+Account: 0400622
 -----------------------
 Unit: 326	Owner: VEMURI, SRIKAR
 Heated Area: 849
@@ -465,9 +465,9 @@ Pkg Sale Price: 600000
 Assessed: 737498
 Account: 0329091
 -----------------------
-Unit: 511	Owner: SHERK, WILLIAM G & ROSA W
+Unit: 511	Owner: SHERK, ROSA WILLIAMS TRUSTEE; TRUSTEE OF ROSA WILLIAMS SHERK LIVI
 Heated Area: 1221
-Deed Date: 04/08/2005
+Deed Date: 06/23/2025
 Pkg Sale Price: 246000
 Assessed: 452212
 Account: 0329092

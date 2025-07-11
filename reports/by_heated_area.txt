@@ -111,7 +111,7 @@ Account: 0328663
 Unit: 317	Owner: BLONDIN, JOHN M & PAMELA H
 Heated Area: 1687
 Deed Date: 06/13/2025
-Pkg Sale Price: 532000
+Pkg Sale Price: 671000
 Assessed: 654149
 Account: 0328683
 -----------------------
@@ -248,6 +248,13 @@ Pkg Sale Price: 355000
 Assessed: 502961
 Account: 0328669
 -----------------------
+Unit: 511	Owner: SHERK, ROSA WILLIAMS TRUSTEE; TRUSTEE OF ROSA WILLIAMS SHERK LIVI
+Heated Area: 1221
+Deed Date: 06/23/2025
+Pkg Sale Price: 246000
+Assessed: 452212
+Account: 0329092
+-----------------------
 Unit: 211	Owner: W&S CAROLINA PROPERTIES LLC
 Heated Area: 1221
 Deed Date: 12/06/2021
@@ -269,19 +276,19 @@ Pkg Sale Price: 241500
 Assessed: 452212
 Account: 0329078
 -----------------------
-Unit: 511	Owner: SHERK, WILLIAM G & ROSA W
-Heated Area: 1221
-Deed Date: 04/08/2005
-Pkg Sale Price: 246000
-Assessed: 452212
-Account: 0329092
------------------------
 Unit: 224	Owner: SAUNDERS, JOSHUA N; WELLONS, ANTHONY S
 Heated Area: 1206
 Deed Date: 05/24/2006
 Pkg Sale Price: 370000
 Assessed: 497702
 Account: 0400618
+-----------------------
+Unit: 324	Owner: FRANKLIN, EUGENE THOMAS JR
+Heated Area: 1206
+Deed Date: 03/15/2006
+Pkg Sale Price: 378000
+Assessed: 497702
+Account: 0400622
 -----------------------
 Unit: 507	Owner: KING MORGAN LLC
 Heated Area: 1183
@@ -324,13 +331,6 @@ Deed Date: 03/25/2020
 Pkg Sale Price: 393000
 Assessed: 443364
 Account: 0329081
------------------------
-Unit: 215	Owner: SOMAI, TULSI & DROPATTIE
-Heated Area: 1142
-Deed Date: 11/28/2016
-Pkg Sale Price: 280000
-Assessed: 428402
-Account: 0328667
 -----------------------
 Unit: 215	Owner: SOMAI, TULSI & DROPATTIE
 Heated Area: 1142
