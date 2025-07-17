@@ -3,6 +3,22 @@ By Deed Date
 
 
 -----------------------
+Street Number: 8821
+Unit: 401	Style: villa	Owner: GARDNER, DAVID B & BENTON W
+Heated Area: 1754
+Deed Date: 06/30/2025
+Pkg Sale Price: 509000
+Assessed: 706074
+Account: 0403711
+-----------------------
+Street Number: 8821
+Unit: 507	Style: villa	Owner: YOUNG, SIDNEY STANLEY & PATRICIA M
+Heated Area: 2526
+Deed Date: 06/30/2025
+Pkg Sale Price: 639000
+Assessed: 1044665
+Account: 0403725
+-----------------------
 Street Number: 8811
 Unit: 411	Style: villa	Owner: COZZIE, JULIE & DAVID A; COZZIE, JULIE C TR
 Heated Area: 1240
@@ -370,14 +386,6 @@ Deed Date: 05/10/2024
 Pkg Sale Price: 468000
 Assessed: 527897
 Account: 0403379
------------------------
-Street Number: 8821
-Unit: 507	Style: villa	Owner: HAIGLER, PEGGY JELKS HEIRS
-Heated Area: 2526
-Deed Date: 05/09/2024
-Pkg Sale Price: 639000
-Assessed: 1044665
-Account: 0403725
 -----------------------
 Street Number: 8831
 Unit: 110	Style: villa	Owner: PATCH, CHARLES E II & LINDA O
@@ -2378,14 +2386,6 @@ Deed Date: 12/17/2010
 Pkg Sale Price: 617000
 Assessed: 824191
 Account: 0403682
------------------------
-Street Number: 8821
-Unit: 401	Style: villa	Owner: MORRISON, ROBERT W JR
-Heated Area: 1754
-Deed Date: 07/09/2010
-Pkg Sale Price: 509000
-Assessed: 706074
-Account: 0403711
 -----------------------
 Street Number: 8821
 Unit: 104	Style: villa	Owner: KENNEY, KATHERINE F
