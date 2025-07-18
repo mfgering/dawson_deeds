@@ -276,9 +276,9 @@ Pkg Sale Price: 671000
 Assessed: 654149
 Account: 0328683
 -----------------------
-Unit: 320	Owner: SAID, ISMAIL & ELIZABETH BELO
+Unit: 320	Owner: NADHAN, EASWARAN GAYATRI TRUSTEE; EASWARAN AND DEEPA NADHAN TRUST
 Heated Area: 787
-Deed Date: 11/01/2024
+Deed Date: 07/01/2025
 Pkg Sale Price: 267000
 Assessed: 315323
 Account: 0328680
