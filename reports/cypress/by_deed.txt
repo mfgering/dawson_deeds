@@ -7,7 +7,7 @@ Street Number: 8821
 Unit: 401	Style: villa	Owner: GARDNER, DAVID B & BENTON W
 Heated Area: 1754
 Deed Date: 06/30/2025
-Pkg Sale Price: 509000
+Pkg Sale Price: 990000
 Assessed: 706074
 Account: 0403711
 -----------------------
@@ -15,7 +15,7 @@ Street Number: 8821
 Unit: 507	Style: villa	Owner: YOUNG, SIDNEY STANLEY & PATRICIA M
 Heated Area: 2526
 Deed Date: 06/30/2025
-Pkg Sale Price: 639000
+Pkg Sale Price: 1589000
 Assessed: 1044665
 Account: 0403725
 -----------------------
