@@ -136,6 +136,13 @@ Pkg Sale Price: 280000
 Assessed: 428402
 Account: 0328667
 -----------------------
+Unit: 215	Owner: SOMAI, TULSI & DROPATTIE
+Heated Area: 1142
+Deed Date: 11/28/2016
+Pkg Sale Price: 280000
+Assessed: 428402
+Account: 0328667
+-----------------------
 Unit: 217	Owner: SAPIA, JENNIFER L
 Heated Area: 1687
 Deed Date: 01/20/2016
@@ -149,13 +156,6 @@ Deed Date: 05/05/2025
 Pkg Sale Price: 246000
 Assessed: 315323
 Account: 0328665
------------------------
-Unit: 224	Owner: SAUNDERS, JOSHUA N; WELLONS, ANTHONY S
-Heated Area: 1206
-Deed Date: 05/24/2006
-Pkg Sale Price: 370000
-Assessed: 497702
-Account: 0400618
 -----------------------
 Unit: 226	Owner: SMITH, AYANA
 Heated Area: 849
