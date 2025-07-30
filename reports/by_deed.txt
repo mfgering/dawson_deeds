@@ -311,13 +311,6 @@ Pkg Sale Price: 280000
 Assessed: 428402
 Account: 0328667
 -----------------------
-Unit: 215	Owner: SOMAI, TULSI & DROPATTIE
-Heated Area: 1142
-Deed Date: 11/28/2016
-Pkg Sale Price: 280000
-Assessed: 428402
-Account: 0328667
------------------------
 Unit: 406	Owner: MOUTOS, CHRIS
 Heated Area: 1409
 Deed Date: 06/10/2016
@@ -450,6 +443,13 @@ Deed Date: 05/26/2006
 Pkg Sale Price: 480000
 Assessed: 737498
 Account: 0328663
+-----------------------
+Unit: 224	Owner: SAUNDERS, JOSHUA N; WELLONS, ANTHONY S
+Heated Area: 1206
+Deed Date: 05/24/2006
+Pkg Sale Price: 370000
+Assessed: 497702
+Account: 0400618
 -----------------------
 Unit: 324	Owner: FRANKLIN, EUGENE THOMAS JR
 Heated Area: 1206
