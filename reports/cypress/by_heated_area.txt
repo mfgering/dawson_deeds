@@ -2300,6 +2300,14 @@ Assessed: 478714
 Account: 0461529
 -----------------------
 Street Number: 8581
+Unit: 208	Style: villa	Owner: BERGMAN, STEVEN & LAURA
+Heated Area: 1205
+Deed Date: 07/15/2025
+Pkg Sale Price: 459000
+Assessed: 555590
+Account: 0461513
+-----------------------
+Street Number: 8581
 Unit: 508	Style: villa	Owner: USRY, SHIRLEY H
 Heated Area: 1205
 Deed Date: 12/16/2024
@@ -2314,14 +2322,6 @@ Deed Date: 07/24/2023
 Pkg Sale Price: 540000
 Assessed: 655325
 Account: 0461503
------------------------
-Street Number: 8581
-Unit: 208	Style: villa	Owner: DAVIS, PATRICIA W TRUSTEE; DAVIS, SHERYL ELIZABETH TRUSTEE
-Heated Area: 1205
-Deed Date: 12/13/2022
-Pkg Sale Price: 459000
-Assessed: 555590
-Account: 0461513
 -----------------------
 Street Number: 8581
 Unit: 308	Style: villa	Owner: ZIA, PAUL TRUSTEE; PAUL ZIA REVOCABLE TRUST

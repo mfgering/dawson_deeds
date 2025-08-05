@@ -465,19 +465,19 @@ Pkg Sale Price: 297000
 Assessed: 315329
 Account: 0400616
 -----------------------
+Unit: 220	Owner: PURYEAR, TOMMIE MARGUREITE TRUSTEE; TRUSTEE OF THE TOMMIE MARGUREITE PU
+Heated Area: 787
+Deed Date: 07/17/2025
+Pkg Sale Price: 246000
+Assessed: 315323
+Account: 0328665
+-----------------------
 Unit: 320	Owner: NADHAN, EASWARAN GAYATRI TRUSTEE; EASWARAN AND DEEPA NADHAN TRUST
 Heated Area: 787
 Deed Date: 07/01/2025
 Pkg Sale Price: 290000
 Assessed: 315323
 Account: 0328680
------------------------
-Unit: 220	Owner: PURYEAR, TOMMIE MARGURETTE
-Heated Area: 787
-Deed Date: 05/05/2025
-Pkg Sale Price: 246000
-Assessed: 315323
-Account: 0328665
 -----------------------
 Unit: 105	Owner: BAKER, JOHN M
 Heated Area: 784
