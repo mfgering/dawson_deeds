@@ -143,13 +143,6 @@ Pkg Sale Price: 405000
 Assessed: 654149
 Account: 0328668
 -----------------------
-Unit: 220	Owner: PURYEAR, TOMMIE MARGUREITE TRUSTEE; TRUSTEE OF THE TOMMIE MARGUREITE PU
-Heated Area: 787
-Deed Date: 07/17/2025
-Pkg Sale Price: 246000
-Assessed: 315323
-Account: 0328665
------------------------
 Unit: 224	Owner: SAUNDERS, JOSHUA N; WELLONS, ANTHONY S
 Heated Area: 1206
 Deed Date: 05/24/2006
@@ -436,6 +429,13 @@ Deed Date: 01/15/2025
 Pkg Sale Price: 415000
 Assessed: 508770
 Account: 0329087
+-----------------------
+Unit: 507	Owner: KING MORGAN LLC
+Heated Area: 1183
+Deed Date: 12/09/2024
+Pkg Sale Price: 275000
+Assessed: 441854
+Account: 0329088
 -----------------------
 Unit: 507	Owner: KING MORGAN LLC
 Heated Area: 1183
