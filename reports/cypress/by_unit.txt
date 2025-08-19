@@ -2148,9 +2148,9 @@ Assessed: 655368
 Account: 0403400
 -----------------------
 Street Number: 8821
-Unit: 501	Style: villa	Owner: KLEIN, NANCY
+Unit: 501	Style: villa	Owner: KLEIN, MARJORIE NANCY TRUSTEE; TRUSTEE OFTHE FOURTH AMENDED AND RE
 Heated Area: 1754
-Deed Date: 07/01/2014
+Deed Date: 08/04/2025
 Pkg Sale Price: 617000
 Assessed: 706074
 Account: 0403722
