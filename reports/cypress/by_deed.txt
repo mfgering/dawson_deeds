@@ -15,7 +15,7 @@ Street Number: 8581
 Unit: 208	Style: villa	Owner: BERGMAN, STEVEN & LAURA
 Heated Area: 1205
 Deed Date: 07/15/2025
-Pkg Sale Price: 459000
+Pkg Sale Price: 643500
 Assessed: 555590
 Account: 0461513
 -----------------------
