@@ -143,13 +143,6 @@ Pkg Sale Price: 312000
 Assessed: 634517
 Account: 0328685
 -----------------------
-Unit: 301	Owner: MCLAMB, GRAHAM KENT
-Heated Area: 1628
-Deed Date: 09/08/2005
-Pkg Sale Price: 400000
-Assessed: 634517
-Account: 0328670
------------------------
 Unit: 113	Owner: DAWSON DEVELOPERS INC
 Heated Area: 1487
 Deed Date: 12/23/2003
@@ -289,6 +282,13 @@ Deed Date: 03/15/2006
 Pkg Sale Price: 378000
 Assessed: 497702
 Account: 0400622
+-----------------------
+Unit: 507	Owner: KING MORGAN LLC
+Heated Area: 1183
+Deed Date: 12/09/2024
+Pkg Sale Price: 275000
+Assessed: 441854
+Account: 0329088
 -----------------------
 Unit: 507	Owner: KING MORGAN LLC
 Heated Area: 1183

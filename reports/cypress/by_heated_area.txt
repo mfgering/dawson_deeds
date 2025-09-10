@@ -548,6 +548,22 @@ Assessed: 1227784
 Account: 0403341
 -----------------------
 Street Number: 8601
+Unit: 202	Style: villa	Owner: MORGAN, MARY FULCHER
+Heated Area: 2099
+Deed Date: 08/25/2025
+Pkg Sale Price: 595000
+Assessed: 824191
+Account: 0403270
+-----------------------
+Street Number: 8601
+Unit: 310	Style: villa	Owner: JONES, HAROLD ERNEST JR; JONES, BONNER PHILLIPS
+Heated Area: 2099
+Deed Date: 08/25/2025
+Pkg Sale Price: 536000
+Assessed: 824191
+Account: 0403290
+-----------------------
+Street Number: 8601
 Unit: 110	Style: villa	Owner: THOMAS, SCOTT & ANN
 Heated Area: 2099
 Deed Date: 08/30/2024
@@ -659,14 +675,6 @@ Pkg Sale Price: 558000
 Assessed: 824191
 Account: 0403716
 -----------------------
-Street Number: 8601
-Unit: 310	Style: villa	Owner: REISS, GEORGE A TRUSTEE; GEORGE A REISS REVOCABLE TRUST
-Heated Area: 2099
-Deed Date: 08/04/2014
-Pkg Sale Price: 536000
-Assessed: 824191
-Account: 0403290
------------------------
 Street Number: 8821
 Unit: 302	Style: villa	Owner: PARTRICK, CORNELIUS T & MARY LIB
 Heated Area: 2099
@@ -690,14 +698,6 @@ Deed Date: 12/17/2010
 Pkg Sale Price: 617000
 Assessed: 824191
 Account: 0403682
------------------------
-Street Number: 8601
-Unit: 202	Style: villa	Owner: JACOBY, DALE H & MARILYN D
-Heated Area: 2099
-Deed Date: 10/31/2008
-Pkg Sale Price: 595000
-Assessed: 824191
-Account: 0403270
 -----------------------
 Street Number: 8601
 Unit: 502	Style: villa	Owner: ZIMMERLEIN, CHARLES W & MARIA C
