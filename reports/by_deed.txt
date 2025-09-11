@@ -3,6 +3,13 @@ By Deed Date
 
 
 -----------------------
+Unit: 200-1	Owner: REICHMEIDER, ROBERT WALTER; REICHMEIDER, PATRICIA
+Heated Area: 793
+Deed Date: 08/26/2025
+Pkg Sale Price: 297000
+Assessed: 315329
+Account: 0400616
+-----------------------
 Unit: 220	Owner: PURYEAR, TOMMIE MARGUREITE TRUSTEE; TRUSTEE OF THE TOMMIE MARGUREITE PU
 Heated Area: 787
 Deed Date: 07/17/2025
@@ -45,13 +52,6 @@ Pkg Sale Price: 275000
 Assessed: 441854
 Account: 0329088
 -----------------------
-Unit: 507	Owner: KING MORGAN LLC
-Heated Area: 1183
-Deed Date: 12/09/2024
-Pkg Sale Price: 275000
-Assessed: 441854
-Account: 0329088
------------------------
 Unit: 105	Owner: BAKER, JOHN M
 Heated Area: 784
 Deed Date: 10/09/2024
@@ -72,13 +72,6 @@ Deed Date: 06/05/2024
 Pkg Sale Price: 480000
 Assessed: 427277
 Account: 0329094
------------------------
-Unit: 200-1	Owner: FOWLER, LILLY MARIE
-Heated Area: 793
-Deed Date: 04/29/2024
-Pkg Sale Price: 297000
-Assessed: 315329
-Account: 0400616
 -----------------------
 Unit: 512	Owner: ROLLING WINGS LLC
 Heated Area: 2995
@@ -471,6 +464,13 @@ Deed Date: 10/03/2005
 Pkg Sale Price: 338000
 Assessed: 494501
 Account: 0328686
+-----------------------
+Unit: 301	Owner: MCLAMB, GRAHAM KENT
+Heated Area: 1628
+Deed Date: 09/08/2005
+Pkg Sale Price: 400000
+Assessed: 634517
+Account: 0328670
 -----------------------
 Unit: 309	Owner: JEFFREYS, HARRY & DANA
 Heated Area: 956

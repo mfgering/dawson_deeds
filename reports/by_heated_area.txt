@@ -143,6 +143,13 @@ Pkg Sale Price: 312000
 Assessed: 634517
 Account: 0328685
 -----------------------
+Unit: 301	Owner: MCLAMB, GRAHAM KENT
+Heated Area: 1628
+Deed Date: 09/08/2005
+Pkg Sale Price: 400000
+Assessed: 634517
+Account: 0328670
+-----------------------
 Unit: 113	Owner: DAWSON DEVELOPERS INC
 Heated Area: 1487
 Deed Date: 12/23/2003
@@ -282,13 +289,6 @@ Deed Date: 03/15/2006
 Pkg Sale Price: 378000
 Assessed: 497702
 Account: 0400622
------------------------
-Unit: 507	Owner: KING MORGAN LLC
-Heated Area: 1183
-Deed Date: 12/09/2024
-Pkg Sale Price: 275000
-Assessed: 441854
-Account: 0329088
 -----------------------
 Unit: 507	Owner: KING MORGAN LLC
 Heated Area: 1183
@@ -451,19 +451,19 @@ Pkg Sale Price: 253000
 Assessed: 308059
 Account: 0400623
 -----------------------
+Unit: 200-1	Owner: REICHMEIDER, ROBERT WALTER; REICHMEIDER, PATRICIA
+Heated Area: 793
+Deed Date: 08/26/2025
+Pkg Sale Price: 297000
+Assessed: 315329
+Account: 0400616
+-----------------------
 Unit: 300-1	Owner: MCCOY, BEL GOVINDA
 Heated Area: 793
 Deed Date: 07/16/2024
 Pkg Sale Price: 275000
 Assessed: 315329
 Account: 0400620
------------------------
-Unit: 200-1	Owner: FOWLER, LILLY MARIE
-Heated Area: 793
-Deed Date: 04/29/2024
-Pkg Sale Price: 297000
-Assessed: 315329
-Account: 0400616
 -----------------------
 Unit: 220	Owner: PURYEAR, TOMMIE MARGUREITE TRUSTEE; TRUSTEE OF THE TOMMIE MARGUREITE PU
 Heated Area: 787
