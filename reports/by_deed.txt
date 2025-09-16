@@ -276,13 +276,6 @@ Pkg Sale Price: 307000
 Assessed: 452212
 Account: 0328679
 -----------------------
-Unit: 505	Owner: POWELL LINEAGE CHERRY COURT LLC
-Heated Area: 1139
-Deed Date: 11/09/2017
-Pkg Sale Price: 314000
-Assessed: 427277
-Account: 0329086
------------------------
 Unit: 300	Owner: MORGAN, DONNA
 Heated Area: 1224
 Deed Date: 05/25/2017
@@ -450,6 +443,13 @@ Deed Date: 05/24/2006
 Pkg Sale Price: 370000
 Assessed: 497702
 Account: 0400618
+-----------------------
+Unit: 324	Owner: FRANKLIN, EUGENE THOMAS JR
+Heated Area: 1206
+Deed Date: 03/15/2006
+Pkg Sale Price: 378000
+Assessed: 497702
+Account: 0400622
 -----------------------
 Unit: 324	Owner: FRANKLIN, EUGENE THOMAS JR
 Heated Area: 1206
