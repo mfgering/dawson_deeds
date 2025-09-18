@@ -551,7 +551,7 @@ Street Number: 8601
 Unit: 202	Style: villa	Owner: MORGAN, MARY FULCHER
 Heated Area: 2099
 Deed Date: 08/25/2025
-Pkg Sale Price: 595000
+Pkg Sale Price: 1147500
 Assessed: 824191
 Account: 0403270
 -----------------------
@@ -559,7 +559,7 @@ Street Number: 8601
 Unit: 310	Style: villa	Owner: JONES, HAROLD ERNEST JR; JONES, BONNER PHILLIPS
 Heated Area: 2099
 Deed Date: 08/25/2025
-Pkg Sale Price: 536000
+Pkg Sale Price: 1156500
 Assessed: 824191
 Account: 0403290
 -----------------------

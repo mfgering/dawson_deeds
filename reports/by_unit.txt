@@ -41,7 +41,7 @@ Account: 0328654
 Unit: 200-1	Owner: REICHMEIDER, ROBERT WALTER; REICHMEIDER, PATRICIA
 Heated Area: 793
 Deed Date: 08/26/2025
-Pkg Sale Price: 297000
+Pkg Sale Price: 303000
 Assessed: 315329
 Account: 0400616
 -----------------------
