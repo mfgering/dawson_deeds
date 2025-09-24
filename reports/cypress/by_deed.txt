@@ -3,6 +3,14 @@ By Deed Date
 
 
 -----------------------
+Street Number: 8732
+Unit: 	Style: cottage	Owner: FAXON, KURT J TRUSTEE; FAXON, ANNE M TRUSTEE
+Heated Area: 3403
+Deed Date: 09/08/2025
+Pkg Sale Price: 842000
+Assessed: 1739431
+Account: 0403324
+-----------------------
 Street Number: 8601
 Unit: 202	Style: villa	Owner: MORGAN, MARY FULCHER
 Heated Area: 2099
@@ -2154,14 +2162,6 @@ Deed Date: 12/21/2015
 Pkg Sale Price: 535000
 Assessed: 601231
 Account: 0403706
------------------------
-Street Number: 8732
-Unit: 	Style: cottage	Owner: FAXON, KURT & ANNE
-Heated Area: 3403
-Deed Date: 12/17/2015
-Pkg Sale Price: 842000
-Assessed: 1739431
-Account: 0403324
 -----------------------
 Street Number: 8811
 Unit: 401	Style: villa	Owner: WALKER, ZACHARY T & DOROTHY S

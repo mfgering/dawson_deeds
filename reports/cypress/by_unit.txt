@@ -172,9 +172,9 @@ Assessed: 1446684
 Account: 0403338
 -----------------------
 Street Number: 8732
-Unit: 	Style: cottage	Owner: FAXON, KURT & ANNE
+Unit: 	Style: cottage	Owner: FAXON, KURT J TRUSTEE; FAXON, ANNE M TRUSTEE
 Heated Area: 3403
-Deed Date: 12/17/2015
+Deed Date: 09/08/2025
 Pkg Sale Price: 842000
 Assessed: 1739431
 Account: 0403324
