@@ -852,6 +852,14 @@ Assessed: 892699
 Account: 0461541
 -----------------------
 Street Number: 8581
+Unit: 210	Style: villa	Owner: EDWARDS, SYLVIA M
+Heated Area: 1895
+Deed Date: 10/01/2018
+Pkg Sale Price: 576000
+Assessed: 892699
+Account: 0461515
+-----------------------
+Street Number: 8581
 Unit: 510	Style: villa	Owner: HESTER, RONALD S TRUSTEE; HESTER, SYLVIA B TRUSTEE
 Heated Area: 1895
 Deed Date: 09/25/2018
@@ -2290,14 +2298,6 @@ Deed Date: 09/17/2018
 Pkg Sale Price: 387000
 Assessed: 478714
 Account: 0461529
------------------------
-Street Number: 8581
-Unit: 208	Style: villa	Owner: BERGMAN, STEVEN & LAURA
-Heated Area: 1205
-Deed Date: 07/15/2025
-Pkg Sale Price: 643500
-Assessed: 555590
-Account: 0461513
 -----------------------
 Street Number: 8581
 Unit: 208	Style: villa	Owner: BERGMAN, STEVEN & LAURA
