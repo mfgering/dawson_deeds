@@ -3,6 +3,14 @@ By Deed Date
 
 
 -----------------------
+Street Number: 8821
+Unit: 302	Style: villa	Owner: JORDAN, MARY ELLEN TRUSTEE; TRUSTEE OF MARY ELLEN JORDAN REVOCA
+Heated Area: 2099
+Deed Date: 09/15/2025
+Pkg Sale Price: 605000
+Assessed: 824191
+Account: 0403697
+-----------------------
 Street Number: 8732
 Unit: 	Style: cottage	Owner: FAXON, KURT J TRUSTEE; FAXON, ANNE M TRUSTEE
 Heated Area: 3403
@@ -34,6 +42,14 @@ Deed Date: 08/04/2025
 Pkg Sale Price: 617000
 Assessed: 706074
 Account: 0403722
+-----------------------
+Street Number: 8581
+Unit: 208	Style: villa	Owner: BERGMAN, STEVEN & LAURA
+Heated Area: 1205
+Deed Date: 07/15/2025
+Pkg Sale Price: 643500
+Assessed: 555590
+Account: 0461513
 -----------------------
 Street Number: 8581
 Unit: 208	Style: villa	Owner: BERGMAN, STEVEN & LAURA
@@ -79,7 +95,7 @@ Street Number: 8821
 Unit: 511	Style: villa	Owner: ATKINS, FREDERICK C JR & LYNDA H
 Heated Area: 1754
 Deed Date: 05/15/2025
-Pkg Sale Price: 583500
+Pkg Sale Price: 1027000
 Assessed: 706074
 Account: 0403724
 -----------------------
@@ -1852,14 +1868,6 @@ Assessed: 654238
 Account: 0461502
 -----------------------
 Street Number: 8581
-Unit: 210	Style: villa	Owner: EDWARDS, SYLVIA M
-Heated Area: 1895
-Deed Date: 10/01/2018
-Pkg Sale Price: 576000
-Assessed: 892699
-Account: 0461515
------------------------
-Street Number: 8581
 Unit: 404	Style: villa	Owner: MEIER, JUDY L
 Heated Area: 1242
 Deed Date: 09/28/2018
@@ -2354,14 +2362,6 @@ Deed Date: 01/31/2012
 Pkg Sale Price: 509000
 Assessed: 724034
 Account: 0403357
------------------------
-Street Number: 8821
-Unit: 302	Style: villa	Owner: PARTRICK, CORNELIUS T & MARY LIB
-Heated Area: 2099
-Deed Date: 10/03/2011
-Pkg Sale Price: 605000
-Assessed: 824191
-Account: 0403697
 -----------------------
 Street Number: 8601
 Unit: 305	Style: villa	Owner: AUSTIN, DAN C SR & JOANNE L
