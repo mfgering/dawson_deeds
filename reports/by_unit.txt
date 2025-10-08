@@ -325,9 +325,9 @@ Pkg Sale Price: 590000
 Assessed: 787748
 Account: 0328687
 -----------------------
-Unit: 405	Owner: OSLISLO, JANE
+Unit: 405	Owner: CARTER, CLARENCE M JR TRUSTEE; CARTER, IVY Y TRUSTEE
 Heated Area: 1139
-Deed Date: 09/23/2013
+Deed Date: 09/25/2025
 Pkg Sale Price: 284000
 Assessed: 427277
 Account: 0328688

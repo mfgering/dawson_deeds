@@ -3,6 +3,13 @@ By Deed Date
 
 
 -----------------------
+Unit: 405	Owner: CARTER, CLARENCE M JR TRUSTEE; CARTER, IVY Y TRUSTEE
+Heated Area: 1139
+Deed Date: 09/25/2025
+Pkg Sale Price: 284000
+Assessed: 427277
+Account: 0328688
+-----------------------
 Unit: 200-1	Owner: REICHMEIDER, ROBERT WALTER; REICHMEIDER, PATRICIA
 Heated Area: 793
 Deed Date: 08/26/2025
@@ -373,13 +380,6 @@ Deed Date: 10/18/2013
 Pkg Sale Price: 235000
 Assessed: 365668
 Account: 0329076
------------------------
-Unit: 405	Owner: OSLISLO, JANE
-Heated Area: 1139
-Deed Date: 09/23/2013
-Pkg Sale Price: 284000
-Assessed: 427277
-Account: 0328688
 -----------------------
 Unit: 203	Owner: BRIGGS, PAUL C & KATHY L
 Heated Area: 1365
