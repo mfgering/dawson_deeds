@@ -1468,9 +1468,9 @@ Assessed: 764889
 Account: 0461540
 -----------------------
 Street Number: 8811
-Unit: 505	Style: villa	Owner: ROBINSON, JAMES C & DANA GAINES
+Unit: 505	Style: villa	Owner: ROBINSON, DANA GAINES TRUSTEE; ROBINSON REVOCABLE TRUST
 Heated Area: 1518
-Deed Date: 08/29/2024
+Deed Date: 09/29/2025
 Pkg Sale Price: 765000
 Assessed: 730924
 Account: 0403394
@@ -2107,6 +2107,14 @@ Pkg Sale Price: 473000
 Assessed: 586455
 Account: 0461544
 -----------------------
+Street Number: 8831
+Unit: 204	Style: villa	Owner: HARRIS, RICHARD H & MARY M
+Heated Area: 1242
+Deed Date: 09/29/2025
+Pkg Sale Price: 432000
+Assessed: 493769
+Account: 0479608
+-----------------------
 Street Number: 8581
 Unit: 204	Style: villa	Owner: PUNTE, MARY ELIZABETH
 Heated Area: 1242
@@ -2146,14 +2154,6 @@ Deed Date: 10/21/2020
 Pkg Sale Price: 419000
 Assessed: 493769
 Account: 0479621
------------------------
-Street Number: 8831
-Unit: 204	Style: villa	Owner: NORDMEYER HOPE, SHARON A TRUSTEE; TRUSTEE OF SHARON ANN HOPE TRUST
-Heated Area: 1242
-Deed Date: 10/20/2020
-Pkg Sale Price: 432000
-Assessed: 493769
-Account: 0479608
 -----------------------
 Street Number: 8581
 Unit: 404	Style: villa	Owner: MEIER, JUDY L

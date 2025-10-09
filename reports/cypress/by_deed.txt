@@ -3,6 +3,22 @@ By Deed Date
 
 
 -----------------------
+Street Number: 8831
+Unit: 204	Style: villa	Owner: HARRIS, RICHARD H & MARY M
+Heated Area: 1242
+Deed Date: 09/29/2025
+Pkg Sale Price: 432000
+Assessed: 493769
+Account: 0479608
+-----------------------
+Street Number: 8811
+Unit: 505	Style: villa	Owner: ROBINSON, DANA GAINES TRUSTEE; ROBINSON REVOCABLE TRUST
+Heated Area: 1518
+Deed Date: 09/29/2025
+Pkg Sale Price: 765000
+Assessed: 730924
+Account: 0403394
+-----------------------
 Street Number: 8821
 Unit: 302	Style: villa	Owner: JORDAN, MARY ELLEN TRUSTEE; TRUSTEE OF MARY ELLEN JORDAN REVOCA
 Heated Area: 2099
@@ -306,14 +322,6 @@ Deed Date: 08/29/2024
 Pkg Sale Price: 1625000
 Assessed: 1377166
 Account: 0409706
------------------------
-Street Number: 8811
-Unit: 505	Style: villa	Owner: ROBINSON, JAMES C & DANA GAINES
-Heated Area: 1518
-Deed Date: 08/29/2024
-Pkg Sale Price: 765000
-Assessed: 730924
-Account: 0403394
 -----------------------
 Street Number: 8601
 Unit: 403	Style: villa	Owner: MILLS, HAROLD EDWIN CO-TRUSTEES; MILLS, JEAN THOMPSON CO-TRUSTEES
@@ -1562,14 +1570,6 @@ Deed Date: 10/20/2020
 Pkg Sale Price: 527000
 Assessed: 664944
 Account: 0479602
------------------------
-Street Number: 8831
-Unit: 204	Style: villa	Owner: NORDMEYER HOPE, SHARON A TRUSTEE; TRUSTEE OF SHARON ANN HOPE TRUST
-Heated Area: 1242
-Deed Date: 10/20/2020
-Pkg Sale Price: 432000
-Assessed: 493769
-Account: 0479608
 -----------------------
 Street Number: 8831
 Unit: 205	Style: villa	Owner: WIMMER, ROBERT A & CAROL JOAN
