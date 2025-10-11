@@ -59,13 +59,6 @@ Pkg Sale Price: 275000
 Assessed: 441854
 Account: 0329088
 -----------------------
-Unit: 507	Owner: KING MORGAN LLC
-Heated Area: 1183
-Deed Date: 12/09/2024
-Pkg Sale Price: 275000
-Assessed: 441854
-Account: 0329088
------------------------
 Unit: 105	Owner: BAKER, JOHN M
 Heated Area: 784
 Deed Date: 10/09/2024
@@ -86,13 +79,6 @@ Deed Date: 06/05/2024
 Pkg Sale Price: 480000
 Assessed: 427277
 Account: 0329094
------------------------
-Unit: 512	Owner: ROLLING WINGS LLC
-Heated Area: 2995
-Deed Date: 08/23/2023
-Pkg Sale Price: 1590000
-Assessed: 1456786
-Account: 0329093
 -----------------------
 Unit: 512	Owner: ROLLING WINGS LLC
 Heated Area: 2995
@@ -297,6 +283,13 @@ Pkg Sale Price: 307000
 Assessed: 452212
 Account: 0328679
 -----------------------
+Unit: 505	Owner: POWELL LINEAGE CHERRY COURT LLC
+Heated Area: 1139
+Deed Date: 11/09/2017
+Pkg Sale Price: 314000
+Assessed: 427277
+Account: 0329086
+-----------------------
 Unit: 300	Owner: MORGAN, DONNA
 Heated Area: 1224
 Deed Date: 05/25/2017
@@ -317,13 +310,6 @@ Deed Date: 03/14/2017
 Pkg Sale Price: 600000
 Assessed: 737498
 Account: 0329091
------------------------
-Unit: 215	Owner: SOMAI, TULSI & DROPATTIE
-Heated Area: 1142
-Deed Date: 11/28/2016
-Pkg Sale Price: 280000
-Assessed: 428402
-Account: 0328667
 -----------------------
 Unit: 215	Owner: SOMAI, TULSI & DROPATTIE
 Heated Area: 1142
@@ -366,6 +352,13 @@ Deed Date: 03/16/2015
 Pkg Sale Price: 825000
 Assessed: 1255654
 Account: 0329084
+-----------------------
+Unit: 410	Owner: WATKE, FREDERIC W. & ANN M.
+Heated Area: 2171
+Deed Date: 05/22/2014
+Pkg Sale Price: 525000
+Assessed: 737498
+Account: 0329077
 -----------------------
 Unit: 500	Owner: OPPENHEIMER, WENDY; BRAGANZA, ASHISH
 Heated Area: 3037
@@ -458,12 +451,12 @@ Pkg Sale Price: 370000
 Assessed: 497702
 Account: 0400618
 -----------------------
-Unit: 224	Owner: SAUNDERS, JOSHUA N; WELLONS, ANTHONY S
+Unit: 324	Owner: FRANKLIN, EUGENE THOMAS JR
 Heated Area: 1206
-Deed Date: 05/24/2006
-Pkg Sale Price: 370000
+Deed Date: 03/15/2006
+Pkg Sale Price: 378000
 Assessed: 497702
-Account: 0400618
+Account: 0400622
 -----------------------
 Unit: 403	Owner: FOYE, DWON
 Heated Area: 1365
@@ -485,6 +478,13 @@ Deed Date: 05/06/2005
 Pkg Sale Price: 200000
 Assessed: 365668
 Account: 0328677
+-----------------------
+Unit: 411	Owner: GRAY, STEVEN J
+Heated Area: 1221
+Deed Date: 04/14/2005
+Pkg Sale Price: 241500
+Assessed: 452212
+Account: 0329078
 -----------------------
 Unit: 113	Owner: DAWSON DEVELOPERS INC
 Heated Area: 1487
