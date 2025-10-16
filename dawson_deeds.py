@@ -208,18 +208,36 @@ class Apts(object):
     def make_csv(self):
         with open(self._csv_filename, "w", newline='') as fp:
             field_names = ['unit_num', 'owner', 'heated_area', 'deed_date', 'pkg_sale_price', 'assessed', 'account', 'deed_url']
-            writer = csv.DictWriter(fp, fieldnames=field_names, quoting=csv.QUOTE_ALL)
+            writer = csv.DictWriter(fp, fieldnames=field_names, quoting=csv.QUOTE_ALL, lineterminator='\n')
             writer.writeheader()
-            for apt in sorted(self.apts, key=lambda x: x.unit):
-                writer.writerow({'unit_num': apt.unit, 
-                    'owner': apt.owner, 'heated_area': apt.heated_area, 
-                    'deed_date': apt.deed_date.strftime('%m/%d/%Y'), 'pkg_sale_price': apt.pkg_sale_price, 
-                    'assessed': apt.assessed, 'account': apt.account, 'deed_url': apt.deed_url})
-            #Insert old values for deleted unit (on the theory that the search failed for some reason)
-            for unit_num in sorted(self._deleted_units):
+            
+            # Prepare all rows (current + deleted)
+            all_rows = []
+            
+            # Add current units
+            for apt in self.apts:
+                all_rows.append({
+                    'unit_num': apt.unit, 
+                    'owner': apt.owner, 
+                    'heated_area': apt.heated_area, 
+                    'deed_date': apt.deed_date.strftime('%m/%d/%Y'), 
+                    'pkg_sale_price': apt.pkg_sale_price, 
+                    'assessed': apt.assessed, 
+                    'account': apt.account, 
+                    'deed_url': apt.deed_url
+                })
+            
+            # Add deleted units (preserving old data)
+            for unit_num in self._deleted_units:
                 prev_dict = self._prev_unit_map[unit_num]
-                writer.writerow(prev_dict)
+                all_rows.append(prev_dict)
                 logging.info(f"Inserted previous info for {unit_num}")
+            
+            # Sort all rows together using simple string sorting
+            all_rows.sort(key=lambda x: x['unit_num'])
+            
+            # Write sorted rows
+            writer.writerows(all_rows)
 
 def print_apts(apts, fn, title=''):
     with open(fn, 'w') as fp:
