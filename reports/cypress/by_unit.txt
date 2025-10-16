@@ -799,7 +799,7 @@ Street Number: 8831
 Unit: 204	Style: villa	Owner: HARRIS, RICHARD H & MARY M
 Heated Area: 1242
 Deed Date: 09/29/2025
-Pkg Sale Price: 432000
+Pkg Sale Price: 576000
 Assessed: 493769
 Account: 0479608
 -----------------------
@@ -1215,7 +1215,7 @@ Street Number: 8821
 Unit: 302	Style: villa	Owner: JORDAN, MARY ELLEN TRUSTEE; TRUSTEE OF MARY ELLEN JORDAN REVOCA
 Heated Area: 2099
 Deed Date: 09/15/2025
-Pkg Sale Price: 605000
+Pkg Sale Price: 1147500
 Assessed: 824191
 Account: 0403697
 -----------------------
