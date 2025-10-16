@@ -249,14 +249,40 @@ class Apts(object):
     def make_csv(self):
         with open(self._csv_filename, "w", newline='') as fp:
             field_names = ['st_num', 'unit_num', 'owner', 'heated_area', 'deed_date', 'pkg_sale_price', 'assessed', 'account', 'photo', 'st_name', 'style', 'model']
-            writer = csv.DictWriter(fp, fieldnames=field_names, quoting=csv.QUOTE_ALL)
+            writer = csv.DictWriter(fp, fieldnames=field_names, quoting=csv.QUOTE_ALL, lineterminator='\n')
             writer.writeheader()
-#            for apt in sorted(self.apts, key=lambda x: x.unit):
-            for apt in self.get_canonical_apts():
-                writer.writerow({'st_num': apt.st_num, 'unit_num': apt.unit, 
-                    'owner': apt.owner, 'heated_area': apt.heated_area, 
-                    'deed_date': apt.deed_date.strftime('%m/%d/%Y'), 'pkg_sale_price': apt.pkg_sale_price, 
-                    'assessed': apt.assessed, 'account': apt.account, 'photo': 'photo', 'st_name': apt.st_name, 'style': apt.style, 'model': apt.model})
+            
+            # Prepare all rows (current + deleted)
+            all_rows = []
+            
+            # Add current units
+            for apt in self.apts:
+                all_rows.append({
+                    'st_num': apt.st_num, 
+                    'unit_num': apt.unit, 
+                    'owner': apt.owner, 
+                    'heated_area': apt.heated_area, 
+                    'deed_date': apt.deed_date.strftime('%m/%d/%Y'), 
+                    'pkg_sale_price': apt.pkg_sale_price, 
+                    'assessed': apt.assessed, 
+                    'account': apt.account, 
+                    'photo': 'photo', 
+                    'st_name': apt.st_name, 
+                    'style': apt.style, 
+                    'model': apt.model
+                })
+            
+            # Add deleted accounts (preserving old data)
+            for acct in self._deleted_accts:
+                prev_dict = self._prev_acct_map[acct]
+                all_rows.append(prev_dict)
+                logging.info(f"Inserted previous info for account {acct}")
+            
+            # Sort all rows together: first by st_num, then by account (matching get_canonical_apts logic)
+            all_rows.sort(key=lambda x: (x['st_num'], x['account']))
+            
+            # Write sorted rows
+            writer.writerows(all_rows)
 
 def print_apts(apts, fn, title=''):
     with open(fn, 'w') as fp:
