@@ -931,14 +931,6 @@ Pkg Sale Price: 643500
 Assessed: 555590
 Account: 0461513
 -----------------------
-Street Number: 8581
-Unit: 208	Style: villa	Owner: BERGMAN, STEVEN & LAURA
-Heated Area: 1205
-Deed Date: 07/15/2025
-Pkg Sale Price: 643500
-Assessed: 555590
-Account: 0461513
------------------------
 Street Number: 8601
 Unit: 208	Style: villa	Owner: HOGGE, SUSAN H TRUSTEE; SUSAN H HOGGE 1992 TRUST
 Heated Area: 2259
@@ -1010,6 +1002,14 @@ Deed Date: 10/21/2020
 Pkg Sale Price: 612000
 Assessed: 776932
 Account: 0479613
+-----------------------
+Street Number: 8581
+Unit: 210	Style: villa	Owner: EDWARDS, SYLVIA M
+Heated Area: 1895
+Deed Date: 10/01/2018
+Pkg Sale Price: 576000
+Assessed: 892699
+Account: 0461515
 -----------------------
 Street Number: 8601
 Unit: 210	Style: villa	Owner: WOODRY, CAROL C

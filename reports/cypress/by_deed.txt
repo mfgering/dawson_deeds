@@ -67,14 +67,6 @@ Pkg Sale Price: 643500
 Assessed: 555590
 Account: 0461513
 -----------------------
-Street Number: 8581
-Unit: 208	Style: villa	Owner: BERGMAN, STEVEN & LAURA
-Heated Area: 1205
-Deed Date: 07/15/2025
-Pkg Sale Price: 643500
-Assessed: 555590
-Account: 0461513
------------------------
 Street Number: 8821
 Unit: 401	Style: villa	Owner: GARDNER, DAVID B & BENTON W
 Heated Area: 1754
@@ -1866,6 +1858,14 @@ Deed Date: 10/01/2018
 Pkg Sale Price: 477000
 Assessed: 654238
 Account: 0461502
+-----------------------
+Street Number: 8581
+Unit: 210	Style: villa	Owner: EDWARDS, SYLVIA M
+Heated Area: 1895
+Deed Date: 10/01/2018
+Pkg Sale Price: 576000
+Assessed: 892699
+Account: 0461515
 -----------------------
 Street Number: 8581
 Unit: 404	Style: villa	Owner: MEIER, JUDY L

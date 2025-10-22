@@ -360,20 +360,6 @@ Pkg Sale Price: 235000
 Assessed: 365668
 Account: 0329076
 -----------------------
-Unit: 410	Owner: WATKE, FREDERIC W. & ANN M.
-Heated Area: 2171
-Deed Date: 05/22/2014
-Pkg Sale Price: 525000
-Assessed: 737498
-Account: 0329077
------------------------
-Unit: 411	Owner: GRAY, STEVEN J
-Heated Area: 1221
-Deed Date: 04/14/2005
-Pkg Sale Price: 241500
-Assessed: 452212
-Account: 0329078
------------------------
 Unit: 412	Owner: GERING, MICHAEL FREDERICK; FERREE, MARSHA ELLEN
 Heated Area: 2995
 Deed Date: 02/06/2019
@@ -444,6 +430,13 @@ Pkg Sale Price: 275000
 Assessed: 441854
 Account: 0329088
 -----------------------
+Unit: 507	Owner: KING MORGAN LLC
+Heated Area: 1183
+Deed Date: 12/09/2024
+Pkg Sale Price: 275000
+Assessed: 441854
+Account: 0329088
+-----------------------
 Unit: 508	Owner: HINKLE, CATHERINE
 Heated Area: 1409
 Deed Date: 06/17/2019
@@ -471,6 +464,13 @@ Deed Date: 06/23/2025
 Pkg Sale Price: 246000
 Assessed: 452212
 Account: 0329092
+-----------------------
+Unit: 512	Owner: ROLLING WINGS LLC
+Heated Area: 2995
+Deed Date: 08/23/2023
+Pkg Sale Price: 1590000
+Assessed: 1456786
+Account: 0329093
 -----------------------
 Unit: 512	Owner: ROLLING WINGS LLC
 Heated Area: 2995
