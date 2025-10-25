@@ -1044,9 +1044,9 @@ Assessed: 906599
 Account: 0479614
 -----------------------
 Street Number: 8581
-Unit: 211	Style: villa	Owner: PERRIN, PATRICIA G
+Unit: 211	Style: villa	Owner: PERRIN, PATRICIA GOSE TRUSTEE; PATRICIA GOSE PERRIN REVOCABLE TRUS
 Heated Area: 1217
-Deed Date: 09/20/2018
+Deed Date: 10/20/2025
 Pkg Sale Price: 405000
 Assessed: 558840
 Account: 0461516

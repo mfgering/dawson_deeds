@@ -3,6 +3,14 @@ By Deed Date
 
 
 -----------------------
+Street Number: 8581
+Unit: 211	Style: villa	Owner: PERRIN, PATRICIA GOSE TRUSTEE; PATRICIA GOSE PERRIN REVOCABLE TRUS
+Heated Area: 1217
+Deed Date: 10/20/2025
+Pkg Sale Price: 405000
+Assessed: 558840
+Account: 0461516
+-----------------------
 Street Number: 8831
 Unit: 204	Style: villa	Owner: HARRIS, RICHARD H & MARY M
 Heated Area: 1242
@@ -1922,14 +1930,6 @@ Deed Date: 09/25/2018
 Pkg Sale Price: 538000
 Assessed: 733792
 Account: 0461556
------------------------
-Street Number: 8581
-Unit: 211	Style: villa	Owner: PERRIN, PATRICIA G
-Heated Area: 1217
-Deed Date: 09/20/2018
-Pkg Sale Price: 405000
-Assessed: 558840
-Account: 0461516
 -----------------------
 Street Number: 8581
 Unit: 303	Style: villa	Owner: BRANTLEY, CHARLES H; BRANTLEY, ANNIE J
