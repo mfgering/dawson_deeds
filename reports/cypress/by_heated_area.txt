@@ -1900,6 +1900,14 @@ Assessed: 507549
 Account: 0403389
 -----------------------
 Street Number: 8811
+Unit: 508	Style: villa	Owner: MARRA, MICHELE
+Heated Area: 1288
+Deed Date: 10/22/2025
+Pkg Sale Price: 657000
+Assessed: 638622
+Account: 0403401
+-----------------------
+Street Number: 8811
 Unit: 107	Style: villa	Owner: PIPER, LANNY L & LINDA H
 Heated Area: 1288
 Deed Date: 10/01/2024
@@ -1940,14 +1948,6 @@ Assessed: 600928
 Account: 0403362
 -----------------------
 Street Number: 8811
-Unit: 508	Style: villa	Owner: TRUSTEE OF THE JOAN JEANETTE PATTER
-Heated Area: 1288
-Deed Date: 07/20/2022
-Pkg Sale Price: 441000
-Assessed: 638622
-Account: 0403401
------------------------
-Street Number: 8811
 Unit: 408	Style: villa	Owner: BURNETTE, WILLIAM H
 Heated Area: 1288
 Deed Date: 07/20/2021
@@ -1978,6 +1978,14 @@ Deed Date: 10/28/2008
 Pkg Sale Price: 455000
 Assessed: 638622
 Account: 0403399
+-----------------------
+Street Number: 8581
+Unit: 502	Style: villa	Owner: CORSER, JACK A & DONNA J
+Heated Area: 1287
+Deed Date: 10/22/2025
+Pkg Sale Price: 621000
+Assessed: 502626
+Account: 0461546
 -----------------------
 Street Number: 8581
 Unit: 400	Style: villa	Owner: COE, MILLARD H TRUSTEE; TRUSTEE OF MILLARD H COE REVOCABLE
@@ -2082,14 +2090,6 @@ Deed Date: 06/21/2019
 Pkg Sale Price: 535500
 Assessed: 502626
 Account: 0461506
------------------------
-Street Number: 8581
-Unit: 502	Style: villa	Owner: GURKIN, DAVID C JR TRUSTEE; GURKIN, D MICHAEL TRUSTEE
-Heated Area: 1287
-Deed Date: 06/14/2019
-Pkg Sale Price: 464000
-Assessed: 502626
-Account: 0461546
 -----------------------
 Street Number: 8581
 Unit: 202	Style: villa	Owner: DREYFUS, LEE TRUSTEE; THE LEE DREYFUS REVOCABLE TRUST

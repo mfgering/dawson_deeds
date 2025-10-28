@@ -2164,10 +2164,10 @@ Assessed: 626030
 Account: 0479644
 -----------------------
 Street Number: 8581
-Unit: 502	Style: villa	Owner: GURKIN, DAVID C JR TRUSTEE; GURKIN, D MICHAEL TRUSTEE
+Unit: 502	Style: villa	Owner: CORSER, JACK A & DONNA J
 Heated Area: 1287
-Deed Date: 06/14/2019
-Pkg Sale Price: 464000
+Deed Date: 10/22/2025
+Pkg Sale Price: 621000
 Assessed: 502626
 Account: 0461546
 -----------------------
@@ -2404,10 +2404,10 @@ Assessed: 996586
 Account: 0403313
 -----------------------
 Street Number: 8811
-Unit: 508	Style: villa	Owner: TRUSTEE OF THE JOAN JEANETTE PATTER
+Unit: 508	Style: villa	Owner: MARRA, MICHELE
 Heated Area: 1288
-Deed Date: 07/20/2022
-Pkg Sale Price: 441000
+Deed Date: 10/22/2025
+Pkg Sale Price: 657000
 Assessed: 638622
 Account: 0403401
 -----------------------

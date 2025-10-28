@@ -4,6 +4,22 @@ By Deed Date
 
 -----------------------
 Street Number: 8581
+Unit: 502	Style: villa	Owner: CORSER, JACK A & DONNA J
+Heated Area: 1287
+Deed Date: 10/22/2025
+Pkg Sale Price: 621000
+Assessed: 502626
+Account: 0461546
+-----------------------
+Street Number: 8811
+Unit: 508	Style: villa	Owner: MARRA, MICHELE
+Heated Area: 1288
+Deed Date: 10/22/2025
+Pkg Sale Price: 657000
+Assessed: 638622
+Account: 0403401
+-----------------------
+Street Number: 8581
 Unit: 211	Style: villa	Owner: PERRIN, PATRICIA GOSE TRUSTEE; PATRICIA GOSE PERRIN REVOCABLE TRUS
 Heated Area: 1217
 Deed Date: 10/20/2025
@@ -810,14 +826,6 @@ Deed Date: 07/29/2022
 Pkg Sale Price: 698000
 Assessed: 724034
 Account: 0403365
------------------------
-Street Number: 8811
-Unit: 508	Style: villa	Owner: TRUSTEE OF THE JOAN JEANETTE PATTER
-Heated Area: 1288
-Deed Date: 07/20/2022
-Pkg Sale Price: 441000
-Assessed: 638622
-Account: 0403401
 -----------------------
 Street Number: 8729
 Unit: 	Style: cottage	Owner: KLAUDA, HARRY C & KATHERINE A
@@ -1746,14 +1754,6 @@ Deed Date: 06/17/2019
 Pkg Sale Price: 520000
 Assessed: 764889
 Account: 0461524
------------------------
-Street Number: 8581
-Unit: 502	Style: villa	Owner: GURKIN, DAVID C JR TRUSTEE; GURKIN, D MICHAEL TRUSTEE
-Heated Area: 1287
-Deed Date: 06/14/2019
-Pkg Sale Price: 464000
-Assessed: 502626
-Account: 0461546
 -----------------------
 Street Number: 8720
 Unit: 	Style: cottage	Owner: MAINS, RAYMOND D & MARILYNN R
