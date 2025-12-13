@@ -292,9 +292,9 @@ Assessed: 1355082
 Account: 0403329
 -----------------------
 Street Number: 8741
-Unit: 	Style: cottage	Owner: WEISS, RICHARD & JANICE
+Unit: 	Style: cottage	Owner: FISHER, EMILY MCDONNELL TRUSTEE; MAXWELL, VIRGINIA HESDORFFER TRUSTE
 Heated Area: 2470
-Deed Date: 04/03/2023
+Deed Date: 11/24/2025
 Pkg Sale Price: 1463000
 Assessed: 1325423
 Account: 0403334

@@ -3,6 +3,14 @@ By Deed Date
 
 
 -----------------------
+Street Number: 8741
+Unit: 	Style: cottage	Owner: FISHER, EMILY MCDONNELL TRUSTEE; MAXWELL, VIRGINIA HESDORFFER TRUSTE
+Heated Area: 2470
+Deed Date: 11/24/2025
+Pkg Sale Price: 1463000
+Assessed: 1325423
+Account: 0403334
+-----------------------
 Street Number: 8581
 Unit: 502	Style: villa	Owner: CORSER, JACK A & DONNA J
 Heated Area: 1287
@@ -674,14 +682,6 @@ Deed Date: 04/14/2023
 Pkg Sale Price: 720000
 Assessed: 724034
 Account: 0403391
------------------------
-Street Number: 8741
-Unit: 	Style: cottage	Owner: WEISS, RICHARD & JANICE
-Heated Area: 2470
-Deed Date: 04/03/2023
-Pkg Sale Price: 1463000
-Assessed: 1325423
-Account: 0403334
 -----------------------
 Street Number: 8601
 Unit: 401	Style: villa	Owner: ELMORE, WILLIAM G & PATRICIA B
