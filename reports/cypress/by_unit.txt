@@ -1956,9 +1956,9 @@ Assessed: 601231
 Account: 0403302
 -----------------------
 Street Number: 8811
-Unit: 409	Style: villa	Owner: FLETCHER, OSCAR J & SYBIL M
+Unit: 409	Style: villa	Owner: FLETCHER, OSCAR J
 Heated Area: 1494
-Deed Date: 10/14/2008
+Deed Date: 06/28/2019
 Pkg Sale Price: 410000
 Assessed: 721437
 Account: 0403390

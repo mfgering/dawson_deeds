@@ -1652,6 +1652,14 @@ Assessed: 658171
 Account: 0403350
 -----------------------
 Street Number: 8811
+Unit: 409	Style: villa	Owner: FLETCHER, OSCAR J
+Heated Area: 1494
+Deed Date: 06/28/2019
+Pkg Sale Price: 410000
+Assessed: 721437
+Account: 0403390
+-----------------------
+Street Number: 8811
 Unit: 306	Style: villa	Owner: COLEY, JOAN K TRUSTEE; JOAN K COLEY REVOCABLE TRUST
 Heated Area: 1494
 Deed Date: 07/01/2016
@@ -1666,14 +1674,6 @@ Deed Date: 12/11/2008
 Pkg Sale Price: 414000
 Assessed: 721437
 Account: 0403403
------------------------
-Street Number: 8811
-Unit: 409	Style: villa	Owner: FLETCHER, OSCAR J & SYBIL M
-Heated Area: 1494
-Deed Date: 10/14/2008
-Pkg Sale Price: 410000
-Assessed: 721437
-Account: 0403390
 -----------------------
 Street Number: 8601
 Unit: 503	Style: villa	Owner: PHILLIPS, SARAH K & DENNIS B
