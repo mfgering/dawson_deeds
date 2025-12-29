@@ -94,6 +94,13 @@ Pkg Sale Price: 600000
 Assessed: 737498
 Account: 0329091
 -----------------------
+Unit: 410	Owner: WATKE, FREDERIC W. & ANN M.
+Heated Area: 2171
+Deed Date: 05/22/2014
+Pkg Sale Price: 525000
+Assessed: 737498
+Account: 0329077
+-----------------------
 Unit: 210	Owner: ODONOVAN, GERALD & SEOSAIMHIN
 Heated Area: 2171
 Deed Date: 05/26/2006
@@ -185,13 +192,6 @@ Pkg Sale Price: 470000
 Assessed: 508770
 Account: 0329089
 -----------------------
-Unit: 508	Owner: HINKLE, CATHERINE
-Heated Area: 1409
-Deed Date: 06/17/2019
-Pkg Sale Price: 470000
-Assessed: 508770
-Account: 0329089
------------------------
 Unit: 206	Owner: SMITH, MARK DAVID; SMITH, MARY RYAN DOUGLASS
 Heated Area: 1409
 Deed Date: 07/30/2018
@@ -269,6 +269,13 @@ Pkg Sale Price: 307000
 Assessed: 452212
 Account: 0328679
 -----------------------
+Unit: 411	Owner: GRAY, STEVEN J
+Heated Area: 1221
+Deed Date: 04/14/2005
+Pkg Sale Price: 241500
+Assessed: 452212
+Account: 0329078
+-----------------------
 Unit: 224	Owner: SAUNDERS, JOSHUA N; WELLONS, ANTHONY S
 Heated Area: 1206
 Deed Date: 05/24/2006
@@ -282,13 +289,6 @@ Deed Date: 03/15/2006
 Pkg Sale Price: 378000
 Assessed: 497702
 Account: 0400622
------------------------
-Unit: 507	Owner: KING MORGAN LLC
-Heated Area: 1183
-Deed Date: 12/09/2024
-Pkg Sale Price: 275000
-Assessed: 441854
-Account: 0329088
 -----------------------
 Unit: 507	Owner: KING MORGAN LLC
 Heated Area: 1183
