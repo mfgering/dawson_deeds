@@ -1,7 +1,6 @@
 INFO	Start
+ERROR	Duplicate units: 215
+ERROR	Duplicate units: 507
+ERROR	Duplicate units: 508
 INFO	Found 70 units online
-WARNING	Deleted: 410, 411, 505
-INFO	Inserted previous info for 505
-INFO	Inserted previous info for 411
-INFO	Inserted previous info for 410
 INFO	Done
