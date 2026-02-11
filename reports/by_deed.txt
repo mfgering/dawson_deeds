@@ -283,6 +283,13 @@ Pkg Sale Price: 307000
 Assessed: 452212
 Account: 0328679
 -----------------------
+Unit: 505	Owner: POWELL LINEAGE CHERRY COURT LLC
+Heated Area: 1139
+Deed Date: 11/09/2017
+Pkg Sale Price: 314000
+Assessed: 427277
+Account: 0329086
+-----------------------
 Unit: 300	Owner: MORGAN, DONNA
 Heated Area: 1224
 Deed Date: 05/25/2017
@@ -303,13 +310,6 @@ Deed Date: 03/14/2017
 Pkg Sale Price: 600000
 Assessed: 737498
 Account: 0329091
------------------------
-Unit: 215	Owner: SOMAI, TULSI & DROPATTIE
-Heated Area: 1142
-Deed Date: 11/28/2016
-Pkg Sale Price: 280000
-Assessed: 428402
-Account: 0328667
 -----------------------
 Unit: 215	Owner: SOMAI, TULSI & DROPATTIE
 Heated Area: 1142
