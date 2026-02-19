@@ -3,6 +3,22 @@ By Deed Date
 
 
 -----------------------
+Street Number: 8821
+Unit: 507	Style: villa	Owner: YOUNG, S STANLEY TRUSTEE; YOUNG, PATRICIA M TRUSTEE
+Heated Area: 2526
+Deed Date: 01/28/2026
+Pkg Sale Price: 1589000
+Assessed: 1044665
+Account: 0403725
+-----------------------
+Street Number: 8811
+Unit: 108	Style: villa	Owner: HUDON, JOHN MICHAEL TRUSTEE; TRUSTEE OF CH VILLA REVOCABLE TRUST
+Heated Area: 1288
+Deed Date: 01/27/2026
+Pkg Sale Price: 648000
+Assessed: 619775
+Account: 0403352
+-----------------------
 Street Number: 8741
 Unit: 	Style: cottage	Owner: FISHER, EMILY MCDONNELL TRUSTEE; MAXWELL, VIRGINIA HESDORFFER TRUSTE
 Heated Area: 2470
@@ -91,6 +107,14 @@ Pkg Sale Price: 617000
 Assessed: 706074
 Account: 0403722
 -----------------------
+Street Number: 8601
+Unit: 103	Style: villa	Owner: STRICKLAND, R MICHAEL & ELIZABETH M; STRICKLAND, R MICHAEL & ELIZABETH M
+Heated Area: 1450
+Deed Date: 07/21/2025
+Pkg Sale Price: 729000
+Assessed: 601231
+Account: 0403261
+-----------------------
 Street Number: 8581
 Unit: 208	Style: villa	Owner: BERGMAN, STEVEN & LAURA
 Heated Area: 1205
@@ -106,14 +130,6 @@ Deed Date: 06/30/2025
 Pkg Sale Price: 990000
 Assessed: 706074
 Account: 0403711
------------------------
-Street Number: 8821
-Unit: 507	Style: villa	Owner: YOUNG, SIDNEY STANLEY & PATRICIA M
-Heated Area: 2526
-Deed Date: 06/30/2025
-Pkg Sale Price: 1589000
-Assessed: 1044665
-Account: 0403725
 -----------------------
 Street Number: 8811
 Unit: 411	Style: villa	Owner: COZZIE, JULIE & DAVID A; COZZIE, JULIE C TR
@@ -562,14 +578,6 @@ Deed Date: 10/12/2023
 Pkg Sale Price: 1530000
 Assessed: 1419286
 Account: 0403344
------------------------
-Street Number: 8811
-Unit: 108	Style: villa	Owner: HUDON, LOIS
-Heated Area: 1288
-Deed Date: 10/10/2023
-Pkg Sale Price: 648000
-Assessed: 619775
-Account: 0403352
 -----------------------
 Street Number: 8811
 Unit: 403	Style: villa	Owner: TERRELL, PHILIP W JR; GRAY, STEPHANIE R
@@ -2330,14 +2338,6 @@ Deed Date: 06/28/2013
 Pkg Sale Price: 563000
 Assessed: 938009
 Account: 0403707
------------------------
-Street Number: 8601
-Unit: 103	Style: villa	Owner: ROSTAMO, TERRY M. TRUSTEE; THE TERRY M. ROSTAMO REVOCABLE TRUS
-Heated Area: 1450
-Deed Date: 05/21/2013
-Pkg Sale Price: 535000
-Assessed: 601231
-Account: 0403261
 -----------------------
 Street Number: 8821
 Unit: 211	Style: villa	Owner: SANKEY, DOROTHY J

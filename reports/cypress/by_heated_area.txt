@@ -236,9 +236,9 @@ Assessed: 1359832
 Account: 0403326
 -----------------------
 Street Number: 8821
-Unit: 507	Style: villa	Owner: YOUNG, SIDNEY STANLEY & PATRICIA M
+Unit: 507	Style: villa	Owner: YOUNG, S STANLEY TRUSTEE; YOUNG, PATRICIA M TRUSTEE
 Heated Area: 2526
-Deed Date: 06/30/2025
+Deed Date: 01/28/2026
 Pkg Sale Price: 1589000
 Assessed: 1044665
 Account: 0403725
@@ -1676,6 +1676,14 @@ Assessed: 721437
 Account: 0403403
 -----------------------
 Street Number: 8601
+Unit: 103	Style: villa	Owner: STRICKLAND, R MICHAEL & ELIZABETH M; STRICKLAND, R MICHAEL & ELIZABETH M
+Heated Area: 1450
+Deed Date: 07/21/2025
+Pkg Sale Price: 729000
+Assessed: 601231
+Account: 0403261
+-----------------------
+Street Number: 8601
 Unit: 503	Style: villa	Owner: PHILLIPS, SARAH K & DENNIS B
 Heated Area: 1450
 Deed Date: 03/31/2025
@@ -1828,14 +1836,6 @@ Assessed: 601231
 Account: 0403280
 -----------------------
 Street Number: 8601
-Unit: 103	Style: villa	Owner: ROSTAMO, TERRY M. TRUSTEE; THE TERRY M. ROSTAMO REVOCABLE TRUS
-Heated Area: 1450
-Deed Date: 05/21/2013
-Pkg Sale Price: 535000
-Assessed: 601231
-Account: 0403261
------------------------
-Street Number: 8601
 Unit: 408	Style: villa	Owner: LEAK, ROBERT E & MARTHA C
 Heated Area: 1450
 Deed Date: 10/03/2008
@@ -1900,6 +1900,14 @@ Assessed: 507549
 Account: 0403389
 -----------------------
 Street Number: 8811
+Unit: 108	Style: villa	Owner: HUDON, JOHN MICHAEL TRUSTEE; TRUSTEE OF CH VILLA REVOCABLE TRUST
+Heated Area: 1288
+Deed Date: 01/27/2026
+Pkg Sale Price: 648000
+Assessed: 619775
+Account: 0403352
+-----------------------
+Street Number: 8811
 Unit: 508	Style: villa	Owner: MARRA, MICHELE
 Heated Area: 1288
 Deed Date: 10/22/2025
@@ -1922,14 +1930,6 @@ Deed Date: 06/14/2024
 Pkg Sale Price: 562500
 Assessed: 627314
 Account: 0403360
------------------------
-Street Number: 8811
-Unit: 108	Style: villa	Owner: HUDON, LOIS
-Heated Area: 1288
-Deed Date: 10/10/2023
-Pkg Sale Price: 648000
-Assessed: 619775
-Account: 0403352
 -----------------------
 Street Number: 8811
 Unit: 407	Style: villa	Owner: MCCALEB, JANE H
