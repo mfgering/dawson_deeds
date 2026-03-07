@@ -451,12 +451,12 @@ Pkg Sale Price: 370000
 Assessed: 497702
 Account: 0400618
 -----------------------
-Unit: 224	Owner: SAUNDERS, JOSHUA N; WELLONS, ANTHONY S
+Unit: 324	Owner: FRANKLIN, EUGENE THOMAS JR
 Heated Area: 1206
-Deed Date: 05/24/2006
-Pkg Sale Price: 370000
+Deed Date: 03/15/2006
+Pkg Sale Price: 378000
 Assessed: 497702
-Account: 0400618
+Account: 0400622
 -----------------------
 Unit: 403	Owner: FOYE, DWON
 Heated Area: 1365

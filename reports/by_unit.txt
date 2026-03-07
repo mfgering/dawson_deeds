@@ -157,13 +157,6 @@ Pkg Sale Price: 370000
 Assessed: 497702
 Account: 0400618
 -----------------------
-Unit: 224	Owner: SAUNDERS, JOSHUA N; WELLONS, ANTHONY S
-Heated Area: 1206
-Deed Date: 05/24/2006
-Pkg Sale Price: 370000
-Assessed: 497702
-Account: 0400618
------------------------
 Unit: 226	Owner: SMITH, AYANA
 Heated Area: 849
 Deed Date: 04/19/2021
@@ -289,6 +282,13 @@ Deed Date: 07/01/2025
 Pkg Sale Price: 290000
 Assessed: 315323
 Account: 0328680
+-----------------------
+Unit: 324	Owner: FRANKLIN, EUGENE THOMAS JR
+Heated Area: 1206
+Deed Date: 03/15/2006
+Pkg Sale Price: 378000
+Assessed: 497702
+Account: 0400622
 -----------------------
 Unit: 326	Owner: VEMURI, SRIKAR
 Heated Area: 849
