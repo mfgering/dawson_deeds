@@ -763,14 +763,6 @@ Pkg Sale Price: 572000
 Assessed: 744842
 Account: 0479607
 -----------------------
-Street Number: 8581
-Unit: 204	Style: villa	Owner: PUNTE, MARY ELIZABETH
-Heated Area: 1242
-Deed Date: 05/29/2025
-Pkg Sale Price: 401000
-Assessed: 568101
-Account: 0461509
------------------------
 Street Number: 8601
 Unit: 204	Style: villa	Owner: EDWARDS, WILLIAM & GAYLE
 Heated Area: 2259
@@ -922,6 +914,14 @@ Deed Date: 04/25/2007
 Pkg Sale Price: 0
 Assessed: 664944
 Account: 0479611
+-----------------------
+Street Number: 8581
+Unit: 208	Style: villa	Owner: BERGMAN, STEVEN & LAURA
+Heated Area: 1205
+Deed Date: 07/15/2025
+Pkg Sale Price: 643500
+Assessed: 555590
+Account: 0461513
 -----------------------
 Street Number: 8581
 Unit: 208	Style: villa	Owner: BERGMAN, STEVEN & LAURA

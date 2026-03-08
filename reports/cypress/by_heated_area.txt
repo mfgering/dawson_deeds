@@ -2116,14 +2116,6 @@ Assessed: 493769
 Account: 0479608
 -----------------------
 Street Number: 8581
-Unit: 204	Style: villa	Owner: PUNTE, MARY ELIZABETH
-Heated Area: 1242
-Deed Date: 05/29/2025
-Pkg Sale Price: 401000
-Assessed: 568101
-Account: 0461509
------------------------
-Street Number: 8581
 Unit: 304	Style: villa	Owner: STEVENS, REBECCA L TRUSTEE; HEDGEPETH, ANNA JANE TRUSTEE
 Heated Area: 1242
 Deed Date: 04/17/2024
@@ -2298,6 +2290,14 @@ Deed Date: 09/17/2018
 Pkg Sale Price: 387000
 Assessed: 478714
 Account: 0461529
+-----------------------
+Street Number: 8581
+Unit: 208	Style: villa	Owner: BERGMAN, STEVEN & LAURA
+Heated Area: 1205
+Deed Date: 07/15/2025
+Pkg Sale Price: 643500
+Assessed: 555590
+Account: 0461513
 -----------------------
 Street Number: 8581
 Unit: 208	Style: villa	Owner: BERGMAN, STEVEN & LAURA
