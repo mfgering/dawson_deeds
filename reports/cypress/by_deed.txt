@@ -3,6 +3,14 @@ By Deed Date
 
 
 -----------------------
+Street Number: 8604
+Unit: 	Style: cottage	Owner: HORN, SUSAN ARLENE TRUSTEE; TRUSTEE OF SUSAN ARLENE HORN REVOCA
+Heated Area: 2626
+Deed Date: 02/18/2026
+Pkg Sale Price: 1818000
+Assessed: 1417234
+Account: 0409705
+-----------------------
 Street Number: 8821
 Unit: 507	Style: villa	Owner: YOUNG, S STANLEY TRUSTEE; YOUNG, PATRICIA M TRUSTEE
 Heated Area: 2526
@@ -266,14 +274,6 @@ Deed Date: 12/16/2024
 Pkg Sale Price: 623000
 Assessed: 655325
 Account: 0461552
------------------------
-Street Number: 8604
-Unit: 	Style: cottage	Owner: HORN, SUSAN A
-Heated Area: 2626
-Deed Date: 11/12/2024
-Pkg Sale Price: 1818000
-Assessed: 1417234
-Account: 0409705
 -----------------------
 Street Number: 8821
 Unit: 405	Style: villa	Owner: POTTER, LARRY D & BARBARA L
