@@ -1900,6 +1900,14 @@ Assessed: 507549
 Account: 0403389
 -----------------------
 Street Number: 8811
+Unit: 507	Style: villa	Owner: MEADOWCROFT, JEFFREY
+Heated Area: 1288
+Deed Date: 02/19/2026
+Pkg Sale Price: 455000
+Assessed: 638622
+Account: 0403399
+-----------------------
+Street Number: 8811
 Unit: 108	Style: villa	Owner: HUDON, JOHN MICHAEL TRUSTEE; TRUSTEE OF CH VILLA REVOCABLE TRUST
 Heated Area: 1288
 Deed Date: 01/27/2026
@@ -1970,14 +1978,6 @@ Deed Date: 11/05/2018
 Pkg Sale Price: 526500
 Assessed: 638622
 Account: 0403375
------------------------
-Street Number: 8811
-Unit: 507	Style: villa	Owner: BROWN, SAM P & LUCILLE C
-Heated Area: 1288
-Deed Date: 10/28/2008
-Pkg Sale Price: 455000
-Assessed: 638622
-Account: 0403399
 -----------------------
 Street Number: 8581
 Unit: 502	Style: villa	Owner: CORSER, JACK A & DONNA J

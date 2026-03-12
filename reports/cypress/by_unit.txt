@@ -2364,9 +2364,9 @@ Assessed: 1044665
 Account: 0403310
 -----------------------
 Street Number: 8811
-Unit: 507	Style: villa	Owner: BROWN, SAM P & LUCILLE C
+Unit: 507	Style: villa	Owner: MEADOWCROFT, JEFFREY
 Heated Area: 1288
-Deed Date: 10/28/2008
+Deed Date: 02/19/2026
 Pkg Sale Price: 455000
 Assessed: 638622
 Account: 0403399

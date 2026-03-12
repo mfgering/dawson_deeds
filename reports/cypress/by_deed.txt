@@ -3,6 +3,14 @@ By Deed Date
 
 
 -----------------------
+Street Number: 8811
+Unit: 507	Style: villa	Owner: MEADOWCROFT, JEFFREY
+Heated Area: 1288
+Deed Date: 02/19/2026
+Pkg Sale Price: 455000
+Assessed: 638622
+Account: 0403399
+-----------------------
 Street Number: 8604
 Unit: 	Style: cottage	Owner: HORN, SUSAN ARLENE TRUSTEE; TRUSTEE OF SUSAN ARLENE HORN REVOCA
 Heated Area: 2626
@@ -2450,14 +2458,6 @@ Deed Date: 11/04/2008
 Pkg Sale Price: 459000
 Assessed: 666894
 Account: 0403349
------------------------
-Street Number: 8811
-Unit: 507	Style: villa	Owner: BROWN, SAM P & LUCILLE C
-Heated Area: 1288
-Deed Date: 10/28/2008
-Pkg Sale Price: 455000
-Assessed: 638622
-Account: 0403399
 -----------------------
 Street Number: 8601
 Unit: 502	Style: villa	Owner: ZIMMERLEIN, CHARLES W & MARIA C
