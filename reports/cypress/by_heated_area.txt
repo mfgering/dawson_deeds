@@ -1900,6 +1900,14 @@ Assessed: 507549
 Account: 0403389
 -----------------------
 Street Number: 8811
+Unit: 408	Style: villa	Owner: CANTANDO, JOHN R & MARY M
+Heated Area: 1288
+Deed Date: 02/19/2026
+Pkg Sale Price: 563000
+Assessed: 638622
+Account: 0403388
+-----------------------
+Street Number: 8811
 Unit: 507	Style: villa	Owner: MEADOWCROFT, JEFFREY
 Heated Area: 1288
 Deed Date: 02/19/2026
@@ -1954,14 +1962,6 @@ Deed Date: 01/17/2023
 Pkg Sale Price: 581000
 Assessed: 600928
 Account: 0403362
------------------------
-Street Number: 8811
-Unit: 408	Style: villa	Owner: BURNETTE, WILLIAM H
-Heated Area: 1288
-Deed Date: 07/20/2021
-Pkg Sale Price: 563000
-Assessed: 638622
-Account: 0403388
 -----------------------
 Street Number: 8811
 Unit: 307	Style: villa	Owner: WILLIAMS, MELISSA FETTY
@@ -2114,14 +2114,6 @@ Deed Date: 09/29/2025
 Pkg Sale Price: 576000
 Assessed: 493769
 Account: 0479608
------------------------
-Street Number: 8581
-Unit: 204	Style: villa	Owner: PUNTE, MARY ELIZABETH
-Heated Area: 1242
-Deed Date: 05/29/2025
-Pkg Sale Price: 401000
-Assessed: 568101
-Account: 0461509
 -----------------------
 Street Number: 8581
 Unit: 304	Style: villa	Owner: STEVENS, REBECCA L TRUSTEE; HEDGEPETH, ANNA JANE TRUSTEE
@@ -2298,6 +2290,14 @@ Deed Date: 09/17/2018
 Pkg Sale Price: 387000
 Assessed: 478714
 Account: 0461529
+-----------------------
+Street Number: 8581
+Unit: 208	Style: villa	Owner: BERGMAN, STEVEN & LAURA
+Heated Area: 1205
+Deed Date: 07/15/2025
+Pkg Sale Price: 643500
+Assessed: 555590
+Account: 0461513
 -----------------------
 Street Number: 8581
 Unit: 208	Style: villa	Owner: BERGMAN, STEVEN & LAURA
