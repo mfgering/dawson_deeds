@@ -7,7 +7,7 @@ Street Number: 8811
 Unit: 408	Style: villa	Owner: CANTANDO, JOHN R & MARY M
 Heated Area: 1288
 Deed Date: 02/19/2026
-Pkg Sale Price: 563000
+Pkg Sale Price: 666000
 Assessed: 638622
 Account: 0403388
 -----------------------
@@ -15,7 +15,7 @@ Street Number: 8811
 Unit: 507	Style: villa	Owner: MEADOWCROFT, JEFFREY
 Heated Area: 1288
 Deed Date: 02/19/2026
-Pkg Sale Price: 455000
+Pkg Sale Price: 675500
 Assessed: 638622
 Account: 0403399
 -----------------------
@@ -147,14 +147,6 @@ Pkg Sale Price: 643500
 Assessed: 555590
 Account: 0461513
 -----------------------
-Street Number: 8581
-Unit: 208	Style: villa	Owner: BERGMAN, STEVEN & LAURA
-Heated Area: 1205
-Deed Date: 07/15/2025
-Pkg Sale Price: 643500
-Assessed: 555590
-Account: 0461513
------------------------
 Street Number: 8821
 Unit: 401	Style: villa	Owner: GARDNER, DAVID B & BENTON W
 Heated Area: 1754
@@ -170,6 +162,14 @@ Deed Date: 06/16/2025
 Pkg Sale Price: 473000
 Assessed: 527897
 Account: 0403392
+-----------------------
+Street Number: 8581
+Unit: 204	Style: villa	Owner: PUNTE, MARY ELIZABETH
+Heated Area: 1242
+Deed Date: 05/29/2025
+Pkg Sale Price: 401000
+Assessed: 568101
+Account: 0461509
 -----------------------
 Street Number: 8821
 Unit: 511	Style: villa	Owner: ATKINS, FREDERICK C JR & LYNDA H
