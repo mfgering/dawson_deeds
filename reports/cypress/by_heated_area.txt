@@ -2532,9 +2532,9 @@ Assessed: 376194
 Account: 0403702
 -----------------------
 Street Number: 8821
-Unit: 206	Style: villa	Owner: GOLDBERG, JEAN T
+Unit: 206	Style: villa	Owner: HODGES, LETITIA C
 Heated Area: 1042
-Deed Date: 10/02/2018
+Deed Date: 02/23/2026
 Pkg Sale Price: 378000
 Assessed: 395058
 Account: 0403691
