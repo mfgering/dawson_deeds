@@ -7,7 +7,7 @@ Street Number: 8821
 Unit: 206	Style: villa	Owner: HODGES, LETITIA C
 Heated Area: 1042
 Deed Date: 02/23/2026
-Pkg Sale Price: 378000
+Pkg Sale Price: 463500
 Assessed: 395058
 Account: 0403691
 -----------------------
