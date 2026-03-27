@@ -283,13 +283,6 @@ Pkg Sale Price: 370000
 Assessed: 497702
 Account: 0400618
 -----------------------
-Unit: 324	Owner: FRANKLIN, EUGENE THOMAS JR
-Heated Area: 1206
-Deed Date: 03/15/2006
-Pkg Sale Price: 378000
-Assessed: 497702
-Account: 0400622
------------------------
 Unit: 507	Owner: KING MORGAN LLC
 Heated Area: 1183
 Deed Date: 12/09/2024
@@ -331,6 +324,13 @@ Deed Date: 03/25/2020
 Pkg Sale Price: 393000
 Assessed: 443364
 Account: 0329081
+-----------------------
+Unit: 215	Owner: SOMAI, TULSI & DROPATTIE
+Heated Area: 1142
+Deed Date: 11/28/2016
+Pkg Sale Price: 280000
+Assessed: 428402
+Account: 0328667
 -----------------------
 Unit: 215	Owner: SOMAI, TULSI & DROPATTIE
 Heated Area: 1142
